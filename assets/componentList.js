@@ -4234,6 +4234,9 @@ nextIcon = 'mdi-plus'}`
         soloInverted: {
             type: Boolean
         },
+        step: {
+            type: Number
+        },
         success: {
             type: Boolean
         },
