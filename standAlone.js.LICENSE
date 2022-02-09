@@ -24264,6 +24264,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ./src/implementation/ComponentInstanceTrackerImpl.ts ***!
   \************************************************************/
 
+/*! ../managers/extension/extensionData/VTextFieldFormattingExtensionData */
+
 /*! ../managers/extension/ExtensionManager */
 
 /*! ../managers/extension/InstanceInjectionManager */

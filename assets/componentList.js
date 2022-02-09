@@ -4216,6 +4216,9 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
+        preventPaste:{
+            type: Boolean
+        },
         regular: {
             type: Boolean
         },
