@@ -264,6 +264,9 @@ var componentOptions = {
         noFilter: {
             type: Boolean
         },
+        persistentPlaceholder :{
+            type: Boolean
+        },
         prefix: {
             type: String
         },
@@ -4237,7 +4240,7 @@ nextIcon = 'mdi-plus'}`
         soloInverted: {
             type: Boolean
         },
-        step: {
+        step: { 
             type: Number
         },
         success: {
