@@ -5670,6 +5670,10 @@
         !*** ./src/customComponents/QLegend.ts ***!
         \*****************************************/
 
+/*!****************************************!*\
+        !*** ./src/customComponents/QrCode.ts ***!
+        \****************************************/
+
 /*!***********************************!*\
         !*** ./src/helpers/DoryHelper.ts ***!
         \***********************************/
@@ -5719,6 +5723,8 @@
         \***********************************************/
 
 /*! ../../customComponents/QCaptcha */
+
+/*! ../../customComponents/QrCode */
 
 /*! ../../customComponents/QLegend */
 
@@ -23520,6 +23526,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ../src/extension/editor-component-extensions/QTutorialExtension.ts ***!
   \**************************************************************************/
 
+/*!***********************************************************************!*\
+  !*** ../src/extension/editor-component-extensions/QrCodeExtension.ts ***!
+  \***********************************************************************/
+
 /*!**********************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/VInlineDatepickerExtension.ts ***!
   \**********************************************************************************/
@@ -23779,6 +23789,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*! ../../extension/editor-component-extensions/CustomComponentExtension */
 
 /*! ../../extension/editor-component-extensions/QCaptchaExtension */
+
+/*! ../../extension/editor-component-extensions/QrCodeExtension */
 
 /*! ../../extension/editor-component-extensions/QDocumentViewerExtension */
 

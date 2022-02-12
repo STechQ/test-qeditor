@@ -4652,6 +4652,26 @@ nextIcon = 'mdi-plus'}`
             editorDefaultValue: "true"
         },
     },
+    QrCode: {
+        QJsonPath: {
+            type: String,
+            editorDefaultValue: "'qjson://QrCode'",
+            runTimeOverrideValue: "qjson://QrCode"
+        },
+        content: {
+            type: String,
+            editorDefaultValue: "'https://studio.onplateau.com/quick/'"
+        },
+        size: {
+            type: "string | number",
+            editorDefaultValue: "10"
+        },
+        level: {
+            type: String,
+            editorDefaultValue: "'LOW'",
+            options: ["'LOW'", "'MEDIUM'", "'QUARTILE'", "'HIGH'"]
+        }
+    },
     QRichText: {
         ToolBarcolor: {
             type: String,
