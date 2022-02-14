@@ -1190,6 +1190,7 @@ var componentOptions = {
         chips: {
             type: Boolean
         },
+       
         class: {
             type: String
         },
@@ -1338,6 +1339,9 @@ var componentOptions = {
             type: String
         },
         singleLine: {
+            type: Boolean
+        },
+        smallChips: {
             type: Boolean
         },
         solo: {

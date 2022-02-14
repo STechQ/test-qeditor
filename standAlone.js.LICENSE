@@ -2768,6 +2768,8 @@
 
 /*! ./qjsonStreamer */
 
+/*! @stechquick/shrimp/lib/helpers/lazyLoader */
+
 /*!*************************************************!*\
   !*** ./src/managers/streaming/qjsonStreamer.ts ***!
   \*************************************************/
@@ -2801,8 +2803,6 @@
 /*!************************************************!*\
   !*** ./src/managers/system/LanguageManager.ts ***!
   \************************************************/
-
-/*! @stechquick/shrimp/lib/helpers/lazyLoader */
 
 /*! ../../../build/nemoInterfaces */
 
