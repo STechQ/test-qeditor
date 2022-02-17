@@ -161,6 +161,11 @@
                     "path": "./mdfiles/QCaptcha.md"
                 },
                 {
+                    "menuName": "QQRCode",
+                    "fileName": "QQRCode",
+                    "path": "./mdfiles/QQRCode.md"
+                },
+                {
                     "menuName": "QDocumentViewer",
                     "fileName": "QDocumentViewer",
                     "path": "./mdfiles/QDocumentViewer.md"

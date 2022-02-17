@@ -5684,9 +5684,9 @@
         !*** ./src/customComponents/QLegend.ts ***!
         \*****************************************/
 
-/*!****************************************!*\
-        !*** ./src/customComponents/QrCode.ts ***!
-        \****************************************/
+/*!*****************************************!*\
+        !*** ./src/customComponents/QQRCode.ts ***!
+        \*****************************************/
 
 /*!***********************************!*\
         !*** ./src/helpers/DoryHelper.ts ***!
@@ -5738,7 +5738,7 @@
 
 /*! ../../customComponents/QCaptcha */
 
-/*! ../../customComponents/QrCode */
+/*! ../../customComponents/QQRCode */
 
 /*! ../../customComponents/QLegend */
 
@@ -9394,6 +9394,10 @@
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/css-loader/dist/cjs.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/DevExpress/DataGrid.vue?vue&type=style&index=0&id=42a1b7fc&scoped=true&lang=css& ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/css-loader/dist/cjs.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/css-loader/dist/cjs.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GroupBox.vue?vue&type=style&index=0&id=0ef7bfde&scoped=true&lang=css& ***!
@@ -15246,6 +15250,12 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DataGrid.vue?vue&type=style&index=0&id=42a1b7fc&scoped=true&lang=css& */
 
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/style-loader!/home/runner/work/quick/quick/node_modules/css-loader/dist/cjs.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& */
+
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/style-loader!/home/runner/work/quick/quick/node_modules/css-loader/dist/cjs.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/stylePostLoader.js!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GroupBox.vue?vue&type=style&index=0&id=0ef7bfde&scoped=true&lang=css& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -15546,9 +15556,9 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/Ghost.vue?vue&type=template&id=0177576d& ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 
-/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/GroupBox.vue?vue&type=template&id=0ef7bfde&scoped=true& ***!
@@ -21632,9 +21642,11 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue ***!
   \*******************************************************************/
 
-/*! ./GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6& */
+/*! ./GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6&scoped=true& */
 
 /*! ./GoldenLayoutWrapper.vue?vue&type=script&lang=ts& */
+
+/*! ./GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& */
 
 /*!********************************************************************************************!*\
   !*** ./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=script&lang=ts& ***!
@@ -21642,11 +21654,17 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! -!../../../../../../node_modules/ts-loader??ref--1!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoldenLayoutWrapper.vue?vue&type=script&lang=ts& */
 
-/*!**************************************************************************************************!*\
-  !*** ./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6& ***!
-  \**************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** ./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& ***!
+  \****************************************************************************************************************************/
 
-/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6& */
+/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoldenLayoutWrapper.vue?vue&type=style&index=0&id=2701f7f6&scoped=true&lang=css& */
+
+/*!**************************************************************************************************************!*\
+  !*** ./src/components/quick/GoldenLayout/GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6&scoped=true& ***!
+  \**************************************************************************************************************/
+
+/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoldenLayoutWrapper.vue?vue&type=template&id=2701f7f6&scoped=true& */
 
 /*!*******************************************!*\
   !*** ./src/components/quick/GroupBox.vue ***!
@@ -23528,6 +23546,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ../src/extension/editor-component-extensions/QPhoneInputExtension.ts ***!
   \****************************************************************************/
 
+/*!************************************************************************!*\
+  !*** ../src/extension/editor-component-extensions/QQRCodeExtension.ts ***!
+  \************************************************************************/
+
 /*!**************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/QRichTextExtension.ts ***!
   \**************************************************************************/
@@ -23539,10 +23561,6 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!**************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/QTutorialExtension.ts ***!
   \**************************************************************************/
-
-/*!***********************************************************************!*\
-  !*** ../src/extension/editor-component-extensions/QrCodeExtension.ts ***!
-  \***********************************************************************/
 
 /*!**********************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/VInlineDatepickerExtension.ts ***!
@@ -23804,7 +23822,7 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ../../extension/editor-component-extensions/QCaptchaExtension */
 
-/*! ../../extension/editor-component-extensions/QrCodeExtension */
+/*! ../../extension/editor-component-extensions/QQRCodeExtension */
 
 /*! ../../extension/editor-component-extensions/QDocumentViewerExtension */
 

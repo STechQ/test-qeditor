@@ -4656,11 +4656,11 @@ nextIcon = 'mdi-plus'}`
             editorDefaultValue: "true"
         },
     },
-    QrCode: {
+    QQRCode: {
         QJsonPath: {
             type: String,
-            editorDefaultValue: "'qjson://QrCode'",
-            runTimeOverrideValue: "qjson://QrCode"
+            editorDefaultValue: "'qjson://QQRCode'",
+            runTimeOverrideValue: "qjson://QQRCode"
         },
         content: {
             type: String,
