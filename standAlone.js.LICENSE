@@ -21274,9 +21274,9 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ./src/WebSDK.ts ***!
   \***********************/
 
-/*! core-js/stable */
-
 /*! @stechquick/qshell */
+
+/*! core-js/stable */
 
 /*! regenerator-runtime/runtime */
 
@@ -22376,13 +22376,13 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ../implementation/CookieManager */
 
-/*! ../implementation/ProcessManager */
-
 /*! ../implementation/GlobalMethodsImpl */
 
 /*! ../implementation/LanguageExtensions */
 
 /*! ../implementation/NavigationManagerImpl */
+
+/*! ../implementation/ProcessManager */
 
 /*! ../implementation/StoreManager */
 
