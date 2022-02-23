@@ -1,11 +1,11 @@
 {    
-    "Quick Sprint-22": {
-        "link": "releaseNote22.md"
-    },
     "Quick Sprint-23": {
         "link": "releaseNote23.md"
     },
     "Quick Sprint-24": {
         "link": "releaseNote24.md"
+    },
+    "Quick Sprint-25": {
+        "link": "releaseNote25.md"
     }
 }
