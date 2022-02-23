@@ -15464,6 +15464,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QMenu.vue?vue&type=script&lang=ts& ***!
   \************************************************************************************************************************************************************************************************************/
 
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QQrReader.vue?vue&type=script&lang=ts& ***!
+  \****************************************************************************************************************************************************************************************************************/
+
 /*!*****************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QTableCell.vue?vue&type=script&lang=ts& ***!
   \*****************************************************************************************************************************************************************************************************************/
@@ -15603,6 +15607,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QPhoneInput.vue?vue&type=template&id=6d0d13ab& ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QQrReader.vue?vue&type=template&id=4e7c60b3& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!./src/components/quick/QRichText.vue?vue&type=template&id=1ed0c418& ***!
@@ -21400,6 +21408,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ../quick/QTableCell.vue */
 
+/*! ../quick/QQrReader.vue */
+
 /*! ../quick/QRichText.vue */
 
 /*! ../quick/QTutorial.vue */
@@ -21925,6 +21935,26 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   \*****************************************************************************/
 
 /*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./QPhoneInput.vue?vue&type=template&id=6d0d13ab& */
+
+/*!********************************************!*\
+  !*** ./src/components/quick/QQrReader.vue ***!
+  \********************************************/
+
+/*! ./QQrReader.vue?vue&type=template&id=4e7c60b3& */
+
+/*! ./QQrReader.vue?vue&type=script&lang=ts& */
+
+/*!*********************************************************************!*\
+  !*** ./src/components/quick/QQrReader.vue?vue&type=script&lang=ts& ***!
+  \*********************************************************************/
+
+/*! -!../../../../../node_modules/ts-loader??ref--1!../../../../../node_modules/vue-loader/lib??vue-loader-options!./QQrReader.vue?vue&type=script&lang=ts& */
+
+/*!***************************************************************************!*\
+  !*** ./src/components/quick/QQrReader.vue?vue&type=template&id=4e7c60b3& ***!
+  \***************************************************************************/
+
+/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./QQrReader.vue?vue&type=template&id=4e7c60b3& */
 
 /*!********************************************!*\
   !*** ./src/components/quick/QRichText.vue ***!
@@ -23551,6 +23581,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   \************************************************************************/
 
 /*!**************************************************************************!*\
+  !*** ../src/extension/editor-component-extensions/QQrReaderExtension.ts ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/QRichTextExtension.ts ***!
   \**************************************************************************/
 
@@ -23839,6 +23873,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*! ../../extension/editor-component-extensions/QMapExtension */
 
 /*! ../../extension/editor-component-extensions/QMenuExtension */
+
+/*! ../../extension/editor-component-extensions/QQrReaderExtension */
 
 /*! ../../extension/editor-component-extensions/QPhoneInputExtension */
 
