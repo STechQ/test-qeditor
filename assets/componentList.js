@@ -341,6 +341,11 @@ var componentOptions = {
         qValue: {
             type: Boolean
         },
+        color: {
+            editorDefaultValue: "'primary'",
+            type: String,
+            options: ["'primary'", "'secondary'", "'accent'", "'success'", "'error'", "'info'", "'warning'"]
+        },
         bordered: {
             type: Boolean
         },
