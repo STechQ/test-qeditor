@@ -7,13 +7,13 @@ To send a request in Quick, you must create an object like the one below. You ca
 `responseField` (string) : Keeps the name of the field where you can use successful responses from the request. You can access the response with the name you give to this field after the **response** keyword. Such as **response.{{fieldName}}** \
 `data` (any) : Body of the request. \
 `onSuccess` (string) : Event name to be triggered after successful response from the request.  This event has to be created as a **custom event** with the same name on the **requested component.** \
-`onFail` (string) : Event name to be triggered fail response from the request. This event has to be created as a **custom event** with the same name on the **requested component.**\
-`blockRender` (boolean) : Value that blocks the rendering operation while waiting the service response. Provides sync operation with request while rendering. Default value is **false**.
-`showErrorMessage` (boolean) (optional) : Shows error message when the request failed. Default value is **false**.
-`args` (any) (optional) : Event arguments of onSuccess event that when the successful request returned.
-`headers` (key-string) (optional) : Request headers with key-value pairs.
-`disableLoading` (boolean) (optional) : Decide to show the loading screen during the request. Default value is **false**.
-`withCredentials` (boolean) (optional) : Send credentials (cookies) in a cross-origin request. False to ignore for request and ignore cookies in its response. Default value is **false**.
+`onFail` (string) : Event name to be triggered fail response from the request. This event has to be created as a **custom event** with the same name on the **requested component.** \
+`blockRender` (boolean) : Value that blocks the rendering operation while waiting the service response. Provides sync operation with request while rendering. Default value is **false**. \
+`showErrorMessage` (boolean) (optional) : Shows error message when the request failed. Default value is **false**. \
+`args` (any) (optional) : Event arguments of onSuccess event that when the successful request returned. \
+`headers` (key-string) (optional) : Request headers with key-value pairs. \
+`disableLoading` (boolean) (optional) : Decide to show the loading screen during the request. Default value is **false**. \
+`withCredentials` (boolean) (optional) : Send credentials (cookies) in a cross-origin request. False to ignore for request and ignore cookies in its response. Default value is **false**. \
 
 > *quick.Request.async(requestObject: IRequest)*
 

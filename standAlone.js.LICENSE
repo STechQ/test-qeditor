@@ -5628,6 +5628,10 @@
         !*** ../shrimp/lib/interfaces/quick/IRoleBaseAuthorizationFunc.js ***!
         \********************************************************************/
 
+/*!****************************************************!*\
+        !*** ../shrimp/lib/interfaces/quick/IUXManager.js ***!
+        \****************************************************/
+
 /*!***************************************************!*\
         !*** ../shrimp/lib/src/context/contextManager.js ***!
         \***************************************************/
@@ -5635,6 +5639,8 @@
 /*!******************!*\
         !*** ./index.ts ***!
         \******************/
+
+/*! @stechquick/shrimp/lib/interfaces/quick/IUXManager */
 
 /*! @stechquick/shrimp/lib/interfaces/quick/IExternalLocalizationFunc */
 
@@ -5671,8 +5677,6 @@
 /*! ./src/interfaces/construction/IRegionalManager */
 
 /*! ./src/interfaces/construction/IStoreManager */
-
-/*! ./src/interfaces/construction/IUXManager */
 
 /*!******************************************!*\
         !*** ./src/customComponents/QCaptcha.ts ***!
@@ -5721,8 +5725,6 @@
 /*! ../interfaces/construction/IRegionalManager */
 
 /*! ../interfaces/construction/IStoreManager */
-
-/*! ../interfaces/construction/IUXManager */
 
 /*! ../managers/shellManager */
 
@@ -5809,10 +5811,6 @@
 /*!******************************************************!*\
         !*** ./src/interfaces/construction/IStoreManager.ts ***!
         \******************************************************/
-
-/*!***************************************************!*\
-        !*** ./src/interfaces/construction/IUXManager.ts ***!
-        \***************************************************/
 
 /*!**************************************!*\
         !*** ./src/managers/shellManager.ts ***!

@@ -403,9 +403,6 @@ var componentOptions = {
         inline: {
             type: Boolean
         },
-        dot: {
-            type: Boolean
-        },
         avatar: {
             type: Boolean
         }
@@ -1271,9 +1268,6 @@ var componentOptions = {
         },
         hideSelected: {
             type: Boolean
-        },
-        hideDetails: {
-            type: String | Boolean
         },
         hint: {
             type: String
@@ -3193,9 +3187,6 @@ nextIcon = 'mdi-plus'}`
         tickSize: {
             type: "number | string"
         },
-        ticks: {
-            type: Boolean
-        },
         trackColor: {
             type: String
         },
@@ -3230,9 +3221,6 @@ nextIcon = 'mdi-plus'}`
         },
         step: {
             type: "number | string"
-        },
-        validateOnBlur: {
-            type: Boolean
         },
         thumbSize: {
             type: "number | string"
@@ -3684,9 +3672,6 @@ nextIcon = 'mdi-plus'}`
     },
     VSparkline: {
         autoDraw: {
-            type: Boolean
-        },
-        autoLineWidth: {
             type: Boolean
         },
         autoDrawDuration: {

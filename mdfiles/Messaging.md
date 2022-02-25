@@ -14,7 +14,8 @@ The following events are used by adding the Messaging component to the page for 
 `EndRender` : First event to fire after the page rendering ends. \
 `PostRender` : Some components may have events that are prioritized and they will be executed after render. This evet is triggered after all those events are executed. \
 `Restored` : Event that will be triggered after going back to current page. \
-`onPostRender` **in pipeline.qjson** : After all custom components and sub pages are rendered, this event is triggered in the **pipeline.qjson** page(see the pipeline.qjson doc)
+`onPostRender` **in pipeline.qjson** : After all custom components and sub pages are rendered, this event is triggered in the **pipeline.qjson** page(see the pipeline.qjson doc) \ 
+`onPageClose` **in pipeline.qjson** : When the client tries to close browser tab or the browser itself, a dialog will be prompted by the browser default message if this event is created on the Messaging. If the user cancels close, this method will be triggered.
 
 
 ## Trigger Custom Event On Messaging
