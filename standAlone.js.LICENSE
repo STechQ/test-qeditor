@@ -13028,20 +13028,6 @@
   !*** /home/runner/work/quick/quick/node_modules/highlight.js/lib/core.js ***!
   \***************************************************************************/
 
-/*!******************************************************************************!*\
-  !*** /home/runner/work/quick/quick/node_modules/inputmask/dist/inputmask.js ***!
-  \******************************************************************************/
-
-/*!
- * dist/inputmask
- * https://github.com/RobinHerbots/Inputmask
- * Copyright (c) 2010 - 2021 Robin Herbots
- * Licensed under the MIT license
- * Version: 5.0.7
- */
-
-/*! ./../../webpack/buildin/module.js */
-
 /*!********************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/intro.js/intro.js ***!
   \********************************************************************/
@@ -13082,6 +13068,8 @@
    *
    * Date: 2021-02-16
    */
+
+/*! ./../../webpack/buildin/module.js */
 
 /*!**************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/js-sha256/src/sha256.js ***!
@@ -21271,6 +21259,26 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   \*******************************************************************************************************************************************************************************/
 
 /*! xlsx.js (C) 2013-present SheetJS -- http://sheetjs.com */
+
+/*!**************************************************!*\
+  !*** ./node_modules/inputmask/dist/inputmask.js ***!
+  \**************************************************/
+
+/*!
+ * dist/inputmask
+ * https://github.com/RobinHerbots/Inputmask
+ * Copyright (c) 2010 - 2020 Robin Herbots
+ * Licensed under the MIT license
+ * Version: 5.0.5-beta.0
+ */
+
+/*! ./../../../../../node_modules/webpack/buildin/module.js */
+
+/*!*****************************************!*\
+  !*** ./node_modules/inputmask/index.js ***!
+  \*****************************************/
+
+/*! ./dist/inputmask */
 
 /*!***********************************!*\
   !*** ./src/FreezeCodes/Freeze.ts ***!
