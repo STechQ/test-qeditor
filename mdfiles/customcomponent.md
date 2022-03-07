@@ -96,12 +96,12 @@ Note: For TS, CustomComp Methods parameters are insaccessable, so **for now** yo
 
 # Sample Pages
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/customComponent/parentPage.js" target="_blank">parentPage.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/parentPage.qjson"target="_blank">parentPage.js</a>
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/customComponent/subPage.js" target="_blank">subPage.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/subPage.qjson" target="_blank">subPage.js</a>
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/customComponent/fileUploadServiceCallCC.qjson" target="_blank">fileUploadServiceCallCC.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/fileUploadServiceCallCC.qjson" target="_blank">fileUploadServiceCallCC.qjson</a>
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/customComponent/serviceCallerCustomComponent.qjson" target="_blank">serviceCallerCustomComponent.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/serviceCallerCustomComponent.qjson" target="_blank">serviceCallerCustomComponent.qjson</a>
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/customComponent/fileUploadCustomComponent.qjson" target="_blank">fileUploadCustomComponent.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/fileUploadCustomComponent.qjson" target="_blank">fileUploadCustomComponent.qjson</a>

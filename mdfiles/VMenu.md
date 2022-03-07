@@ -53,11 +53,11 @@
 
 ![VMenu-2](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VMenu/VMenu-2.png)
 
-[Menus.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VMenu/menus.qjson)
 
 #SAMPLE QJSONS
-[vMenu.qjson](uploads/5de22c37f1b75d073391c4beb6fe53ea/vMenu.qjson)
 
-[VMenu_PopoverInTable.qjson](uploads/c2e472deef028a03fde9f60264168d9f/VMenu_PopoverInTable.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/vMenu.qjson"  target="_blank">vMenu</a>
 
-[VMenu_sample.qjson](uploads/5b3264b2f79a6695a8780151e4ca923d/VMenu_sample.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VMenu_PopoverInTable.qjson"  target="_blank">VMenu_PopoverInTable</a>
+
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VMenu_sample.qjson"  target="_blank">VMenu_sample</a>

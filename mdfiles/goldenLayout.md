@@ -33,8 +33,7 @@ Note that you must have created this pane before in design mode to do this.
 
 
 You can also create Dynamic Childeren with template child.
-[createChildren.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/goldenLayout/createChildren.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/createChildren.qjson" target="_blank">createChildren</a>
 
 
 

@@ -33,4 +33,4 @@
 
 ## QJson
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VBreadcrumbs/vbreadcrumbs.qjson" target="_blank">VBreadcrumbs.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/breadcrumbs.qjson" target="_blank">VBreadcrumbs</a>

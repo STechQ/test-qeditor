@@ -56,16 +56,16 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VInlineDatePicker/VInlineDatePicker-6.jpg)
 
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/AllowdDates.qjson"  target="_blank">AllowdDates</a>
 
-[AllowdDates.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VInlineDatePicker/AllowdDates.qjson)
 
 
 ### Weekend and Holidays 
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VInlineDatePicker/VInlineDatePicker-7.jpg)
 
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VinlineDatePicker.qjson"  target="_blank">VinlineDatePicker</a>
 
-[VinlineDatePicker.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VInlineDatePicker/VinlineDatePicker.qjson)
 
 
 ### InlineDatepicker Formating
@@ -79,14 +79,14 @@
 
 # QJSON SAMPLES
 
-[VınlineDatepickerDeleteValue.js](uploads/c2139f9fe211c9bec35c22519644a7e9/VınlineDatepickerDeleteValue.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VınlineDatepickerDeleteValue.qjson"  target="_blank">VınlineDatepickerDeleteValue</a>
 
-[VInlineDatepickerMaxMin.js](uploads/604132f63a776c420665694af2e83bf6/VInlineDatepickerMaxMin.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VInlineDatepickerMaxMin.qjson"  target="_blank">VInlineDatepickerMaxMin</a>
 
-[VInlineDatepickerReset.js](uploads/41fc7b5cad2d4e0d499b58681b41f378/VInlineDatepickerReset.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VInlineDatepickerReset.qjson"  target="_blank">VInlineDatepickerReset</a>
 
-[DatepickerDatenow.js](uploads/2fc63d5f866188c6bb233df87cafbd69/DatepickerDatenow.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/DatepickerDatenow.qjson"  target="_blank">DatepickerDatenow</a>
 
-[DatepickerExample.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VInlineDatePicker/VinlineDatePicker.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/DatePickerExampleApp.qjson"  target="_blank">DatePickerExampleApp</a>
 
-[DatePickerExampleApp.js](uploads/7c670e224d887743088c48fe83ad086a/DatePickerExampleApp.js)
+

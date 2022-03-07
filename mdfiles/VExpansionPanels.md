@@ -5,5 +5,4 @@ The v-expansion-panel component is useful for reducing vertical space with large
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VExpansionPanels/VExpansionPanels.png)
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VExpansionPanels/VExpansionPanels.png)
 
-
-[Expansion_Panels.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VExpansionPanels/Expansion_Panels.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/Expansion_Panels.qjson"  target="_blank">Expansion_Panels</a>

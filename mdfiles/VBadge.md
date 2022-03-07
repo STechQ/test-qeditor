@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VBadge/badge.js" target="_blank">Badge.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/badge.qjson" target="_blank">Badge Example</a>

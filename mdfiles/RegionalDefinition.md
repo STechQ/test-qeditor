@@ -148,4 +148,5 @@ file content
 	}
 ]
 ```
-[region_definition_example.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/RegionalDefinition/region_definition_example.qjson)
+
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/region_definition_example.qjson" target="_blank">Regional Definition Example</a>

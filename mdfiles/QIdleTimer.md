@@ -21,4 +21,4 @@ QIdleTimer has 3 properties.
 
 Example usage of component:
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QIdleTimer/QIdleTimer.qjson" target="_blank">QIdleTimer example usage</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/QIdleTimer.qjson" target="_blank">QIdleTimer example usage</a>

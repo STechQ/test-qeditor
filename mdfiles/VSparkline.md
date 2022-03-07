@@ -38,4 +38,4 @@
 ![Sparkline](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VSparkline/Sparkline.png)
 
 
-[sparkline.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VSparkline/Sparkline.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/Sparkline.qjson"  target="_blank">Sparkline</a>

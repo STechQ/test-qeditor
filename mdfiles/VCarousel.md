@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VCarousel/vcarousel.js" target="_blank">vcarousel.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/vcarousel.qjson" target="_blank">Vcarousel</a>

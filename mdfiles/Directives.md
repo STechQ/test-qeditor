@@ -20,7 +20,7 @@ The available directives are listed below and you can access detailed API and us
 
 <a href="https://vuetifyjs.com/en/directives/click-outside/" target="_blank">Click outside directive — Vuetify</a>
 
-Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/Click%20Outside.qjson" target="_blank">Click Outside.qjson</a>
+Example: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Click Outside.qjson" target="_blank">Click Outside.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/clickOutside.gif" width="800px" height="auto">
 
@@ -28,7 +28,7 @@ Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Dire
 
 <a href="https://vuetifyjs.com/en/directives/intersect/" target="_blank">Intersection observer directive — Vuetify</a>
 
-Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/Intersect.qjson" target="_blank">Intersect.qjson</a>
+Example: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Intersect.qjson" target="_blank">Intersect.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/intersect.gif" width="800px" height="auto">
 
@@ -36,7 +36,7 @@ Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Dire
 
 <a href="https://vuetifyjs.com/en/directives/resize/" target="_blank">Resize directive — Vuetify</a>
 
-Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/Resize.qjson" target="_blank">Resize.qjson</a>
+Example: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Resize.qjson" target="_blank">Resize.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/resize.gif" width="800px" height="auto">
 
@@ -44,7 +44,7 @@ Example: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Dire
 
 <a href="https://vuetifyjs.com/en/directives/ripple/" target="_blank">Ripple directive — Vuetify</a>
 
-Exapmle: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/Ripple.qjson" target="_blank">Ripple.qjson</a>
+Exapmle: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Ripple.qjson" target="_blank">Ripple.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/ripple.gif" width="800px" height="auto">
 

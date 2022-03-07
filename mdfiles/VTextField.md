@@ -18,7 +18,8 @@ Format prop is setting input mask options on VTextField components
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-2.png)
 
-[onlyAlphabetic.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTextField/onlyAlphabetic.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/onlyAlphabetic.qjson"  target="_blank">onlyAlphabetic</a>
+
 
 ### Credit Card
 
@@ -30,7 +31,8 @@ Format prop is setting input mask options on VTextField components
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-4.png)
 
-[email.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTextField/email.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/email.qjson"  target="_blank">email</a>
+
 
 
 ## Number Format Usage
@@ -71,7 +73,8 @@ The following format options can be used to format the ‘number’ values. Howe
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-5.png)
 
-[number.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTextField/number.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/number.qjson"  target="_blank">number</a>
+
 
 
 ### Regex Format Usage
@@ -94,21 +97,21 @@ let compValue = components.{{compQID}}.extention.getUnmaskedValue()
 ```
 
 # SAMPLE QJSONS
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValue_specialChars.qjson"  target="_blank">VTextField_formatValue_specialChars</a>
 
-[VTextField_formatValue_specialChars.qjson](uploads/0be82fa140dd82e7c297d2ad1ded914a/VTextField_formatValue_specialChars.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValue_exceptLetters.qjson"  target="_blank">VTextField_formatValue_exceptLetters</a>
 
-[VTextField_formatValue_exceptLetters.qjson](uploads/34ba3f861728bff7f7e64b08a55c71c3/VTextField_formatValue_exceptLetters.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValueSample1.qjson"  target="_blank">VTextField_formatValueSample1</a>
 
-[VTextField_formatValueSample1.qjson](uploads/241fc0269e08139459688e9de5333225/VTextField_formatValueSample1.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValueSapmle2.qjson"  target="_blank">VTextField_formatValueSapmle2</a>
 
-[VTextField_formatValueSapmle2.qjson](uploads/e4903193181e43ec451bdd79efa3bb21/VTextField_formatValueSapmle2.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_keyDown.qjson"  target="_blank">VTextField_keyDown</a>
 
-[VTextField_keyDown.qjson](uploads/3160b170db17f30a24545d80dc72b817/VTextField_keyDown.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_rangeOfNumber_validation.qjson"  target="_blank">VTextField_rangeOfNumber_validation</a>
 
-[VTextField_rangeOfNumber_validation.qjson](uploads/8c03990c53986c45df181f78cddca07c/VTextField_rangeOfNumber_validation.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_customValidation.qjson"  target="_blank">VTextField_customValidation</a>
 
-[VTextField_customValidation.qjson](uploads/c34799c2268d4e6f61ab4e712772be64/VTextField_customValidation.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_FocusExample.qjson"  target="_blank">VTextField_FocusExample</a>
 
-[VTextField_FocusExample.qjson](uploads/f3147c3efc876a45be8f63f54dbf4401/VTextField_FocusExample.qjson)
 
 <!-- NLP: Input alanı kullanımı | Textfield | Textfield kullanımı | Girdi yazma | Sayı değeri girme | Input formatlama | Kullanıcıdan input alma | İnteraktif olarak veri girme | Input değerini başka componentte kullanma | Input değerini nasıl tutarım | Kullanıcıdan data alma | Kullanıcıdan nasıl data alırım | Yazı girme | Sayı girme | Girilen değere karakter sınırı eklemek istiyorum | Alana değer girilemesin istiyrum | Textfield disable yapma | Input | Text input | Standart input | Textfield formatları | Textfield properties | Textfield methods | Textfield formats -->

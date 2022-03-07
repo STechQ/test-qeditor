@@ -62,4 +62,4 @@
 
 # QJSON SAMPLES
 
-[VInlineTimePicker.js](uploads/fc954e3c936296d4fc931ba328f12bb3/VInlineTimePicker.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VInlineTimePicker.qjson"  target="_blank">VInlineTimePicker</a>

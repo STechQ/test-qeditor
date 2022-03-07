@@ -7,16 +7,16 @@
 
 # QJson Samples
 
-[combobox.js](uploads/bb6d2bfe8a46b0a24741ecd0cb6a2348/combobox.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/combobox.qjson"  target="_blank">combobox</a>
 
-[ComboboxDefaultSelection.js](uploads/4900854c3b3b810a586f5892e9aaf47d/ComboboxDefaultSelection.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/ComboboxDefaultSelection.qjson"  target="_blank">ComboboxDefaultSelection</a>
 
-[comboboxSelected.js](uploads/aad8a23dcc435703f60a88804eee958b/comboboxSelected.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/comboboxSelected.qjson"  target="_blank">comboboxSelected</a>
 
-[ComboboxWithTreeView.js](uploads/b3f731322eaf447f3a7000de0a93e200/ComboboxWithTreeView.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/ComboboxWithTreeView.qjson"  target="_blank">ComboboxWithTreeView</a>
 
-[SelectAll_Combobox_.js](uploads/3c8142ddadb3a9087bec3fbf481dc3fe/SelectAll_Combobox_.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/SelectAll_Combobox_.qjson"  target="_blank">SelectAll_Combobox_</a>
 
-[ComboboxAddItemWithDialog.js](uploads/ef500a9e993b9c9e9066bfb11439fc75/ComboboxAddItemWithDialog.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/ComboboxAddItemWithDialog.qjson"  target="_blank">SelectAll_Combobox_</a>
 
-[ComboboxAddItemWithTextField.js](uploads/4710b736024bf81a55704f3a4626e359/ComboboxAddItemWithTextField.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/ComboboxAddItemWithTextField.qjson"  target="_blank">ComboboxAddItemWithTextField</a>

@@ -28,5 +28,4 @@
 | content   | QTextField content value, you can control your textfield data with this parameter. |
 
 ## QJson Sample
-
-[QRichTextGetContentToOtherRichText.js](uploads/187d8efacadc38ca546857f765fd1001/QRichTextGetContentToOtherRichText.js)
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/QRichTextExample.qjson" target="_blank">QRichTextExample</a>

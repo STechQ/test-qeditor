@@ -4,19 +4,21 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker.png)
 
-[DatePickerLocale.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VDatepicker/DatePickerLocale.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/DatePickerLocale.qjson"  target="_blank">DatePickerLocale</a>
 
 ## DatePicker Inline
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker2.png)
 
-[DatePickerInlineExample.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VDatepicker/DatePickerInlineExample.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/DatePickerInlineExample.qjson"  target="_blank">DatePickerInlineExample</a>
+
 
 ## Allowed Dates
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker3.jpg)
 
-[AllowdDates.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VDatepicker/AllowdDates.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/AllowdDates.qjson"  target="_blank">AllowdDates</a>
+
 
 ## Weekend and Holidays
 
@@ -24,6 +26,6 @@
 
 # QJson Samples
 
-[VDatePicker_AllowdDates.qjson](uploads/3299703da1ee8459f387b5932b3f69e1/VDatePicker_AllowdDates.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/VDatePicker_AllowdDates.qjson"  target="_blank">VDatePicker_AllowdDates</a>
 
-[DatePickerLocale.js](uploads/0963daacc53b71d7f5f0792b0c5dc7c7/DatePickerLocale.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/DatePickerLocale.qjson"  target="_blank">DatePickerLocale</a>

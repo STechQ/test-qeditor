@@ -36,7 +36,9 @@ Quick.bind has to be declared in PreRender and binded object must be **store**. 
 > 
 
 
-Example file: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/EditorUsage/Quick_Bind.qjson" target="_blank">Quick Bind</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Quick_Bind.qjson" target="_blank">Quick Bind</a>
+
+
 
 ## Deep Copy Object
 
@@ -58,7 +60,7 @@ To download any file, it must have a base64 type string value. The download proc
 
 > quick.Quick.download({data: base64, name: string})
 
-Example file: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/EditorUsage/Downlad.qjson" target="_blank">Downlad a File</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Download.qjson" target="_blank">Downlad a File</a>
 
 ## Reset
 
@@ -97,7 +99,8 @@ The uses of these two functions are as follows;
 
 ***Example Qjson File :***
 
-[resetAndResetValidationUsage.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/resetValidation/resetAndResetValidationUsage.qjson)
+
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/resetAndResetValidationUsage.qjson" target="_blank">resetAndResetValidationUsage example</a>
 
 ## Export To XLSX
 Quick.exportToXlsx method can be used to export specific data to excel file
@@ -136,5 +139,5 @@ Quick.exportToXlsx method can be used to export specific data to excel file
 
 After that the data is downloaded as test.**xlsx**
 
-Example file: <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/EditorUsage/ExporttoXLSX.qjson" target="_blank">Export To xlsx</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/exportToXlsx_Sample.qjson" target="_blank">Export To xlsx</a>
 

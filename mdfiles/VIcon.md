@@ -18,7 +18,4 @@ The icons in [Material Design Icons](https://materialdesignicons.com) can be use
 
 ## Samples
 
-![Icons_Sample](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VIcon/Icons_Sample.png)
-
-
-[Icon_Samples.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VIcon/Icon_Samples.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/Icon_Samples.qjson"  target="_blank">Icon_Samples</a>

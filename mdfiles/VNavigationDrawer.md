@@ -1,8 +1,7 @@
 ## VNavigationDrawer
 
+# SAMPLE QJSONS
 
-![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VNavigationDrawer/navigationdrawer-1.png)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/NavigationDrawerExample.qjson"  target="_blank">NavigationDrawerExample</a>
 
-[NavigationDrawerExample.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VNavigationDrawer/NavigationDrawerExample.js)
-
-![navigationDrawer](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VNavigationDrawer/navigationdrawer-2.png)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/NavigationDrawerWithAppBar.qjson"  target="_blank">NavigationDrawerWithAppBar</a>

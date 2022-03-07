@@ -71,4 +71,4 @@ Closes the connection.
 
 
 ## LiveConnection with Devexpress DataGrid
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/liveConnection/liveconnectionsample.js" target="_blank">liveconnectionsample.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/parentPage.qjson" target="_blank">liveconnectionsample.js</a>

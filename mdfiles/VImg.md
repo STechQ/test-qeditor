@@ -43,5 +43,5 @@
 
 # QJSON SAMPLES
 
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/images.qjson"  target="_blank">images</a>
 
-[imageUpload.js](uploads/f5387603ce85b62668a822c17e4f400b/imageUpload.js)

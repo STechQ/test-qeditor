@@ -48,5 +48,7 @@
 
 
 ### QJson
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VCheckbox/VCheckbox.qjson" target="_blank">VCarousel.js</a>
 
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/CheckboxDisabledExample.qjson" target="_blank">CheckboxDisabledExample</a>
+
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/CheckBoxQvalue.qjson" target="_blank">CheckBoxGetValue Example</a>

@@ -39,6 +39,6 @@ QDocumentViewer supports the image types listed below;
 
 ### 4. Sample Pages
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QDocumentViewer/QDocumentViewer.js" target="_blank">
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/QDocumentViewer.qjson" target="_blank">
   QDocumentViewer-pdf-as-byte.js
 </a>

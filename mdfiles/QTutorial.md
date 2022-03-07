@@ -43,11 +43,4 @@
 
 
 # QJson Samples
-[QTutorialFinalDemo.js](uploads/a63d512e818c1d58f7b8950d6c79dddb/QTutorialFinalDemo.js)
-
-[QTutorial.js](uploads/e46562be69320b578da00c638b17abfd/QTutorial.js)
-
-[QTutorialExample.js](uploads/f67e1d875a3ca14e5317a4c711b68f64/QTutorialExample.js)
-
-
- [QTutorial.js](uploads/15bb0eef5accebbd0f30fa2433aca130/QTutorial.js)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/QTutorialFinalDemo.qjson" target="_blank">QTutorial</a>

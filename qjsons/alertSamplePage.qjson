@@ -1,0 +1,594 @@
+let pjson = {
+	"pJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_3",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_3"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_1",
+					"T": "prop"
+				},
+				"class": {
+					"H": "'warning col-12'",
+					"T": "class"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "//title?: string\r\n//text? : string\r\n//category? : enum (Warning - Info - Success - Error)\r\n//actionButtons?: [{name: string, type: enum (Confirm - Cancel), clickEventName: string}]\r\n//error?: { errorMessage?: string, errorCode?: string, errorSource?: enum ( Network - Page )}\r\n\r\nQuick.alert({text= 'Kayıt silinecektir onaylıyor musunuz?', category='Warning', actionButtons=[{name='Onayla', type='Confirm', clickEventName='onConfirmTask'},{ name='İptal', type='Cancel', clickEventName='onCancelTask'}]})"
+				},
+				"onCancelTask": {
+					"H": "EM.trace('onCancelTask triggered')",
+					"C": true
+				},
+				"onConfirmTask": {
+					"H": "EM.trace('onConfirmTask triggered')",
+					"C": true
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_2",
+									"T": "prop"
+								},
+								"text": {
+									"H": "'Alert'",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_2"
+							},
+							"O": {
+								"cType": "child"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_4",
+					"T": "prop"
+				},
+				"class": {
+					"H": "'error col-12'",
+					"T": "class"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "EM.trace('Service error')\r\n\r\nrequestObject={}\r\nrequestObject.url='http://supplierfinance.tekcep.dev.rally.softtech/api/v1/supplierinvoice/invoices/8160477411'\r\nrequestObject.http='post'\r\n\r\nrequestObject.data={}\r\n\r\nrequestObject.headers={}\r\nrequestObject.headers['x-rly-corr']='1'\r\nrequestObject.headers['x-rly-ins-unit']='1'\r\nrequestObject.headers['x-rly-session']='1'\r\nrequestObject.headers['x-rly-tenant']='5'\r\nrequestObject.headers['x-rly-user-id']='1'\r\n\r\nrequestObject.responseField='invoices'\r\nrequestObject.onSuccess='onSuccessInvoices'\r\n//requestObject.onFail='onFailInvoices'\r\nRequest.async(requestObject)"
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_5",
+									"T": "prop"
+								},
+								"text": {
+									"H": "'Service Alert'",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_5"
+							},
+							"O": {
+								"cType": "child"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_4"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		},
+		{
+			"T": "VTextField",
+			"P": {
+				"ID": {
+					"H": "textField_1",
+					"T": "prop"
+				},
+				"label": {
+					"H": "'Text field label'",
+					"T": "prop"
+				},
+				"rules": {
+					"H": "[Quick.validation.required(), Quick.validation.minLength(5, 'Enter at least 5 characters')]",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_6"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VRow",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_11",
+					"T": "prop"
+				},
+				"class": {
+					"H": "'d-flex  justify-center'",
+					"T": "class"
+				}
+			},
+			"E": {},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "VBtn",
+							"P": {
+								"ID": {
+									"H": "EdtrComp_7",
+									"T": "prop"
+								},
+								"class": {
+									"H": "'primary'",
+									"T": "class"
+								}
+							},
+							"E": {
+								"click": {
+									"H": "Quick.validateAll()"
+								}
+							},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "QLabel",
+											"C": {},
+											"E": {},
+											"P": {
+												"ID": {
+													"H": "EdtrComp_8",
+													"T": "prop"
+												},
+												"text": {
+													"H": "'Validate'",
+													"T": "prop"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_8"
+											},
+											"O": {
+												"cType": "child"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_7"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						},
+						{
+							"T": "VBtn",
+							"P": {
+								"ID": {
+									"H": "EdtrComp_9",
+									"T": "prop"
+								},
+								"class": {
+									"H": "'primary'",
+									"T": "class"
+								}
+							},
+							"E": {
+								"click": {
+									"H": "result = Quick.validate('textField_1',false) \r\n\r\nif(!result){\r\n   Quick.alert({actionButtons=[{ name='Kapat', type='Cancel', clickEventName='onCancel'}], error= { errorMessage= 'Zorunlu alanları giriniz.', errorCode= LR('notValidErrMsg'), errorSource= 'Validation'}})\r\n}\r\n"
+								}
+							},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "QLabel",
+											"C": {},
+											"E": {},
+											"P": {
+												"ID": {
+													"H": "EdtrComp_10",
+													"T": "prop"
+												},
+												"text": {
+													"H": "'Validate (Set Alert params)'",
+													"T": "prop"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_10"
+											},
+											"O": {
+												"cType": "child"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_9"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_11"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		}
+	],
+	"cJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_3",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_3"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_1",
+					"T": "prop"
+				},
+				"class": {
+					"H": "╬'warning col-12'╩╩",
+					"T": "class"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "╬()╣.╣Quick╩╠alert╩╩╠{}╠=╣text╩╠'Kayıt silinecektir onaylıyor musunuz?'╩╩╠=╣category╩╠'Warning'╩╩╠=╣actionButtons╩╠[]╠{}╠=╣name╩╠'Onayla'╩╩╠=╣type╩╠'Confirm'╩╩╠=╣clickEventName╩╠'onConfirmTask'╩╩╩╠{}╠=╣name╩╠'İptal'╩╩╠=╣type╩╠'Cancel'╩╩╠=╣clickEventName╩╠'onCancelTask'╩╩╩╩╩╩╩╩"
+				},
+				"onCancelTask": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'onCancelTask triggered'╩╩╩",
+					"C": true
+				},
+				"onConfirmTask": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'onConfirmTask triggered'╩╩╩",
+					"C": true
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_2",
+									"T": "prop"
+								},
+								"text": {
+									"H": "╬'Alert'╩╩",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_2"
+							},
+							"O": {
+								"cType": "child"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_4",
+					"T": "prop"
+				},
+				"class": {
+					"H": "╬'error col-12'╩╩",
+					"T": "class"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'Service error'╩╩╬=╣requestObject╩╠{}╩╩╬=╣.╣requestObject╩╠url╩╩╠'http://supplierfinance.tekcep.dev.rally.softtech/api/v1/supplierinvoice/invoices/8160477411'╩╩╬=╣.╣requestObject╩╠http╩╩╠'post'╩╩╬=╣.╣requestObject╩╠data╩╩╠{}╩╩╬=╣.╣requestObject╩╠headers╩╩╠{}╩╩╬=╣[]╣.╣requestObject╩╠headers╩╩╠'x-rly-corr'╩╩╠'1'╩╩╬=╣[]╣.╣requestObject╩╠headers╩╩╠'x-rly-ins-unit'╩╩╠'1'╩╩╬=╣[]╣.╣requestObject╩╠headers╩╩╠'x-rly-session'╩╩╠'1'╩╩╬=╣[]╣.╣requestObject╩╠headers╩╩╠'x-rly-tenant'╩╩╠'5'╩╩╬=╣[]╣.╣requestObject╩╠headers╩╩╠'x-rly-user-id'╩╩╠'1'╩╩╬=╣.╣requestObject╩╠responseField╩╩╠'invoices'╩╩╬=╣.╣requestObject╩╠onSuccess╩╩╠'onSuccessInvoices'╩╩╬()╣.╣Request╩╠async╩╩╠requestObject╩╩╩"
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_5",
+									"T": "prop"
+								},
+								"text": {
+									"H": "╬'Service Alert'╩╩",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_5"
+							},
+							"O": {
+								"cType": "child"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_4"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		},
+		{
+			"T": "VTextField",
+			"P": {
+				"ID": {
+					"H": "textField_1",
+					"T": "prop"
+				},
+				"label": {
+					"H": "╬'Text field label'╩╩",
+					"T": "prop"
+				},
+				"rules": {
+					"H": "╬[]╠()╣.╣.╣Quick╩╠validation╩╩╠required╩╩╩╠()╣.╣.╣Quick╩╠validation╩╩╠minLength╩╩╠5╩╠'Enter at least 5 characters'╩╩╩╩",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_6"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VRow",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_11",
+					"T": "prop"
+				},
+				"class": {
+					"H": "╬'d-flex  justify-center'╩╩",
+					"T": "class"
+				}
+			},
+			"E": {},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "VBtn",
+							"P": {
+								"ID": {
+									"H": "EdtrComp_7",
+									"T": "prop"
+								},
+								"class": {
+									"H": "╬'primary'╩╩",
+									"T": "class"
+								}
+							},
+							"E": {
+								"click": {
+									"H": "╬()╣.╣Quick╩╠validateAll╩╩╩╩"
+								}
+							},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "QLabel",
+											"C": {},
+											"E": {},
+											"P": {
+												"ID": {
+													"H": "EdtrComp_8",
+													"T": "prop"
+												},
+												"text": {
+													"H": "╬'Validate'╩╩",
+													"T": "prop"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_8"
+											},
+											"O": {
+												"cType": "child"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_7"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						},
+						{
+							"T": "VBtn",
+							"P": {
+								"ID": {
+									"H": "EdtrComp_9",
+									"T": "prop"
+								},
+								"class": {
+									"H": "╬'primary'╩╩",
+									"T": "class"
+								}
+							},
+							"E": {
+								"click": {
+									"H": "╬=╣result╩╠()╣.╣Quick╩╠validate╩╩╠'textField_1'╩╠false╩╩╩╬if╣!╠result╩╩╠╬()╣.╣Quick╩╠alert╩╩╠{}╠=╣actionButtons╩╠[]╠{}╠=╣name╩╠'Kapat'╩╩╠=╣type╩╠'Cancel'╩╩╠=╣clickEventName╩╠'onCancel'╩╩╩╩╩╠=╣error╩╠{}╠=╣errorMessage╩╠'Zorunlu alanları giriniz.'╩╩╠=╣errorCode╩╠()╣LR╩╠'notValidErrMsg'╩╩╩╠=╣errorSource╩╠'Validation'╩╩╩╩╩╩╩╠■╩╩"
+								}
+							},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "QLabel",
+											"C": {},
+											"E": {},
+											"P": {
+												"ID": {
+													"H": "EdtrComp_10",
+													"T": "prop"
+												},
+												"text": {
+													"H": "╬'Validate (Set Alert params)'╩╩",
+													"T": "prop"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_10"
+											},
+											"O": {
+												"cType": "child"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_9"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_11"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		}
+	],
+	"lrids": {
+		"tr-TR": {
+			"validationMsg": "'Lütfen zorunlu alanları giriniz.'"
+		},
+		"en-US": {
+			"validationMsg": "'Please enter all required fields'"
+		}
+	},
+	"clrids": {
+		"tr-TR": {
+			"validationMsg": "╬'Lütfen zorunlu alanları giriniz.'╩╩"
+		},
+		"en-US": {
+			"validationMsg": "╬'Please enter all required fields'╩╩"
+		}
+	},
+	"description": {}
+};
+export default pjson

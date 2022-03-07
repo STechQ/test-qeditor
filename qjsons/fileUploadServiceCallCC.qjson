@@ -1,0 +1,245 @@
+let pjson = {
+	"pJson": [
+		{
+			"T": "CustomComponent",
+			"P": {
+				"ID": {
+					"H": "uploadCustomComp",
+					"T": "prop"
+				},
+				"QJsonPath": {
+					"H": "'settings/qjson/FileUploadCustomComponent.qjson'",
+					"T": "prop"
+				},
+				"uploadPlaceHolder": {
+					"H": "'Yüklemek istediğiniz dosyayı seçiniz'",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onUploadFail": {
+					"H": "//param: errorInfo\r\n\r\nEM.trace('Parent upload fail triggered')\r\nEM.trace(errorInfo.message)\r\nEM.trace(errorInfo.response.status)\r\n\r\nQuick.alert({ error= { errorMessage= errorInfo.message, errorCode= 'ERR_'+ errorInfo.response.status , errorSource= 'Network' }})",
+					"C": true
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_2"
+			},
+			"O": {
+				"dynProps": true,
+				"compDomClasses": ""
+			}
+		},
+		{
+			"T": "CustomComponent",
+			"P": {
+				"ID": {
+					"H": "customComponentQID",
+					"T": "prop"
+				},
+				"QJsonPath": {
+					"H": "'settings/qjson/ServiceCallerCustomComponent.qjson'",
+					"T": "prop"
+				},
+				"prop1": {
+					"H": "5 + ' test prop1'",
+					"T": "prop"
+				},
+				"prop2": {
+					"H": "' test prop2'",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onGetProductsServiceCallSuccess": {
+					"H": "EM.trace('Parant Page onGetProductsServiceCallSuccess')\r\nEM.trace(serviceResponse)",
+					"C": true
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"dynProps": true,
+				"cType": "child",
+				"compDomClasses": ""
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_22",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "//This example sends request params from parent component if you dont need just call Custom Component 'GetProductsWithServiceCall' method and set servis request values in your custom component\r\n//customComponentQID.GetProductsWithServiceCall() \r\ncustomComponentQID.GetProductsWithServiceCall({requestData= {page=0, size=5 }, requestURL='https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters', httpType='post', responseField='getProducts'})"
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_23",
+									"T": "prop"
+								},
+								"text": {
+									"H": "'Call Service with Custom Component'",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_23"
+							},
+							"O": {
+								"cType": "child",
+								"compDomClasses": "q-label "
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_22"
+			},
+			"O": {
+				"cType": "slot",
+				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default"
+			}
+		}
+	],
+	"cJson": [
+		{
+			"T": "CustomComponent",
+			"P": {
+				"ID": {
+					"H": "uploadCustomComp",
+					"T": "prop"
+				},
+				"QJsonPath": {
+					"H": "╬'settings/qjson/FileUploadCustomComponent.qjson'╩╩",
+					"T": "prop"
+				},
+				"uploadPlaceHolder": {
+					"H": "╬'Yüklemek istediğiniz dosyayı seçiniz'╩╩",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onUploadFail": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'Parent upload fail triggered'╩╩╬()╣.╣EM╩╠trace╩╩╠.╣errorInfo╩╠message╩╩╩╬()╣.╣EM╩╠trace╩╩╠.╣.╣errorInfo╩╠response╩╩╠status╩╩╩╬()╣.╣Quick╩╠alert╩╩╠{}╠=╣error╩╠{}╠=╣errorMessage╩╠.╣errorInfo╩╠message╩╩╩╠=╣errorCode╩╠+╣'ERR_'╩╠.╣.╣errorInfo╩╠response╩╩╠status╩╩╩╩╠=╣errorSource╩╠'Network'╩╩╩╩╩╩╩",
+					"C": true
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_2"
+			},
+			"O": {
+				"dynProps": true,
+				"cType": "child",
+				"compDomClasses": ""
+			}
+		},
+		{
+			"T": "CustomComponent",
+			"P": {
+				"ID": {
+					"H": "customComponentQID",
+					"T": "prop"
+				},
+				"QJsonPath": {
+					"H": "╬'settings/qjson/ServiceCallerCustomComponent.qjson'╩╩",
+					"T": "prop"
+				},
+				"prop1": {
+					"H": "╬+╣5╩╠' test prop1'╩╩╩",
+					"T": "prop"
+				},
+				"prop2": {
+					"H": "╬' test prop2'╩╩",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onGetProductsServiceCallSuccess": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'Parant Page onGetProductsServiceCallSuccess'╩╩╬()╣.╣EM╩╠trace╩╩╠serviceResponse╩╩╩",
+					"C": true
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"dynProps": true,
+				"cType": "child",
+				"compDomClasses": ""
+			}
+		},
+		{
+			"T": "VBtn",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_22",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"click": {
+					"H": "╬()╣.╣customComponentQID╩╠GetProductsWithServiceCall╩╩╠{}╠=╣requestData╩╠{}╠=╣page╩╠0╩╩╠=╣size╩╠5╩╩╩╩╠=╣requestURL╩╠'https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters'╩╩╠=╣httpType╩╠'post'╩╩╠=╣responseField╩╠'getProducts'╩╩╩╩╩"
+				}
+			},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "QLabel",
+							"C": {},
+							"E": {},
+							"P": {
+								"ID": {
+									"H": "EdtrComp_23",
+									"T": "prop"
+								},
+								"text": {
+									"H": "╬'Call Service with Custom Component'╩╩",
+									"T": "prop"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_23"
+							},
+							"O": {
+								"cType": "child",
+								"compDomClasses": "q-label "
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_22"
+			},
+			"O": {
+				"cType": "slot",
+				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default"
+			}
+		}
+	],
+	"lrids": {},
+	"clrids": {},
+	"description": {}
+};
+export default pjson

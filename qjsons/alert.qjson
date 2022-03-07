@@ -1,0 +1,896 @@
+let pjson = {
+	"pJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_1",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"PostRender": {
+					"H": "EM.trace(parent.props)\r\n\r\n//Quick.alert({text= 'Kayıt silinecektir onaylıyor musunuz?', category='Warning', actionButtons=[{name='Onayla', type='Confirm', clickEventName='onConfirm'},{ name='İptal', type='Cancel', clickEventName='onCancel'}]})\r\n//Quick.alert({ error= { errorMessage= error.response.message, errorCode= 'HTTP_' + error.response.status, errorSource= 'Network' }\r\n\r\n//---ALERT PARAMS---//\r\n\r\n//title?: string\r\n//text? : string\r\n//category? : enum (Warning - Info - Success - Error)\r\n//actionButtons?: [{name: string, type: enum (Confirm - Cancel), clickEventName: string}]\r\n//error?: { errorMessage?: string, errorCode?: string, errorSource?: enum ( Network - Page - Validation )}\r\n\r\n//Display Samples\r\ncancelButton.visible = false\r\nconfirmButton.visible = false\r\nvalidationBtn.visible = false\r\n\r\nif(parent.props.error){\r\n    if(parent.props.error.errorSource == 'Validation'){\r\n     //validation error display\r\n        alertHeader.type = 'error'\r\n        alertHeaderText.text = LR(parent.props.error.errorCode)\r\n        validationBtn.visible = true\r\n        validationBtnText.text = parent.props.actionButtons[0].name\r\n    }\r\n    if(parent.props.error.errorSource == 'Network'){\r\n     //network error display\r\n        alertHeader.type = 'error'\r\n        alertHeaderText.text = parent.props.error.errorCode\r\n        alertText.text = parent.props.error.errorMessage\r\n    }\r\n}\r\nelse{\r\n    //Confirm diplay\r\n    alertHeader.type = parent.props.category\r\n    alertHeaderText.text = parent.props.title\r\n    alertText.text = parent.props.text\r\n    \r\n    actionButtonList = []\r\n    if(parent.props.actionButtons != null){\r\n        actionButtonList = parent.props.actionButtons\r\n    }\r\n\r\n    foreach(actionButton in actionButtonList){\r\n        EM.trace('actionButtons')\r\n        EM.trace(actionButton)\r\n\r\n        if(actionButton.type == 'Confirm'){   \r\n            confirmButton.visible = true\r\n            confimButtonText.text =  actionButton.name\r\n        }\r\n        if(actionButton.type == 'Cancel'){\r\n            cancelButton.visible = true\r\n            cancelButtonText.text =  actionButton.name\r\n        }\r\n    }\r\n\r\n}\r\n\r\nalertSampleDialog.value = true",
+					"TO": 1
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VRow",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_40",
+					"T": "prop"
+				},
+				"class": {
+					"H": "'d-flex  justify-center'",
+					"T": "class"
+				}
+			},
+			"E": {},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "VDialog",
+							"P": {
+								"ID": {
+									"H": "alertSampleDialog",
+									"T": "prop"
+								},
+								"class": {
+									"H": "'col-4'",
+									"T": "class"
+								},
+								"eager": {
+									"H": "true",
+									"T": "prop"
+								}
+							},
+							"E": {},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "VCard",
+											"P": {
+												"ID": {
+													"H": "EdtrComp_65",
+													"T": "prop"
+												},
+												"class": {
+													"H": "'col-xl-12   justify-space-around align-start'",
+													"T": "class"
+												}
+											},
+											"E": {},
+											"C": {
+												"default": {
+													"c": [
+														{
+															"T": "VAlert",
+															"P": {
+																"ID": {
+																	"H": "alertHeader",
+																	"T": "prop"
+																},
+																"type": {
+																	"H": "'warning'",
+																	"T": "prop"
+																},
+																"icon": {
+																	"H": "'mdi-alert'",
+																	"T": "prop"
+																},
+																"prominent": {
+																	"H": "true",
+																	"T": "prop"
+																},
+																"render": {
+																	"H": "true",
+																	"T": "prop"
+																}
+															},
+															"E": {},
+															"C": {
+																"default": {
+																	"c": [
+																		{
+																			"T": "QLabel",
+																			"P": {
+																				"ID": {
+																					"H": "alertHeaderText",
+																					"T": "prop"
+																				},
+																				"text": {
+																					"H": "'home'",
+																					"T": "prop"
+																				}
+																			},
+																			"E": {},
+																			"C": {},
+																			"_Editor": {
+																				"eID": "EdtrComp_6"
+																			},
+																			"O": {
+																				"cType": "child"
+																			}
+																		}
+																	],
+																	"cType": "slot"
+																}
+															},
+															"_Editor": {
+																"eID": "EdtrComp_2"
+															},
+															"O": {
+																"cType": "slot"
+															}
+														}
+													],
+													"cType": "slot"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_65"
+											},
+											"O": {
+												"cType": "slot"
+											}
+										},
+										{
+											"T": "VCard",
+											"P": {
+												"ID": {
+													"H": "EdtrComp_70",
+													"T": "prop"
+												},
+												"class": {
+													"H": "'col-xl-12 align-start'",
+													"T": "class"
+												}
+											},
+											"E": {},
+											"C": {
+												"default": {
+													"c": [
+														{
+															"T": "VContainer",
+															"P": {
+																"ID": {
+																	"H": "EdtrComp_74",
+																	"T": "prop"
+																}
+															},
+															"E": {},
+															"C": {
+																"default": {
+																	"c": [
+																		{
+																			"T": "VRow",
+																			"P": {
+																				"ID": {
+																					"H": "EdtrComp_78",
+																					"T": "prop"
+																				}
+																			},
+																			"E": {},
+																			"C": {
+																				"default": {
+																					"c": [
+																						{
+																							"T": "QLabel",
+																							"P": {
+																								"ID": {
+																									"H": "alertText",
+																									"T": "prop"
+																								}
+																							},
+																							"E": {},
+																							"C": {},
+																							"_Editor": {
+																								"eID": "EdtrComp_81"
+																							},
+																							"O": {
+																								"cType": "child"
+																							}
+																						}
+																					],
+																					"cType": "slot"
+																				}
+																			},
+																			"_Editor": {
+																				"eID": "EdtrComp_78"
+																			},
+																			"O": {
+																				"cType": "slot"
+																			}
+																		},
+																		{
+																			"T": "VRow",
+																			"P": {
+																				"ID": {
+																					"H": "EdtrComp_82",
+																					"T": "prop"
+																				},
+																				"class": {
+																					"H": "'justify-space-around'",
+																					"T": "class"
+																				}
+																			},
+																			"E": {},
+																			"C": {
+																				"default": {
+																					"c": [
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "confirmButton",
+																									"T": "prop"
+																								},
+																								"class": {
+																									"H": "'success'",
+																									"T": "class"
+																								}
+																							},
+																							"E": {
+																								"click": {
+																									"H": "EM.trace('alert.qjson dialog Confirm type button clicked - onConfirmTask custom event on owner component will be triggered')\r\n\r\nparent.events.onConfirm()"
+																								}
+																							},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "confimButtonText",
+																													"T": "prop"
+																												},
+																												"text": {
+																													"H": "'Evet'",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_90"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_89"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						},
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "validationBtn",
+																									"T": "prop"
+																								},
+																								"color": {
+																									"H": "'primary'",
+																									"T": "prop"
+																								},
+																								"regular": {
+																									"H": "true",
+																									"T": "prop"
+																								}
+																							},
+																							"E": {},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "validationBtnText",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_4"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_3"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						},
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "cancelButton",
+																									"T": "prop"
+																								},
+																								"class": {
+																									"H": "'error'",
+																									"T": "class"
+																								}
+																							},
+																							"E": {
+																								"click": {
+																									"H": "EM.trace('alert.qjson dialog Cancel type button clicked - ononCancelTask custom event on owner component will be triggered')\r\n\r\nparent.events.onCancel()"
+																								}
+																							},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "cancelButtonText",
+																													"T": "prop"
+																												},
+																												"text": {
+																													"H": "'Hayır'",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_88"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_87"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						}
+																					],
+																					"cType": "slot"
+																				}
+																			},
+																			"_Editor": {
+																				"eID": "EdtrComp_82"
+																			},
+																			"O": {
+																				"cType": "slot"
+																			}
+																		}
+																	],
+																	"cType": "slot"
+																}
+															},
+															"_Editor": {
+																"eID": "EdtrComp_74"
+															},
+															"O": {
+																"cType": "slot"
+															}
+														}
+													],
+													"cType": "slot"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_70"
+											},
+											"O": {
+												"cType": "slot"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_58"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_40"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		}
+	],
+	"cJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_1",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"PostRender": {
+					"H": "╬()╣.╣EM╩╠trace╩╩╠.╣parent╩╠props╩╩╩╬=╣.╣cancelButton╩╠visible╩╩╠false╩╩╬=╣.╣confirmButton╩╠visible╩╩╠false╩╩╬=╣.╣validationBtn╩╠visible╩╩╠false╩╩╬if╣.╣.╣parent╩╠props╩╩╠error╩╩╠╬if╣==╣.╣.╣.╣parent╩╠props╩╩╠error╩╩╠errorSource╩╩╠'Validation'╩╩╠╬=╣.╣alertHeader╩╠type╩╩╠'error'╩╩╬=╣.╣alertHeaderText╩╠text╩╩╠()╣LR╩╠.╣.╣.╣parent╩╠props╩╩╠error╩╩╠errorCode╩╩╩╩╬=╣.╣validationBtn╩╠visible╩╩╠true╩╩╬=╣.╣validationBtnText╩╠text╩╩╠.╣[]╣.╣.╣parent╩╠props╩╩╠actionButtons╩╩╠0╩╩╠name╩╩╩╩╠■╩╬if╣==╣.╣.╣.╣parent╩╠props╩╩╠error╩╩╠errorSource╩╩╠'Network'╩╩╠╬=╣.╣alertHeader╩╠type╩╩╠'error'╩╩╬=╣.╣alertHeaderText╩╠text╩╩╠.╣.╣.╣parent╩╠props╩╩╠error╩╩╠errorCode╩╩╩╬=╣.╣alertText╩╠text╩╩╠.╣.╣.╣parent╩╠props╩╩╠error╩╩╠errorMessage╩╩╩╩╠■╩╩╠╬=╣.╣alertHeader╩╠type╩╩╠.╣.╣parent╩╠props╩╩╠category╩╩╩╬=╣.╣alertHeaderText╩╠text╩╩╠.╣.╣parent╩╠props╩╩╠title╩╩╩╬=╣.╣alertText╩╠text╩╩╠.╣.╣parent╩╠props╩╩╠text╩╩╩╬=╣actionButtonList╩╠[]╩╩╬if╣!=╣.╣.╣parent╩╠props╩╩╠actionButtons╩╩╠null╩╩╠╬=╣actionButtonList╩╠.╣.╣parent╩╠props╩╩╠actionButtons╩╩╩╩╠■╩╬foreach╣in╣actionButton╩╠actionButtonList╩╩╠╬()╣.╣EM╩╠trace╩╩╠'actionButtons'╩╩╬()╣.╣EM╩╠trace╩╩╠actionButton╩╩╬if╣==╣.╣actionButton╩╠type╩╩╠'Confirm'╩╩╠╬=╣.╣confirmButton╩╠visible╩╩╠true╩╩╬=╣.╣confimButtonText╩╠text╩╩╠.╣actionButton╩╠name╩╩╩╩╠■╩╬if╣==╣.╣actionButton╩╠type╩╩╠'Cancel'╩╩╠╬=╣.╣cancelButton╩╠visible╩╩╠true╩╩╬=╣.╣cancelButtonText╩╠text╩╩╠.╣actionButton╩╠name╩╩╩╩╠■╩╩╩╩╩╬=╣.╣alertSampleDialog╩╠value╩╩╠true╩╩╩",
+					"TO": 1
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_1"
+			},
+			"O": {
+				"cType": "child"
+			}
+		},
+		{
+			"T": "VRow",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_40",
+					"T": "prop"
+				},
+				"class": {
+					"H": "╬'d-flex  justify-center'╩╩",
+					"T": "class"
+				}
+			},
+			"E": {},
+			"C": {
+				"default": {
+					"c": [
+						{
+							"T": "VDialog",
+							"P": {
+								"ID": {
+									"H": "alertSampleDialog",
+									"T": "prop"
+								},
+								"class": {
+									"H": "╬'col-4'╩╩",
+									"T": "class"
+								},
+								"eager": {
+									"H": "╬true╩╩",
+									"T": "prop"
+								}
+							},
+							"E": {},
+							"C": {
+								"default": {
+									"c": [
+										{
+											"T": "VCard",
+											"P": {
+												"ID": {
+													"H": "EdtrComp_65",
+													"T": "prop"
+												},
+												"class": {
+													"H": "╬'col-xl-12   justify-space-around align-start'╩╩",
+													"T": "class"
+												}
+											},
+											"E": {},
+											"C": {
+												"default": {
+													"c": [
+														{
+															"T": "VAlert",
+															"P": {
+																"ID": {
+																	"H": "alertHeader",
+																	"T": "prop"
+																},
+																"type": {
+																	"H": "╬'warning'╩╩",
+																	"T": "prop"
+																},
+																"icon": {
+																	"H": "╬'mdi-alert'╩╩",
+																	"T": "prop"
+																},
+																"prominent": {
+																	"H": "╬true╩╩",
+																	"T": "prop"
+																},
+																"render": {
+																	"H": "╬true╩╩",
+																	"T": "prop"
+																}
+															},
+															"E": {},
+															"C": {
+																"default": {
+																	"c": [
+																		{
+																			"T": "QLabel",
+																			"P": {
+																				"ID": {
+																					"H": "alertHeaderText",
+																					"T": "prop"
+																				},
+																				"text": {
+																					"H": "╬'home'╩╩",
+																					"T": "prop"
+																				}
+																			},
+																			"E": {},
+																			"C": {},
+																			"_Editor": {
+																				"eID": "EdtrComp_6"
+																			},
+																			"O": {
+																				"cType": "child"
+																			}
+																		}
+																	],
+																	"cType": "slot"
+																}
+															},
+															"_Editor": {
+																"eID": "EdtrComp_2"
+															},
+															"O": {
+																"cType": "slot"
+															}
+														}
+													],
+													"cType": "slot"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_65"
+											},
+											"O": {
+												"cType": "slot"
+											}
+										},
+										{
+											"T": "VCard",
+											"P": {
+												"ID": {
+													"H": "EdtrComp_70",
+													"T": "prop"
+												},
+												"class": {
+													"H": "╬'col-xl-12 align-start'╩╩",
+													"T": "class"
+												}
+											},
+											"E": {},
+											"C": {
+												"default": {
+													"c": [
+														{
+															"T": "VContainer",
+															"P": {
+																"ID": {
+																	"H": "EdtrComp_74",
+																	"T": "prop"
+																}
+															},
+															"E": {},
+															"C": {
+																"default": {
+																	"c": [
+																		{
+																			"T": "VRow",
+																			"P": {
+																				"ID": {
+																					"H": "EdtrComp_78",
+																					"T": "prop"
+																				}
+																			},
+																			"E": {},
+																			"C": {
+																				"default": {
+																					"c": [
+																						{
+																							"T": "QLabel",
+																							"P": {
+																								"ID": {
+																									"H": "alertText",
+																									"T": "prop"
+																								}
+																							},
+																							"E": {},
+																							"C": {},
+																							"_Editor": {
+																								"eID": "EdtrComp_81"
+																							},
+																							"O": {
+																								"cType": "child"
+																							}
+																						}
+																					],
+																					"cType": "slot"
+																				}
+																			},
+																			"_Editor": {
+																				"eID": "EdtrComp_78"
+																			},
+																			"O": {
+																				"cType": "slot"
+																			}
+																		},
+																		{
+																			"T": "VRow",
+																			"P": {
+																				"ID": {
+																					"H": "EdtrComp_82",
+																					"T": "prop"
+																				},
+																				"class": {
+																					"H": "╬'justify-space-around'╩╩",
+																					"T": "class"
+																				}
+																			},
+																			"E": {},
+																			"C": {
+																				"default": {
+																					"c": [
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "confirmButton",
+																									"T": "prop"
+																								},
+																								"class": {
+																									"H": "╬'success'╩╩",
+																									"T": "class"
+																								}
+																							},
+																							"E": {
+																								"click": {
+																									"H": "╬()╣.╣EM╩╠trace╩╩╠'alert.qjson dialog Confirm type button clicked - onConfirmTask custom event on owner component will be triggered'╩╩╬()╣.╣.╣parent╩╠events╩╩╠onConfirm╩╩╩╩"
+																								}
+																							},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "confimButtonText",
+																													"T": "prop"
+																												},
+																												"text": {
+																													"H": "╬'Evet'╩╩",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_90"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_89"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						},
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "validationBtn",
+																									"T": "prop"
+																								},
+																								"color": {
+																									"H": "╬'primary'╩╩",
+																									"T": "prop"
+																								},
+																								"regular": {
+																									"H": "╬true╩╩",
+																									"T": "prop"
+																								}
+																							},
+																							"E": {},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "validationBtnText",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_4"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_3"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						},
+																						{
+																							"T": "VBtn",
+																							"P": {
+																								"ID": {
+																									"H": "cancelButton",
+																									"T": "prop"
+																								},
+																								"class": {
+																									"H": "╬'error'╩╩",
+																									"T": "class"
+																								}
+																							},
+																							"E": {
+																								"click": {
+																									"H": "╬()╣.╣EM╩╠trace╩╩╠'alert.qjson dialog Cancel type button clicked - ononCancelTask custom event on owner component will be triggered'╩╩╬()╣.╣.╣parent╩╠events╩╩╠onCancel╩╩╩╩"
+																								}
+																							},
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "QLabel",
+																											"C": {},
+																											"E": {},
+																											"P": {
+																												"ID": {
+																													"H": "cancelButtonText",
+																													"T": "prop"
+																												},
+																												"text": {
+																													"H": "╬'Hayır'╩╩",
+																													"T": "prop"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_88"
+																											},
+																											"O": {
+																												"cType": "child"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_87"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						}
+																					],
+																					"cType": "slot"
+																				}
+																			},
+																			"_Editor": {
+																				"eID": "EdtrComp_82"
+																			},
+																			"O": {
+																				"cType": "slot"
+																			}
+																		}
+																	],
+																	"cType": "slot"
+																}
+															},
+															"_Editor": {
+																"eID": "EdtrComp_74"
+															},
+															"O": {
+																"cType": "slot"
+															}
+														}
+													],
+													"cType": "slot"
+												}
+											},
+											"_Editor": {
+												"eID": "EdtrComp_70"
+											},
+											"O": {
+												"cType": "slot"
+											}
+										}
+									],
+									"cType": "slot"
+								}
+							},
+							"_Editor": {
+								"eID": "EdtrComp_58"
+							},
+							"O": {
+								"cType": "slot"
+							}
+						}
+					],
+					"cType": "slot"
+				}
+			},
+			"_Editor": {
+				"eID": "EdtrComp_40"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		}
+	],
+	"lrids": {
+		"tr-TR": {
+			"notValidErrDefaultMessage": "'Zorunlu alanları giriniz'"
+		},
+		"en-US": {
+			"notValidErrDefaultMessage": "'Enter all required fields'"
+		}
+	},
+	"clrids": {
+		"tr-TR": {
+			"notValidErrDefaultMessage": "╬'Zorunlu alanları giriniz'╩╩"
+		},
+		"en-US": {
+			"notValidErrDefaultMessage": "╬'Enter all required fields'╩╩"
+		}
+	},
+	"description": {}
+};
+export default pjson

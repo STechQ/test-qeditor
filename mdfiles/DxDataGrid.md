@@ -9,7 +9,7 @@ You should update dxDataGrid compoent after you set any property in the runtime.
 
 You can use: Quick.updateComponent(ComponentQId)
 
-Ex: [dxDatagridUpdate.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxDatagridUpdate.qjson)
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxDatagridUpdate.qjson" target="_blank">dxDatagridUpdate</a>
 
 #### DxDataGrid Bar Usage
 
@@ -56,13 +56,11 @@ You can use customizeText event for this feature like this.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/dxSummary3.png)
 
-Sample : [dxTotalItemCustomizeText.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxTotalItemCustomizeText.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxTotalItemCustomizeText.qjson" target="_blank">dxTotalItemCustomizeText</a>
 
 #### DxDataGrid Remove Data Sample
 
-[dxDataGridRemove.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxDataGridRemove.js)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxDataGridRemove.qjson" target="_blank">dxDataGridRemove</a>
 #### DxDataGrid DxMasterDetail Usage
 
 Open the DxMasterDetail switch and add new dropable column. Then drag the component you want to the column you just added for the master detail. Set dxMasterDetail enabled : true and template:'just added column name'
@@ -73,8 +71,7 @@ Finally you can see the master detail component but you should visible:false for
 
 Click to the new DxColumn component on tree view and set visible property to false.
 
-Sample: [dxMasterDetail.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxMasterDetail.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxMasterDetail.qjson" target="_blank">dxMasterDetail</a>
 
 #### DxColumn fixed & allowFixing Properties
 
@@ -97,34 +94,28 @@ Sample usage of these properties are shown below:
 
 #### DxColumnChooser & DxColumnFixer Sample
 
-sample : [DxColumnChooser_DxColumnFixer.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/DxColumnChooser_DxColumnFixer.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/DxColumnChooser_DxColumnFixer.qjson" target="_blank">DxColumnChooser_DxColumnFixer</a>
 #### DxDataGrid OnCellClick
 
-sample: [onCellClickDx.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/onCellClickDx.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/onCellClickDx.qjson" target="_blank">dxMasterDetail</a>
 #### Simple Data Grid Array Store Sample
 
-sample : [Simplest_Grid_With_Array_Store.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/Simplest_Grid_With_Array_Store.qjson)
+
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Simplest_Grid_With_Array_Store.qjson" target="_blank">Simplest_Grid_With_Array_Store</a>
 
 
 #### DxDataGrid Menu Column
 
 A menu column can be added into DxDataGrid component with VMenu component. 
-Sample:
-[Grid_with_menu.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/Grid_with_menu.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Grid_with_menu.qjson" target="_blank">Simplest_Grid_With_Array_Store</a>
 
 #### DxDataGrid State Storing
 
 Filters on DxDataGrid can be saved and load with DxStateStoring component.
-Sample: [State_storing.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/State_storing.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/State_storing.qjson" target="_blank">State_storing</a>
 
 #### DxColumn fixed & allowFixing Properties Sample
-
-Sample: [DxColumn_fix_allowFixing.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/DxColumn_fix_allowFixing.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/DxColumn_fix_allowFixing.qjson" target="_blank">DxColumn_fix_allowFixing</a>
 
 
 #### DxDatagrid Adding, Updating and Deleting 
@@ -134,8 +125,7 @@ The UI component can allow a user to add, update and delete data. To control whi
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/addingdeleting.gif)
 
 
-Sample: [dxDataGridAddinEditingDeleting.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxDataGridAddinEditingDeleting.qjson)
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxDataGridAddinEditingDeleting.qjson" target="_blank">dxDataGridAddinEditingDeleting</a>
 
 
 
@@ -145,8 +135,7 @@ Specifies how the UI component resizes columns. Applies only if allowColumnResiz
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/resizing.gif)
 
-Sample:  [columnResizingMode.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/columnResizingMode.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/columnResizingMode.qjson" target="_blank">columnResizingMode</a>
 
 
 #### DxColumn Background Color Change Sample
@@ -155,16 +144,14 @@ You can set the *cssClass* of the column.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/cssClass.PNG)
 
-Sample:  [dxColumncssClass.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxColumncssClass.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxColumncssClass.qjson" target="_blank">dxColumncssClass</a>
 
 
 #### DxDataGrid Service Call Sample
 
 Notifies the DataGrid of the server's data processing operations.
 
-Sample:  [dxPaging_withServiceCall.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxPaging_withServiceCall.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxPaging_withServiceCall.qjson" target="_blank">dxPaging_withServiceCall</a>
 
 
 #### DxDataGrid Hiding Column Lines
@@ -173,16 +160,14 @@ Specifies whether vertical lines that separate one column from another are visib
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/columnlines.PNG)
 
-Sample: [dxDataGridLines.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/dxDataGridLines.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/dxDataGridLines.qjson" target="_blank">dxDataGridLines</a>
 #### DxDataGrid External Filtering
 
 Example usage for external filtering of dxdatagrid.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/externalfiltering.gif)
 
-Sample: [externalFiltering.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/externalFiltering.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/externalFiltering.qjson" target="_blank">externalFiltering</a>
 
 
 #### DxDataGrid External Filter Cleaning 
@@ -191,5 +176,4 @@ Example usage for dxdatagrid filter cleaning from outside.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/extarnalfilterClear.gif)
 
-Sample: [filtercleaning.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/DxDataGrid/filtercleaning.qjson) 
-
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/filtercleaning.qjson" target="_blank">filtercleaning</a>

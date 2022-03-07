@@ -30,7 +30,7 @@ Write the path of your pipeline.qjson in your settings.yaml file.
 # Samples
 
 # Sample Request Page
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/pipelineComponent/pipelineSample.qjson" target="_blank">pipelineSample.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/pipelineSample.qjson"target="_blank">pipelineSample.qjson</a>
 
 # Sample Pipeline Component
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/pipelineComponent/pipeline.qjson" target="_blank">pipeline.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/pipeline.qjson" target="_blank">pipeline.qjson</a>

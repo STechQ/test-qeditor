@@ -23,5 +23,4 @@
 
 
 ## QJson Samples
-
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QQRCode/QQRCode.qjson" target="_blank">QQRCode.qjson</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/QQRCode.qjson" target="_blank">QQRCode</a>

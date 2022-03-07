@@ -389,4 +389,4 @@ dateString2 = Quick.toShortDate(Date.now()) //--> settings.yaml shortDateFormat:
 ### toLongTime()
 > toLongTime(value: Date, formatType:string ):String
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/qscript/dataTableFormatColumn.js" target="_blank">dataTableFormatColumn.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/dataTableFormatColumn.qjson" target="_blank">dataTableFormatColumn.js</a>

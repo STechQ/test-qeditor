@@ -28,5 +28,4 @@ The setInterval method will continue calling the function until stop() is called
 > > ```
 
 Example usage of start, stop, restart, status methods:
-
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/qtimer/qtimer.qjson" target="_blank">Qtimer example usage</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/qtimer.qjson" target="_blank">qtimer</a>

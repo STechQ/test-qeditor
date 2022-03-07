@@ -15,6 +15,5 @@
 ### Usage Example
 
 <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QCaptcha/QCaptcha.js" target="_blank">QCaptcha.qjson</a>
-
 <!-- NLP:QCaptcha kullanımı nasıl yaparım|Captcha nasıl kullanılır -->
 

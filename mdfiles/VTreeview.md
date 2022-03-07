@@ -68,10 +68,9 @@
 
 # SAMPLE QJSONS
 
-[treeview.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTreeview/treeview.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/treeview.qjson"  target="_blank">treeview</a>
 
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/treeview2.qjson"  target="_blank">treeview2</a>
 
-[treeview2.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTreeview/treeview2.qjson)
+<a href="https://studio.onplateau.com/quick/?q=/qjsons/TreeViewExample.qjson"  target="_blank">TreeViewExample</a>
 
-
-[TreeViewExample.js](uploads/a3168e9113047c9c63d1515e1b5b1409/TreeViewExample.js)
