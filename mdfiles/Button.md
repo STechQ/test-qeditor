@@ -58,4 +58,4 @@
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VBtn/button.png)
 
 QJson
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/button.qjson" target="_blank">VBtn</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/button.qjson" target="_blank">VBtn</a>

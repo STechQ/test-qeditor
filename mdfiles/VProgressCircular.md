@@ -31,5 +31,5 @@
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/progress-circular.qjson"  target="_blank">progress-circular</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/progress-circular.qjson"  target="_blank">progress-circular</a>
 

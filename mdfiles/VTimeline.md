@@ -2,4 +2,4 @@
 
 ![TimeLine](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTimeline/TimeLine.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTimelineExample.qjson"  target="_blank">VTimelineExample</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTimelineExample.qjson"  target="_blank">VTimelineExample</a>

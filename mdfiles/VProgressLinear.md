@@ -30,6 +30,6 @@
 
 ![ProgressLinear](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VProgressLinear/ProgressLinear.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/ProgressLinear.qjson"  target="_blank">ProgressLinear</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ProgressLinear.qjson"  target="_blank">ProgressLinear</a>
 
 

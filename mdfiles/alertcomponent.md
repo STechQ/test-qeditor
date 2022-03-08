@@ -96,7 +96,7 @@ quick.Quick.alert({actionButtons:[{ name:'Kapat', type:'Cancel', clickEventName:
 
 
 **Calling Quick.alert on page**
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/alertSamplePage.qjson" target="_blank">AlertSamplePage.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/alertSamplePage.qjson" target="_blank">AlertSamplePage.qjson</a>
 
 **Quick UI alert.qjson component**
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/alert.qjson" target="_blank">alert.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/alert.qjson" target="_blank">alert.qjson</a>

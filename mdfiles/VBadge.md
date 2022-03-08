@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/badge.qjson" target="_blank">Badge Example</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/badge.qjson" target="_blank">Badge Example</a>

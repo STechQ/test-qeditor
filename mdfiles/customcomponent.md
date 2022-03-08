@@ -96,12 +96,12 @@ Note: For TS, CustomComp Methods parameters are insaccessable, so **for now** yo
 
 # Sample Pages
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/parentPage.qjson"target="_blank">parentPage.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/parentPage.qjson"target="_blank">parentPage.js</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/subPage.qjson" target="_blank">subPage.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/subPage.qjson" target="_blank">subPage.js</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/fileUploadServiceCallCC.qjson" target="_blank">fileUploadServiceCallCC.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fileUploadServiceCallCC.qjson" target="_blank">fileUploadServiceCallCC.qjson</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/serviceCallerCustomComponent.qjson" target="_blank">serviceCallerCustomComponent.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/serviceCallerCustomComponent.qjson" target="_blank">serviceCallerCustomComponent.qjson</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/fileUploadCustomComponent.qjson" target="_blank">fileUploadCustomComponent.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fileUploadCustomComponent.qjson" target="_blank">fileUploadCustomComponent.qjson</a>

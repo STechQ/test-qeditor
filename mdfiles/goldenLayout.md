@@ -33,7 +33,7 @@ Note that you must have created this pane before in design mode to do this.
 
 
 You can also create Dynamic Childeren with template child.
-Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/createChildren.qjson" target="_blank">createChildren</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/createChildren.qjson" target="_blank">createChildren</a>
 
 
 

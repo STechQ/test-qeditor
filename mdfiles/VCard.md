@@ -6,6 +6,6 @@
 
 ### QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VCard.qjson" target="_blank">VCard</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VCard.qjson" target="_blank">VCard</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/CardTitle.qjson" target="_blank">CardTitle</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/CardTitle.qjson" target="_blank">CardTitle</a>

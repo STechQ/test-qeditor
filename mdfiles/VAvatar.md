@@ -5,8 +5,8 @@ The avatar component is typically used to display circular user profile pictures
 ![image](uploads/bfd8b94c9870c82e60eab82b55decaba/image.png) \
 
 QJson Samples
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/Profile_Card.qjson"  target="_blank">Profile_Card</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Profile_Card.qjson"  target="_blank">Profile_Card</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/Avatarlar.qjson"  target="_blank">Avatarlar</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Avatarlar.qjson"  target="_blank">Avatarlar</a>
 
 <!-- NLP: Avatar | Avatar ekleme | küçük sembol ekleme | Logo ekleme | Logo eklemek istiyorum | İçeriğe uygun küçük görüntü eklemek istiyorum | Sembol eklemek istiyorum | Amblem ekleme | Amblem nasıl eklenir | Nasıl logo eklerim | Avatar eklemek istiyorum | Nasıl avatar eklerim | Profil fotoğrafı eklemek istiyorum | Küçük görsel eklemek istiyorum | İkonumu bir daire içinde göstermek istiyorum | Profil | Profil logosu | Sembol -->

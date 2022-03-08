@@ -96,15 +96,15 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/fileInput.qjson"  target="_blank">fileInput</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fileInput.qjson"  target="_blank">fileInput</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VFileInput_ImagePicker.qjson"  target="_blank">VFileInput_ImagePicker</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VFileInput_ImagePicker.qjson"  target="_blank">VFileInput_ImagePicker</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VFileInputGetUploadedContent.qjson"  target="_blank">VFileInputGetUploadedContent</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VFileInputGetUploadedContent.qjson"  target="_blank">VFileInputGetUploadedContent</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VFileInput-Slot-VIcon-Dolu.qjson"  target="_blank">VFileInput-Slot-VIcon-Dolu</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VFileInput-Slot-VIcon-Dolu.qjson"  target="_blank">VFileInput-Slot-VIcon-Dolu</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VFileInput_ImagePicker.qjson"  target="_blank">VFileInput_ImagePicker</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VFileInput_ImagePicker.qjson"  target="_blank">VFileInput_ImagePicker</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VFileInputGetUploadedContent.qjson"  target="_blank">VFileInputGetUploadedContent</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VFileInputGetUploadedContent.qjson"  target="_blank">VFileInputGetUploadedContent</a>
 

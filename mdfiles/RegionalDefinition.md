@@ -149,4 +149,4 @@ file content
 ]
 ```
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/qjsons/region_definition_example.qjson" target="_blank">Regional Definition Example</a>
+Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/region_definition_example.qjson" target="_blank">Regional Definition Example</a>

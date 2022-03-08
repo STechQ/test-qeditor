@@ -18,20 +18,20 @@ Format prop is setting input mask options on VTextField components
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-2.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/onlyAlphabetic.qjson"  target="_blank">onlyAlphabetic</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/onlyAlphabetic.qjson"  target="_blank">onlyAlphabetic</a>
 
 
 ### Credit Card
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-3.png)
 
-[creditcard.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VTextField/creditcard.js)
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/creditcard.qjson"  target="_blank">creditcard</a>
 
 ### Email
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-4.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/email.qjson"  target="_blank">email</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/email.qjson"  target="_blank">email</a>
 
 
 
@@ -73,7 +73,7 @@ The following format options can be used to format the ‘number’ values. Howe
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-5.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/number.qjson"  target="_blank">number</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/number.qjson"  target="_blank">number</a>
 
 
 
@@ -97,19 +97,19 @@ let compValue = components.{{compQID}}.extention.getUnmaskedValue()
 ```
 
 # SAMPLE QJSONS
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValue_specialChars.qjson"  target="_blank">VTextField_formatValue_specialChars</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValue_specialChars.qjson"  target="_blank">VTextField_formatValue_specialChars</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValue_exceptLetters.qjson"  target="_blank">VTextField_formatValue_exceptLetters</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValue_exceptLetters.qjson"  target="_blank">VTextField_formatValue_exceptLetters</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValueSample1.qjson"  target="_blank">VTextField_formatValueSample1</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValueSample1.qjson"  target="_blank">VTextField_formatValueSample1</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_formatValueSapmle2.qjson"  target="_blank">VTextField_formatValueSapmle2</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValueSapmle2.qjson"  target="_blank">VTextField_formatValueSapmle2</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_keyDown.qjson"  target="_blank">VTextField_keyDown</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_keyDown.qjson"  target="_blank">VTextField_keyDown</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_rangeOfNumber_validation.qjson"  target="_blank">VTextField_rangeOfNumber_validation</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_rangeOfNumber_validation.qjson"  target="_blank">VTextField_rangeOfNumber_validation</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_customValidation.qjson"  target="_blank">VTextField_customValidation</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_customValidation.qjson"  target="_blank">VTextField_customValidation</a>
 
 <a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_FocusExample.qjson"  target="_blank">VTextField_FocusExample</a>
 

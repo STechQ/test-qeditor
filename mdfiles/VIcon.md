@@ -18,4 +18,4 @@ The icons in [Material Design Icons](https://materialdesignicons.com) can be use
 
 ## Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/Icon_Samples.qjson"  target="_blank">Icon_Samples</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Icon_Samples.qjson"  target="_blank">Icon_Samples</a>

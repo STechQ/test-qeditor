@@ -23,5 +23,5 @@
 
 ![Parallax](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VParallax/Parallax.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/Parallax.qjson"  target="_blank">Parallax</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Parallax.qjson"  target="_blank">Parallax</a>
 

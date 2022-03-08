@@ -43,4 +43,4 @@
 
 
 # QJson Samples
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/QTutorialFinalDemo.qjson" target="_blank">QTutorial</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QTutorialFinalDemo.qjson" target="_blank">QTutorial</a>

@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/vcarousel.qjson" target="_blank">Vcarousel</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/vcarousel.qjson" target="_blank">Vcarousel</a>

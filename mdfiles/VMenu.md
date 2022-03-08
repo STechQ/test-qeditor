@@ -56,8 +56,8 @@
 
 #SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/vMenu.qjson"  target="_blank">vMenu</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/vMenu.qjson"  target="_blank">vMenu</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VMenu_PopoverInTable.qjson"  target="_blank">VMenu_PopoverInTable</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VMenu_PopoverInTable.qjson"  target="_blank">VMenu_PopoverInTable</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VMenu_sample.qjson"  target="_blank">VMenu_sample</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VMenu_sample.qjson"  target="_blank">VMenu_sample</a>

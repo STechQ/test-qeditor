@@ -77,7 +77,7 @@ There is a **"settings\qjson\pipeline.qjson"** page in the application shell. Yo
 > > ```
 
 
-Example <a href="https://studio.onplateau.com/quick/?q=/qjsons/pipeline.qjson" target="_blank">pipeline.js</a>
+Example: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/pipeline.qjson" target="_blank">pipeline.js</a>
 
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Localization/ExternalLocalization.gif" width="650" height="500">
@@ -97,7 +97,9 @@ There are 2 default languages in Quick, "en-TR", "en-US". Apart from these langu
 
 You can also define the **rootLangCode** value in the settings.yaml file in the qui application shell **( rootLangCode : "ar-XA" )**.  For projects with webSdk integration, you can specify the application rootLangCode in the config definition passed in containerServices **( config.LRType = lang; )** . This value will be the opening language code of the application.
 
-Example <a href="https://studio.onplateau.com/quick/?q=/qjsons/localization_AddLanguageRTL_Sample.qjson"target="_blank">AddLanguageRTL_Sample.js</a>
+
+Example <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/localization_AddLanguageRTL_Sample.qjson" target="_blank">localization_AddLanguageRTL_Sample</a>
+
 
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Localization/Localization_AddLanguage.PNG" width="650" height="500">

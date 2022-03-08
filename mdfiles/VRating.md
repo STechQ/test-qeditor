@@ -4,4 +4,4 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/Rating.qjson"  target="_blank">Rating</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Rating.qjson"  target="_blank">Rating</a>

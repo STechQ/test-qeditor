@@ -49,6 +49,5 @@
 
 **Get menuData From Service and Apply Localization**
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QMenu/Dashboard.qjson" target="_blank">Dashboard.qjson</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QMenuExample.qjson" target="_blank">QMenuExample</a>
 
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/QMenu/globalLocalization.qjson" target="_blank">globalLocalization.qjson</a>

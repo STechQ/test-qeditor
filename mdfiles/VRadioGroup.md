@@ -4,7 +4,7 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/radioGroupGetValues.qjson"  target="_blank">radioGroupGetValues</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/radioGroupGetValues.qjson"  target="_blank">radioGroupGetValues</a>
 
 
 

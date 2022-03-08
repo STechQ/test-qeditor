@@ -56,6 +56,6 @@ This component must be added on the page in order to show changes on the compone
 ![QLegendDataTable](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/QLegend/QLegend.png)
 
 ### Sample Page
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/QLegend.qjson" target="_blank">
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QLegend.qjson" target="_blank">
   QLegend Border
 </a>

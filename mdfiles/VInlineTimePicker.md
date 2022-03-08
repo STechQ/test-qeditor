@@ -58,8 +58,7 @@
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VInlineTimePicker/vinlinetimepicker-7.png)
 
 
-**Example js:** [VInlineTimepicker.js](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/VInlineTimePicker/VInlineDatepicker.js)
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VInlineTimePicker.qjson"  target="_blank">VInlineTimePicker</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VInlineTimePicker.qjson"  target="_blank">VInlineTimePicker</a>

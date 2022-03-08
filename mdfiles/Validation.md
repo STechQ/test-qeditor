@@ -127,5 +127,4 @@ The uses of these two functions are as follows;
 ***Example Qjson File :***
 
 
-
-[resetAndResetValidationUsage.qjson](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/resetValidation/resetAndResetValidationUsage.qjson)
+Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/resetAndResetValidationUsage.qjson" target="_blank">resetAndResetValidationUsage</a>

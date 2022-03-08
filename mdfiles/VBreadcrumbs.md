@@ -33,4 +33,4 @@
 
 ## QJson
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/breadcrumbs.qjson" target="_blank">VBreadcrumbs</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/breadcrumbs.qjson" target="_blank">VBreadcrumbs</a>

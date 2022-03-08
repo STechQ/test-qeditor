@@ -55,5 +55,5 @@
 ![text](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VSnackbar/text.png)
 
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/snackbars.qjson"  target="_blank">snackbars</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/snackbars.qjson"  target="_blank">snackbars</a>
 

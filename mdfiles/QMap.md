@@ -35,4 +35,4 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/QMap/QMap.PNG) 
 
-**example js:** <a href="https://studio.onplateau.com/quick/?q=/qjsons/QMapExample.qjson"  target="_blank">QMapExample.qjson</a>
+**example js:** <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QMapExample.qjson"  target="_blank">QMapExample.qjson</a>

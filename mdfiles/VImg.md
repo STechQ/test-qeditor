@@ -43,5 +43,5 @@
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/images.qjson"  target="_blank">images</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/images.qjson"  target="_blank">images</a>
 
