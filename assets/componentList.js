@@ -4164,7 +4164,8 @@ nextIcon = 'mdi-plus'}`
             type: "Array<any> | string"
         },
         format: {
-            type: String
+            type: String,
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'"]
         },
         formatValues: {
             type: "Array<any>"
