@@ -2940,8 +2940,10 @@ nextIcon = 'mdi-plus'}`,
 
         },
 
-        mobileBreakPoint: {
-            type: "number | string"
+        mobileBreakpoint: {
+            type: "number | string",
+            editorDefaultValue:"md",
+            runTimeDefaultValue:"md"
 
         },
         nextIcon: {

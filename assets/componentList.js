@@ -1445,6 +1445,8 @@ var componentOptions = {
         },
         mobileBreakpoint: {
             type: Number | String,
+            editorDefaultValue:"md",
+            runTimeDefaultValue:"md"
         },
         multiSort: {
             type: Boolean,
@@ -1644,6 +1646,8 @@ nextIcon = 'mdi-plus'}`
         },
         mobileBreakpoint: {
             type: Number | String,
+            editorDefaultValue:"md",
+            runTimeDefaultValue:"md"
         },
         multiSort: {
             type: Boolean,
@@ -4034,8 +4038,10 @@ nextIcon = 'mdi-plus'}`
         iconsAndText: {
             type: Boolean
         },
-        mobileBreakPoint: {
-            type: "number | string"
+        mobileBreakpoint: {
+            type: "number | string",
+            editorDefaultValue:"md",
+            runTimeDefaultValue:"md"
         },
         nextIcon: {
             type: String
@@ -4165,7 +4171,7 @@ nextIcon = 'mdi-plus'}`
         },
         format: {
             type: String,
-            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'"]
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'","'bigdecimal'"]
         },
         formatValues: {
             type: "Array<any>"
