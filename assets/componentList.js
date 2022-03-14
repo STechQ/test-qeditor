@@ -264,7 +264,7 @@ var componentOptions = {
         noFilter: {
             type: Boolean
         },
-        persistentPlaceholder :{
+        persistentPlaceholder: {
             type: Boolean
         },
         prefix: {
@@ -308,7 +308,7 @@ var componentOptions = {
     VAvatar: {
         class: {
             type: String,
-            editorDefaultValue: "'primary'"
+                editorDefaultValue: "'primary'"
         },
         color: {
             editorDefaultValue: "'primary'"
@@ -406,6 +406,77 @@ var componentOptions = {
         avatar: {
             type: Boolean
         }
+    },
+    VBanner: {
+        app: {
+            type: Boolean
+        },
+        class: {
+            type: String
+        },
+        color: {
+            type: String
+        },
+        dark: {
+            type: Boolean
+        },
+        elevation: {
+            type: "number | string"
+        },
+        height: {
+            type: "number | string"
+        },
+        icon: {
+            type: String
+        },
+        "icon-color": {
+            type: String
+        },
+        light: {
+            type: Boolean
+        },
+        "max-height": {
+            type: "number | string"
+        },
+        "max-width": {
+            type: "number | string"
+        },
+        "min-height": {
+            type: "number | string"
+        },
+        "min-width": {
+            type: "number | string"
+        },
+        "mobile-breakpoint": {
+            type: "number | string"
+        },
+        outlined: {
+            type: Boolean
+        },
+        rounded: {
+            type: "boolean | string"
+        },
+        shaped: {
+            type: Boolean
+        },
+        "single-line": {
+            type: Boolean
+        },
+        sticky: {
+            type: Boolean
+        },
+        tag: {
+            type: String
+        },
+        tile: {
+            type: Boolean
+        },
+        value: {
+            type: Boolean
+        },
+        width: {
+            type: "number | string"
+        },
     },
     VBottomNavigation: {
         qValue: {
@@ -1192,7 +1263,7 @@ var componentOptions = {
         chips: {
             type: Boolean
         },
-       
+
         class: {
             type: String
         },
@@ -1206,7 +1277,7 @@ var componentOptions = {
             type: String,
         },
         compareTableValue: {
-            type: String 
+            type: String
         },
         compareText: {
             type: String
@@ -1379,8 +1450,8 @@ var componentOptions = {
     VContainer: {
         class: {
             type: String,
-            editorDefaultValue: "'container container--fluid'",
-            options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
+                editorDefaultValue: "'container container--fluid'",
+                options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
         },
         visible: {
             type: Boolean,
@@ -4220,7 +4291,7 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
-        preventPaste:{
+        preventPaste: {
             type: Boolean
         },
         regular: {
@@ -4241,7 +4312,7 @@ nextIcon = 'mdi-plus'}`
         soloInverted: {
             type: Boolean
         },
-        step: { 
+        step: {
             type: Number
         },
         success: {

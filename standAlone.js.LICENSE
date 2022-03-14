@@ -9107,31 +9107,31 @@
 
 /*! ./CachedEvalHelper */
 
+/*! ./DoryBasedLRManager */
+
 /*! ./DownloadManager */
 
 /*! ./DynamicCompManager */
+
+/*! ./Evals/QsExtensions */
+
+/*! ./Evals/QsProxy */
+
+/*! ./Evals/TsProxy */
 
 /*! ./HistoryItemBasedLRManager */
 
 /*! ./MessagingManager */
 
+/*! ./Network/RequestManager */
+
 /*! ./PropCalcContext */
 
-/*! ./Network/RequestManager */
+/*! ./QPromise */
 
 /*! ./StoreManager */
 
 /*! ./ValidationManager */
-
-/*! ./QPromise */
-
-/*! ./DoryBasedLRManager */
-
-/*! ./Evals/TsProxy */
-
-/*! ./Evals/QsProxy */
-
-/*! ./Evals/QsExtensions */
 
 /*!***************************************************!*\
                 !*** ./src/Managers/HistoryItemBasedLRManager.ts ***!
@@ -9628,6 +9628,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
           * @license  MIT
           */
 
+/*! xlsx.js (C) 2013-present SheetJS -- http://sheetjs.com */
+
 /*!
  * dist/inputmask
  * https://github.com/RobinHerbots/Inputmask
@@ -9635,8 +9637,6 @@ https://github.com/nodeca/pako/blob/master/LICENSE
  * Licensed under the MIT license
  * Version: 5.0.5-beta.0
  */
-
-/*! xlsx.js (C) 2013-present SheetJS -- http://sheetjs.com */
 
 /*!*****************************!*\
   !*** ../src/QuickEditor.ts ***!
@@ -10038,6 +10038,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ../src/components/managers/vBadgeChildManager.ts ***!
   \********************************************************/
 
+/*!*********************************************************!*\
+  !*** ../src/components/managers/vBannerChildManager.ts ***!
+  \*********************************************************/
+
 /*!*******************************************************************!*\
   !*** ../src/components/managers/vBottomNavigationChildManager.ts ***!
   \*******************************************************************/
@@ -10369,6 +10373,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!**********************************************************************************!*\
   !*** ../src/extension/component-extensions/VuetifyExtensions/VBadgeExtension.ts ***!
   \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ../src/extension/component-extensions/VuetifyExtensions/VBannerExtension.ts ***!
+  \***********************************************************************************/
 
 /*!*********************************************************************************************!*\
   !*** ../src/extension/component-extensions/VuetifyExtensions/VBottomNavigationExtension.ts ***!
@@ -10766,11 +10774,11 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ../src/managers/ChildManagerList.ts ***!
   \*******************************************/
 
-/*! ../components/managers/dxColumnChildManager */
-
 /*! ../components/managers/baseChildManager */
 
 /*! ../components/managers/customComponentChildManager */
+
+/*! ../components/managers/dxColumnChildManager */
 
 /*! ../components/managers/dxDataGridChildManager */
 
@@ -10797,6 +10805,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*! ../components/managers/vAvatarChildManager */
 
 /*! ../components/managers/vBadgeChildManager */
+
+/*! ../components/managers/vBannerChildManager */
 
 /*! ../components/managers/vBottomNavigationChildManager */
 
@@ -10830,9 +10840,9 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ../components/managers/vContainerManager */
 
-/*! ../components/managers/vDataTableChildManager */
-
 /*! ../components/managers/vDataIteratorChildManager */
+
+/*! ../components/managers/vDataTableChildManager */
 
 /*! ../components/managers/vDatePickerChildManager */
 
@@ -11085,6 +11095,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*! ../../extension/component-extensions/VuetifyExtensions/VCheckboxExtension */
 
 /*! ../../extension/component-extensions/VuetifyExtensions/VChipExtension */
+
+/*! ../../extension/component-extensions/VuetifyExtensions/VBannerExtension */
 
 /*! ../../extension/component-extensions/VuetifyExtensions/VChipGroupExtension */
 

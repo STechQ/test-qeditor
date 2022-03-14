@@ -62,6 +62,65 @@ To download any file, it must have a base64 type string value. The download proc
 
 Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Download.qjson" target="_blank">Downlad a File</a>
 
+
+## Export To XLSX
+Quick.exportToXlsx method can be used to export specific data to excel file
+
+**Params**
+* fileName: string -> name for the file without extension.
+* items: Array -> the array of items to export
+* headers: Array -> the array of headers for cell header. the array of instances have to contains **value** and **text** props like "[{value='fat', text='Fat (g)'}]" 
+* 
+> quick.Quick.exportToXlsx(fileName: string, items: Array<object>, headers: Array<object>)
+> > ```js
+> > quick.Quick.exportToXlsx({fileName:'test', items:dataTable.items, headers:dataTable.headers})
+> > ```
+
+
+> Or
+> > ```js
+> > let headers = [{value:'name', text:'Name'}, {value:'fat', text:'Fat (g)'}]
+> > quick.Quick.exportToXlsx({fileName:'test', items: component.datatable.items, headers:headers})
+> > ```
+
+
+> Or export object sub member variables to excel
+> > ```ts
+> > let items: object[] = [
+> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
+> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
+> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
+> >     { fat: { a1: { a: "aa1" } }, bat: "b1" }
+> > ]
+> > let headers: object[] = [{ value: 'fat.a1.a', text: 'Fat (g)' }, { value: 'bat', text: 'bat (g)' }];
+> > 
+> > quick.Quick.exportToXlsx({ fileName: "deneme", items, headers });
+> > ```
+
+
+New file can be dowloaded with given "test" name.**xlsx**
+
+Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/exportToXlsx_Sample.qjson" target="_blank">Export To xlsx</a>
+
+## Screen Offset
+
+### XOffset 
+Returns the number of pixels that the document is currently scrolled horizontally.
+> quick.Quick.screen.XOffset
+
+### YOffset 
+Returns the number of pixels that the document is currently scrolled vertically
+> quick.Quick.screen.YOffset
+
+### intoView 
+Method scrolls the element's parent container such that the element on which **scrollIntoView()** is called is visible to the user.
+> quick.Quick.screen.intoView(component: IComponent)
+
+### toTop 
+Method scrolls the document to the top of the page. 
+> quick.Quick.screen.toTop()
+Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/scrollButton.qjson" target="_blank">Scroll To Top</a>
+
 ## Reset
 
 
@@ -101,43 +160,3 @@ The uses of these two functions are as follows;
 
 
 Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/resetAndResetValidationUsage.qjson" target="_blank">resetAndResetValidationUsage example</a>
-
-## Export To XLSX
-Quick.exportToXlsx method can be used to export specific data to excel file
-
-**Params**
-* fileName: string -> name for the file without extension.
-* items: Array -> the array of items to export
-* headers: Array -> the array of headers for cell header. the array of instances have to contains **value** and **text** props like "[{value='fat', text='Fat (g)'}]" 
-* 
-> quick.Quick.exportToXlsx(fileName: string, items: Array<object>, headers: Array<object>)
-> > ```js
-> > quick.Quick.exportToXlsx({fileName:'test', items:dataTable.items, headers:dataTable.headers})
-> > ```
-
-
-> Or
-> > ```js
-> > let headers = [{value:'name', text:'Name'}, {value:'fat', text:'Fat (g)'}]
-> > quick.Quick.exportToXlsx({fileName:'test', items: component.datatable.items, headers:headers})
-> > ```
-
-
-> Or export object sub member variables to excel
-> > ```ts
-> > let items: object[] = [
-> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
-> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
-> >     { fat: { a1: { a: "aa1" } }, bat: "b1" },
-> >     { fat: { a1: { a: "aa1" } }, bat: "b1" }
-> > ]
-> > let headers: object[] = [{ value: 'fat.a1.a', text: 'Fat (g)' }, { value: 'bat', text: 'bat (g)' }];
-> > 
-> > quick.Quick.exportToXlsx({ fileName: "deneme", items, headers });
-> > ```
-
-
-After that the data is downloaded as test.**xlsx**
-
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/exportToXlsx_Sample.qjson" target="_blank">Export To xlsx</a>
-

@@ -48,3 +48,10 @@ Exapmle: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Ripple.qjs
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/ripple.gif" width="800px" height="auto">
 
+## Scroll
+
+<a href="https://vuetifyjs.com/en/directives/scroll/" target="_blank">Scroll directive — Vuetify</a>
+
+Exapmle: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/scrollDirective.qjson" target="_blank">Scroll.qjson</a>
+
+<img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/scrollDirective.gif" width="800px" height="auto">
