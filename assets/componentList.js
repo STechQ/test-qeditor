@@ -1399,6 +1399,9 @@ var componentOptions = {
         prependInnerIcon: {
             type: String
         },
+        preventPaste: {
+            type: Boolean
+        },
         readonly: {
             type: Boolean
         },
