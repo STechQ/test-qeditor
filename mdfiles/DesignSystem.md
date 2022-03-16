@@ -1,7 +1,21 @@
 
-# Plateau Design System
+# Plateau Design System 
 
-You can find more information about <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/PlateauDesignSystem.docx" target="_blank">Plateau Design System.</a> 
+
+
+PDS is a design system developed by Softtech Design Atelier to help teams create Plateau projects faster. PDS creates a bridge between the design and production phases. 
+
+Before starting screen designs with Quick Editor, CSS code needs to be developed for a unique project.
+
+You can find all the information about designing pages, styling and general instructions about components, on <a href="https://zeroheight.com/45e2aa440/p/59d967" target="_blank">Plateau Design System.</a>
+
+#### **Components:**
+
+Information about the components which used in Quick Editor can be found in <a href="https://zeroheight.com/45e2aa440/p/583f97-components" target="_blank">here.</a>
+
+#### **Templates:**
+
+The most used design structure templates can be found in <a href="https://zeroheight.com/45e2aa440/p/134b3b-templates/b/54ee48">here.</a>
 
 ## Page Layout
 
