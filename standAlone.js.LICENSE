@@ -3076,6 +3076,10 @@
   !*** /home/runner/work/quick/quick/common/shrimp/lib/helpers/lazyLoader.js ***!
   \*****************************************************************************/
 
+/*!******************************************************************************!*\
+  !*** /home/runner/work/quick/quick/common/shrimp/lib/helpers/objectStore.js ***!
+  \******************************************************************************/
+
 /*!*****************************************************************************!*\
   !*** /home/runner/work/quick/quick/common/shrimp/lib/helpers/typeHelper.js ***!
   \*****************************************************************************/
@@ -3226,6 +3230,12 @@
   !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/Ghost.vue?vue&type=script&lang=ts& ***!
   \**************************************************************************************************************************************************************************************************************/
 
+/*! ../../helpers/VueImportHelper */
+
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!/home/runner/work/quick/quick/node_modules/source-map-loader!../src/components/editor/VBottomSheet.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+
 /*!****************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!/home/runner/work/quick/quick/node_modules/source-map-loader!../src/components/editor/VDialog.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************************************************/
@@ -3273,6 +3283,10 @@
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/Ghost.vue?vue&type=template&id=38228646& ***!
   \***************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/VBottomSheet.vue?vue&type=template&id=c44fb980& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/VDialog.vue?vue&type=template&id=019b96ac& ***!
@@ -9642,13 +9656,13 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   !*** ../src/QuickEditor.ts ***!
   \*****************************/
 
-/*! ./components/editor/editor-components */
-
 /*! ./components/trackers/trackerManager */
 
 /*! ./components/valueHelper/ValueHelper */
 
 /*! ./managers/EditorManager */
+
+/*! ./components/editor/editor-components */
 
 /*!******************************************************!*\
   !*** ../src/components/bars/barManagers/BaseBar.vue ***!
@@ -9948,6 +9962,26 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Ghost.vue?vue&type=template&id=38228646& */
 
+/*!*************************************************!*\
+  !*** ../src/components/editor/VBottomSheet.vue ***!
+  \*************************************************/
+
+/*! ./VBottomSheet.vue?vue&type=template&id=c44fb980& */
+
+/*! ./VBottomSheet.vue?vue&type=script&lang=js& */
+
+/*!**************************************************************************!*\
+  !*** ../src/components/editor/VBottomSheet.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+
+/*! -!../../../../../node_modules/vue-loader/lib??vue-loader-options!../../../../../node_modules/source-map-loader!./VBottomSheet.vue?vue&type=script&lang=js& */
+
+/*!********************************************************************************!*\
+  !*** ../src/components/editor/VBottomSheet.vue?vue&type=template&id=c44fb980& ***!
+  \********************************************************************************/
+
+/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./VBottomSheet.vue?vue&type=template&id=c44fb980& */
+
 /*!********************************************!*\
   !*** ../src/components/editor/VDialog.vue ***!
   \********************************************/
@@ -9971,6 +10005,8 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!*****************************************************!*\
   !*** ../src/components/editor/editor-components.ts ***!
   \*****************************************************/
+
+/*! ./VBottomSheet.vue */
 
 /*! ./VDialog.vue */
 
@@ -10769,6 +10805,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!*******************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/VPdfFileViewerExtension.ts ***!
   \*******************************************************************************/
+
+/*!*****************************************!*\
+  !*** ../src/helpers/VueImportHelper.ts ***!
+  \*****************************************/
 
 /*!*******************************************!*\
   !*** ../src/managers/ChildManagerList.ts ***!
