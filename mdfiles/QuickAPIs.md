@@ -70,18 +70,19 @@ Quick.exportToXlsx method can be used to export specific data to excel file
 * fileName: string -> name for the file without extension.
 * items: Array -> the array of items to export
 * headers: Array -> the array of headers for cell header. the array of instances have to contains **value** and **text** props like "[{value='fat', text='Fat (g)'}]" 
-* 
+  
 > quick.Quick.exportToXlsx(fileName: string, items: Array<object>, headers: Array<object>)
 > > ```js
 > > quick.Quick.exportToXlsx({fileName:'test', items:dataTable.items, headers:dataTable.headers})
 > > ```
-
+>
 
 > Or
 > > ```js
 > > let headers = [{value:'name', text:'Name'}, {value:'fat', text:'Fat (g)'}]
 > > quick.Quick.exportToXlsx({fileName:'test', items: component.datatable.items, headers:headers})
 > > ```
+> 
 
 
 > Or export object sub member variables to excel
@@ -96,6 +97,7 @@ Quick.exportToXlsx method can be used to export specific data to excel file
 > > 
 > > quick.Quick.exportToXlsx({ fileName: "deneme", items, headers });
 > > ```
+>
 
 
 New file can be dowloaded with given "test" name.**xlsx**
@@ -136,9 +138,6 @@ The uses of these two functions are as follows;
 
 ![Icons_Sample](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/resetValidation/typeSyntax.png)
 
-***Qscript Syntax :***
-
-![Icons_Sample](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/resetValidation/qSyntax.png)
 
 ***Usage of Reset() function on VTextfield and VInlineDatePicker:*** 
 
