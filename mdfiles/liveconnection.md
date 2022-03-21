@@ -71,4 +71,6 @@ Closes the connection.
 
 
 ## LiveConnection with Devexpress DataGrid
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/parentPage.qjson" target="_blank">liveconnectionsample.js</a>
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DxDataGridArrStoreLiveCon.qjson" target="_blank">DxDataGridArrStoreLiveCon</a>
+
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DxTreeListArrStoreLiveCon.qjson" target="_blank">DxTreeListArrStoreLiveCon</a>
