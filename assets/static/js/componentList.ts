@@ -3150,6 +3150,9 @@ nextIcon = 'mdi-plus'}`,
             type: Boolean
 
         },
+        avoidClearableTabIndex:{
+            type: Boolean
+        },
         clearIcon: {
             type: String
 
@@ -3252,7 +3255,8 @@ nextIcon = 'mdi-plus'}`,
         },
         placeholder: {
             type: String
-        }
+        },
+        
     },
     VToolbar: {
         class: {

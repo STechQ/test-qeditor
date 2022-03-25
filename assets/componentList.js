@@ -4210,6 +4210,7 @@ nextIcon = 'mdi-plus'}`
         clearable: {
             type: Boolean
         },
+
         compareTableValue: {
             type: String
         },
@@ -4294,9 +4295,12 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
-        preventPaste: {
+        avoidClearableTabIndex:{
             type: Boolean
         },
+        preventPaste: {
+            type: Boolean
+        },   
         regular: {
             type: Boolean
         },
