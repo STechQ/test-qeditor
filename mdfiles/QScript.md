@@ -328,7 +328,7 @@ FormattingDefinition:
 ```
 
 ### toMoney()
-> toMoney(value: number, formatType?: string, opt?: Intl.NumberFormatOptions):String
+> toMoney(value: number, formatType?: string, opt?: Intl.NumberFormatOptions, bigDecimal?: boolean):String
 formatType --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString#using_locales
 
 opt --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString#using_options
@@ -342,6 +342,11 @@ money = Quick.toMoney(num)
 ```js
 Quick.toMoney(555, 'tr-TR', {minimumFractionDigits= 2})
 // Output is 555,00
+```
+
+```js
+Quick.toMoney('97888888888888,48 ', undefined, undefined, true)
+// Output is 97.888.888.888.888,48
 ```
 ### toDecimal()
 > toDecimal(value: string, radixPoint?: string):number

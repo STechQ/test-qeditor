@@ -8,7 +8,7 @@ Format prop is setting input mask options on VTextField components
 
 | Prop         | options (string)                            | Description                                |
 | ------------ | ------------------------------------------- | ------------------------------------------ |
-| format       | number, creditcard, email, ipaddress, phone,iban,onlyAlphabetic, regex | Format types                               |
+| format       | number, creditcard, email, ipaddress, phone,iban,onlyAlphabetic, regex, bigdecimal | Format types                               |
 | formatValues |                                             | Specific format options for number formats |
 
 
@@ -75,6 +75,31 @@ The following format options can be used to format the ‘number’ values. Howe
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/number.qjson"  target="_blank">number</a>
 
+## BigDecimal Format Usage
+
+The following format options can be used to format the ‘bigdecimal’ values. However, if groupseperator and radixpoint are set with the use as default option in the settings of the application, these values you set will be invalid.
+
+### BigDecimal Format Options
+
+| Options             |                     Values                      |                         Description                          | Type    |
+| ------------------- | :---------------------------------------------: | :----------------------------------------------------------: | ------- |
+| digits              |                                                 |                 fractional digits count                      | number  |
+| radixPoint          |                                                 |                 Digit sembols .default: "."                  | string  |
+| groupSeparator      |                                                 |           thousand seperator sembols. default: ""            | string  |
+| integerDigits       |                                                 |                   integer digits count                       | number  |
+
+
+### BigDecimal Format Usage
+
+- Drag and Drop VTextField component
+
+- Set format prop 'bigdecimal'
+
+- Set formatValues prop with needed format options 
+
+  **Example Setting FormatValues**
+
+  {'groupSeparator'='.','radixPoint'=',','digits'=2,'integerDigits'=16}
 
 
 ### Regex Format Usage
