@@ -164,6 +164,9 @@ var componentOptions = {
         autofocus: {
             type: Boolean
         },
+        avoidClearableTabIndex:{
+            type: Boolean
+        },
         backgroundColor: {
             type: String
         },
@@ -1251,6 +1254,9 @@ var componentOptions = {
             type: Boolean
         },
         autoSelectFirst: {
+            type: Boolean
+        },
+        avoidClearableTabIndex:{
             type: Boolean
         },
         backgroundColor: {

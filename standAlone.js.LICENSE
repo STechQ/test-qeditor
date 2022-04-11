@@ -9411,11 +9411,11 @@
         !*** ./index.ts ***!
         \******************/
 
-/*! @stechquick/shrimp/lib/interfaces/quick/IUXManager */
-
 /*! @stechquick/shrimp/lib/interfaces/quick/IExternalLocalizationFunc */
 
 /*! @stechquick/shrimp/lib/interfaces/quick/IRoleBaseAuthorizationFunc */
+
+/*! @stechquick/shrimp/lib/interfaces/quick/IUXManager */
 
 /*! ./src/helpers/QJsonHelpers/QJsonPool */
 
@@ -9428,6 +9428,8 @@
 /*! ./src/interfaces/construction/IComponentManager */
 
 /*! ./src/interfaces/construction/ICookieManager */
+
+/*! ./src/interfaces/construction/ICryptographyManager */
 
 /*! ./src/interfaces/construction/IGlobalMethods */
 
@@ -9476,6 +9478,8 @@
 /*! ../interfaces/construction/IComponentManager */
 
 /*! ../interfaces/construction/ICookieManager */
+
+/*! ../interfaces/construction/ICryptographyManager */
 
 /*! ../interfaces/construction/IGlobalMethods */
 
@@ -9542,6 +9546,10 @@
 /*!*******************************************************!*\
         !*** ./src/interfaces/construction/ICookieManager.ts ***!
         \*******************************************************/
+
+/*!*************************************************************!*\
+        !*** ./src/interfaces/construction/ICryptographyManager.ts ***!
+        \*************************************************************/
 
 /*!*******************************************************!*\
         !*** ./src/interfaces/construction/IGlobalMethods.ts ***!

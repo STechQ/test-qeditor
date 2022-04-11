@@ -92,6 +92,9 @@ var componentOptions: ComponentOptions = {
         autofocus: {
             type: Boolean
         },
+        avoidClearableTabIndex:{
+            type: Boolean
+        },
         clearIcon: {
             type: String
         },
@@ -801,6 +804,9 @@ var componentOptions: ComponentOptions = {
         autofocus: {
             type: Boolean
 
+        },
+        avoidClearableTabIndex:{
+            type: Boolean
         },
         chips: {
             type: Boolean
