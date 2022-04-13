@@ -252,6 +252,10 @@ var componentOptions = {
         loading: {
             type: "boolean | string"
         },
+        maxlength: {
+            type: "number | string",
+            propType: "attr"
+        },
         menuProps: {
             type: "{maxHeight: number}"
         },
