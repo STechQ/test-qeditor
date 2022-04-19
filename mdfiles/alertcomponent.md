@@ -16,9 +16,10 @@ Shows component that configured in quick ui alertqjson path. If alertqjson is no
         text?: string, 
         category?: AlertType,
         actionButtons?: Array<IActionButton>,
-        error?: { errorMessage?: string, errorCode?: string, errorSource?: ErrorSource })
+        error?: { errorMessage?: string, errorCode?: string, errorSource?: ErrorSource },
+        additionals?: {props?: any, events?: any})
 > > ```js
-> > quick.Quick.alert({text: 'Kayıt silinecektir onaylıyor musunuz?', category:'Warning', actionButtons:[{name:'Onayla', type:'Confirm', clickEventName:'onConfirmTask'},{ name:'İptal', type:'Cancel', clickEventName:'onCancelTask'}]})
+> > quick.Quick.alert({text: 'Kayıt silinecektir onaylıyor musunuz?', category:'Warning', actionButtons:[{name:'Onayla', type:'Confirm', clickEventName:'onConfirmTask'},{ name:'İptal', type:'Cancel', clickEventName:'onCancelTask'}], additionals: { props: { isPersistent: true }, events: {} }})
 > > ```
 >
 
@@ -91,7 +92,12 @@ If quick ui project has an alert qjson configuration, just call Quick.alert() me
 
 **Exp:** Call Quick.alert method on your page service onFail event with these params;  
 ```ts
-quick.Quick.alert({actionButtons:[{ name:'Kapat', type:'Cancel', clickEventName:'onCancelBusinessAlert'}], error: {errorCode: LR('XBusinessErr'), errorSource: 'Network'}})
+quick.Quick.alert({actionButtons:[{ name:'Kapat', type:'Cancel', clickEventName:'onCancelBusinessAlert'}], error: {errorCode: LR('XBusinessErr'), errorSource: 'Network'}, additionals: { props: { isPersistent: true }, events: {} } })
+```
+
+## Call Quick.alert.additionals prop
+```ts
+quick.parent.props.additionals.props.isPersistent
 ```
 
 
