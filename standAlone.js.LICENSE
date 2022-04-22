@@ -3281,11 +3281,11 @@
 /*! ../../helpers/VueImportHelper */
 
 /*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!/home/runner/work/quick/quick/node_modules/source-map-loader!../src/components/editor/VBottomSheet.vue?vue&type=script&lang=js& ***!
+  !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/VBottomSheet.vue?vue&type=script&lang=ts& ***!
   \*********************************************************************************************************************************************************************************************************************/
 
 /*!****************************************************************************************************************************************************************************************************************!*\
-  !*** /home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!/home/runner/work/quick/quick/node_modules/source-map-loader!../src/components/editor/VDialog.vue?vue&type=script&lang=js& ***!
+  !*** /home/runner/work/quick/quick/node_modules/ts-loader??ref--1!/home/runner/work/quick/quick/node_modules/vue-loader/lib??vue-loader-options!../src/components/editor/VDialog.vue?vue&type=script&lang=ts& ***!
   \****************************************************************************************************************************************************************************************************************/
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -3384,6 +3384,28 @@
 * (c) 2021 überdosis GbR (limited liability)
 * @license MIT
 */
+
+/*!
+ * devextreme-vue
+ * Version: 20.1.3
+ * Build date: Fri Apr 24 2020
+ *
+ * Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
+ *
+ * This software may be modified and distributed under the terms
+ * of the MIT license. See the LICENSE file in the root of the project for details.
+ *
+ * https://github.com/DevExpress/devextreme-vue
+ */
+
+/**
+ * [js-sha256]{@link https://github.com/emn178/js-sha256}
+ *
+ * @version 0.9.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2014-2017
+ * @license MIT
+ */
 
 /*!*******************************************!*\
         !*** ./src/components/VAlert/VAlert.sass ***!
@@ -6452,28 +6474,6 @@
 /*!******************************************************************************!*\
         !*** external {"commonjs":"vue","commonjs2":"vue","amd":"vue","root":"Vue"} ***!
         \******************************************************************************/
-
-/*!
- * devextreme-vue
- * Version: 20.1.3
- * Build date: Fri Apr 24 2020
- *
- * Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-vue
- */
-
-/**
- * [js-sha256]{@link https://github.com/emn178/js-sha256}
- *
- * @version 0.9.0
- * @author Chen, Yi-Cyuan [emn178@gmail.com]
- * @copyright Chen, Yi-Cyuan 2014-2017
- * @license MIT
- */
 
 //! moment.js locale configuration
 
@@ -10024,13 +10024,13 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ./VBottomSheet.vue?vue&type=template&id=c44fb980& */
 
-/*! ./VBottomSheet.vue?vue&type=script&lang=js& */
+/*! ./VBottomSheet.vue?vue&type=script&lang=ts& */
 
 /*!**************************************************************************!*\
-  !*** ../src/components/editor/VBottomSheet.vue?vue&type=script&lang=js& ***!
+  !*** ../src/components/editor/VBottomSheet.vue?vue&type=script&lang=ts& ***!
   \**************************************************************************/
 
-/*! -!../../../../../node_modules/vue-loader/lib??vue-loader-options!../../../../../node_modules/source-map-loader!./VBottomSheet.vue?vue&type=script&lang=js& */
+/*! -!../../../../../node_modules/ts-loader??ref--1!../../../../../node_modules/vue-loader/lib??vue-loader-options!./VBottomSheet.vue?vue&type=script&lang=ts& */
 
 /*!********************************************************************************!*\
   !*** ../src/components/editor/VBottomSheet.vue?vue&type=template&id=c44fb980& ***!
@@ -10044,13 +10044,13 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 
 /*! ./VDialog.vue?vue&type=template&id=019b96ac& */
 
-/*! ./VDialog.vue?vue&type=script&lang=js& */
+/*! ./VDialog.vue?vue&type=script&lang=ts& */
 
 /*!*********************************************************************!*\
-  !*** ../src/components/editor/VDialog.vue?vue&type=script&lang=js& ***!
+  !*** ../src/components/editor/VDialog.vue?vue&type=script&lang=ts& ***!
   \*********************************************************************/
 
-/*! -!../../../../../node_modules/vue-loader/lib??vue-loader-options!../../../../../node_modules/source-map-loader!./VDialog.vue?vue&type=script&lang=js& */
+/*! -!../../../../../node_modules/ts-loader??ref--1!../../../../../node_modules/vue-loader/lib??vue-loader-options!./VDialog.vue?vue&type=script&lang=ts& */
 
 /*!***************************************************************************!*\
   !*** ../src/components/editor/VDialog.vue?vue&type=template&id=019b96ac& ***!
