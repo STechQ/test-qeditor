@@ -10419,12 +10419,20 @@ https://github.com/nodeca/pako/blob/master/LICENSE
   \******************************************************************************/
 
 /*!***************************************************************************************!*\
+  !*** ../src/extension/component-extensions/DevExpressExtensions/DxButtonExtension.ts ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
   !*** ../src/extension/component-extensions/DevExpressExtensions/DxColumnExtension.ts ***!
   \***************************************************************************************/
 
 /*!*****************************************************************************************!*\
   !*** ../src/extension/component-extensions/DevExpressExtensions/DxDataGridExtension.ts ***!
   \*****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ../src/extension/component-extensions/DevExpressExtensions/DxEditingExtension.ts ***!
+  \****************************************************************************************/
 
 /*!********************************************************************************************!*\
   !*** ../src/extension/component-extensions/DevExpressExtensions/DxRowDraggingExtension.ts ***!
@@ -11093,6 +11101,10 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*! ../../extension/component-extensions/DevExpressExtensions/DxTotalItemExtension */
 
 /*! ../../extension/component-extensions/DevExpressExtensions/DxTreeListExtension */
+
+/*! ../../extension/component-extensions/DevExpressExtensions/DxEditingExtension */
+
+/*! ../../extension/component-extensions/DevExpressExtensions/DxButtonExtension */
 
 /*!******************************************************************!*\
   !*** ../src/managers/Providers/GoldenLayoutComponentProvider.ts ***!

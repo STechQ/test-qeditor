@@ -917,8 +917,9 @@ var componentOptions = {
         interval: {
             type: "number | string"
         },
-
-
+        light:{
+            type: Boolean
+        },
         mandatory: {
             type: Boolean
         },
