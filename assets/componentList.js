@@ -212,10 +212,7 @@ var componentOptions = {
         },
         errorMessages: {
             type: "Array<any> | string"
-        },
-        filter: {
-            type: Function
-        },
+        },       
         flat: {
             type: Boolean
         },
