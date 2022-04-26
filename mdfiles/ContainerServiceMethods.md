@@ -29,7 +29,7 @@ It can be used to provide the printing process.
 
 It can be used to get the name of the shell on the pages.
 
-> quick.containerServices.print()
+> quick.containerServices.getContainerName()
 
 
 ### resourceCb

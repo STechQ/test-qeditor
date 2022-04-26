@@ -10022,6 +10022,10 @@
   !*** ../src/extension/editor-component-extensions/QTutorialExtension.ts ***!
   \**************************************************************************/
 
+/*!***********************************************************************!*\
+  !*** ../src/extension/editor-component-extensions/QVideoExtension.ts ***!
+  \***********************************************************************/
+
 /*!**********************************************************************************!*\
   !*** ../src/extension/editor-component-extensions/VInlineDatepickerExtension.ts ***!
   \**********************************************************************************/
@@ -10301,6 +10305,8 @@
 /*! ../../extension/editor-component-extensions/QDynamicFieldsExtension */
 
 /*! ../../extension/editor-component-extensions/QFrameExtension */
+
+/*! ../../extension/editor-component-extensions/QVideoExtension */
 
 /*! ../../extension/editor-component-extensions/QLabelExtension */
 
