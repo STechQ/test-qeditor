@@ -45,16 +45,17 @@
                     "menuName": "Validation",
                     "fileName": "Validation",
                     "path": "./mdfiles/Validation.md"
+                },
+                {
+                    "menuName": "Custom Component",
+                    "fileName": "Custom Component",
+                    "path": "./mdfiles/customcomponent.md"
                 }
             ]
         },
         {
             "groupName": "",
-            "listItems": [{
-                    "menuName": "Custom Component",
-                    "fileName": "Custom Component",
-                    "path": "./mdfiles/customcomponent.md"
-                },
+            "listItems": [
                 {
                     "menuName": "Live Connection",
                     "fileName": "Live Connection",
@@ -92,13 +93,8 @@
                     "menuName": "Platform Information",
                     "fileName": "Platform Information",
                     "path": "./mdfiles/PlatformInformation.md"
-                }
-
-            ]
-        },
-        {
-            "groupName": "",
-            "listItems": [{
+                },
+                {
                     "menuName": "Single Sign On",
                     "fileName": "Single Sign On",
                     "path": "./mdfiles/singlesignon.md"
@@ -107,7 +103,13 @@
                     "menuName": "Process Manager",
                     "fileName": "Process Manager",
                     "path": "./mdfiles/ProcessManager.md"
-                }, {
+                }
+            ]
+        },
+        {
+            "groupName": "",
+            "listItems": [
+                {
                     "menuName": "Directives",
                     "fileName": "Directives",
                     "path": "./mdfiles/Directives.md"
@@ -136,16 +138,13 @@
                     "menuName": "Container Service Methods",
                     "fileName": "Container Service Methods",
                     "path": "./mdfiles/ContainerServiceMethods.md"
-                }
-            ]
-        },
-        {
-            "groupName": "",
-            "listItems": [{
+                },
+                {
                     "menuName": "Charts",
                     "fileName": "Charts",
                     "path": "./mdfiles/Charts.md"
-                }, {
+                },
+                {
                     "menuName": "DxDataGrid",
                     "fileName": "DxDataGrid",
                     "path": "./mdfiles/DxDataGrid.md"
@@ -154,7 +153,12 @@
                     "menuName": "Golden Layout",
                     "fileName": "Golden Layout",
                     "path": "./mdfiles/goldenLayout.md"
-                },
+                }
+            ]
+        },
+        {
+            "groupName": "",
+            "listItems": [
                 {
                     "menuName": "QCaptcha",
                     "fileName": "QCaptcha",
@@ -200,6 +204,11 @@
                     "menuName": "QTutorial",
                     "fileName": "QTutorial",
                     "path": "./mdfiles/QTutorial.md"
+                },
+                {
+                    "menuName": "QVideo",
+                    "fileName": "QVideo",
+                    "path": "./mdfiles/QVideo.md"
                 }
             ]
         }
