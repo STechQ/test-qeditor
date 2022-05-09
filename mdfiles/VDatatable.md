@@ -1,24 +1,30 @@
 The datatable component is used for displaying tabular data. Features include sorting, searching, pagination, inline-editing, and row selection. See the [component page](https://vuetifyjs.com/en/components/data-tables/)
 ## Component Samples
 
-### VTable Search in Rows
+### VDataTable Search in Rows
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable1.png)
 
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Search.qjson"  target="_blank">Table_Search</a>
 
-### VTable Select Items
+### VDataTable Select Items
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable3.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Select.qjson"  target="_blank">Table_Select</a>
 
+### VDataTable Multiple Selection Control
 
-### VTable Server Side Pagination
+![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable20.gif)
+
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTable_Multiple_Select_Control"  target="_blank">Table_Multiple_Selection</a>
+
+
+### VDataTable Server Side Pagination
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable4.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Select.qjson"  target="_blank">Table_Select</a>
 
-### VTable Row Expand Opens New VTable
+### VDataTable Row Expand Opens New VDataTable
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable5.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Detailed_Table_Rows.qjson"  target="_blank">Detailed_Table_Rows</a>
@@ -30,19 +36,19 @@ The datatable component is used for displaying tabular data. Features include so
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Detailed_Table_Row_Expand.qjson"  target="_blank">Detailed_Table_Row_Expand</a>
 
 
-### VTable Cell Template
+### VDataTable Cell Template
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable7.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/cellTemplate.qjson"  target="_blank">cellTemplate</a>
 
 
-### VTable Cell Component Access
+### VDataTable Cell Component Access
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable8.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/data_table_component_access.qjson"  target="_blank">data_table_component_access</a>
 
 
-### VTable With Combobox
+### VDataTable With Combobox
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable9.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTable_SetGetComboboxValue_.qjson"  target="_blank">VDataTable_SetGetComboboxValue_</a>
@@ -50,48 +56,48 @@ The datatable component is used for displaying tabular data. Features include so
 
 
 
-### VTable with Popover Menu
+### VDataTable with Popover Menu
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable10.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VMenu_PopoverInTable.qjson"  target="_blank">VMenu_PopoverInTable</a>
 
-### VTable with tooltip
+### VDataTable with tooltip
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable11.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableWithTooltip.qjson"  target="_blank">DataTableWithTooltip</a>
 
 
-### VTable Header Bold
+### VDataTable Header Bold
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable12.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableBoldHeader.qjson"  target="_blank">DataTableBoldHeader</a>
 
 
-### VTable Vertical Border
+### VDataTable Vertical Border
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable13.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableVerticalBorder.qjson"  target="_blank">DataTableVerticalBorder</a>
 
 
-### VTable Edit Row
+### VDataTable Edit Row
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable14.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableEdit.qjson"  target="_blank">DataTableEdit</a>
 
 
-### VTable Format Column
+### VDataTable Format Column
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable15.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dataTableFormatColumn.qjson"  target="_blank">dataTableFormatColumn</a>
 
-### VTable Add Item
+### VDataTable Add Item
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable16.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/tableadditem.qjson"  target="_blank">tableadditem</a>
 
 
 
-### VTable Fixed Actions Column
+### VDataTable Fixed Actions Column
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable17.png)
 
 <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fixedActionsColumn.qjson"  target="_blank">fixedActionsColumn</a>
