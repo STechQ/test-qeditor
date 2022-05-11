@@ -3999,6 +3999,9 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
+        readonly: {
+            type: Boolean
+        },
         ripple: {
             type: "boolean | object"
         },
