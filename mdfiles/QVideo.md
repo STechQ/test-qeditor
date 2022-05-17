@@ -67,4 +67,5 @@ This enumerated attribute is intended to provide a hint to the browser about wha
 
 ### QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QVideoExample.qjson" target="_blank">QVideoExample</a>
+ <a href=""
+onclick="this.href='?q=' + window.location.pathname + 'qjsons/QVideoExample.qjson'"  target="_blank">QVideoExample</a>
