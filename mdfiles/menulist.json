@@ -50,6 +50,11 @@
                     "menuName": "Custom Component",
                     "fileName": "Custom Component",
                     "path": "./mdfiles/customcomponent.md"
+                },
+                {
+                    "menuName": "Live Connection",
+                    "fileName": "Live Connection",
+                    "path": "./mdfiles/liveconnection.md"
                 }
             ]
         },
@@ -57,10 +62,6 @@
             "groupName": "",
             "listItems": [
                 {
-                    "menuName": "Live Connection",
-                    "fileName": "Live Connection",
-                    "path": "./mdfiles/liveconnection.md"
-                }, {
                     "menuName": "Localization",
                     "fileName": "Localization",
                     "path": "./mdfiles/Localization.md"
@@ -103,12 +104,7 @@
                     "menuName": "Process Manager",
                     "fileName": "Process Manager",
                     "path": "./mdfiles/ProcessManager.md"
-                }
-            ]
-        },
-        {
-            "groupName": "",
-            "listItems": [
+                },
                 {
                     "menuName": "Directives",
                     "fileName": "Directives",
@@ -118,7 +114,12 @@
                     "menuName": "General Alert",
                     "fileName": "Alert Component",
                     "path": "./mdfiles/alertcomponent.md"
-                },
+                }
+            ]
+        },
+        {
+            "groupName": "",
+            "listItems": [
                 {
                     "menuName": "Pipeline File",
                     "fileName": "Pipeline Component",
@@ -153,12 +154,7 @@
                     "menuName": "Golden Layout",
                     "fileName": "Golden Layout",
                     "path": "./mdfiles/goldenLayout.md"
-                }
-            ]
-        },
-        {
-            "groupName": "",
-            "listItems": [
+                },
                 {
                     "menuName": "QCaptcha",
                     "fileName": "QCaptcha",
@@ -168,7 +164,12 @@
                     "menuName": "QQRCode",
                     "fileName": "QQRCode",
                     "path": "./mdfiles/QQRCode.md"
-                },
+                }
+            ]
+        },
+        {
+            "groupName": "",
+            "listItems": [
                 {
                     "menuName": "QDocumentViewer",
                     "fileName": "QDocumentViewer",
@@ -209,6 +210,11 @@
                     "menuName": "QVideo",
                     "fileName": "QVideo",
                     "path": "./mdfiles/QVideo.md"
+                },
+                {
+                    "menuName": "QFrame",
+                    "fileName": "QFrame",
+                    "path": "./mdfiles/QFrame.md"
                 }
             ]
         }
