@@ -639,6 +639,10 @@ ul.lm_tabs li .lm_close_tab {
   vertical-align: middle !important;
 }
 
+/* tabs içindeki vCombobox item listin ekranın aşağısına doğru tam açılması için */
+.v-tabs > .v-window {overflow: initial !important;}
+
+
 /* V3.1 Changes */
 
 /* Class Name: stickytable */
