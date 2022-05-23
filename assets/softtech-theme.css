@@ -639,6 +639,10 @@ ul.lm_tabs li .lm_close_tab {
   vertical-align: middle !important;
 }
 
+body .v-application .v-tabs {
+  caret-color: rgb(0, 0, 0) !important;
+ }
+ 
 /* tabs içindeki vCombobox item listin ekranın aşağısına doğru tam açılması için */
 .v-tabs > .v-window {overflow: initial !important;}
 
