@@ -108,7 +108,25 @@ quick.containerServices.extensions.exampleMethod()
 
 ![image-20220124114139439](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/ExtensionExampleBtn.PNG)
 
-4. Testing on the page
+4. Set Localization
+
+For projects with webSdk integration, you can specify the application rootLangCode in the config definition passed in containerServices **( config.LRType = lang; )** . This value will be the opening language code of the application.
+
+```
+var config = {
+    LRType: "tr-TR",
+};
+```
+OR
+
+```
+var config = {
+    LRType: "en-US",
+};
+```
+![image-20220124105409249](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/extensions.PNG)
+
+5. Testing on the page
 
 ![image-20220124114139439](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/ExampleMethodTrigger.gif)
 
