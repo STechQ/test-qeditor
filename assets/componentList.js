@@ -1784,6 +1784,9 @@ nextIcon = 'mdi-plus'}`
         tabindex: {
             type: "number | string"
         },
+        uniqueSlots: {
+            type: Boolean
+        }
     },
     VDatePicker: {
         qValue: {

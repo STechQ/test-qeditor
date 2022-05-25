@@ -1554,6 +1554,10 @@
   !*** ../shrimp/lib/helpers/catcher.js ***!
   \****************************************/
 
+/*!***********************************************!*\
+  !*** ../shrimp/lib/helpers/compDiffHelper.js ***!
+  \***********************************************/
+
 /*!*********************************************!*\
   !*** ../shrimp/lib/helpers/cryptoHelper.js ***!
   \*********************************************/
@@ -2889,6 +2893,8 @@
 /*! @stechquick/shrimp/lib/helpers/CompJsonMigrator */
 
 /*! @stechquick/shrimp/lib/helpers/customCompHelper */
+
+/*! @stechquick/shrimp/lib/helpers/compDiffHelper */
 
 /*! @stechquick/shrimp/lib/performance */
 
@@ -8102,10 +8108,6 @@
   !*** ../shrimp/lib/helpers/clonable.js ***!
   \*****************************************/
 
-/*!***********************************************!*\
-  !*** ../shrimp/lib/helpers/compDiffHelper.js ***!
-  \***********************************************/
-
 /*!**********************************************!*\
   !*** ../shrimp/lib/helpers/compUIDHelper.js ***!
   \**********************************************/
@@ -8283,8 +8285,6 @@
 /*!*************************************!*\
   !*** ./src/Context/ValueContext.ts ***!
   \*************************************/
-
-/*! @stechquick/shrimp/lib/helpers/compDiffHelper */
 
 /*! ../DoryJr */
 
