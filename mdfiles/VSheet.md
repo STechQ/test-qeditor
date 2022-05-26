@@ -2,4 +2,4 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VSheet/sheet.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/sheet.qjson"  target="_blank">sheet</a>
+<a href="" onclick="this.href='?q=qjsons/sheet.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>sheet</a>

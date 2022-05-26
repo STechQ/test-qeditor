@@ -31,5 +31,5 @@
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/progress-circular.qjson"  target="_blank">progress-circular</a>
+<a href="" onclick="this.href='?q=qjsons/progress.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>progress</a>
 

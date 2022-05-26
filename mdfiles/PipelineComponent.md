@@ -30,7 +30,7 @@ Write the path of your pipeline.qjson in your settings.yaml file.
 # Samples
 
 # Sample Request Page
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/pipelineSample.qjson"target="_blank">pipelineSample.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/pipelineSample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>pipelineSample.qjson</a>
 
 # Sample Pipeline Component
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/pipeline.qjson" target="_blank">pipeline.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/pipeline.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>pipeline.qjson</a>

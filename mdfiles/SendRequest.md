@@ -135,4 +135,4 @@ The below request can be used to download files.
 > quick.Request.download(req);
 > ```
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/RequestExamples.qjson" target="_blank">Request Examples</a>
+<a href="" onclick="this.href='?q=qjsons/RequestExamples.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Request Examples</a>

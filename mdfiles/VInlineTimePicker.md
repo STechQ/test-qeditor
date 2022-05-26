@@ -61,4 +61,4 @@
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VInlineTimePicker.qjson"  target="_blank">VInlineTimePicker</a>
+<a href="" onclick="this.href='?q=qjsons/VInlineTimePicker.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VInlineTimePicker</a>

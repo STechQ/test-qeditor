@@ -7,16 +7,16 @@
 
 # QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/combobox.qjson"  target="_blank">combobox</a>
+<a href="" onclick="this.href='?q=qjsons/combobox.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>combobox</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ComboboxDefaultSelection.qjson"  target="_blank">ComboboxDefaultSelection</a>
+<a href="" onclick="this.href='?q=qjsons/ComboboxDefaultSelection.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>ComboboxDefaultSelection</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/comboboxSelected.qjson"  target="_blank">comboboxSelected</a>
+<a href="" onclick="this.href='?q=qjsons/comboboxSelected.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>comboboxSelected</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ComboboxWithTreeView.qjson"  target="_blank">ComboboxWithTreeView</a>
+<a href="" onclick="this.href='?q=qjsons/ComboboxWithTreeView.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>ComboboxWithTreeView</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/SelectAll_Combobox_.qjson"  target="_blank">SelectAll_Combobox_</a>
+<a href="" onclick="this.href='?q=qjsons/SelectAll_Combobox_.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>SelectAll_Combobox_</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ComboboxAddItemWithDialog.qjson"  target="_blank">SelectAll_Combobox_</a>
+<a href="" onclick="this.href='?q=qjsons/ComboboxAddItemWithDialog.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>SelectAll_Combobox_</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ComboboxAddItemWithTextField.qjson"  target="_blank">ComboboxAddItemWithTextField</a>
+<a href="" onclick="this.href='?q=qjsons/ComboboxAddItemWithTextField.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>ComboboxAddItemWithTextField</a>

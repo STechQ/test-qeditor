@@ -49,6 +49,6 @@
 
 ### QJson
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/CheckboxDisabledExample.qjson" target="_blank">CheckboxDisabledExample</a>
+<a href="" onclick="this.href='?q=qjsons/CheckboxDisabledExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>CheckboxDisabledExample</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/CheckBoxQvalue.qjson" target="_blank">CheckBoxGetValue Example</a>
+<a href="" onclick="this.href='?q=qjsons/CheckBoxQvalue.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>CheckBoxGetValue Example</a>

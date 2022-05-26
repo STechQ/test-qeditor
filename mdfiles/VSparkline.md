@@ -38,4 +38,4 @@
 ![Sparkline](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VSparkline/Sparkline.png)
 
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Sparkline.qjson"  target="_blank">Sparkline</a>
+<a href="" onclick="this.href='?q=qjsons/Sparkline.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Sparkline</a>

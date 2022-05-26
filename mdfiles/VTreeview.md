@@ -68,9 +68,9 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/treeview.qjson"  target="_blank">treeview</a>
+<a href="" onclick="this.href='?q=qjsons/treeview.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>treeview</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/treeview2.qjson"  target="_blank">treeview2</a>
+<a href="" onclick="this.href='?q=qjsons/treeview2.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>treeview2</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/TreeViewExample.qjson"  target="_blank">TreeViewExample</a>
+<a href="" onclick="this.href='?q=qjsons/TreeViewExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>TreeViewExample</a>
 

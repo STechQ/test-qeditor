@@ -35,4 +35,4 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/QMap/QMap.PNG) 
 
-**example js:** <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QMapExample.qjson"  target="_blank">QMapExample.qjson</a>
+**example js:** <a href="" onclick="this.href='?q=qjsons/QMapExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QMapExample.qjson</a>

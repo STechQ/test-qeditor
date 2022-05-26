@@ -30,6 +30,5 @@
 
 ![ProgressLinear](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VProgressLinear/ProgressLinear.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/ProgressLinear.qjson"  target="_blank">ProgressLinear</a>
-
+<a href="" onclick="this.href='?q=qjsons/ProgressLinear.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>ProgressLinear</a>
 

@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/vcarousel.qjson" target="_blank">Vcarousel</a>
+<a href="" onclick="this.href='?q=qjsons/vcarousel.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Vcarousel</a>

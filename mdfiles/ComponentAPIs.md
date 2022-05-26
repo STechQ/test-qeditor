@@ -18,9 +18,9 @@ Creates a new component from given template component.
 > > quick.Quick.createComponent({templateCompQID='EdtrComp_1', newCompQID='uniqueValue', dataSource= {name='Test Comp Name', id=[{test='object'}], place='Before', placeQID='EdtrComp_2'})
 > > ```
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dynamicComp.qjson" target="_blank">Dynamic Component</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dynamicComp.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Dynamic Component</a>
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/placeQidDynamic.qjson" target="_blank">PlaceQID Dynamic Component</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/placeQidDynamic.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>PlaceQID Dynamic Component</a>
 
 
 ## Delete Component
@@ -32,7 +32,7 @@ deleteComponent method can be used to delete a created component. This method al
 > > quick.Quick.deleteComponent(EdtrComp_1)
 > > ```
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/deleteComponent.qjson" target="_blank">Delete Component</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/deleteComponent.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Delete Component</a>
 
 ## Find Component Relative
 
@@ -44,7 +44,7 @@ This method returns the desired dynamic component created with the template, by 
 > > ```
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/findAndDeleteRelatedDynamicComp.qjson" target="_blank">Find And Delete Related Dynamic Comp</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/findAndDeleteRelatedDynamicComp.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Find And Delete Related Dynamic Comp</a>
 
 ## Get Component
 

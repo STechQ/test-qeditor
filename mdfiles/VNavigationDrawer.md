@@ -2,6 +2,6 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/NavigationDrawerExample.qjson"  target="_blank">NavigationDrawerExample</a>
+<a href="" onclick="this.href='?q=qjsons/NavigationDrawerExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>NavigationDrawerExample</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/NavigationDrawerWithAppBar.qjson"  target="_blank">NavigationDrawerWithAppBar</a>
+<a href="" onclick="this.href='?q=qjsons/NavigationDrawerWithAppBar.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>NavigationDrawerWithAppBar</a>

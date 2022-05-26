@@ -37,5 +37,5 @@ Sends parameter to QFrame with HTTP POST request.
 
 ### QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QFrameExample.qjson" target="_blank">QFrameExample</a>
+<a href="" onclick="this.href='?q=qjsons/QFrameExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QFrameExample</a>
 

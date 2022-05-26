@@ -29,11 +29,11 @@ You can get the list of closed panes with getClosedPanes() method. this method r
 
 If you close the panes with the close button at runtime and want to open them back, you can use the Quick.createChildren method.
 Note that you must have created this pane before in design mode to do this.
-<a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/goldenLayout/createClosedPanes.qjson" target="_blank">Create Closed Panes</a>
+<a href="" onclick="this.href='?q=qjsons/createClosedPanes.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Create Closed Panes</a>
 
 
 You can also create Dynamic Childeren with template child.
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/createChildren.qjson" target="_blank">createChildren</a>
+<a href="" onclick="this.href='?q=qjsons/createChildren.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>createChildren</a>
 
 
 

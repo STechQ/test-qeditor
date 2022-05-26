@@ -4,20 +4,20 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DatePickerLocale.qjson"  target="_blank">DatePickerLocale</a>
+<a href="" onclick="this.href='?q=qjsons/DatePickerLocale.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DatePickerLocale</a>
 
 ## DatePicker Inline
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker2.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DatePickerInlineExample.qjson"  target="_blank">DatePickerInlineExample</a>
+<a href="" onclick="this.href='?q=qjsons/DatePickerInlineExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DatePickerInlineExample</a>
 
 
 ## Allowed Dates
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatepicker/vdatepicker3.jpg)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/AllowdDates.qjson"  target="_blank">AllowdDates</a>
+<a href="" onclick="this.href='?q=qjsons/AllowdDates.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>AllowdDates</a>
 
 
 ## Weekend and Holidays
@@ -26,6 +26,6 @@
 
 # QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDatePicker_AllowdDates.qjson"  target="_blank">VDatePicker_AllowdDates</a>
+<a href="" onclick="this.href='?q=qjsons/VDatePicker_AllowdDates.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VDatePicker_AllowdDates</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DatePickerLocale.qjson"  target="_blank">DatePickerLocale</a>
+<a href="" onclick="this.href='?q=qjsons/DatePickerLocale.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DatePickerLocale</a>

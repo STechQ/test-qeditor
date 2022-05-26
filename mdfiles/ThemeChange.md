@@ -70,7 +70,7 @@ This method can be used to delete a previously added CSS address. Default added 
 
 Below, you can find the sample usage of dynamic theme change related with the above examples.
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/themeExamplePage.qjson" target="_blank">themeExamplePage</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/themeExamplePage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>themeExamplePage</a>
 
 
 ## Dark Theme

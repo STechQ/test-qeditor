@@ -43,4 +43,4 @@
 
 
 # QJson Samples
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QTutorialFinalDemo.qjson" target="_blank">QTutorial</a>
+<a href="" onclick="this.href='?q=qjsons/QTutorialFinalDemo.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QTutorial</a>

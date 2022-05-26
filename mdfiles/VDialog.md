@@ -3,9 +3,9 @@
 
 ## SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DialogExampleWithıcon.qjson"  target="_blank">DialogExampleWithıcon</a>
+<a href="" onclick="this.href='?q=qjsons/DialogExampleWithıcon.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DialogExampleWithıcon</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DialogWithEagerProp.qjson"  target="_blank">DialogWithEagerProp</a>
+<a href="" onclick="this.href='?q=qjsons/DialogWithEagerProp.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DialogWithEagerProp</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DialogExample.qjson"  target="_blank">DialogExample</a>
+<a href="" onclick="this.href='?q=qjsons/DialogExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DialogExample</a>
 

@@ -39,6 +39,4 @@ QDocumentViewer supports the image types listed below;
 
 ### 4. Sample Pages
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QDocumentViewer.qjson" target="_blank">
-  QDocumentViewer-pdf-as-byte.js
-</a>
+<a href="" onclick="this.href='?q=qjsons/QDocumentViewer.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QDocumentViewer-pdf-as-byte.js</a>

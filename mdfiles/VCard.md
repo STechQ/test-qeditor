@@ -6,6 +6,6 @@
 
 ### QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VCard.qjson" target="_blank">VCard</a>
+<a href="" onclick="this.href='?q=qjsons/VCard.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VCard</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/CardTitle.qjson" target="_blank">CardTitle</a>
+<a href="" onclick="this.href='?q=qjsons/CardTitle.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>CardTitle</a>

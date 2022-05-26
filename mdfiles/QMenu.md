@@ -49,5 +49,5 @@
 
 **Get menuData From Service and Apply Localization**
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QMenuExample.qjson" target="_blank">QMenuExample</a>
+<a href="" onclick="this.href='?q=qjsons/QMenuExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QMenuExample</a>
 

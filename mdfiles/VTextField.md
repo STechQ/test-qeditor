@@ -18,20 +18,20 @@ Format prop is setting input mask options on VTextField components
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-2.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/onlyAlphabetic.qjson"  target="_blank">onlyAlphabetic</a>
+<a href="" onclick="this.href='?q=qjsons/onlyAlphabetic.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>onlyAlphabetic</a>
 
 
 ### Credit Card
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-3.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/creditcard.qjson"  target="_blank">creditcard</a>
+<a href="" onclick="this.href='?q=qjsons/creditcard.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>creditcard</a>
 
 ### Email
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-4.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/email.qjson"  target="_blank">email</a>
+<a href="" onclick="this.href='?q=qjsons/email.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>email</a>
 
 
 
@@ -73,7 +73,7 @@ The following format options can be used to format the ‘number’ values. Howe
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTextField/textfield-5.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/number.qjson"  target="_blank">number</a>
+<a href="" onclick="this.href='?q=qjsons/number.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>number</a>
 
 ## BigDecimal Format Usage
 
@@ -122,21 +122,21 @@ let compValue = components.{{compQID}}.extention.getUnmaskedValue()
 ```
 
 # SAMPLE QJSONS
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValue_specialChars.qjson"  target="_blank">VTextField_formatValue_specialChars</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_formatValue_specialChars.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_formatValue_specialChars</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValue_exceptLetters.qjson"  target="_blank">VTextField_formatValue_exceptLetters</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_formatValue_exceptLetters.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_formatValue_exceptLetters</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValueSample1.qjson"  target="_blank">VTextField_formatValueSample1</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_formatValueSample1.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_formatValueSample1</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_formatValueSapmle2.qjson"  target="_blank">VTextField_formatValueSapmle2</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_formatValueSapmle2.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_formatValueSapmle2</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_keyDown.qjson"  target="_blank">VTextField_keyDown</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_keyDown.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_keyDown</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_rangeOfNumber_validation.qjson"  target="_blank">VTextField_rangeOfNumber_validation</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_rangeOfNumber_validation.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_rangeOfNumber_validation</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VTextField_customValidation.qjson"  target="_blank">VTextField_customValidation</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_customValidation.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_customValidation</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/qjsons/VTextField_FocusExample.qjson"  target="_blank">VTextField_FocusExample</a>
+<a href="" onclick="this.href='?q=qjsons/VTextField_FocusExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VTextField_FocusExample</a>
 
 
 <!-- NLP: Input alanı kullanımı | Textfield | Textfield kullanımı | Girdi yazma | Sayı değeri girme | Input formatlama | Kullanıcıdan input alma | İnteraktif olarak veri girme | Input değerini başka componentte kullanma | Input değerini nasıl tutarım | Kullanıcıdan data alma | Kullanıcıdan nasıl data alırım | Yazı girme | Sayı girme | Girilen değere karakter sınırı eklemek istiyorum | Alana değer girilemesin istiyrum | Textfield disable yapma | Input | Text input | Standart input | Textfield formatları | Textfield properties | Textfield methods | Textfield formats -->

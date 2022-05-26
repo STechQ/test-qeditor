@@ -15,7 +15,7 @@ All of the component features(except options) can be use in this <a href="https:
 
 All of the <a href="https://master--chartjs-plugin-datalabels.netlify.app/samples/charts/bar.html" target="_blank">ChartDataLabels plugin features</a> can be use in this component.
 
-Example <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/BarChart.qjson" target="_blank">BarChart.js</a>
+Example <a href="" onclick="this.href='?q=qjsons/BarChart.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>BarChart.js</a>
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Charts/barChart-1.png)
 
@@ -31,7 +31,7 @@ All of the component features(except options) can be use in this <a href="https:
 
 All of the <a href="https://master--chartjs-plugin-datalabels.netlify.app/samples/charts/doughnut.html" target="_blank">ChartDataLabels plugin features</a> can be use in this component.
 
-Example <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/PieChart.qjson" target="_blank">PieChart.js</a>
+Example <a href="" onclick="this.href='?q=qjsons/PieChart.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>PieChart.js</a>
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Charts/pieChart-1.png)
 
@@ -48,7 +48,7 @@ All of the component features(except options) can be use in this <a href="https:
 
 All of the <a href="https://master--chartjs-plugin-datalabels.netlify.app/samples/charts/doughnut.html" target="_blank">ChartDataLabels plugin features</a> can be use in this component.
 
-Example <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DoughnutChart.qjson" target="_blank">DoughnutChart.js</a>
+Example <a href="" onclick="this.href='?q=qjsons/DoughnutChart.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DoughnutChart.js</a>
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Charts/doughnutChart-1.png)
 
@@ -65,7 +65,7 @@ All of the component features(except options) can be use in this <a href="https:
 
 All of the <a href="https://master--chartjs-plugin-datalabels.netlify.app/samples/charts/line.html" target="_blank">ChartDataLabels plugin features</a> can be use in this component.
 
-Example <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/LineChart.qjson"  target="_blank">LineChart.js</a>
+Example <a href="" onclick="this.href='?q=qjsons/LineChart.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>LineChart.js</a>
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/Charts/lineChart-1.png)
 

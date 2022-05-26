@@ -4,4 +4,4 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Rating.qjson"  target="_blank">Rating</a>
+<a href="" onclick="this.href='?q=qjsons/Rating.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Rating</a>

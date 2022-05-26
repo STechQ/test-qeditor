@@ -4,4 +4,4 @@
 
 
 ### QJson
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/badge.qjson" target="_blank">Badge Example</a>
+<a href="" onclick="this.href='?q=qjsons/badge.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Badge Example</a>

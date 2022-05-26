@@ -42,7 +42,7 @@ quick.store.set('personalInfo', storeData)
 > > quick.store.delete('#personalInfo')
 > > ```
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataExamples.qjson" target="_blank">Data Storage Examples</a>
+<a href="" onclick="this.href='?q=qjsons/DataExamples.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Data Storage Examples</a>
 
 
 ## Cookie Management 
@@ -75,4 +75,4 @@ With cookie manager, you can get and set operations for cookies.
 > > quick.cookie.delete('test')
 > > ```
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/CookieExamples.qjson" target="_blank">Cookie Examples</a>
+<a href="" onclick="this.href='?q=qjsons/CookieExamples.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Cookie Examples</a>

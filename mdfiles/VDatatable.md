@@ -4,54 +4,53 @@ The datatable component is used for displaying tabular data. Features include so
 ### VDataTable Search in Rows
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable1.png)
 
-
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Search.qjson"  target="_blank">Table_Search</a>
+<a href="" onclick="this.href='?q=qjsons/Table_Search.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Table_Search</a>
 
 ### VDataTable Select Items
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable3.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Select.qjson"  target="_blank">Table_Select</a>
+<a href="" onclick="this.href='?q=qjsons/Table_Select.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Table_Select</a>
 
 ### VDataTable Multiple Selection Control
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable20.gif)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTable_Multiple_Select_Control"  target="_blank">Table_Multiple_Selection</a>
+<a href="" onclick="this.href='?q=qjsons/VDataTable_Multiple_Select_Control.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Table_Multiple_Selection</a>
 
 
 ### VDataTable Server Side Pagination
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable4.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Table_Select.qjson"  target="_blank">Table_Select</a>
+<a href="" onclick="this.href='?q=qjsons/Table_Select.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Table_Select</a>
 
 ### VDataTable Row Expand Opens New VDataTable
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable5.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Detailed_Table_Rows.qjson"  target="_blank">Detailed_Table_Rows</a>
+<a href="" onclick="this.href='?q=qjsons/Detailed_Table_Rows.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Detailed_Table_Rows</a>
 
 
 ### VDataTable Row Expand with Treeview Structure
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable6.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Detailed_Table_Row_Expand.qjson"  target="_blank">Detailed_Table_Row_Expand</a>
+<a href="" onclick="this.href='?q=qjsons/Detailed_Table_Row_Expand.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Detailed_Table_Row_Expand</a>
 
 
 ### VDataTable Cell Template
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable7.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/cellTemplate.qjson"  target="_blank">cellTemplate</a>
+<a href="" onclick="this.href='?q=qjsons/cellTemplate.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>cellTemplate</a>
 
 
 ### VDataTable Cell Component Access
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable8.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/data_table_component_access.qjson"  target="_blank">data_table_component_access</a>
+<a href="" onclick="this.href='?q=qjsons/data_table_component_access.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>data_table_component_access</a>
 
 
 ### VDataTable With Combobox
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable9.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTable_SetGetComboboxValue_.qjson"  target="_blank">VDataTable_SetGetComboboxValue_</a>
+<a href="" onclick="this.href='?q=qjsons/VDataTable_SetGetComboboxValue_.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VDataTable_SetGetComboboxValue_</a>
 
 
 
@@ -59,76 +58,76 @@ The datatable component is used for displaying tabular data. Features include so
 ### VDataTable with Popover Menu
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable10.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VMenu_PopoverInTable.qjson"  target="_blank">VMenu_PopoverInTable</a>
+<a href="" onclick="this.href='?q=qjsons/VMenu_PopoverInTable.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VMenu_PopoverInTable</a>
 
 ### VDataTable with tooltip
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable11.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableWithTooltip.qjson"  target="_blank">DataTableWithTooltip</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableWithTooltip.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableWithTooltip</a>
 
 
 ### VDataTable Header Bold
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable12.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableBoldHeader.qjson"  target="_blank">DataTableBoldHeader</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableBoldHeader.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableBoldHeader</a>
 
 
 ### VDataTable Vertical Border
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable13.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableVerticalBorder.qjson"  target="_blank">DataTableVerticalBorder</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableVerticalBorder.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableVerticalBorder</a>
 
 
 ### VDataTable Edit Row
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable14.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableEdit.qjson"  target="_blank">DataTableEdit</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableEdit.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableEdit</a>
 
 
 ### VDataTable Format Column
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable15.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dataTableFormatColumn.qjson"  target="_blank">dataTableFormatColumn</a>
+<a href="" onclick="this.href='?q=qjsons/dataTableFormatColumn.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dataTableFormatColumn</a>
 
 ### VDataTable Add Item
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable16.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/tableadditem.qjson"  target="_blank">tableadditem</a>
+<a href="" onclick="this.href='?q=qjsons/tableadditem.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>tableadditem</a>
 
 
 
 ### VDataTable Fixed Actions Column
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatatable17.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fixedActionsColumn.qjson"  target="_blank">fixedActionsColumn</a>
+<a href="" onclick="this.href='?q=qjsons/fixedActionsColumn.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>fixedActionsColumn</a>
 
 
 ### Highlist Selected Row
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatadatable18.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Highlight_datatable_select.qjson"  target="_blank">Highlight_datatable_select</a>
+<a href="" onclick="this.href='?q=qjsons/Highlight_datatable_select.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Highlight_datatable_select</a>
 
 
 ### VDataTable Change Footer PageText
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VDatatable/vdatadatable19.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTable_Change_FooterPageText.qjson"  target="_blank">VDataTable_Change_FooterPageText</a>
+<a href="" onclick="this.href='?q=qjsons/VDataTable_Change_FooterPageText.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VDataTable_Change_FooterPageText</a>
 
 
 # QJson Samples
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VDataTableIconExample.qjson"  target="_blank">VDataTable_Change_FooterPageText</a>
+<a href="" onclick="this.href='?q=qjsons/VDataTableIconExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VDataTable_Change_FooterPageText</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableAddRemoveItem.qjson"  target="_blank">DataTableAddRemoveItem</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableAddRemoveItem.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableAddRemoveItem</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableEdit.qjson"  target="_blank">DataTableEdit</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableEdit.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableEdit</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableFixedColumn.qjson"  target="_blank">DataTableFixedColumn</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableFixedColumn.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableFixedColumn</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableIndexExample.qjson"  target="_blank">DataTableIndexExample</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableIndexExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableIndexExample</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableSearch.qjson"  target="_blank">DataTableSearch</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableSearch.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableSearch</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DataTableWithTooltip.qjson"  target="_blank">DataTableWithTooltip</a>
+<a href="" onclick="this.href='?q=qjsons/DataTableWithTooltip.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DataTableWithTooltip</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/SmallDataTableExample.qjson"  target="_blank">SmallDataTableExample</a>
+<a href="" onclick="this.href='?q=qjsons/SmallDataTableExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>SmallDataTableExample</a>

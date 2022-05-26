@@ -9,7 +9,7 @@ You should update dxDataGrid compoent after you set any property in the runtime.
 
 You can use: Quick.updateComponent(ComponentQId)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxDatagridUpdate.qjson" target="_blank">dxDatagridUpdate</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxDatagridUpdate.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDatagridUpdate</a>
 
 #### DxDataGrid Bar Usage
 
@@ -56,11 +56,11 @@ You can use customizeText event for this feature like this.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/dxSummary3.png)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxTotalItemCustomizeText.qjson" target="_blank">dxTotalItemCustomizeText</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxTotalItemCustomizeText.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxTotalItemCustomizeText</a>
 
 #### DxDataGrid Remove Data Sample
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxDataGridRemove.qjson" target="_blank">dxDataGridRemove</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxDataGridRemove.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDataGridRemove</a>
 #### DxDataGrid DxMasterDetail Usage
 
 Open the DxMasterDetail switch and add new dropable column. Then drag the component you want to the column you just added for the master detail. Set dxMasterDetail enabled : true and template:'just added column name'
@@ -71,7 +71,7 @@ Finally you can see the master detail component but you should visible:false for
 
 Click to the new DxColumn component on tree view and set visible property to false.
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxMasterDetail.qjson" target="_blank">dxMasterDetail</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxMasterDetail.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxMasterDetail</a>
 
 #### DxColumn fixed & allowFixing Properties
 
@@ -94,28 +94,28 @@ Sample usage of these properties are shown below:
 
 #### DxColumnChooser & DxColumnFixer Sample
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DxColumnChooser_DxColumnFixer.qjson" target="_blank">DxColumnChooser_DxColumnFixer</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/DxColumnChooser_DxColumnFixer.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxColumnChooser_DxColumnFixer</a>
 #### DxDataGrid OnCellClick
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/onCellClickDx.qjson" target="_blank">dxMasterDetail</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/onCellClickDx.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxMasterDetail</a>
 #### Simple Data Grid Array Store Sample
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Simplest_Grid_With_Array_Store.qjson" target="_blank">Simplest_Grid_With_Array_Store</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/Simplest_Grid_With_Array_Store.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Simplest_Grid_With_Array_Store</a>
 
 
 #### DxDataGrid Menu Column
 
 A menu column can be added into DxDataGrid component with VMenu component. 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Grid_with_menu.qjson" target="_blank">Simplest_Grid_With_Array_Store</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/Grid_with_menu.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Grid_with_menu</a>
 
 #### DxDataGrid State Storing
 
 Filters on DxDataGrid can be saved and load with DxStateStoring component.
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/State_storing.qjson" target="_blank">State_storing</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/State_storing.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>State_storing</a>
 
 #### DxColumn fixed & allowFixing Properties Sample
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DxColumn_fix_allowFixing.qjson" target="_blank">DxColumn_fix_allowFixing</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/DxColumn_fix_allowFixing.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxColumn_fix_allowFixing</a>
 
 
 #### DxDatagrid Adding, Updating and Deleting 
@@ -125,7 +125,7 @@ The UI component can allow a user to add, update and delete data. To control whi
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/addingdeleting.gif)
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxDataGridAddinEditingDeleting.qjson" target="_blank">dxDataGridAddinEditingDeleting</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxDataGridAddinEditingDeleting.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDataGridAddinEditingDeleting</a>
 
 
 
@@ -135,7 +135,7 @@ Specifies how the UI component resizes columns. Applies only if allowColumnResiz
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/resizing.gif)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/columnResizingMode.qjson" target="_blank">columnResizingMode</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/columnResizingMode.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>columnResizingMode</a>
 
 
 #### DxColumn Background Color Change Sample
@@ -144,14 +144,14 @@ You can set the *cssClass* of the column.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/cssClass.PNG)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxColumncssClass.qjson" target="_blank">dxColumncssClass</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxColumncssClass.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxColumncssClass</a>
 
 
 #### DxDataGrid Service Call Sample
 
 Notifies the DataGrid of the server's data processing operations.
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxPaging_withServiceCall.qjson" target="_blank">dxPaging_withServiceCall</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxPaging_withServiceCall.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxPaging_withServiceCall</a>
 
 
 #### DxDataGrid Hiding Column Lines
@@ -160,14 +160,14 @@ Specifies whether vertical lines that separate one column from another are visib
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/columnlines.PNG)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/dxDataGridLines.qjson" target="_blank">dxDataGridLines</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/dxDataGridLines.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDataGridLines</a>
 #### DxDataGrid External Filtering
 
 Example usage for external filtering of dxdatagrid.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/externalfiltering.gif)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/externalFiltering.qjson" target="_blank">externalFiltering</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/externalFiltering.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>externalFiltering</a>
 
 
 #### DxDataGrid External Filter Cleaning 
@@ -176,4 +176,4 @@ Example usage for dxdatagrid filter cleaning from outside.
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/extarnalfilterClear.gif)
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/filtercleaning.qjson" target="_blank">filtercleaning</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/filtercleaning.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>filtercleaning</a>

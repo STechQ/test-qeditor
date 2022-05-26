@@ -58,4 +58,5 @@
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VBtn/button.png)
 
 QJson
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/button.qjson" target="_blank">VBtn</a>
+ <a href=""
+onclick="this.href='?q=qjsons/button.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VBtn</a>

@@ -49,6 +49,6 @@ sso.validate({urlParams=params,tokenEndpoint=endpoint,type=type,onSuccess='onSuc
 
 _examples: you should host sso_test.html in your local machine then open sso.txt as qjson_
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/sso.qjson" target="_blank">sso.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/sso.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>sso.qjson</a>
 
 <a href="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/singleSignOn/sso_test.html" target="_blank">sso_test.html</a>

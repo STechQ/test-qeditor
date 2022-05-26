@@ -23,5 +23,5 @@
 
 ![Parallax](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VParallax/Parallax.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Parallax.qjson"  target="_blank">Parallax</a>
+<a href="" onclick="this.href='?q=qjsons/Parallax.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Parallax</a>
 

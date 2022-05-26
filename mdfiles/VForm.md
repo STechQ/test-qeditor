@@ -2,4 +2,4 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VForm/vform.png)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VForm.qjson"  target="_blank">VForm</a>
+<a href="" onclick="this.href='?q=qjsons/VForm.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VForm</a>

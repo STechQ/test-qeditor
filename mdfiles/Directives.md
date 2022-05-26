@@ -20,7 +20,7 @@ The available directives are listed below and you can access detailed API and us
 
 <a href="https://vuetifyjs.com/en/directives/click-outside/" target="_blank">Click outside directive — Vuetify</a>
 
-Example: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Click Outside.qjson" target="_blank">Click Outside.qjson</a>
+Example: <a href="" onclick="this.href='?q=qjsons/Click Outside.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Click Outside.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/clickOutside.gif" width="800px" height="auto">
 
@@ -28,7 +28,7 @@ Example: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Click Outs
 
 <a href="https://vuetifyjs.com/en/directives/intersect/" target="_blank">Intersection observer directive — Vuetify</a>
 
-Example: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Intersect.qjson" target="_blank">Intersect.qjson</a>
+Example: <a href="" onclick="this.href='?q=qjsons/Intersect.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Intersect.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/intersect.gif" width="800px" height="auto">
 
@@ -36,7 +36,7 @@ Example: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Intersect.
 
 <a href="https://vuetifyjs.com/en/directives/resize/" target="_blank">Resize directive — Vuetify</a>
 
-Example: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Resize.qjson" target="_blank">Resize.qjson</a>
+Example: <a href="" onclick="this.href='?q=qjsons/Resize.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Resize.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/resize.gif" width="800px" height="auto">
 
@@ -44,7 +44,7 @@ Example: <a href="https://studio.onplateau.com/quick/?q=/qjsons/Resize.qjson" ta
 
 <a href="https://vuetifyjs.com/en/directives/ripple/" target="_blank">Ripple directive — Vuetify</a>
 
-Exapmle: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Ripple.qjson" target="_blank">Ripple.qjson</a>
+Exapmle: <a href="" onclick="this.href='?q=qjsons/Ripple.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Ripple.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdScripts/Directives/ripple.gif" width="800px" height="auto">
 
@@ -52,6 +52,6 @@ Exapmle: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Ripple.qjs
 
 <a href="https://vuetifyjs.com/en/directives/scroll/" target="_blank">Scroll directive — Vuetify</a>
 
-Exapmle: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/scrollDirective.qjson" target="_blank">Scroll.qjson</a>
+Exapmle: <a href="" onclick="this.href='?q=qjsons/scrollDirective.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Scroll.qjson</a>
 
 <img src="https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/scrollDirective.gif" width="800px" height="auto">

@@ -36,7 +36,7 @@ Quick.bind has to be declared in PreRender and binded object must be **store**. 
 > 
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Quick_Bind.qjson" target="_blank">Quick Bind</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/Quick_Bind.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Quick Bind</a>
 
 
 
@@ -60,7 +60,7 @@ To download any file, it must have a base64 type string value. The download proc
 
 > quick.Quick.download({data: base64, name: string})
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/Download.qjson" target="_blank">Downlad a File</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/Download.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Download a File</a>
 
 
 ## Export To XLSX
@@ -102,7 +102,7 @@ Quick.exportToXlsx method can be used to export specific data to excel file
 
 New file can be dowloaded with given "test" name.**xlsx**
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/exportToXlsx_Sample.qjson" target="_blank">Export To xlsx</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/exportToXlsx_Sample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Export To xlsx</a>
 
 ## Screen Offset
 
@@ -121,7 +121,7 @@ Method scrolls the element's parent container such that the element on which **s
 ### toTop 
 Method scrolls the document to the top of the page. 
 > quick.Quick.screen.toTop()
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/scrollButton.qjson" target="_blank">Scroll To Top</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/scrollButton.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Scroll To Top</a>
 
 ## Reset
 
@@ -158,4 +158,4 @@ The uses of these two functions are as follows;
 ***Example Qjson File :***
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/resetAndResetValidationUsage.qjson" target="_blank">resetAndResetValidationUsage example</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/resetAndResetValidationUsage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>resetAndResetValidationUsage example</a>

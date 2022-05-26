@@ -21,4 +21,4 @@ QIdleTimer has 3 properties.
 
 Example usage of component:
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QIdleTimer.qjson" target="_blank">QIdleTimer example usage</a>
+<a href="" onclick="this.href='?q=qjsons/QIdleTimer.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QIdleTimer example usage</a>

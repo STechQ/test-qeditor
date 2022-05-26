@@ -102,7 +102,9 @@ quick.parent.props.additionals.props.isPersistent
 
 
 **Calling Quick.alert on page**
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/alertSamplePage.qjson" target="_blank">AlertSamplePage.qjson</a>
+ <a href=""
+onclick="this.href='?q=qjsons/alertSamplePage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>AlertSamplePage.qjson</a>
 
 **Quick UI alert.qjson component**
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/alert.qjson" target="_blank">alert.qjson</a>
+ <a href=""
+onclick="this.href='?q=qjsons/alert.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>alert.qjson</a>

@@ -28,4 +28,4 @@
 | content   | QTextField content value, you can control your textfield data with this parameter. |
 
 ## QJson Sample
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QRichTextExample.qjson" target="_blank">QRichTextExample</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/QRichTextExample.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QRichTextExample</a>

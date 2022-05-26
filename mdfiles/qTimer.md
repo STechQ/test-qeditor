@@ -28,4 +28,4 @@ The setInterval method will continue calling the function until stop() is called
 > > ```
 
 Example usage of start, stop, restart, status methods:
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/qtimer.qjson" target="_blank">qtimer</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/qtimer.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>qtimer</a>

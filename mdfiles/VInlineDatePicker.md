@@ -56,7 +56,7 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VInlineDatePicker/VInlineDatePicker-6.jpg)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/AllowdDates.qjson"  target="_blank">AllowdDates</a>
+<a href="" onclick="this.href='?q=qjsons/AllowdDates.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>AllowdDates</a>
 
 
 
@@ -64,7 +64,7 @@
 
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VInlineDatePicker/VInlineDatePicker-7.jpg)
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VinlineDatePicker.qjson"  target="_blank">VinlineDatePicker</a>
+<a href="" onclick="this.href='?q=qjsons/VinlineDatePicker.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VinlineDatePicker</a>
 
 
 
@@ -79,14 +79,14 @@
 
 # QJSON SAMPLES
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VınlineDatepickerDeleteValue.qjson"  target="_blank">VınlineDatepickerDeleteValue</a>
+<a href="" onclick="this.href='?q=qjsons/VınlineDatepickerDeleteValue.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VınlineDatepickerDeleteValue</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VInlineDatepickerMaxMin.qjson"  target="_blank">VInlineDatepickerMaxMin</a>
+<a href="" onclick="this.href='?q=qjsons/VInlineDatepickerMaxMin.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VInlineDatepickerMaxMin</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/VInlineDatepickerReset.qjson"  target="_blank">VInlineDatepickerReset</a>
+<a href="" onclick="this.href='?q=qjsons/VInlineDatepickerReset.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VInlineDatepickerReset</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DatepickerDatenow.qjson"  target="_blank">DatepickerDatenow</a>
+<a href="" onclick="this.href='?q=qjsons/DatepickerDatenow.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DatepickerDatenow</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/DatePickerExampleApp.qjson"  target="_blank">DatePickerExampleApp</a>
+<a href="" onclick="this.href='?q=qjsons/DatePickerExampleApp.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DatePickerExampleApp</a>
 
 

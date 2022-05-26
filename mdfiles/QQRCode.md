@@ -23,4 +23,4 @@
 
 
 ## QJson Samples
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/QQRCode.qjson" target="_blank">QQRCode</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/QQRCode.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>QQRCode</a>

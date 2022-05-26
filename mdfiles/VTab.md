@@ -6,4 +6,4 @@
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/VTab/vtab-2.png)
 
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/tab.qjson"  target="_blank">tab</a>
+<a href="" onclick="this.href='?q=qjsons/tab.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>tab</a>

@@ -96,12 +96,12 @@ Note: For TS, CustomComp Methods parameters are insaccessable, so **for now** yo
 
 # Sample Pages
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/parentPage.qjson"target="_blank">parentPage.js</a>
+<a href="" onclick="this.href='?q=qjsons/parentPage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>parentPage.js</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/subPage.qjson" target="_blank">subPage.js</a>
+<a href="" onclick="this.href='?q=qjsons/subPage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>subPage.js</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fileUploadServiceCallCC.qjson" target="_blank">fileUploadServiceCallCC.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/fileUploadServiceCallCC.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>fileUploadServiceCallCC.qjson</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/serviceCallerCustomComponent.qjson" target="_blank">serviceCallerCustomComponent.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/serviceCallerCustomComponent.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>serviceCallerCustomComponent.qjson</a>
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/fileUploadCustomComponent.qjson" target="_blank">fileUploadCustomComponent.qjson</a>
+<a href="" onclick="this.href='?q=qjsons/fileUploadCustomComponent.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>fileUploadCustomComponent.qjson</a>

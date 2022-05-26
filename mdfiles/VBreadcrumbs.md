@@ -32,5 +32,4 @@
 
 
 ## QJson
-
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/breadcrumbs.qjson" target="_blank">VBreadcrumbs</a>
+<a href="" onclick="this.href='?q=qjsons/breadcrumbs.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VBreadcrumbs</a>

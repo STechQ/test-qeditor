@@ -4,8 +4,7 @@
 
 # SAMPLE QJSONS
 
-<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/radioGroupGetValues.qjson"  target="_blank">radioGroupGetValues</a>
-
+<a href="" onclick="this.href='?q=qjsons/radioGroupGetValues.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>radioGroupGetValues</a>
 
 
 <!-- NLP: Radiogroup kullanımı | Checkbox kullanımı | Nasıl seçim yaparım | Nasıl seçenek oluştururm | Seçenekler arasında seçim yapmak istiyorum | Nasıl seçim yaparım | Seçeneklerden seçim yaptırmak istiyorum | Seçenek gösterimi | Seçeneklerden birini seçtirmek istiyorum | Çok radio göstermek istiyorum | Şıkları göstermek istiyorum | Seçim | Radiogroup | Radiogroup seçilen değeri alma -->

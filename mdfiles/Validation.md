@@ -127,4 +127,4 @@ The uses of these two functions are as follows;
 ***Example Qjson File :***
 
 
-Example file: <a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/resetAndResetValidationUsage.qjson" target="_blank">resetAndResetValidationUsage</a>
+Example file: <a href="" onclick="this.href='?q=qjsons/resetAndResetValidationUsage.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>resetAndResetValidationUsage</a>
