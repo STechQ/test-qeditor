@@ -4402,6 +4402,9 @@ nextIcon = 'mdi-plus'}`
         hint: {
             type: String
         },
+        height: {
+            type: "number | string"
+        },
         label: {
             type: String
         },

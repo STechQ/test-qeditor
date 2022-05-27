@@ -113,6 +113,12 @@ The datatable component is used for displaying tabular data. Features include so
 
 <a href="" onclick="this.href='?q=qjsons/VDataTable_Change_FooterPageText.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>VDataTable_Change_FooterPageText</a>
 
+### VDataTable Slot Instances
+To use slot component instances in the VDataTable: 
+ - Set **uniqueSlots** prop to *true* and set the **itemKey** prop with row objects unique fields.   
+ - New component ids will be created as **templateCompId + "_q_" + rowObject[itemKey]** and can be accessed by new id under components field.
+  
+<a href="https://studio.onplateau.com/quick/?q=/quick/qjsons/uniqueRowSlots.qjson"  target="_blank">Unique Row Slots</a>
 
 # QJson Samples
 
