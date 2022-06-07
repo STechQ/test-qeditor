@@ -12,4 +12,33 @@ interface IMessage {
     caller?: string // Caller function of the message 
 }
 ```
+Log types can be filtered and printed according to the user's request. The following line to be written in the relevant event will provide this.
+```tsx
+//This line provide users to get Error logs
+quick.EM.trace("",{logType:Logtype.Error})
+
+//This line provide users to get Trace logs
+quick.EM.trace("",{logType:Logtype.Trace})
+
+//This line provide users to get Warning logs
+quick.EM.trace("",{logType:Logtype.Warning})
+
+```
+
+There is a variable in the "settings.yaml" file of the current project called **yamlLogType**. This variable able to take one of the five logtype which are **Debug | MobilDebug | Trace | Warning | Error**. Users should select one of them but this is not mandatory. Default log type is **Trace**.
+
+![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/releaseNotes/yamlLog.png)
+
+
+Log types have their own priority order. When the user uses the above method, it calls the selected log and the following logs. The priority order is below.
+
+```tsx
+export enum LogType {
+    Debug = 0,
+    MobilDebug = 1000,
+    Trace = 200000, //100Kb
+    Warning = 500000, //250Kb
+    Error = 1000000 // 500Kb
+}
+```
 
