@@ -4638,6 +4638,9 @@ nextIcon = 'mdi-plus'}`
         itemChildren: {
             type: String
         },
+        itemDisabled: {
+            type: String
+        },
         itemKey: {
             type: String
         },
