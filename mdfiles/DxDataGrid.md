@@ -5,11 +5,20 @@ The DataGrid is a widget that represents data from a local or remote source in t
 See the [component page](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/)
 
 #### DxDataGrid Update Data
+
 You should update dxDataGrid compoent after you set any property in the runtime. 
 
 You can use: Quick.updateComponent(ComponentQId)
 
 Example file: <a href="" onclick="this.href='?q=qjsons/dxDatagridUpdate.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDatagridUpdate</a>
+
+#### DxDataGrid HeatMap Feature
+
+A heatmap feature which can provide progress view depend on the changes of the data can be used in DxDataGrid. Usage of the feature is like below example.
+
+![image-20220614112408006](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/DxDataGridHeatMap.png)
+
+Example file: <a href="" onclick="this.href='?q=qjsons/dxDatagridHeatMap.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDatagridHeatMap</a>
 
 #### DxDataGrid Bar Usage
 
@@ -61,6 +70,7 @@ Example file: <a href="" onclick="this.href='?q=qjsons/dxTotalItemCustomizeText.
 #### DxDataGrid Remove Data Sample
 
 Example file: <a href="" onclick="this.href='?q=qjsons/dxDataGridRemove.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDataGridRemove</a>
+
 #### DxDataGrid DxMasterDetail Usage
 
 Open the DxMasterDetail switch and add new dropable column. Then drag the component you want to the column you just added for the master detail. Set dxMasterDetail enabled : true and template:'just added column name'
@@ -95,9 +105,11 @@ Sample usage of these properties are shown below:
 #### DxColumnChooser & DxColumnFixer Sample
 
 Example file: <a href="" onclick="this.href='?q=qjsons/DxColumnChooser_DxColumnFixer.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxColumnChooser_DxColumnFixer</a>
+
 #### DxDataGrid OnCellClick
 
 Example file: <a href="" onclick="this.href='?q=qjsons/onCellClickDx.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxMasterDetail</a>
+
 #### Simple Data Grid Array Store Sample
 
 
@@ -115,6 +127,7 @@ Filters on DxDataGrid can be saved and load with DxStateStoring component.
 Example file: <a href="" onclick="this.href='?q=qjsons/State_storing.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>State_storing</a>
 
 #### DxColumn fixed & allowFixing Properties Sample
+
 Example file: <a href="" onclick="this.href='?q=qjsons/DxColumn_fix_allowFixing.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxColumn_fix_allowFixing</a>
 
 
@@ -161,6 +174,7 @@ Specifies whether vertical lines that separate one column from another are visib
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/columnlines.PNG)
 
 Example file: <a href="" onclick="this.href='?q=qjsons/dxDataGridLines.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>dxDataGridLines</a>
+
 #### DxDataGrid External Filtering
 
 Example usage for external filtering of dxdatagrid.
@@ -177,3 +191,4 @@ Example usage for dxdatagrid filter cleaning from outside.
 ![image](https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/DxDataGrid/extarnalfilterClear.gif)
 
 Example file: <a href="" onclick="this.href='?q=qjsons/filtercleaning.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>filtercleaning</a>
+
