@@ -277,6 +277,9 @@ var componentOptions = {
         prependIcon: {
             type: String
         },
+        preventPaste: {
+            type: Boolean
+        },
         placeholder: {
             type: String
         },
