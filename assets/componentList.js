@@ -839,7 +839,7 @@ var componentOptions = {
             type: "string | number"
         },
         loading: {
-            type: "string | boolean"
+            type:  Boolean
         },
         maxHeight: {
             type: Number | String
