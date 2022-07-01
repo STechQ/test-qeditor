@@ -20,7 +20,7 @@ To send a request in Quick, you must create an object like the one below. You ca
 
 ## Request Samples
 
-### Get
+### Get Request
 > > ```js
 > > const req: IRequest = {
 > >   url: "https://httpbin.org/get", 
@@ -35,7 +35,7 @@ To send a request in Quick, you must create an object like the one below. You ca
 > > quick.Request.async(req);
 > > ```
 
-### Update-Put Request
+### Post Request
 
 Input parameters must be set to `data` field of object which is given to Request.async function.
 
@@ -51,11 +51,11 @@ Input parameters must be set to `data` field of object which is given to Request
 >};
 >
 > const req: IRequest = {
->   url: "https://httpbin.org/put", 
+>   url: "https://httpbin.org/post", 
 >   data: reqData, 
 >   headers: {accept: "application/json"},
 >   blockRender: false, 
->   http: "put",
+>   http: "post",
 >   onFail: null, 
 >   onSuccess: null,
 >   responseField: "respo"
