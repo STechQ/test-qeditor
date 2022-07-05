@@ -63,6 +63,15 @@ To download any file, it must have a base64 type string value. The download proc
 Example file: <a href="" onclick="this.href='?q=qjsons/Download.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>Download a File</a>
 
 
+##  Encode and Decode
+Base64 Encoding is using to store or transmit binary data by converting it to text. 
+> quick.encoding.atob(encodedString: string)
+
+> quick.encoding.btoa(stringToEncode: string)
+
+Example file: <a  href=""  onclick="this.href='?q=qjsons/encoding.qjson'; this.target=(window.location  !==  window.parent.location) ?  ''  :  '_blank';"  target=''>Download a File</a>
+
+
 ## Export To XLSX
 Quick.exportToXlsx method can be used to export specific data to excel file
 
