@@ -2746,6 +2746,9 @@ nextIcon = 'mdi-plus'}`
         miniVariant: {
             type: Boolean
         },
+        mobileBreakpoint: {
+            type: "number | string"
+        },
         permanent: {
             type: Boolean,
         },
