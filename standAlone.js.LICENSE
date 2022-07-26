@@ -1484,11 +1484,11 @@
   !*** /home/runner/work/quick/quick/common/shrimp/helpers/logger.ts ***!
   \*********************************************************************/
 
+/*! ../interfaces/ComponentInterfaces/ILogger */
+
 /*! ./bulkManager */
 
 /*! ./windowHelper */
-
-/*! ../interfaces/ComponentInterfaces/ILogger */
 
 /*!***************************************************************************!*\
   !*** /home/runner/work/quick/quick/common/shrimp/helpers/singularizer.ts ***!
@@ -2834,11 +2834,11 @@
   !*** ./src/managers/streaming/MobilePreviewManager.ts ***!
   \********************************************************/
 
+/*! @stechquick/shrimp/lib/helpers/lazyLoader */
+
 /*! @stechquick/shrimp/lib/helpers/qrCodeHelper */
 
 /*! ./qjsonStreamer */
-
-/*! @stechquick/shrimp/lib/helpers/lazyLoader */
 
 /*!*************************************************!*\
   !*** ./src/managers/streaming/qjsonStreamer.ts ***!
@@ -2874,13 +2874,13 @@
   !*** ./src/managers/system/LanguageManager.ts ***!
   \************************************************/
 
+/*! @stechquick/shrimp/lib/omniScriptCompiler/QSCError */
+
 /*! ../../../build/nemoInterfaces */
 
 /*! ../../omniScript/identifierTraversing/identifierInfo */
 
 /*! ../../omniScript/identifierTraversing/identifierSearcher */
-
-/*! @stechquick/shrimp/lib/omniScriptCompiler/QSCError */
 
 /*! ./language/intelliCompTypeCacher */
 
@@ -2978,11 +2978,11 @@
   !*** ./src/omniScript/Compiler.ts ***!
   \************************************/
 
-/*! ../managers/system/ErrorManager */
-
 /*! @stechquick/shrimp/lib/omniScriptCompiler/Compressor */
 
 /*! @stechquick/shrimp/lib/omniScriptCompiler/Parser */
+
+/*! ../managers/system/ErrorManager */
 
 /*! ./tsCompiler */
 
@@ -3042,9 +3042,9 @@
 
 /*! ../../components/editing/EventList.vue */
 
-/*! ../../components/editing/LRModal.vue */
-
 /*! ../../components/editing/LLModal.vue */
+
+/*! ../../components/editing/LRModal.vue */
 
 /*! ../../components/editing/PropertyList.vue */
 
@@ -8348,6 +8348,8 @@
 
 /*! ./Context/ScopeContext */
 
+/*! ./Dory */
+
 /*!**********************************************!*\
   !*** ./src/Helpers/ComponentCommunicator.ts ***!
   \**********************************************/
@@ -8420,6 +8422,8 @@
 
 /*! @stechquick/shrimp/lib/interfaces/Scripting/IEvaluator */
 
+/*! bignumber.js */
+
 /*! ../Context/ResponseContext */
 
 /*! ../Context/ScopeContext */
@@ -8464,8 +8468,6 @@
 
 /*! ./ValidationManager */
 
-/*! bignumber.js */
-
 /*!***************************************************!*\
   !*** ./src/Managers/HistoryItemBasedLRManager.ts ***!
   \***************************************************/
@@ -8488,13 +8490,13 @@
   !*** ./src/Managers/Network/RequestManager.ts ***!
   \************************************************/
 
-/*! ../../Context/ResponseContext */
-
-/*! ./MockManager */
-
 /*! @stechquick/shrimp/lib/helpers/httpHeaderHelper */
 
 /*! ../../Context/BlockInfo */
+
+/*! ../../Context/ResponseContext */
+
+/*! ./MockManager */
 
 /*!*****************************************!*\
   !*** ./src/Managers/PropCalcContext.ts ***!
@@ -8582,6 +8584,8 @@
   !*** ./src/Model/History/HistoryItem.ts ***!
   \******************************************/
 
+/*! @stechquick/shrimp/lib/helpers/compUIDHelper */
+
 /*! @stechquick/shrimp/lib/helpers/scripting/PageScripting */
 
 /*! ../../Context/Store/PageStoreContext */
@@ -8601,8 +8605,6 @@
 /*! ../Component/ComponentCollection */
 
 /*! ./IndexManager */
-
-/*! @stechquick/shrimp/lib/helpers/compUIDHelper */
 
 /*!*******************************************!*\
   !*** ./src/Model/History/IndexManager.ts ***!
@@ -8774,11 +8776,11 @@
 
 /*! ../../customComponents/QCaptcha */
 
-/*! ../../customComponents/QQRCode */
+/*! ../../customComponents/QDynamicFields */
 
 /*! ../../customComponents/QLegend */
 
-/*! ../../customComponents/QDynamicFields */
+/*! ../../customComponents/QQRCode */
 
 /*! ./QJsonCollector */
 
