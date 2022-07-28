@@ -71,6 +71,6 @@ Closes the connection.
 
 
 ## LiveConnection with Devexpress DataGrid
-<a href="" onclick="this.href='?q=qjsons/DxDataGridArrStoreLiveCon.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxDataGridArrStoreLiveCon</a>
+<a href="" onclick="this.href='?q=qjsons/DxDataGridArrStoreLiveConReason.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxDataGridArrStoreLiveConReason</a>
 
 <a href="" onclick="this.href='?q=qjsons/DxTreeListArrStoreLiveCon.qjson'; this.target=(window.location !== window.parent.location) ? '' : '_blank';"  target=''>DxTreeListArrStoreLiveCon</a>
