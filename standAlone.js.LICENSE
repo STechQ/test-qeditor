@@ -1568,6 +1568,10 @@
   !*** ../shrimp/lib/helpers/cryptoHelper.js ***!
   \*********************************************/
 
+/*!******************************************!*\
+  !*** ../shrimp/lib/helpers/cssHelper.js ***!
+  \******************************************/
+
 /*!*************************************************!*\
   !*** ../shrimp/lib/helpers/customCompHelper.js ***!
   \*************************************************/
@@ -2941,6 +2945,8 @@
 /*! @stechquick/plateau-comm */
 
 /*! js-yaml */
+
+/*! @stechquick/shrimp/lib/helpers/cssHelper */
 
 /*!*********************************************!*\
   !*** ./src/managers/system/TitleManager.ts ***!
@@ -10553,8 +10559,6 @@
 /*!***************************!*\
   !*** ./src/standAlone.ts ***!
   \***************************/
-
-/*! @stechquick/shrimp/lib/helpers/cssHelper */
 
 /*! @stechquick/websdk */
 
