@@ -215,6 +215,11 @@
                     "menuName": "QFrame",
                     "fileName": "QFrame",
                     "path": "./mdfiles/QFrame.md"
+                },
+                {
+                    "menuName": "QImgZoom",
+                    "fileName": "QImgZoom",
+                    "path": "./mdfiles/QImgZoom.md"
                 }
             ]
         }

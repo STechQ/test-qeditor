@@ -1,0 +1,125 @@
+let pjson = {
+	"pJson": [
+		{
+			"T": "QImgZoom",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_3969",
+					"T": "prop"
+				},
+				"src": {
+					"H": "'https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/QImgZoom/defaultPhoto.jpg'",
+					"T": "prop"
+				},
+				"height": {
+					"H": "400",
+					"T": "prop"
+				},
+				"width": {
+					"H": "400",
+					"T": "prop"
+				},
+				"zoomedAreaHeight": {
+					"H": "150",
+					"T": "prop"
+				},
+				"zoomedAreaWidth": {
+					"H": "150",
+					"T": "prop"
+				},
+				"zoomedAreaOpacity": {
+					"H": "'0.2'",
+					"T": "prop"
+				},
+				"zoomedAreaColor": {
+					"H": "'#000'",
+					"T": "prop"
+				},
+				"zoomedImageHeight": {
+					"H": "500",
+					"T": "prop"
+				},
+				"zoomedImageWidth": {
+					"H": "500",
+					"T": "prop"
+				},
+				"marginLeft": {
+					"H": "5",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_3969"
+			},
+			"O": {
+				"cType": "slot"
+			}
+		}
+	],
+	"cJson": [
+		{
+			"T": "QImgZoom",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_3969",
+					"T": "prop"
+				},
+				"src": {
+					"H": "╬'https://cdn.softtech.com.tr/ngsp-quick/nemo/dev/mdImages/QImgZoom/defaultPhoto.jpg'╩╩",
+					"T": "prop"
+				},
+				"height": {
+					"H": "╬400╩╩",
+					"T": "prop"
+				},
+				"width": {
+					"H": "╬400╩╩",
+					"T": "prop"
+				},
+				"zoomedAreaHeight": {
+					"H": "╬150╩╩",
+					"T": "prop"
+				},
+				"zoomedAreaWidth": {
+					"H": "╬150╩╩",
+					"T": "prop"
+				},
+				"zoomedAreaOpacity": {
+					"H": "╬'0.2'╩╩",
+					"T": "prop"
+				},
+				"zoomedAreaColor": {
+					"H": "╬'#000'╩╩",
+					"T": "prop"
+				},
+				"zoomedImageHeight": {
+					"H": "╬500╩╩",
+					"T": "prop"
+				},
+				"zoomedImageWidth": {
+					"H": "╬500╩╩",
+					"T": "prop"
+				},
+				"marginLeft": {
+					"H": "╬5╩╩",
+					"T": "prop"
+				}
+			},
+			"E": {},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_3969"
+			},
+			"O": {
+				"cType": "slot",
+				"compDomClasses": "show newDropBorder"
+			}
+		}
+	],
+	"lrids": {},
+	"clrids": {},
+	"description": {}
+};
+export default pjson
