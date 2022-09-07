@@ -2610,6 +2610,9 @@ nextIcon = 'mdi-plus'}`
         qValue: {
             type: "any"
         },
+        activeClass:{
+            type: String
+        },
         class: {
             type: String
         },
