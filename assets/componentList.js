@@ -323,6 +323,9 @@ var componentOptions = {
         height: {
             type: "number | string"
         },
+        width: {
+            type: "number | string"
+        },
         left: {
             type: Boolean
         },
@@ -3565,6 +3568,64 @@ nextIcon = 'mdi-plus'}`
         },
         tile: {
             type: String
+        },
+        visible: {
+            type: Boolean,
+            editorDefaultValue: "true"
+        },
+    },
+    VSkeletonLoader: {
+        boilerPlate: {
+            type: Boolean
+        },
+        dark: {
+            type: Boolean
+        },
+        elevation: {
+            type: "number | string",
+            editorDefaultValue: "4",
+            options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"]
+        },
+        height: {
+            type: "number | string",
+            editorDefaultValue: "'200'"
+        },
+        width: {
+            type: "number | string",
+            editorDefaultValue: "'200'"
+        },
+        light: {
+            type: Boolean
+        },
+        loading: {
+            type: Boolean
+        },
+        maxHeight: {
+            type: "number | string"
+        },
+        maxWidth: {
+            type: "number | string"
+        },
+        minHeight: {
+            type: "number | string"
+        },
+        minWidth: {
+            type: "number | string"
+        },
+        tile: {
+            type: Boolean
+        },
+        type: {
+            editorDefaultValue: "'card'",
+            type: String,
+            options: ["'actions'", "'article'", "'avatar'", "'button'", "'card'", "'card-avatar'", "'card-heading'", "'chip'", 
+            "'date-picker'", "'date-picker-options'", "'date-picker-days'", "'heading'", "'image'", "'list-item'", "'list-item-avatar'", 
+            "'list-item-two-line'", "'list-item-avatar-two-line'", "'list-item-three-line'", "'list-item-avatar-three-line'", 
+            "'paragraph'", "'sentences'", "'table'", "'table-heading'", "'table-thead'", "'table-tbody'", "'table-row-divider'", 
+            "'table-row'", "'table-cell'", "'table-tfoot'", "'text'"]
+        },
+        types: {
+            type: Object
         },
         visible: {
             type: Boolean,

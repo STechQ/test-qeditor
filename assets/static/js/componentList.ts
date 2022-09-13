@@ -192,6 +192,9 @@ var componentOptions: ComponentOptions = {
         height: {
             type: "number | string"
         },
+        width: {
+            type: "number | string"
+        },
         left: {
             type: Boolean
         },
@@ -2595,6 +2598,50 @@ nextIcon = 'mdi-plus'}`,
         height: {
             type:String
         }
+    },
+    VSkeletonLoader: {
+        boilerPlate: {
+            type: Boolean
+        },
+        dark: {
+            type: Boolean
+        },
+        elevation: {
+            type: "number | string"
+        },
+        height: {
+            type: "number | string"
+        },
+        light: {
+            type: Boolean
+        },
+        loading: {
+            type: Boolean
+        },
+        maxHeight: {
+            type: "number | string"
+        },
+        maxWidth: {
+            type: "number | string"
+        },
+        minHeight: {
+            type: "number | string"
+        },
+        minWidth: {
+            type: "number | string"
+        },
+        tile: {
+            type: "number | string"
+        },
+        type: {
+            type: String
+        },
+        types: {
+            type: Object
+        },
+        width: {
+            type: "number | string"
+        },
     },
     VSlider: {
         class: {
