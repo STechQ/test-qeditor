@@ -1419,6 +1419,9 @@ var componentOptions = {
         readonly: {
             type: Boolean
         },
+        rounded:{
+            type: Boolean
+        },
         rules: {
             type: "Array<any>"
         },
@@ -3520,6 +3523,9 @@ nextIcon = 'mdi-plus'}`
         },
         prependInnerIcon: {
             type: String
+        },
+        rounded:{
+            type: Boolean
         },
         solo: {
             type: Boolean
