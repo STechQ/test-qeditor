@@ -6,24 +6,26 @@
 
 ![image](https://gitlab.softtech/quickpublic/quick/-/wikis/uploads/eb05fd5942f63a07c627d120eea7cde6/image.png)
 
-*Figure 1. One CSS array*		
-											
+*Figure 1. One CSS array*   
+                      
 
    In this situation, all the CSS files under csspath will be applied to your pages. This means there isn't any alternative theme.
 
 2. List of CSS arrays
 
-  ![image](https://gitlab.softtech/quickpublic/quick/-/wikis/uploads/122d153963f6594df50a9834f1b4f97f/image.png)
+  ![css](uploads/0fbd8a7d0bf95874933a882c5e996b43/css.PNG)
 
-   ​													*Figure 2. Multiple themes*
+​                             *Figure 2. Multiple themes*
 
-  
+
    If multiple theme options are possible, one theme should be set as default theme with the name "default" so that it can be applied from the beginning.
 
-​			
+​     
 
 ## API
+
 ### Get Theme List
+
 This returns the themes. For the first case where there is only one css array, this method will return an empty array as there is not an alternative theme. In the second case where there are multiple possible themes, this method returns the names of the themes in an array. getThemeList() returns [] for Figure 1 while it returns ["default","myTheme","darkTheme"]. 
 
 > quick.Quick.theme.getThemeList()
@@ -45,6 +47,14 @@ In the editor, you can call setTheme method as Quick.theme.setTheme(themeName:st
 For example, if you call Quick.theme.setTheme(EdtrComp_98.internalValue) in a combobox's change(value) event, the theme will change immediately after you select a theme name from the combobox.
 
 > quick.Quick.theme.setTheme(themeName: string)
+>
+> Example;
+>
+> ​        Quick.setTheme("compact");
+>
+> ​        Quick.setTheme("dark");
+>
+> ​        Quick.setTheme("dark-compact");
 
 ### Add Theme 
 
@@ -57,12 +67,12 @@ Add a theme from the settings.yaml cssPath field. This theme doesn't remove prev
 This method can be used to delete a previously added CSS address. Default added CSSs can be deleted as well.
 
 > quick.Quick.theme.removeTheme(themeName: string)
-  
+
 ![image](https://gitlab.softtech/quickpublic/quick/-/wikis/uploads/bfdf0523b241f6cf63dc85931e8ea24a/image.png)
 
   *Figure 3. custom dark theme is selected*
 
-  
+
 ![image](https://gitlab.softtech/quickpublic/quick/-/wikis/uploads/22fa717dd4d7217b7b0d4223121c62ec/image.png)
 
   *Figure 4. myTheme is selected*
@@ -87,6 +97,7 @@ or
 
 
 Example settings.yaml and cssPath field for dark theme is shown below:
+
 ```yaml 
   devextreme:
   - "https://cdn3.devexpress.com/jslib/20.1.3/css/dx.light.css"
