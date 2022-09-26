@@ -339,7 +339,7 @@ var TypeHelper = /** @class */ (function () {
         return this.GetObjectType(param) === "[object File]";
     };
     TypeHelper.prototype.isBlob = function (param) {
-        var MyBlob = new Blob([param], { type: 'text/plain' });
+        var MyBlob = new Blob([param]);
         return MyBlob instanceof Blob; // true
     };
     TypeHelper.prototype.cloneObject = function (obj) {
