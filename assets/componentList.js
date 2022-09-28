@@ -4475,6 +4475,9 @@ nextIcon = 'mdi-plus'}`
         errorMessages: {
             type: "Array<any> | string"
         },
+        flat: {
+            type: Boolean
+        },
         hint: {
             type: String
         },
