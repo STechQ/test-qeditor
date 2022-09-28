@@ -1417,9 +1417,9 @@
     display: none;
   }
   
-  .buttonsGroup .prop-content input:checked+.prop-switch-slider::before {
+  /* .buttonsGroup .prop-content input:checked+.prop-switch-slider::before {
     left: 3px !important;
-  }
+  } */
   
   .quickEditor .contentBlock header {
     /* background: #FFFFFF; */
