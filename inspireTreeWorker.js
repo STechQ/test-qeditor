@@ -608,8 +608,8 @@ ctx.onmessage = function (e) {
         createResponse({ treeData: treeData, recreate: msg.recreate });
         return;
     }
-    // const comamnds = itw.inspireTreeHelper.createInspireTreeCommands(msg, treeData);
-    // createResponse({ comamnds, treeData, recreate: msg.recreate });
+    var comamnds = itw.inspireTreeHelper.createInspireTreeCommands(msg, treeData);
+    createResponse({ comamnds: comamnds, treeData: treeData, recreate: msg.recreate });
 };
 var createResponse = function (response) {
     ctx.postMessage(response);
