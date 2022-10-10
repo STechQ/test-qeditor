@@ -1462,6 +1462,9 @@
     float: none !important;
     background-color: #FFFFFF;
   }
+  .monaco-tree-row .content.actions {
+    padding: 0 10px !important;
+  }
 
 input[type="checkbox"] {
   accent-color: #151233;
