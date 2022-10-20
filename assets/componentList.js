@@ -1468,6 +1468,10 @@ var componentOptions = {
         }
     },
     VContainer: {
+        eager:{
+            type:Boolean,
+            editorDefaultValue: "true"
+        },
         class: {
             type: String,
                 editorDefaultValue: "'container container--fluid'",
