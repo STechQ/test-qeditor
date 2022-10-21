@@ -4895,6 +4895,10 @@ nextIcon = 'mdi-plus'}`
             default: "pdf",
             type: String
         },
+        showToolBar: {
+            type: Boolean,
+            editorDefaultValue: "true"
+        },
         src: {
             default: "",
             type: String
