@@ -5,15 +5,16 @@
   }
   
   .notificationIcon {
-    font-size: 30px;
+    font-size: 28px;
     vertical-align: middle;
-    margin: 6px 25px 11px 0px;
+    margin: 3px 19px 0px 0px;
     float: left;
     color: #000000;
   }
 
   .Vue-Toastification__toast {
-    width: 350px;
+    min-width: 295px !important;
+    width: 295px;
     box-shadow: 2px 2px 15px #00000066;
     border-radius: 4px;
     opacity: 0.9;
