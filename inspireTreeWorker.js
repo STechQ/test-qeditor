@@ -96,10 +96,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "../shrimp/lib/helpers/QJsonHelper.js":
-/*!********************************************!*\
-  !*** ../shrimp/lib/helpers/QJsonHelper.js ***!
-  \********************************************/
+/***/ "../shrimp/helpers/QJsonHelper.ts":
+/*!****************************************!*\
+  !*** ../shrimp/helpers/QJsonHelper.ts ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -107,7 +107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.QJsonHelper = exports.CompSearchKey = void 0;
-var typeHelper_1 = __webpack_require__(/*! ./typeHelper */ "../shrimp/lib/helpers/typeHelper.js");
+var typeHelper_1 = __webpack_require__(/*! ./typeHelper */ "../shrimp/helpers/typeHelper.ts");
 var CompSearchKey;
 (function (CompSearchKey) {
     CompSearchKey[CompSearchKey["PID"] = 0] = "PID";
@@ -254,10 +254,10 @@ exports.QJsonHelper = QJsonHelper;
 
 /***/ }),
 
-/***/ "../shrimp/lib/helpers/typeHelper.js":
-/*!*******************************************!*\
-  !*** ../shrimp/lib/helpers/typeHelper.js ***!
-  \*******************************************/
+/***/ "../shrimp/helpers/typeHelper.ts":
+/*!***************************************!*\
+  !*** ../shrimp/helpers/typeHelper.ts ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -415,7 +415,7 @@ exports.GhostContants = GhostContants;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InspireTreeHelper = void 0;
-var QJsonHelper_1 = __webpack_require__(/*! @stechquick/shrimp/lib/helpers/QJsonHelper */ "../shrimp/lib/helpers/QJsonHelper.js");
+var QJsonHelper_1 = __webpack_require__(/*! ../../../../../shrimp/helpers/QJsonHelper */ "../shrimp/helpers/QJsonHelper.ts");
 var GhostConstants_1 = __webpack_require__(/*! ../../../components/editorRendering/GhostConstants */ "./src/components/editorRendering/GhostConstants.ts");
 var InspireTreeHelper = /** @class */ (function () {
     function InspireTreeHelper() {

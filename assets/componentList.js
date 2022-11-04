@@ -1046,6 +1046,9 @@ var componentOptions = {
         dark: {
             type: Boolean
         },
+        dense: {
+            type: Boolean
+        },
         disabled: {
             type: Boolean
         },
