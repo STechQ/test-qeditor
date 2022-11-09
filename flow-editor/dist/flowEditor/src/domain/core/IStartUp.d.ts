@@ -1,4 +1,4 @@
-import { IStepOptions } from "../../../../flowInterfaces/editor/IStepOptions";
+import { IStepOptions, ListUIPagesCb } from "../../../../flowInterfaces/editor/IStepOptions";
 import { IEntity } from "../../../../flowInterfaces/runtime/IEntity";
 import { DependencyContainer } from "./diContainer";
 export interface IStepRequireInfo {
@@ -23,6 +23,9 @@ export interface IInitOptions {
     entity?: {
         onListRequire: () => Promise<Array<string>> | Array<string>;
         onRequire: (name: string) => Promise<IEntity> | IEntity;
+    };
+    ui?: {
+        onUIPageListRequire: ListUIPagesCb;
     };
 }
 export interface IStartUp {

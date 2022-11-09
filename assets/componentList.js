@@ -254,7 +254,7 @@ var componentOptions = {
             propType: "attr"
         },
         menuProps: {
-            type: "{maxHeight: number}"
+            type: "{closeOnClick: boolean, closeOnContentClick: boolean, disableKeys: boolean, openOnClick: boolean, maxHeight: number, offsetY: boolean, offsetOverflow: boolean, transition: boolean}"
         },
         outlined: {
             type: Boolean

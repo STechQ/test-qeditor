@@ -11,6 +11,11 @@ export interface IExpressionOptions {
     onChange?: (value: IExpressionData, iValid: boolean) => void;
     inputOptions?: IExpressionInputOptions;
 }
+export interface IUIPageInfo {
+    qjsonPath: string;
+    name: string;
+}
+export declare type ListUIPagesCb = () => Promise<Array<IUIPageInfo>>;
 export interface IEditSectionInput<PropType = IPropObject> {
     propValues: PropType;
     callbacks: {
@@ -19,6 +24,9 @@ export interface IEditSectionInput<PropType = IPropObject> {
         entity?: {
             getList: () => Promise<Array<string>> | Array<string>;
             get: (name: string) => Promise<IEntity> | IEntity;
+        };
+        ui?: {
+            listUIPages: ListUIPagesCb;
         };
         loading: (show: boolean) => void;
     };
