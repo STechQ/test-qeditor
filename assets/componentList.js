@@ -4942,6 +4942,6 @@ nextIcon = 'mdi-plus'}`
 if (typeof exports === 'object' && typeof module === 'object') {
     module.exports = componentOptions;
 } else {
-    window["QEditorComponentOptions"] = componentOptions;
+    window["plateauUIComponentOptions"] = componentOptions;
 }
 //#region JS Section  

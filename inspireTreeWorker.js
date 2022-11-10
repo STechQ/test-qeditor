@@ -105,6 +105,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 
+var __values = (this && this.__values) || function(o) {
+    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    if (m) return m.call(o);
+    if (o && typeof o.length === "number") return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.QJsonHelper = exports.CompSearchKey = void 0;
 var typeHelper_1 = __webpack_require__(/*! ./typeHelper */ "../shrimp/helpers/typeHelper.ts");
@@ -161,22 +172,32 @@ var QJsonHelper = /** @class */ (function () {
      * @returns ICompParentLocation
      */
     QJsonHelper.FindParentArrayPath = function (path, pageJson) {
+        var e_1, _a;
         var parent = null;
         var selfIndex = path.pop();
         if (path.length == 0) {
             return { selfIndex: selfIndex, parentArray: pageJson, parent: null };
         }
         var target = pageJson;
-        //Sample path: [3,default,2] --> [ {},{},{},{C:{default: [{}, {}, {BURADASIN}]}}  ]
-        for (var _i = 0, path_1 = path; _i < path_1.length; _i++) {
-            var curPath = path_1[_i];
-            if (new typeHelper_1.TypeHelper().isObject(target)) {
-                parent = target;
-                target = parent.C[curPath].c;
+        try {
+            //Sample path: [3,default,2] --> [ {},{},{},{C:{default: [{}, {}, {BURADASIN}]}}  ]
+            for (var path_1 = __values(path), path_1_1 = path_1.next(); !path_1_1.done; path_1_1 = path_1.next()) {
+                var curPath = path_1_1.value;
+                if (new typeHelper_1.TypeHelper().isObject(target)) {
+                    parent = target;
+                    target = parent.C[curPath].c;
+                }
+                else { //array
+                    target = target[curPath];
+                }
             }
-            else { //array
-                target = target[curPath];
+        }
+        catch (e_1_1) { e_1 = { error: e_1_1 }; }
+        finally {
+            try {
+                if (path_1_1 && !path_1_1.done && (_a = path_1.return)) _a.call(path_1);
             }
+            finally { if (e_1) throw e_1.error; }
         }
         return { selfIndex: selfIndex, parentArray: target, parent: parent };
     };
