@@ -9,7 +9,7 @@ export interface ISetExpressionData extends IExpressionData {
     type: "msg" | "wholeMsg";
 }
 export interface IExpressionData {
-    type: "string" | "number" | "boolean" | "msg" | "wholeMsg" | "notSet";
+    type: "enum" | "boolean" | "number" | "string" | "msg" | "wholeMsg" | "notSet";
     value: string;
 }
 export {};

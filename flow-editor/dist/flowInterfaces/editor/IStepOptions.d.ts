@@ -5,8 +5,16 @@ import { IEntity } from "../runtime/IEntity";
 export interface IExpressionInputOptions {
     width?: string;
 }
+export interface IExpressionEnumOptions {
+    type: "enum";
+    options: Array<{
+        value?: string;
+        text: string;
+    }>;
+    text?: string;
+}
 export interface IExpressionOptions {
-    types: Array<IExpressionData["type"]>;
+    types: Array<Exclude<IExpressionData["type"], "enum"> | IExpressionEnumOptions>;
     expression?: IExpressionData;
     onChange?: (value: IExpressionData, iValid: boolean) => void;
     inputOptions?: IExpressionInputOptions;
