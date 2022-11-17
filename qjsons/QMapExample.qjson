@@ -593,6 +593,30 @@ let pjson = {
 																												"markers": {
 																													"H": "[{position={lat=Number.parse('40.296297'), lng=Number.parse('27.625187')}, infoText= '<div><img src=\"https://www.isbank.com.tr/StaticFiles/Isbank/images/icons/isbank-og-image.jpg\" width=\"100px\" height=\"100px\"> İş Bankası Genel Merkezi </div>'}]",
 																													"T": "prop"
+																												},
+																												"mapKey": {
+																													"H": "'AIzaSyDA4KFrYr_Ux1HKyKqIAQB0fMU7qaT_5DA'",
+																													"T": "prop"
+																												},
+																												"mapType": {
+																													"H": "'roadmap'",
+																													"T": "prop"
+																												},
+																												"zoom": {
+																													"H": "5",
+																													"T": "prop"
+																												},
+																												"width": {
+																													"H": "'700px'",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "'400px'",
+																													"T": "prop"
+																												},
+																												"markerIcon": {
+																													"H": "'https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/star-24.png'",
+																													"T": "prop"
 																												}
 																											},
 																											"E": {
@@ -601,7 +625,8 @@ let pjson = {
 																												},
 																												"click:map": {
 																													"H": "EdtrComp_625.center=clickedPosition.position\r\nEdtrComp_625.zoom=5\r\nEM.trace('center:'+EdtrComp_625.center)",
-																													"P": "clickedPosition"
+																													"P": "clickedPosition",
+																													"HL": "QS"
 																												}
 																											},
 																											"C": {},
@@ -845,7 +870,7 @@ let pjson = {
 																											},
 																											"O": {
 																												"cType": "slot",
-																												"compDomClasses": "q-label  v-card__title"
+																												"compDomClasses": "q-label v-card__title newDropBorder"
 																											}
 																										}
 																									],
@@ -864,7 +889,7 @@ let pjson = {
 																							},
 																							"O": {
 																								"cType": "slot",
-																								"compDomClasses": "col"
+																								"compDomClasses": "col newDropBorder"
 																							}
 																						}
 																					],
@@ -876,7 +901,7 @@ let pjson = {
 																			},
 																			"O": {
 																				"cType": "slot",
-																				"compDomClasses": "row"
+																				"compDomClasses": "row newDropBorder"
 																			}
 																		},
 																		{
@@ -919,7 +944,7 @@ let pjson = {
 																											},
 																											"O": {
 																												"cType": "slot",
-																												"compDomClasses": "q-label "
+																												"compDomClasses": "q-label newDropBorder"
 																											}
 																										}
 																									],
@@ -947,7 +972,7 @@ let pjson = {
 																									},
 																									"class": "d-flex ml-4"
 																								},
-																								"compDomClasses": "col d-flex ml-4"
+																								"compDomClasses": "col d-flex ml-4 newDropBorder"
 																							}
 																						}
 																					],
@@ -959,7 +984,7 @@ let pjson = {
 																			},
 																			"O": {
 																				"cType": "slot",
-																				"compDomClasses": "row"
+																				"compDomClasses": "row newDropBorder"
 																			}
 																		},
 																		{
@@ -1349,6 +1374,30 @@ let pjson = {
 																												"markers": {
 																													"H": "╬[]╠{}╠=╣position╩╠{}╠=╣lat╩╠()╣.╣Number╩╠parse╩╩╠'40.296297'╩╩╩╠=╣lng╩╠()╣.╣Number╩╠parse╩╩╠'27.625187'╩╩╩╩╩╠=╣infoText╩╠'<div><img src=\"https://www.isbank.com.tr/StaticFiles/Isbank/images/icons/isbank-og-image.jpg\" width=\"100px\" height=\"100px\"> İş Bankası Genel Merkezi </div>'╩╩╩╩╩",
 																													"T": "prop"
+																												},
+																												"mapKey": {
+																													"H": "╬'AIzaSyDA4KFrYr_Ux1HKyKqIAQB0fMU7qaT_5DA'╩╩",
+																													"T": "prop"
+																												},
+																												"mapType": {
+																													"H": "╬'roadmap'╩╩",
+																													"T": "prop"
+																												},
+																												"zoom": {
+																													"H": "╬5╩╩",
+																													"T": "prop"
+																												},
+																												"width": {
+																													"H": "╬'700px'╩╩",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "╬'400px'╩╩",
+																													"T": "prop"
+																												},
+																												"markerIcon": {
+																													"H": "╬'https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/star-24.png'╩╩",
+																													"T": "prop"
 																												}
 																											},
 																											"E": {
@@ -1357,7 +1406,8 @@ let pjson = {
 																												},
 																												"click:map": {
 																													"H": "╬=╣.╣EdtrComp_625╩╠center╩╩╠.╣clickedPosition╩╠position╩╩╩╬=╣.╣EdtrComp_625╩╠zoom╩╩╠5╩╩╬()╣.╣EM╩╠trace╩╩╠+╣'center:'╩╠.╣EdtrComp_625╩╠center╩╩╩╩╩",
-																													"P": "clickedPosition"
+																													"P": "clickedPosition",
+																													"HL": "QS"
 																												}
 																											},
 																											"C": {},

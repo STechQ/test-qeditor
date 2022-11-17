@@ -4894,10 +4894,6 @@ nextIcon = 'mdi-plus'}`
         },
     },
     QDocumentViewer: {
-        customCompClass: {
-            default: "pdf",
-            type: String
-        },
         showToolBar: {
             type: Boolean,
             editorDefaultValue: "true"

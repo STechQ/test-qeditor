@@ -12,11 +12,20 @@ let pjson = {
 					"T": "prop"
 				},
 				"height": {
-					"H": "'150px'",
+					"H": "'350px'",
+					"T": "prop"
+				},
+				"showToolBar": {
+					"H": "true",
 					"T": "prop"
 				}
 			},
-			"E": {},
+			"E": {
+				"scrollEnd": {
+					"H": "quick.EM.trace('scrollEnd triggered')",
+					"HL": "TS"
+				}
+			},
 			"C": {},
 			"_Editor": {
 				"eID": "EdtrComp_1"
@@ -40,22 +49,31 @@ let pjson = {
 					"T": "prop"
 				},
 				"height": {
-					"H": "╬'150px'╩╩",
+					"H": "╬'350px'╩╩",
+					"T": "prop"
+				},
+				"showToolBar": {
+					"H": "╬true╩╩",
 					"T": "prop"
 				}
 			},
-			"E": {},
+			"E": {
+				"scrollEnd": {
+					"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace('scrollEnd triggered');\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMV9zY3JvbGxFbmRfRS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkVkdHJDb21wXzFfc2Nyb2xsRW5kX0UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLEtBQUssQ0FBQyxFQUFFLENBQUMsS0FBSyxDQUFDLHFCQUFxQixDQUFDLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJcbnF1aWNrLkVNLnRyYWNlKCdzY3JvbGxFbmQgdHJpZ2dlcmVkJylcbiBleHBvcnR7fTtcbiJdfQ==",
+					"HL": "JS"
+				}
+			},
 			"C": {},
 			"_Editor": {
 				"eID": "EdtrComp_1"
 			},
 			"O": {
 				"cType": "child",
-				"compDomClasses": ""
+				"compDomClasses": "newDropBorder"
 			}
 		}
 	],
 	"lrids": {},
 	"clrids": {}
 };
-export default pjson 
+export default pjson

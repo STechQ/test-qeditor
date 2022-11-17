@@ -1462,6 +1462,55 @@
     float: none !important;
     background-color: #FFFFFF;
   }
+  .monaco-action-bar .action-menu-item {
+    background-color: transparent !important;
+    margin: -1px;
+  }
+  
+  .action-label.codicon.separator.disabled {
+    margin-inline: auto !important;
+    background: transparent !important;
+  }
+  
+  
+  .monaco-scrollable-element .actions-container {
+    padding: 10px 0 !important;
+    width: 260px !important;
+    background: #FFFFFF;
+  }
+  
+  .actions-container .action-label {
+    color: #212121;
+    font-size: 14px !important;
+  }
+  
+  .actions-container .keybinding {
+    color: #757575;
+    font-size: 12px !important;
+  }
+  
+  .monaco-menu {
+    font-family: 'Roboto';
+  }
+  
+  .monaco-menu .monaco-action-bar.vertical .keybinding:hover {
+    color: #757575 !important;
+    background-color: #E3E3E3 !important;
+  }
+  
+  .monaco-menu .monaco-action-bar.vertical .action-label:hover {
+    color: #212121 !important;
+  }
+  
+  .monaco-menu .monaco-action-bar.vertical .submenu-indicator.codicon:before {
+    margin-right: -8px !important;
+    color: #212121 !important;
+  }
+  
+  .monaco-menu .monaco-action-bar.vertical .action-menu-item:hover {
+    background-color: #E3E3E3 !important;
+    margin: -1px;
+  }
   .monaco-tree-row .content.actions {
     padding: 0 10px !important;
   }
