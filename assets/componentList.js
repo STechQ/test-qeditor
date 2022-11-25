@@ -7,6 +7,19 @@
 
 //#region JS Section
 var componentOptions = {
+    QReCaptcha: {
+        siteKey: {
+            type: String
+        },
+        size: {
+            type: String,
+            options: ["'compact'", "'normal'", "'invisible'"],
+            editorDefaultValue: "'normal'"
+        },
+        tabindex: {
+            type: Number 
+        }
+    },
     VAlert: {
         qValue: {
             type: Boolean
@@ -164,7 +177,7 @@ var componentOptions = {
         autofocus: {
             type: Boolean
         },
-        avoidClearableTabIndex:{
+        avoidClearableTabIndex: {
             type: Boolean
         },
         backgroundColor: {
@@ -212,7 +225,7 @@ var componentOptions = {
         },
         errorMessages: {
             type: "Array<any> | string"
-        },       
+        },
         flat: {
             type: Boolean
         },
@@ -315,7 +328,7 @@ var componentOptions = {
     VAvatar: {
         class: {
             type: String,
-                editorDefaultValue: "'primary'"
+            editorDefaultValue: "'primary'"
         },
         color: {
             editorDefaultValue: "'primary'"
@@ -799,7 +812,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-                options: ["'custom-scroll'"]
+            options: ["'custom-scroll'"]
         },
         color: {
             type: String,
@@ -842,7 +855,7 @@ var componentOptions = {
             type: "string | number"
         },
         loading: {
-            type:  Boolean
+            type: Boolean
         },
         maxHeight: {
             type: Number | String
@@ -920,7 +933,7 @@ var componentOptions = {
         interval: {
             type: "number | string"
         },
-        light:{
+        light: {
             type: Boolean
         },
         mandatory: {
@@ -1267,7 +1280,7 @@ var componentOptions = {
         autoSelectFirst: {
             type: Boolean
         },
-        avoidClearableTabIndex:{
+        avoidClearableTabIndex: {
             type: Boolean
         },
         backgroundColor: {
@@ -1422,7 +1435,7 @@ var componentOptions = {
         readonly: {
             type: Boolean
         },
-        rounded:{
+        rounded: {
             type: Boolean
         },
         rules: {
@@ -1471,14 +1484,14 @@ var componentOptions = {
         }
     },
     VContainer: {
-        eager:{
-            type:Boolean,
+        eager: {
+            type: Boolean,
             editorDefaultValue: "true"
         },
         class: {
             type: String,
-                editorDefaultValue: "'container container--fluid'",
-                options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
+            editorDefaultValue: "'container container--fluid'",
+            options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
         },
         visible: {
             type: Boolean,
@@ -1543,8 +1556,8 @@ var componentOptions = {
         },
         mobileBreakpoint: {
             type: Number | String,
-            editorDefaultValue:"md",
-            runTimeDefaultValue:"md"
+            editorDefaultValue: "md",
+            runTimeDefaultValue: "md"
         },
         multiSort: {
             type: Boolean,
@@ -1638,7 +1651,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-                options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'"]
+            options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'"]
         },
         calculateWidths: {
             type: Boolean
@@ -1744,8 +1757,8 @@ nextIcon = 'mdi-plus'}`
         },
         mobileBreakpoint: {
             type: Number | String,
-            editorDefaultValue:"md",
-            runTimeDefaultValue:"md"
+            editorDefaultValue: "md",
+            runTimeDefaultValue: "md"
         },
         multiSort: {
             type: Boolean,
@@ -2623,7 +2636,7 @@ nextIcon = 'mdi-plus'}`
         qValue: {
             type: "any"
         },
-        activeClass:{
+        activeClass: {
             type: String
         },
         class: {
@@ -3531,7 +3544,7 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
-        rounded:{
+        rounded: {
             type: Boolean
         },
         solo: {
@@ -3631,11 +3644,11 @@ nextIcon = 'mdi-plus'}`
         type: {
             editorDefaultValue: "'card'",
             type: String,
-            options: ["'actions'", "'article'", "'avatar'", "'button'", "'card'", "'card-avatar'", "'card-heading'", "'chip'", 
-            "'date-picker'", "'date-picker-options'", "'date-picker-days'", "'heading'", "'image'", "'list-item'", "'list-item-avatar'", 
-            "'list-item-two-line'", "'list-item-avatar-two-line'", "'list-item-three-line'", "'list-item-avatar-three-line'", 
-            "'paragraph'", "'sentences'", "'table'", "'table-heading'", "'table-thead'", "'table-tbody'", "'table-row-divider'", 
-            "'table-row'", "'table-cell'", "'table-tfoot'", "'text'"]
+            options: ["'actions'", "'article'", "'avatar'", "'button'", "'card'", "'card-avatar'", "'card-heading'", "'chip'",
+                "'date-picker'", "'date-picker-options'", "'date-picker-days'", "'heading'", "'image'", "'list-item'", "'list-item-avatar'",
+                "'list-item-two-line'", "'list-item-avatar-two-line'", "'list-item-three-line'", "'list-item-avatar-three-line'",
+                "'paragraph'", "'sentences'", "'table'", "'table-heading'", "'table-thead'", "'table-tbody'", "'table-row-divider'",
+                "'table-row'", "'table-cell'", "'table-tfoot'", "'text'"]
         },
         types: {
             type: Object
@@ -4121,7 +4134,7 @@ nextIcon = 'mdi-plus'}`
         },
         class: {
             type: String,
-                options: ["'tab-header-border-radius-left'", "'tab-header-border-radius-right'"]
+            options: ["'tab-header-border-radius-left'", "'tab-header-border-radius-right'"]
         },
         dark: {
             type: Boolean
@@ -4186,7 +4199,7 @@ nextIcon = 'mdi-plus'}`
         },
         class: {
             type: String,
-                options: ["'tab-dense'"]
+            options: ["'tab-dense'"]
         },
         centered: {
             type: Boolean
@@ -4211,8 +4224,8 @@ nextIcon = 'mdi-plus'}`
         },
         mobileBreakpoint: {
             type: "number | string",
-            editorDefaultValue:"md",
-            runTimeDefaultValue:"md"
+            editorDefaultValue: "md",
+            runTimeDefaultValue: "md"
         },
         nextIcon: {
             type: String
@@ -4343,7 +4356,7 @@ nextIcon = 'mdi-plus'}`
         },
         format: {
             type: String,
-            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'","'bigdecimal'"]
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
         },
         formatValues: {
             type: "Array<any>"
@@ -4392,12 +4405,12 @@ nextIcon = 'mdi-plus'}`
         prependInnerIcon: {
             type: String
         },
-        avoidClearableTabIndex:{
+        avoidClearableTabIndex: {
             type: Boolean
         },
         preventPaste: {
             type: Boolean
-        },   
+        },
         regular: {
             type: Boolean
         },
@@ -4737,10 +4750,10 @@ nextIcon = 'mdi-plus'}`
             type: "Array<any>",
             editorDefaultValue: "[{name = 'test1', id = 1, children=[{name='test1 Child', id = 2}, {name='test2 Child', id = 3}]},{ name = 'test3', id = 4, children=[{name='test4 Child', id=5}]}]"
         },
-        loadChildren:{
-            type: Function,     
+        loadChildren: {
+            type: Function,
         },
-        loadingIcon:{
+        loadingIcon: {
             type: String
         },
         multipleActive: {
@@ -4792,7 +4805,7 @@ nextIcon = 'mdi-plus'}`
     QLabel: {
         class: {
             type: String,
-                options: ["'devx-ellipsis-qlabel'"]
+            options: ["'devx-ellipsis-qlabel'"]
         },
         maxWidth: {
             type: String

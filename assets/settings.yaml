@@ -31,3 +31,6 @@ regionalDefinition:
   - region: tr
     devExLocaleCDNAddress: https://cdn3.devexpress.com/jslib/21.2.3/js/localization/dx.messages.tr.js
 singleTab: true
+environment:
+  captchaKeys:
+    sitekey: 6LfZz6kiAAAAAIK0Y9eD2WjVTOyMhxYwqS34mXxt 
