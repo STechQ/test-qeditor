@@ -13,18 +13,21 @@ cssPath:
     - ./assets/softtech-theme.css
     - https://golden-layout.com/files/latest/css/goldenlayout-light-theme.css
     - https://cdn3.devexpress.com/jslib/22.1.5/css/dx.light.compact.css
+    - https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css
   dark:
     - https://golden-layout.com/files/latest/css/goldenlayout-base.css
     - https://cdn3.devexpress.com/jslib/22.1.5/css/dx.common.css
     - ./assets/softtech-theme.css
     - https://golden-layout.com/files/latest/css/goldenlayout-dark-theme.css
     - https://cdn3.devexpress.com/jslib/22.1.5/css/dx.dark.css
+    - https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css
   dark-compact:
     - https://golden-layout.com/files/latest/css/goldenlayout-base.css
     - https://cdn3.devexpress.com/jslib/22.1.5/css/dx.common.css
     - ./assets/softtech-theme.css
     - https://golden-layout.com/files/latest/css/goldenlayout-dark-theme.css
     - https://cdn3.devexpress.com/jslib/22.1.5/css/dx.dark.compact.css
+    - https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css
 
 
 regionalDefinition:
