@@ -3,13 +3,14 @@ export interface IPropertyBase {
     description?: string;
     array?: boolean;
     required?: boolean;
+    type: "object" | "string" | "boolean" | "number";
 }
 export interface IPropertyObject extends IPropertyBase {
     type: "object";
     item: IEntity;
 }
 export declare type PropertyString = IPropertyString | IPropertyStringRegex;
-export interface IPropertyString extends IPropertyBase {
+export interface IPropertyStringBase extends IPropertyBase {
     type: "string";
     minLength?: number;
     maxLength?: number;
@@ -23,9 +24,12 @@ export interface IPropertyString extends IPropertyBase {
      * @see https://www.rfc-editor.org/rfc/rfc3339.
      * @param regex defined by @type IPropertyStringRegex
      */
-    format?: "base64" | "binary" | "email" | "date" | "dateTime" | "regex";
+    format?: "base64" | "binary" | "email" | "dateTime" | "regex";
 }
-export interface IPropertyStringRegex extends IPropertyString {
+export interface IPropertyString extends IPropertyStringBase {
+    format?: "base64" | "binary" | "email" | "dateTime";
+}
+export interface IPropertyStringRegex extends IPropertyStringBase {
     format: "regex";
     regex: string;
 }

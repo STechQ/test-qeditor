@@ -1757,8 +1757,7 @@ nextIcon = 'mdi-plus'}`
         },
         mobileBreakpoint: {
             type: Number | String,
-            editorDefaultValue: "md",
-            runTimeDefaultValue: "md"
+            editorDefaultValue: "600"
         },
         multiSort: {
             type: Boolean,
