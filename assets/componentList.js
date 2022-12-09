@@ -17,7 +17,7 @@ var componentOptions = {
             editorDefaultValue: "'normal'"
         },
         tabindex: {
-            type: Number 
+            type: Number
         }
     },
     VAlert: {
@@ -328,7 +328,7 @@ var componentOptions = {
     VAvatar: {
         class: {
             type: String,
-            editorDefaultValue: "'primary'"
+                editorDefaultValue: "'primary'"
         },
         color: {
             editorDefaultValue: "'primary'"
@@ -812,7 +812,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-            options: ["'custom-scroll'"]
+                options: ["'custom-scroll'"]
         },
         color: {
             type: String,
@@ -1490,8 +1490,8 @@ var componentOptions = {
         },
         class: {
             type: String,
-            editorDefaultValue: "'container container--fluid'",
-            options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
+                editorDefaultValue: "'container container--fluid'",
+                options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
         },
         visible: {
             type: Boolean,
@@ -1651,7 +1651,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-            options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'"]
+                options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'"]
         },
         calculateWidths: {
             type: Boolean
@@ -3647,7 +3647,8 @@ nextIcon = 'mdi-plus'}`
                 "'date-picker'", "'date-picker-options'", "'date-picker-days'", "'heading'", "'image'", "'list-item'", "'list-item-avatar'",
                 "'list-item-two-line'", "'list-item-avatar-two-line'", "'list-item-three-line'", "'list-item-avatar-three-line'",
                 "'paragraph'", "'sentences'", "'table'", "'table-heading'", "'table-thead'", "'table-tbody'", "'table-row-divider'",
-                "'table-row'", "'table-cell'", "'table-tfoot'", "'text'"]
+                "'table-row'", "'table-cell'", "'table-tfoot'", "'text'"
+            ]
         },
         types: {
             type: Object
@@ -4133,7 +4134,7 @@ nextIcon = 'mdi-plus'}`
         },
         class: {
             type: String,
-            options: ["'tab-header-border-radius-left'", "'tab-header-border-radius-right'"]
+                options: ["'tab-header-border-radius-left'", "'tab-header-border-radius-right'"]
         },
         dark: {
             type: Boolean
@@ -4198,7 +4199,7 @@ nextIcon = 'mdi-plus'}`
         },
         class: {
             type: String,
-            options: ["'tab-dense'"]
+                options: ["'tab-dense'"]
         },
         centered: {
             type: Boolean
@@ -4804,7 +4805,7 @@ nextIcon = 'mdi-plus'}`
     QLabel: {
         class: {
             type: String,
-            options: ["'devx-ellipsis-qlabel'"]
+                options: ["'devx-ellipsis-qlabel'"]
         },
         maxWidth: {
             type: String
@@ -4815,7 +4816,7 @@ nextIcon = 'mdi-plus'}`
         tagType: {
             tpye: String,
             editorDefaultValue: "'span'",
-            options: ["'span'", "'paragraph'"]
+            options: ["'span'", "'paragraph'", "'url'"]
         },
         text: {
             type: String,
@@ -4831,6 +4832,14 @@ nextIcon = 'mdi-plus'}`
         },
         whiteSpace: {
             type: String
+        },
+        url: {
+            type: String
+        },
+        target: {
+            type: String,
+            editorDefaultValue: "'_blank'",
+            options: ["'_blank'", "'_self'", "'_parent'", "'_top'"]
         }
     },
     QLegend: {
@@ -4952,4 +4961,4 @@ if (typeof exports === 'object' && typeof module === 'object') {
 } else {
     window["plateauUIComponentOptions"] = componentOptions;
 }
-//#region JS Section  
+//#region JS Section
