@@ -4838,7 +4838,6 @@ nextIcon = 'mdi-plus'}`
         },
         target: {
             type: String,
-            editorDefaultValue: "'_blank'",
             options: ["'_blank'", "'_self'", "'_parent'", "'_top'"]
         }
     },
