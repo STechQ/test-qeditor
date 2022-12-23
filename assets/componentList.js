@@ -720,6 +720,9 @@ var componentOptions = {
         ripple: {
             type: "boolean | object"
         },
+        small: {
+            type: Boolean
+        },
         tag: {
             type: String
         },

@@ -1,11 +1,11 @@
-{      
-    "Quick Sprint-36": {
-        "link": "releaseNote36.md"
-    },
+{    
     "Quick Sprint-37": {
         "link": "releaseNote37.md"
     },      
-    "Quick Sprint-35": {
-        "link": "releaseNote38.md"
+    "Plateau UI Sprint-1": {
+        "link": "PlateauUISprint1_releaseNote.md"
+    },
+    "Plateau UI Sprint-2": {
+        "link": "PlateauUISprint2_releaseNote.md"
     }
 }
