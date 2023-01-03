@@ -8,16 +8,16 @@
 :root {
   /* Primary Palette */
   /* Choosen palette: cyan */
-  --primary: #00BCD4;
-  --primary-lighten-5: #E0F7FA;
-  --primary-lighten-4: #B2EBF2;
-  --primary-lighten-3: #80DEEA;
-  --primary-lighten-2: #4DD0E1;
-  --primary-lighten-1: #26C6DA;
-  --primary-darken-1: #00ACC1;
-  --primary-darken-2: #0097A7;
-  --primary-darken-3: #00838F;
-  --primary-darken-4: #006064;
+  --primary: #1976D2;
+  --primary-lighten-5: #E3F5FF;
+  --primary-lighten-4: #74B5F4;
+  --primary-lighten-3: #479DF2;
+  --primary-lighten-2: #3E91E3;
+  --primary-lighten-1: #2988E5;
+  --primary-darken-1: #1568BB;
+  --primary-darken-2: #1160AF;
+  --primary-darken-3: #0E4C89;
+  --primary-darken-4: #00205E;
   /* Secondary Palette */
   /* Choosen palette: blue-grey */
   --secondary: #607D8B;
