@@ -4822,7 +4822,7 @@ nextIcon = 'mdi-plus'}`
         tagType: {
             tpye: String,
             editorDefaultValue: "'span'",
-            options: ["'span'", "'paragraph'", "'url'"]
+            options: ["'span'", "'paragraph'"]
         },
         text: {
             type: String,
@@ -4839,13 +4839,10 @@ nextIcon = 'mdi-plus'}`
         whiteSpace: {
             type: String
         },
-        url: {
-            type: String
+        processHtml: {
+            type: Boolean,
+            editorDefaultValue: "false"
         },
-        target: {
-            type: String,
-            options: ["'_blank'", "'_self'", "'_parent'", "'_top'"]
-        }
     },
     QLegend: {
         QJsonPath: {
