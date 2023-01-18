@@ -248,7 +248,9 @@ var componentOptions = {
             type: "string"
         },
         items: {
-            type: "Array<any>"
+            type: "Array<any>",
+            editorDefaultValue: `[{text = 'test1', value = 1},
+{ text = 'test2', value = 2}]`
         },
         itemText: {
             type: "string | Array<any> | Function"
@@ -2479,6 +2481,12 @@ nextIcon = 'mdi-plus'}`
         },
         maxWidth: {
             type: String
+        },
+        rounded: {
+            type: Boolean
+        },
+        shaped: {
+            type: Boolean
         },
         subheader: {
             type: Boolean
