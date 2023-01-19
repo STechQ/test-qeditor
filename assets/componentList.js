@@ -3166,7 +3166,7 @@ nextIcon = 'mdi-plus'}`
     },
     VRadioGroup: {
         qValue: {
-            type: Number
+            type: "any"
         },
         appendIcon: {
             type: String
