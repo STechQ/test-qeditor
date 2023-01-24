@@ -4895,6 +4895,14 @@ nextIcon = 'mdi-plus'}`
         }
     },
     QRichText: {
+        height: {
+            type: String,
+            editorDefaultValue: "'auto'",
+        },
+        minHeight: {
+            type: String,
+            editorDefaultValue: "'auto'",
+        },
         ToolBarcolor: {
             type: String,
             default: "",
