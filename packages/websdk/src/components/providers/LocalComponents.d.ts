@@ -1,0 +1,42 @@
+declare const localComponents: {
+    GroupBox: any;
+    Ghost: any;
+    VContainer: any;
+    VCol: any;
+    VRow: any;
+    DError: any;
+    QLabel: any;
+    QDocumentViewer: any;
+    QPhoneInput: any;
+    QLightBox: any;
+    VInlineDatepicker: any;
+    QReCaptcha: any;
+    DataGrid: any;
+    CustomAvatarComp: any;
+    QTableCell: any;
+    QRichText: any;
+    Tooltip: any;
+    LiveConnection: any;
+    VPdfFileViewer: any;
+    QImgZoom: any;
+    VInlineTimePicker: any;
+    TSComponentWrapper: any;
+    QTutorial: any;
+    CustomComponent: {};
+    CustomChild: {};
+    QLegend: {};
+    QCaptcha: {};
+    QQRCode: {};
+    QQrReader: any;
+    QDynamicFields: {};
+    QMenu: any;
+    QFrame: any;
+    QVideo: any;
+    QMap: any;
+    VSubElement: any;
+};
+declare const GoldenLayoutComponents: {
+    GoldenLayout: any;
+};
+export { localComponents, GoldenLayoutComponents };
+//# sourceMappingURL=LocalComponents.d.ts.map
