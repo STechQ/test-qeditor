@@ -4,7 +4,7 @@ var settings = {
 			"csspath": [
 			  "https://golden-layout.com/files/latest/css/goldenlayout-base.css",
 			  "https://cdn3.devexpress.com/jslib/22.1.5/css/dx.common.css",
-			  "../static/css/softtech-theme.css",
+			  "static/css/softtech-theme.css",
 			  "https://golden-layout.com/files/latest/css/goldenlayout-light-theme.css",
 			  "https://cdn3.devexpress.com/jslib/22.1.5/css/dx.light.css",
 			  "https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css"
