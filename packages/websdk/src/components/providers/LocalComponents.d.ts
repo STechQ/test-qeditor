@@ -1,39 +1,147 @@
 declare const localComponents: {
-    GroupBox: any;
-    Ghost: any;
-    VContainer: any;
-    VCol: any;
-    VRow: any;
     DError: any;
-    QLabel: any;
-    QDocumentViewer: any;
-    QPhoneInput: any;
-    QLightBox: any;
-    VInlineDatepicker: any;
-    QReCaptcha: any;
-    DataGrid: any;
-    CustomAvatarComp: any;
-    QTableCell: any;
-    QRichText: any;
-    Tooltip: any;
-    LiveConnection: any;
-    VPdfFileViewer: any;
-    QImgZoom: any;
-    VInlineTimePicker: any;
     TSComponentWrapper: any;
-    QTutorial: any;
+    GroupBox: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    Ghost: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VContainer: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VCol: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VRow: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QLabel: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QDocumentViewer: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QPhoneInput: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QLightBox: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VInlineDatepicker: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QReCaptcha: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    DataGrid: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    CustomAvatarComp: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QTableCell: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QRichText: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    Tooltip: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    LiveConnection: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VPdfFileViewer: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QImgZoom: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VInlineTimePicker: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QTutorial: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
     CustomComponent: {};
     CustomChild: {};
     QLegend: {};
     QCaptcha: {};
     QQRCode: {};
-    QQrReader: any;
     QDynamicFields: {};
-    QMenu: any;
-    QFrame: any;
-    QVideo: any;
-    QMap: any;
-    VSubElement: any;
+    QQrReader: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QMenu: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QFrame: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QVideo: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    QMap: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
+    VSubElement: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
 };
 declare const GoldenLayoutComponents: {
     GoldenLayout: any;

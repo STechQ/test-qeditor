@@ -21,10 +21,17 @@ export declare class QJsonPool implements IContextItem {
     });
     ResetPool(): void;
     get ModuleManager(): IModuleManager;
-    retrieveAndFillQjsonAsync({ qjsonPath, dory }: {
-        qjsonPath: string;
+    retrieveAndFillQjsonAsync({ qjson, dory }: {
+        qjson: QjsonData;
         dory: IDory;
     }): Promise<IQJSon>;
     getCJson(qjsonPath: string): IQJSon | undefined;
 }
+export declare type QjsonData = {
+    type: "content";
+    content: IQJSon;
+} | {
+    type: "path";
+    path: string;
+};
 //# sourceMappingURL=QJsonPool.d.ts.map

@@ -1,6 +1,7 @@
 import { ContextManager } from "../../../shrimp/context";
 import { Hook } from "../../../shrimp/helpers/hook";
 import { ILRID } from "../../../shrimp/interfaces/ComponentInterfaces/ILocalResource";
+import { IQJSon } from "../../../shrimp/interfaces/ComponentInterfaces/IQJson";
 import { IDictionary } from "../../../shrimp/interfaces/IDictionary";
 import { INavigationDemand } from "../../../shrimp/interfaces/quick/INavigationDemand";
 import { PlatformType } from "../../../shrimp/interfaces/quick/IPlatform";
@@ -29,7 +30,7 @@ export declare class Renderer implements IRenderer {
         storeItems?: IDictionary<any>;
         pageId?: string;
         pageName?: string;
-        pjsonContent?: any;
+        pjsonContent?: IQJSon;
     }): Promise<void>;
     CreateChildRenderer(compUIDPrefix?: string): DoryRendererChild;
     SetLRType(LRType?: string): void;

@@ -15,7 +15,7 @@ export declare class ComponentProvider {
         QTimer: number;
         QIdleTimer: number;
     };
-    static checkComponents: (name: string) => Boolean;
+    static checkComponents(name: string): Promise<true> | Boolean;
     static getLibrary(companyLibraryGroup: string): any;
     static overrideComp: (compName: string) => (IComponent | null) | undefined;
     static setOverrideComp(cb: (compName: string) => IComponent | null): void;
