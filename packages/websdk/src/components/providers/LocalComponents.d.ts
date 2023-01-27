@@ -1,12 +1,8 @@
 declare const localComponents: {
     DError: any;
     TSComponentWrapper: any;
+    Ghost: any;
     GroupBox: {
-        importFunc: () => Promise<void>;
-        loaded: boolean;
-        module: undefined;
-    };
-    Ghost: {
         importFunc: () => Promise<void>;
         loaded: boolean;
         module: undefined;
