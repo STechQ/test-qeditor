@@ -4937,8 +4937,44 @@ nextIcon = 'mdi-plus'}`
             type: Boolean,
             editorDefaultValue: "true"
         },
+        hidePagination: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        hideDescription: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        hideDownload: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        hideRotate: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        hideZoom: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        fileDescription : {
+            default: "",
+            type: String
+        },
+        displayOnScroll: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
         src: {
             default: "",
+            type: String
+        },
+        pdfToolbarBackgroundColor: {
+            editorDefaultValue: "'#fafafa'",
+            type: String
+        },
+        pdfBackgroundColor: {
+            editorDefaultValue: "'#eeeeee'",
             type: String
         },
         height: {

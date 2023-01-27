@@ -4,6 +4,8 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
 }, {
     test(param: void): void;
     Send(message: any): void;
+    renderSource(url: any): any;
+    base64ToBlob(base64: any, type?: string): Blob;
     post(url: String, params: any, enctype?: String | undefined): void;
     onLoad(): void;
 }, {

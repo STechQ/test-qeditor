@@ -6,16 +6,35 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     page: number;
     turn: number;
     showToolbar: boolean;
+    zoomVal: number;
+    rotateVal: number;
+    loadedPages: number;
+    docType: undefined;
+    url: any;
+    localLanguage: string;
+    pageTitle: string;
     pdfKey: number;
 }, {
     createPdf(): void;
+    base64ToBlob(base64: any, type?: string): Blob;
+    focusSelectedPage(): void;
+    zoomIn(): void;
+    zoomOut(): void;
+    nextPage(): void;
+    previousPage(): void;
+    rotate(): void;
+    goToPage(pageNumber: number): void;
+    downloadPdf(): void;
     getType(): any;
     onFrameScrollBottom(): void;
-    handleScroll({ target: { scrollTop, clientHeight, scrollHeight } }: {
+    handleScroll({ target: { scrollTop, clientHeight, scrollHeight, firstChild: { offsetHeight }, }, }: {
         target: {
             scrollTop: any;
             clientHeight: any;
             scrollHeight: any;
+            firstChild: {
+                offsetHeight: any;
+            };
         };
     }): void;
 }, unknown, {
@@ -24,7 +43,17 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     width: string;
     scale: string;
     showToolBar: boolean;
+    pdfToolbarBackgroundColor: string;
+    pdfBackgroundColor: string;
+    hidePagination: boolean;
+    hideDescription: boolean;
+    hideDownload: boolean;
+    hideRotate: boolean;
+    hideZoom: boolean;
     loadingContent: string;
+    displayOnScroll: boolean;
+    fileDescription: string;
+    _renderingProps: any;
 }>;
 export default _default;
 //# sourceMappingURL=QDocumentViewer.vue.d.ts.map
