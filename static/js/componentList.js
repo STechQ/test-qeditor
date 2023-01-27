@@ -4958,7 +4958,7 @@ nextIcon = 'mdi-plus'}`
             editorDefaultValue: "false"
         },
         fileDescription : {
-            default: "",
+            editorDefaultValue: "'File Description'",
             type: String
         },
         displayOnScroll: {
