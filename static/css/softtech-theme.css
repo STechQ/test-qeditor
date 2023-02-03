@@ -725,5 +725,20 @@ body .v-application .v-tabs {
 .sftt-compare-value-tooltip {
   width: inherit;
 }
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  }
+  
+::-webkit-scrollbar-track {
+  background: #EEEEEE !important;
+  }
+  
+::-webkit-scrollbar-thumb {
+  background: #BDBDBD;
+  border-radius: 8px;
+  border: 4px solid #EEEEEE !important;
+  background-clip: padding-box;
+  }
 
 /* STANDARD CODE FOR EVERY PLATEAU PROJECT: END */

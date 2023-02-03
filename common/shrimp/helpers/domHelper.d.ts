@@ -9,6 +9,7 @@ export interface IStyle {
     border?: string;
     position?: string;
     zIndex?: string;
+    visibility?: "visible" | "hidden" | "collapse" | "initial" | "inherit";
 }
 export interface IAttrs {
     title?: string;
