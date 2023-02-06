@@ -12,7 +12,7 @@ import { IDoryRenderer, IRenderer, ISettingsQJsonContext } from "../../../shrimp
 import { IRendererOperatorCollection } from "../../../shrimp/interfaces/RenderingInterfaces/Operators/IRendererOperatorCollection";
 import { DoryRendererChild } from "./RendererChild";
 export declare class Renderer implements IRenderer {
-    protected context: ContextManager;
+    context: ContextManager;
     protected Dory: IDory;
     settingsQJsons: ISettingsQJsonContext;
     readonly BeforeRenderStartHook: Hook<() => void>;
