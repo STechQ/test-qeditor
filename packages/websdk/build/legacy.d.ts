@@ -4,6 +4,6 @@ export declare class Legacy {
     static migrateLegacySettings(settings: any): IWebSDKSettings;
     static fixLegacyPathFormat(url: string): string;
     static containerServicesModifications(self: any, containerServices?: IContainerServices): IContainerServices;
-    static fixQueryString(qjsonPath: string): string;
+    static fixQueryString(qjsonPath?: string): string;
 }
 //# sourceMappingURL=legacy.d.ts.map

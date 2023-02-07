@@ -17,6 +17,7 @@ declare class PlateauUI {
     }): any;
 }
 declare class WebsdkContainer {
+    private enviromentInfo;
     private settingsWeb?;
     private SDKInstance?;
     private SDKSettings?;
