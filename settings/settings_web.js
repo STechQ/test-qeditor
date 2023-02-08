@@ -12,14 +12,10 @@ var settings = {
 			"RegionalDefinition": [
 					{
 						"region": "tr",
-						"FormattingDefinition": {							
-							"devExLocaleCDNAddress": "https://cdn3.devexpress.com/jslib/21.2.3/js/localization/dx.messages.tr.js"
-						}
+						"devExLocaleCDNAddress": "https://cdn3.devexpress.com/jslib/21.2.3/js/localization/dx.messages.tr.js"
 					},
 					{
-						"region": "en",
-						"FormattingDefinition": {
-						}
+						"region": "en"
 					}
 				],
 			"componentListPath":""
