@@ -14,6 +14,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     localLanguage: string;
     pageTitle: string;
     pdfKey: number;
+    currentMinWidth: number;
 }, {
     createPdf(): void;
     base64ToBlob(base64: any, type?: string): Blob;
@@ -27,12 +28,12 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     downloadPdf(): void;
     getType(): any;
     onFrameScrollBottom(): void;
-    handleScroll({ target: { scrollTop, clientHeight, scrollHeight, firstChild: { offsetHeight }, }, }: {
+    handleScroll({ target: { scrollTop, clientHeight, scrollHeight, lastChild: { offsetHeight }, }, }: {
         target: {
             scrollTop: any;
             clientHeight: any;
             scrollHeight: any;
-            firstChild: {
+            lastChild: {
                 offsetHeight: any;
             };
         };
