@@ -3584,6 +3584,9 @@ nextIcon = 'mdi-plus'}`
         },
         tabindex: {
             type: "number | string"
+        },
+        autofocus:{
+            type: Boolean
         }
     },
     VSheet: {
