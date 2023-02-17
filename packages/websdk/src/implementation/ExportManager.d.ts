@@ -2,10 +2,12 @@ export declare class ExportManager {
     fileName: string;
     items: Array<object>;
     headers: Array<object>;
-    constructor({ fileName, items, headers }: {
+    sheetName?: string;
+    constructor({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     });
     private getItemValue;
     exportToXlsx(): void;

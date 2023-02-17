@@ -61,10 +61,11 @@ export declare class ShellConfiguration implements IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     }) => void;
     setComponentClass?: (compCollection: IComponentCollection, classes: Array<string>) => void;
     setTheme?: (newTheme: string) => void;

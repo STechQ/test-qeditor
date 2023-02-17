@@ -64,10 +64,11 @@ export interface IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     }) => void;
     setComponentClass?: (componentInstance: IComponentCollection, classes: Array<string>) => void;
     setComponentsProperty?: (componentCollection: IComponentCollection, propertyName: string, propertyValue: any) => void;

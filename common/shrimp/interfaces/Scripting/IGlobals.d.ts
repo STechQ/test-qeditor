@@ -113,10 +113,11 @@ export interface IGlobals_Quick {
     getPageTitle?: () => void;
     getFavicon?: () => void;
     updateComponent: (Comp?: IComponent) => any;
-    exportToXlsx: ({ fileName, items, headers }: {
+    exportToXlsx: ({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     }) => void;
     toLongDate: (date: Date, formatType?: string) => string;
     toShortDate: (date: Date, formatType?: string) => string;

@@ -42,10 +42,11 @@ export interface IGlobalMethods extends IContextItem {
     setPageTitle(value: string): void;
     getPageTitle?: () => void;
     getFavicon?: () => void;
-    exportToXlsxHandler?: ({ fileName, items, headers }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     }) => void;
     setComponentClass?: (compCollection: IComponentCollection, classes: Array<string>) => void;
     setComponentsProperty?: (compCollection: IComponentCollection, propertyName: string, propertyValue: string) => void;

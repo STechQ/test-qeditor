@@ -56,10 +56,11 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     deleteComponent(compCollection: IComponentCollection): void;
     setPageTitle(value: string): void;
     setFavicon(favicon: string): void;
-    exportToXlsxHandler({ fileName, items, headers }: {
+    exportToXlsxHandler({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
+        sheetName?: string;
     }): void;
     downloadHandler(responseFile: {
         data: string;
