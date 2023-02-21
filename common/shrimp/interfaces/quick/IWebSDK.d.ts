@@ -25,15 +25,11 @@ export interface IWebSDKSettings {
     pipelineqjson?: string;
     alertqjson?: string;
     loadingqjson?: string;
+    loadingfile?: string;
     globalLocalizationqjson?: string;
     rootqjson?: string;
     containerServicesPath?: string;
     componentListPath?: string;
-    pipelineqjsonContent?: any;
-    alertqjsonContent?: any;
-    loadingqjsonContent?: any;
-    globalLocalizationqjsonContent?: any;
-    rootqjsonContent?: any;
     singleTab?: any;
     rootLangCode?: string;
     domainModuleList?: Record<string, string>;
