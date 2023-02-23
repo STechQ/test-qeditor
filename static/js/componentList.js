@@ -325,6 +325,12 @@ var componentOptions = {
         },
         tabindex: {
             type: "number | string"
+        },
+        hint: {
+            type: String
+        },
+        persistentHint: {
+            type: Boolean
         }
     },
     VAvatar: {
