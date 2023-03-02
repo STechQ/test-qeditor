@@ -1,3 +1,4 @@
+import { ISettingsIAM } from "@stechquick/algae/lib/quick/IPlateauUI";
 export interface IPlateauIAM {
     refreshPromise(): Promise<boolean | undefined>;
     setOptions(initOptions: {
@@ -14,5 +15,6 @@ export interface IPlateauIAM {
     getToken: () => string | undefined;
     getInfo: () => object | undefined;
     login(): Promise<void>;
+    settingsIAM: ISettingsIAM | undefined;
 }
 //# sourceMappingURL=IPlateauIAM.d.ts.map

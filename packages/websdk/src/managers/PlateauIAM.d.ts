@@ -1,5 +1,7 @@
+import { ISettingsIAM } from '@stechquick/algae/lib/quick/IPlateauUI';
 import { IPlateauIAM } from "../../../../common/shrimp/interfaces/quick/IPlateauIAM";
 export declare class PlateauIAM implements IPlateauIAM {
+    settingsIAM: ISettingsIAM | undefined;
     private refreshTime;
     private updateTime;
     private initOptions;
