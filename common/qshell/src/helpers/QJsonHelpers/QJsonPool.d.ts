@@ -30,8 +30,14 @@ export declare class QJsonPool implements IContextItem {
 export declare type QjsonData = {
     type: "content";
     content: IQJSon;
+    options?: {
+        disableLoading: boolean;
+    };
 } | {
     type: "path";
     path: string;
+    options?: {
+        disableLoading: boolean;
+    };
 };
 //# sourceMappingURL=QJsonPool.d.ts.map

@@ -19,10 +19,13 @@ export default class NetworkManagerImpl implements INetworkManager {
     private openLoading;
     private closeLoading;
     axiosCommon(type: keyof INetwork, url: string, body?: string | object | BinaryType | FormData, axiosConfig?: AxiosRequestConfig, options?: IRequestOptions): Promise<any>;
-    getQjson<RetType extends string | object>({ url, urlParams, headers }: {
+    getQjson<RetType extends string | object>({ url, urlParams, headers, options }: {
         url: string;
         urlParams?: object;
         headers?: IDictionary<string> | undefined;
+        options: {
+            disableLoading: boolean;
+        };
     }): Promise<INetworkResponse<RetType>>;
     get<RetType extends string | object>({ url, urlParams, headers, config, options }: {
         url: string;

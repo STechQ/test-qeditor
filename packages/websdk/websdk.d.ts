@@ -34,6 +34,7 @@ declare class WebsdkContainer {
     createRenderer({ mountPoint }: {
         mountPoint: HTMLElement;
     }): Promise<PlateauUI>;
+    private initLoadingComponent;
     open({ renderer, qjsonPath, args }: {
         renderer: IRenderer;
         qjsonPath?: string;
