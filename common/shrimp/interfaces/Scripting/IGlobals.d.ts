@@ -124,6 +124,7 @@ export interface IGlobals_Quick {
     toLongTime: (date: Date, formatType?: string) => string;
     toShortTime: (date: Date, formatType?: string) => string;
     toDate: (dateString: string, formatType?: string) => Date;
+    dateToFromNow: (dateString: string, formatType?: string) => string;
     platform: IGlobals_platform;
     toMoney: (number: Number | string, formatType?: string, opt?: Intl.NumberFormatOptions, bigDecimal?: boolean) => string;
     setComponentClass: (componentInstance: IComponent, classes: Array<string>) => void;

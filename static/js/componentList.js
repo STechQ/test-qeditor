@@ -3787,6 +3787,9 @@ nextIcon = 'mdi-plus'}`
         thumbSize: {
             type: "number | string"
         },
+        thumbLabel: {
+            type: "boolean | string",
+        },
         tickLabels: {
             type: "Array<any>"
         },
@@ -4355,6 +4358,9 @@ nextIcon = 'mdi-plus'}`
         },
         counterValue: {
             type: Function
+        },
+        color: {
+            type: String
         },
         dark: {
             type: Boolean
