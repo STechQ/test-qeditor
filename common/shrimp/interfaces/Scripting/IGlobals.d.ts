@@ -168,6 +168,7 @@ export interface IGlobals_store {
     get: (name: any) => any;
     getAll: (name: any) => any;
     delete: (name: any) => void;
+    deleteAll: (name: any) => void;
 }
 export interface IGlobals_cookie {
     set: (key: string, cookieValue: ICookieValue) => void;

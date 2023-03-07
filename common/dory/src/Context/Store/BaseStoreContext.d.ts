@@ -7,6 +7,7 @@ export declare class BaseStoreContext implements IStore {
     get(name: string): any | undefined;
     getAll(): any | undefined;
     delete(name: string): void;
+    deleteAll(): void;
     clear(): void;
 }
 //# sourceMappingURL=BaseStoreContext.d.ts.map

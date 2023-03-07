@@ -8,6 +8,7 @@ export declare class StoreManager {
     get(name: any): any;
     delete(name: any): void;
     getAll(name: any): any;
+    deleteAll(name: any): void;
     bulkSet(items: IDictionary<any>): void;
     getTargetContextItems(name: string): any;
 }

@@ -3,6 +3,7 @@ export interface IStore extends IStorageAccess {
     get(name: string): any | undefined;
     getAll(): any | undefined;
     delete(name: string): void;
+    deleteAll(): void;
 }
 export interface IStorageAccess {
     setSessionStorage?({ key, value }: {
