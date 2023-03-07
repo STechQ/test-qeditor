@@ -13471,7 +13471,7 @@ var WebsdkContainer = /** @class */ (function () {
                         alertqjsonPath = (_c = self.settingsWeb) === null || _c === void 0 ? void 0 : _c.settings.value.alertqjson;
                         loadingqjsonPath = (_d = self.settingsWeb) === null || _d === void 0 ? void 0 : _d.settings.value.loadingqjson;
                         pipelineqjson = ((_e = self.settingsWeb) === null || _e === void 0 ? void 0 : _e.pipeline) ||
-                            { type: "path", value: pipelineqjsonPath.startsWith("/") ? pipelineqjsonPath.substring(1) : pipelineqjsonPath, format: "qjson" };
+                            { type: "path", value: (pipelineqjsonPath === null || pipelineqjsonPath === void 0 ? void 0 : pipelineqjsonPath.startsWith("/")) ? pipelineqjsonPath.substring(1) : pipelineqjsonPath, format: "qjson" };
                         if (!pipelineqjson) return [3 /*break*/, 5];
                         return [4 /*yield*/, self.LoadObject(pipelineqjson, "", "*", false)];
                     case 1:
@@ -13489,7 +13489,7 @@ var WebsdkContainer = /** @class */ (function () {
                         return [3 /*break*/, 5];
                     case 5:
                         alertqjson = ((_f = self.settingsWeb) === null || _f === void 0 ? void 0 : _f.alert) ||
-                            { type: "path", value: alertqjsonPath.startsWith("/") ? alertqjsonPath.substring(1) : alertqjsonPath, format: "qjson" };
+                            { type: "path", value: (alertqjsonPath === null || alertqjsonPath === void 0 ? void 0 : alertqjsonPath.startsWith("/")) ? alertqjsonPath.substring(1) : alertqjsonPath, format: "qjson" };
                         if (!alertqjson) return [3 /*break*/, 10];
                         return [4 /*yield*/, self.LoadObject(alertqjson, "", "*", false)];
                     case 6:
@@ -13507,7 +13507,7 @@ var WebsdkContainer = /** @class */ (function () {
                         return [3 /*break*/, 10];
                     case 10:
                         loadingqjson = ((_g = self.settingsWeb) === null || _g === void 0 ? void 0 : _g.loading) ||
-                            { type: "path", value: loadingqjsonPath.startsWith("/") ? loadingqjsonPath.substring(1) : loadingqjsonPath, format: "qjson" };
+                            { type: "path", value: (loadingqjsonPath === null || loadingqjsonPath === void 0 ? void 0 : loadingqjsonPath.startsWith("/")) ? loadingqjsonPath.substring(1) : loadingqjsonPath, format: "qjson" };
                         if (!loadingqjson) return [3 /*break*/, 15];
                         return [4 /*yield*/, self.LoadObject(loadingqjson, "", "*", false)];
                     case 11:
