@@ -5,7 +5,7 @@ export declare class Formatter {
     addMonths(selfDate: Date, value: number): Date;
     addYears(selfDate: Date, value: number): Date;
     toDate(dateString: string, formatString: string): Date;
-    dateToFromNow(dateString: string, formatString: string, lang: string): string;
+    dateFromNow(dateString: string, formatString: string, lang: string): string;
     dateToFormattedString(selfDate: Date, formatString: string): string;
     formatNumber(selfNumber: Number, formatType?: string, opt?: Intl.NumberFormatOptions): string;
     formatBigNumber(number: string, formatType: string): string;

@@ -280,7 +280,7 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "quick.EM.trace(quick.store.get('$personalInfo').name);",
+																													"H": "quick.EM.trace(quick.store.get('$personalInfo')?.name);",
 																													"P": "mouseEvent:unknown | undefined",
 																													"HL": "TS"
 																												}
@@ -519,6 +519,99 @@ let pjson = {
 																							},
 																							"_Editor": {
 																								"eID": "EdtrComp_265"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
+																						},
+																						{
+																							"T": "VCol",
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "VBtn",
+																											"P": {
+																												"ID": {
+																													"H": "EdtrComp_10",
+																													"T": "prop"
+																												},
+																												"color": {
+																													"H": "'accent'",
+																													"T": "prop"
+																												},
+																												"depressed": {
+																													"H": "true",
+																													"T": "prop"
+																												},
+																												"elevation": {
+																													"H": "0",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "'40px'",
+																													"T": "prop"
+																												},
+																												"visible": {
+																													"H": "true",
+																													"T": "prop"
+																												}
+																											},
+																											"E": {
+																												"click": {
+																													"H": "quick.store.deleteAll('$');",
+																													"P": "mouseEvent:unknown | undefined",
+																													"HL": "TS"
+																												}
+																											},
+																											"C": {
+																												"default": {
+																													"c": [
+																														{
+																															"T": "QLabel",
+																															"C": {},
+																															"E": {},
+																															"P": {
+																																"ID": {
+																																	"H": "EdtrComp_11",
+																																	"T": "prop"
+																																},
+																																"text": {
+																																	"H": "'DeleteAll Data'",
+																																	"T": "prop"
+																																}
+																															},
+																															"_Editor": {
+																																"eID": "EdtrComp_11"
+																															},
+																															"O": {
+																																"cType": "child"
+																															}
+																														}
+																													],
+																													"cType": "slot"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_10"
+																											},
+																											"O": {
+																												"cType": "slot"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"E": {},
+																							"P": {
+																								"ID": {
+																									"H": "EdtrComp_9",
+																									"T": "prop"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_9"
 																							},
 																							"O": {
 																								"cType": "slot"
@@ -1030,6 +1123,99 @@ let pjson = {
 																							"O": {
 																								"cType": "slot"
 																							}
+																						},
+																						{
+																							"T": "VCol",
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "VBtn",
+																											"P": {
+																												"ID": {
+																													"H": "EdtrComp_61",
+																													"T": "prop"
+																												},
+																												"color": {
+																													"H": "'accent'",
+																													"T": "prop"
+																												},
+																												"depressed": {
+																													"H": "true",
+																													"T": "prop"
+																												},
+																												"elevation": {
+																													"H": "0",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "'40px'",
+																													"T": "prop"
+																												},
+																												"visible": {
+																													"H": "true",
+																													"T": "prop"
+																												}
+																											},
+																											"E": {
+																												"click": {
+																													"H": "store.deleteAll('$')",
+																													"P": "mouseEvent",
+																													"HL": "QS"
+																												}
+																											},
+																											"C": {
+																												"default": {
+																													"c": [
+																														{
+																															"T": "QLabel",
+																															"C": {},
+																															"E": {},
+																															"P": {
+																																"ID": {
+																																	"H": "EdtrComp_62",
+																																	"T": "prop"
+																																},
+																																"text": {
+																																	"H": "'DeleteAll Data'",
+																																	"T": "prop"
+																																}
+																															},
+																															"_Editor": {
+																																"eID": "EdtrComp_62"
+																															},
+																															"O": {
+																																"cType": "child"
+																															}
+																														}
+																													],
+																													"cType": "slot"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_61"
+																											},
+																											"O": {
+																												"cType": "slot"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"E": {},
+																							"P": {
+																								"ID": {
+																									"H": "EdtrComp_60",
+																									"T": "prop"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_60"
+																							},
+																							"O": {
+																								"cType": "slot"
+																							}
 																						}
 																					],
 																					"cType": "slot"
@@ -1287,7 +1473,7 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nvar storeData = { name: \"testName\", surname: \"testSurname\" };\r\nquick.store.set('$personalInfo', storeData);\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjU5X2NsaWNrX0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yNTlfY2xpY2tfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsSUFBTSxTQUFTLEdBQUcsRUFBRyxJQUFJLEVBQUUsVUFBVSxFQUFHLE9BQU8sRUFBRSxhQUFhLEVBQUUsQ0FBQztBQUFDLEtBQUssQ0FBQyxLQUFLLENBQUMsR0FBRyxDQUFDLGVBQWUsRUFBRSxTQUFTLENBQUMsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImRlY2xhcmUgdmFyIG1vdXNlRXZlbnQ6dW5rbm93biB8IHVuZGVmaW5lZFxuY29uc3Qgc3RvcmVEYXRhID0geyBcdG5hbWU6IFwidGVzdE5hbWVcIiwgXHRzdXJuYW1lOiBcInRlc3RTdXJuYW1lXCIgfTsgcXVpY2suc3RvcmUuc2V0KCckcGVyc29uYWxJbmZvJywgc3RvcmVEYXRhKVxuIGV4cG9ydHt9O1xuIl19",
+																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nvar storeData = { name: \"testName\", surname: \"testSurname\" };\r\nquick.store.set('$personalInfo', storeData);\r\n",
 																													"P": "mouseEvent:unknown | undefined",
 																													"HL": "JS"
 																												}
@@ -1391,7 +1577,7 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace(quick.store.get('$personalInfo').name);\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjgwX2NsaWNrX0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yODBfY2xpY2tfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsS0FBSyxDQUFDLEVBQUUsQ0FBQyxLQUFLLENBQUMsS0FBSyxDQUFDLEtBQUssQ0FBQyxHQUFHLENBQUMsZUFBZSxDQUFDLENBQUMsSUFBSSxDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJkZWNsYXJlIHZhciBtb3VzZUV2ZW50OnVua25vd24gfCB1bmRlZmluZWRcbnF1aWNrLkVNLnRyYWNlKHF1aWNrLnN0b3JlLmdldCgnJHBlcnNvbmFsSW5mbycpLm5hbWUpO1xuIGV4cG9ydHt9O1xuIl19",
+																													"H": "var _a;\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace((_a = quick.store.get('$personalInfo')) === null || _a === void 0 ? void 0 : _a.name);\r\n",
 																													"P": "mouseEvent:unknown | undefined",
 																													"HL": "JS"
 																												}
@@ -1487,7 +1673,7 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace(quick.store.getAll('$personalInfo'));\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjczX2NsaWNrX0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yNzNfY2xpY2tfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsS0FBSyxDQUFDLEVBQUUsQ0FBQyxLQUFLLENBQUMsS0FBSyxDQUFDLEtBQUssQ0FBQyxNQUFNLENBQUMsZUFBZSxDQUFDLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImRlY2xhcmUgdmFyIG1vdXNlRXZlbnQ6dW5rbm93biB8IHVuZGVmaW5lZFxucXVpY2suRU0udHJhY2UocXVpY2suc3RvcmUuZ2V0QWxsKCckcGVyc29uYWxJbmZvJykpO1xyXG5cbiBleHBvcnR7fTtcbiJdfQ==",
+																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace(quick.store.getAll('$personalInfo'));\r\n",
 																													"P": "mouseEvent:unknown | undefined",
 																													"HL": "JS"
 																												}
@@ -1583,7 +1769,7 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.store.delete('$personalInfo');\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjY2X2NsaWNrX0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yNjZfY2xpY2tfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsS0FBSyxDQUFDLEtBQUssQ0FBQyxNQUFNLENBQUMsZUFBZSxDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJkZWNsYXJlIHZhciBtb3VzZUV2ZW50OnVua25vd24gfCB1bmRlZmluZWRcbnF1aWNrLnN0b3JlLmRlbGV0ZSgnJHBlcnNvbmFsSW5mbycpO1xuIGV4cG9ydHt9O1xuIl19",
+																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.store.delete('$personalInfo');\r\n",
 																													"P": "mouseEvent:unknown | undefined",
 																													"HL": "JS"
 																												}
@@ -1638,6 +1824,102 @@ let pjson = {
 																							},
 																							"_Editor": {
 																								"eID": "EdtrComp_265"
+																							},
+																							"O": {
+																								"cType": "slot",
+																								"compDomClasses": "col newDropBorder"
+																							}
+																						},
+																						{
+																							"T": "VCol",
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "VBtn",
+																											"P": {
+																												"ID": {
+																													"H": "EdtrComp_10",
+																													"T": "prop"
+																												},
+																												"color": {
+																													"H": "╬'accent'╩╩",
+																													"T": "prop"
+																												},
+																												"depressed": {
+																													"H": "╬true╩╩",
+																													"T": "prop"
+																												},
+																												"elevation": {
+																													"H": "╬0╩╩",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "╬'40px'╩╩",
+																													"T": "prop"
+																												},
+																												"visible": {
+																													"H": "╬true╩╩",
+																													"T": "prop"
+																												}
+																											},
+																											"E": {
+																												"click": {
+																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.store.deleteAll('$');\r\n",
+																													"P": "mouseEvent:unknown | undefined",
+																													"HL": "JS"
+																												}
+																											},
+																											"C": {
+																												"default": {
+																													"c": [
+																														{
+																															"T": "QLabel",
+																															"C": {},
+																															"E": {},
+																															"P": {
+																																"ID": {
+																																	"H": "EdtrComp_11",
+																																	"T": "prop"
+																																},
+																																"text": {
+																																	"H": "╬'DeleteAll Data'╩╩",
+																																	"T": "prop"
+																																}
+																															},
+																															"_Editor": {
+																																"eID": "EdtrComp_11"
+																															},
+																															"O": {
+																																"cType": "child",
+																																"compDomClasses": "q-label newDropBorder"
+																															}
+																														}
+																													],
+																													"cType": "slot"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_10"
+																											},
+																											"O": {
+																												"cType": "slot",
+																												"compDomClasses": "v-btn v-btn--depressed theme--light elevation-0 v-size--default accent newDropBorder"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"E": {},
+																							"P": {
+																								"ID": {
+																									"H": "EdtrComp_9",
+																									"T": "prop"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_9"
 																							},
 																							"O": {
 																								"cType": "slot",
@@ -2161,6 +2443,102 @@ let pjson = {
 																							},
 																							"_Editor": {
 																								"eID": "EdtrComp_805"
+																							},
+																							"O": {
+																								"cType": "slot",
+																								"compDomClasses": "col newDropBorder"
+																							}
+																						},
+																						{
+																							"T": "VCol",
+																							"C": {
+																								"default": {
+																									"c": [
+																										{
+																											"T": "VBtn",
+																											"P": {
+																												"ID": {
+																													"H": "EdtrComp_61",
+																													"T": "prop"
+																												},
+																												"color": {
+																													"H": "╬'accent'╩╩",
+																													"T": "prop"
+																												},
+																												"depressed": {
+																													"H": "╬true╩╩",
+																													"T": "prop"
+																												},
+																												"elevation": {
+																													"H": "╬0╩╩",
+																													"T": "prop"
+																												},
+																												"height": {
+																													"H": "╬'40px'╩╩",
+																													"T": "prop"
+																												},
+																												"visible": {
+																													"H": "╬true╩╩",
+																													"T": "prop"
+																												}
+																											},
+																											"E": {
+																												"click": {
+																													"H": "╬()╣.╣store╩╠deleteAll╩╩╠'$'╩╩╩",
+																													"P": "mouseEvent",
+																													"HL": "QS"
+																												}
+																											},
+																											"C": {
+																												"default": {
+																													"c": [
+																														{
+																															"T": "QLabel",
+																															"C": {},
+																															"E": {},
+																															"P": {
+																																"ID": {
+																																	"H": "EdtrComp_62",
+																																	"T": "prop"
+																																},
+																																"text": {
+																																	"H": "╬'DeleteAll Data'╩╩",
+																																	"T": "prop"
+																																}
+																															},
+																															"_Editor": {
+																																"eID": "EdtrComp_62"
+																															},
+																															"O": {
+																																"cType": "child",
+																																"compDomClasses": "q-label newDropBorder"
+																															}
+																														}
+																													],
+																													"cType": "slot"
+																												}
+																											},
+																											"_Editor": {
+																												"eID": "EdtrComp_61"
+																											},
+																											"O": {
+																												"cType": "slot",
+																												"compDomClasses": "v-btn v-btn--depressed theme--light elevation-0 v-size--default accent newDropBorder"
+																											}
+																										}
+																									],
+																									"cType": "slot"
+																								}
+																							},
+																							"E": {},
+																							"P": {
+																								"ID": {
+																									"H": "EdtrComp_60",
+																									"T": "prop"
+																								}
+																							},
+																							"_Editor": {
+																								"eID": "EdtrComp_60"
 																							},
 																							"O": {
 																								"cType": "slot",
