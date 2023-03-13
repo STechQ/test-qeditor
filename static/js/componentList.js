@@ -195,6 +195,15 @@ var componentOptions = {
         clearable: {
             type: Boolean
         },
+        compareValue: {
+            type: "any"
+        },
+        compareText: {
+            type: String
+        },
+        compareTableValue: {
+            type: String
+        },
         counter: {
             type: "boolean | string | number"
         },
@@ -1656,6 +1665,9 @@ var componentOptions = {
         },
         CompareDataField: {
             type: String
+        },
+        compareValue: {
+            type: "any"
         },
         caption: {
             type: String
