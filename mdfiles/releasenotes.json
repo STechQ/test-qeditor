@@ -1,11 +1,12 @@
 {      
-    "Plateau UI Sprint-3": {
-        "link": "PlateauUISprint3_releaseNote.md"
-    },
+    
     "Plateau UI Sprint-4": {
         "link": "PlateauUISprint4_releaseNote.md"
     },
     "Plateau UI Sprint-5": {
         "link": "PlateauUISprint5_releaseNote.md"
+    },
+    "Plateau UI Sprint-6": {
+        "link": "PlateauUISprint6_releaseNote.md"
     }
 }

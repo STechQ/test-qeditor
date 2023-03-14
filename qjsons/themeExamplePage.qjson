@@ -201,8 +201,9 @@ let pjson = {
 											},
 											"E": {
 												"change": {
-													"H": "//EdtrComp_98.items = Quick.theme.getThemeList()\r\nQuick.theme.setTheme(EdtrComp_98.internalValue)",
-													"P": "value"
+													"H": "//EdtrComp_98.items = Quick.theme.getThemeList()\r\nquick.Quick.theme.setTheme(components.EdtrComp_98.qValue);",
+													"P": "value:any",
+													"HL": "TS"
 												}
 											},
 											"C": {
@@ -573,8 +574,9 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "\r\nmyArr = Quick.theme.getThemeList()\r\nval = ''\r\nforeach (item in myArr){\r\n\r\nval = val + item + ', '\r\n}\r\n\r\nEdtrComp_55.value = val\r\n\r\n",
-																													"P": "mouseEvent"
+																													"H": "\r\nlet myArr = quick.Quick.theme.getThemeList();\r\n\r\nlet val = '';\r\n\r\nmyArr.forEach(item => {\r\n    val = val + item + ', ';\r\n});\r\n\r\ncomponents.EdtrComp_55.qValue = val;\r\n\r\n",
+																													"P": "mouseEvent:unknown | undefined",
+																													"HL": "TS"
 																												}
 																											},
 																											"C": {
@@ -729,9 +731,9 @@ let pjson = {
 											},
 											"E": {
 												"click": {
-													"H": "EM.trace('Theme List')\r\na = Quick.theme.getThemeList()\r\nEM.trace(a)\r\nEM.trace('Theme is changed to myTheme')\r\nQuick.theme.setTheme('light')",
-													"P": "mouseEvent",
-													"HL": "QS"
+													"H": "quick.EM.trace('Theme List');\r\nlet themeList =    quick.Quick.theme.getThemeList();\r\nquick.EM.trace(themeList);\r\nquick.EM.trace('Theme is changed to myTheme');\r\nquick.Quick.theme.setTheme('myTheme');",
+													"P": "mouseEvent:unknown | undefined",
+													"HL": "TS"
 												}
 											},
 											"C": {
@@ -793,9 +795,9 @@ let pjson = {
 											},
 											"E": {
 												"click": {
-													"H": "EM.trace('Theme List')\r\na = Quick.theme.getThemeList()\r\nEM.trace(a)\r\nEM.trace('Theme is changed to default theme')\r\nQuick.theme.setTheme('dark')",
-													"P": "mouseEvent",
-													"HL": "QS"
+													"H": "quick.EM.trace('Theme List');\r\nlet themeList =    quick.Quick.theme.getThemeList();\r\nquick.EM.trace(themeList);\r\nquick.EM.trace('Theme is changed to darkTheme');\r\nquick.Quick.theme.setTheme('darkTheme');",
+													"P": "mouseEvent:unknown | undefined",
+													"HL": "TS"
 												}
 											},
 											"C": {
@@ -979,7 +981,7 @@ let pjson = {
 																			},
 																			"O": {
 																				"cType": "slot",
-																				"compDomClasses": "v-image v-responsive theme--light"
+																				"compDomClasses": "v-image v-responsive theme--light newDropBorder"
 																			}
 																		}
 																	],
@@ -991,7 +993,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "slot",
-																"compDomClasses": "row"
+																"compDomClasses": "row newDropBorder"
 															}
 														}
 													],
@@ -1003,7 +1005,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "row col-md-3"
+												"compDomClasses": "row col-md-3 newDropBorder"
 											}
 										},
 										{
@@ -1037,7 +1039,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "child",
-																"compDomClasses": "editor-ghost-comp"
+																"compDomClasses": "editor-ghost-comp newDropBorder"
 															}
 														}
 													],
@@ -1049,7 +1051,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "row col-md-6 justify-start"
+												"compDomClasses": "row col-md-6 justify-start newDropBorder"
 											}
 										},
 										{
@@ -1070,8 +1072,9 @@ let pjson = {
 											},
 											"E": {
 												"change": {
-													"H": "╬()╣.╣.╣Quick╩╠theme╩╩╠setTheme╩╩╠.╣EdtrComp_98╩╠internalValue╩╩╩╩",
-													"P": "value"
+													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\n//EdtrComp_98.items = Quick.theme.getThemeList()\r\nquick.Quick.theme.setTheme(components.EdtrComp_98.qValue);\r\n",
+													"P": "value:any",
+													"HL": "JS"
 												}
 											},
 											"C": {
@@ -1102,7 +1105,7 @@ let pjson = {
 												"eID": "EdtrComp_98"
 											},
 											"O": {
-												"compDomClasses": "v-input theme--light v-text-field v-text-field--is-booted v-select v-autocomplete undefined",
+												"compDomClasses": "v-input theme--light v-text-field v-text-field--is-booted v-select v-autocomplete undefined newDropBorder",
 												"cType": "slot"
 											}
 										}
@@ -1115,7 +1118,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "slot",
-								"compDomClasses": "container d-flex"
+								"compDomClasses": "container d-flex newDropBorder"
 							}
 						}
 					],
@@ -1127,7 +1130,7 @@ let pjson = {
 			},
 			"O": {
 				"cType": "slot",
-				"compDomClasses": "blue-grey lighten-5"
+				"compDomClasses": "blue-grey lighten-5 newDropBorder"
 			}
 		},
 		{
@@ -1205,7 +1208,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "child",
-																"compDomClasses": "editor-ghost-comp"
+																"compDomClasses": "editor-ghost-comp newDropBorder"
 															}
 														}
 													],
@@ -1217,7 +1220,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "v-picker v-card v-picker--date theme--light"
+												"compDomClasses": "v-picker v-card v-picker--date theme--light newDropBorder"
 											}
 										},
 										{
@@ -1290,7 +1293,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "slot",
-																"compDomClasses": "v-data-table v-data-table--has-bottom theme--light"
+																"compDomClasses": "v-data-table v-data-table--has-bottom theme--light newDropBorder"
 															}
 														},
 														{
@@ -1339,7 +1342,7 @@ let pjson = {
 																								"eID": "EdtrComp_67"
 																							},
 																							"O": {
-																								"compDomClasses": "q-label ",
+																								"compDomClasses": "q-label newDropBorder",
 																								"cType": "slot"
 																							}
 																						},
@@ -1409,7 +1412,7 @@ let pjson = {
 																											},
 																											"O": {
 																												"cType": "slot",
-																												"compDomClasses": "v-input theme--light v-text-field v-text-field--is-booted mr-12 ╬''╩╩",
+																												"compDomClasses": "v-input theme--light v-text-field v-text-field--is-booted mr-12 ╬''╩╩ newDropBorder",
 																												"layout": {
 																													"dOpt": {
 																														"xs": [
@@ -1442,8 +1445,9 @@ let pjson = {
 																											},
 																											"E": {
 																												"click": {
-																													"H": "╬=╣myArr╩╠()╣.╣.╣Quick╩╠theme╩╩╠getThemeList╩╩╩╩╬=╣val╩╠''╩╩╬foreach╣in╣item╩╠myArr╩╩╠╬=╣val╩╠+╣+╣val╩╠item╩╩╠', '╩╩╩╩╩╬=╣.╣EdtrComp_55╩╠value╩╩╠val╩╩╩",
-																													"P": "mouseEvent"
+																													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nvar myArr = quick.Quick.theme.getThemeList();\r\nvar val = '';\r\nmyArr.forEach(function (item) {\r\n    val = val + item + ', ';\r\n});\r\ncomponents.EdtrComp_55.qValue = val;\r\n",
+																													"P": "mouseEvent:unknown | undefined",
+																													"HL": "JS"
 																												}
 																											},
 																											"C": {
@@ -1468,7 +1472,7 @@ let pjson = {
 																															},
 																															"O": {
 																																"cType": "child",
-																																"compDomClasses": "q-label "
+																																"compDomClasses": "q-label newDropBorder"
 																															}
 																														}
 																													],
@@ -1480,7 +1484,7 @@ let pjson = {
 																											},
 																											"O": {
 																												"cType": "slot",
-																												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary ml-8",
+																												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary ml-8 newDropBorder",
 																												"layout": {
 																													"dOpt": {
 																														"xs": [
@@ -1500,7 +1504,7 @@ let pjson = {
 																							},
 																							"O": {
 																								"cType": "slot",
-																								"compDomClasses": "row d-flex flex-row"
+																								"compDomClasses": "row d-flex flex-row newDropBorder"
 																							}
 																						}
 																					],
@@ -1512,7 +1516,7 @@ let pjson = {
 																			},
 																			"O": {
 																				"cType": "slot",
-																				"compDomClasses": "container"
+																				"compDomClasses": "container newDropBorder"
 																			}
 																		}
 																	],
@@ -1524,7 +1528,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "slot",
-																"compDomClasses": "row d-flex flex-row"
+																"compDomClasses": "row d-flex flex-row newDropBorder"
 															}
 														}
 													],
@@ -1536,7 +1540,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "col d-flex flex-column",
+												"compDomClasses": "col d-flex flex-column newDropBorder",
 												"layout": {
 													"dOpt": {
 														"xs": [
@@ -1557,7 +1561,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "slot",
-								"compDomClasses": "container d-flex"
+								"compDomClasses": "container d-flex newDropBorder"
 							}
 						},
 						{
@@ -1598,9 +1602,9 @@ let pjson = {
 											},
 											"E": {
 												"click": {
-													"H": "╬()╣.╣EM╩╠trace╩╩╠'Theme List'╩╩╬=╣a╩╠()╣.╣.╣Quick╩╠theme╩╩╠getThemeList╩╩╩╩╬()╣.╣EM╩╠trace╩╩╠a╩╩╬()╣.╣EM╩╠trace╩╩╠'Theme is changed to myTheme'╩╩╬()╣.╣.╣Quick╩╠theme╩╩╠setTheme╩╩╠'light'╩╩╩",
-													"P": "mouseEvent",
-													"HL": "QS"
+													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace('Theme List');\r\nvar themeList = quick.Quick.theme.getThemeList();\r\nquick.EM.trace(themeList);\r\nquick.EM.trace('Theme is changed to myTheme');\r\nquick.Quick.theme.setTheme('myTheme');\r\n",
+													"P": "mouseEvent:unknown | undefined",
+													"HL": "JS"
 												}
 											},
 											"C": {
@@ -1625,7 +1629,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "child",
-																"compDomClasses": "q-label "
+																"compDomClasses": "q-label newDropBorder"
 															}
 														}
 													],
@@ -1637,7 +1641,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary sftt-btn-grd"
+												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary sftt-btn-grd newDropBorder"
 											}
 										},
 										{
@@ -1662,9 +1666,9 @@ let pjson = {
 											},
 											"E": {
 												"click": {
-													"H": "╬()╣.╣EM╩╠trace╩╩╠'Theme List'╩╩╬=╣a╩╠()╣.╣.╣Quick╩╠theme╩╩╠getThemeList╩╩╩╩╬()╣.╣EM╩╠trace╩╩╠a╩╩╬()╣.╣EM╩╠trace╩╩╠'Theme is changed to default theme'╩╩╬()╣.╣.╣Quick╩╠theme╩╩╠setTheme╩╩╠'dark'╩╩╩",
-													"P": "mouseEvent",
-													"HL": "QS"
+													"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace('Theme List');\r\nvar themeList = quick.Quick.theme.getThemeList();\r\nquick.EM.trace(themeList);\r\nquick.EM.trace('Theme is changed to darkTheme');\r\nquick.Quick.theme.setTheme('darkTheme');\r\n",
+													"P": "mouseEvent:unknown | undefined",
+													"HL": "JS"
 												}
 											},
 											"C": {
@@ -1689,7 +1693,7 @@ let pjson = {
 															},
 															"O": {
 																"cType": "child",
-																"compDomClasses": "q-label "
+																"compDomClasses": "q-label newDropBorder"
 															}
 														}
 													],
@@ -1701,7 +1705,7 @@ let pjson = {
 											},
 											"O": {
 												"cType": "slot",
-												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary sftt-btn-grd"
+												"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary sftt-btn-grd newDropBorder"
 											}
 										}
 									],
@@ -1713,7 +1717,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "slot",
-								"compDomClasses": "row col-xl-4 col-md-4 flex-row ml-2",
+								"compDomClasses": "row col-xl-4 col-md-4 flex-row ml-2 newDropBorder",
 								"layout": {
 									"dOpt": {
 										"xs": [
@@ -1733,77 +1737,12 @@ let pjson = {
 			},
 			"O": {
 				"cType": "slot",
-				"compDomClasses": "blue-grey lighten-5"
+				"compDomClasses": "blue-grey lighten-5 newDropBorder"
 			}
 		}
 	],
 	"lrids": {},
-	"clrids": {
-		"tr-TR": {
-			"clear": "╬'Temizle'╩╩",
-			"newPeriod": "╬'Dönem Ekle'╩╩",
-			"startDate": "╬'Başlangıç Tarihi'╩╩",
-			"endDate": "╬'Bitiş Tarihi'╩╩",
-			"period": "╬'Dönem'╩╩",
-			"country": "╬'Ülke'╩╩",
-			"date": "╬'Tarih'╩╩",
-			"name": "╬'Ad'╩╩",
-			"halfDay": "╬'Yarım Gün'╩╩",
-			"close": "╬'Kapat'╩╩",
-			"save": "╬'Kaydet'╩╩",
-			"update": "╬'Güncelle'╩╩",
-			"viewHoliday": "╬'Tatil Günü'╩╩",
-			"newHoliday": "╬'Tatil Günü Ekle'╩╩",
-			"search": "╬'Sorgula'╩╩",
-			"deleteMsg": "╬'Kayıt Silinecektir. Onaylıyor musunuz?'╩╩",
-			"yes": "╬'Evet'╩╩",
-			"no": "╬'Hayır'╩╩",
-			"holidayPeriods": "╬'Tatil Dönemleri'╩╩",
-			"holidayInquiry": "╬'Tatil Sorgulama'╩╩",
-			"holidays": "╬'Tatil Günleri'╩╩",
-			"updateHoliday": "╬'Tatil Günü Güncelleme'╩╩",
-			"createHoliday": "╬'Tatil Günü Ekleme'╩╩",
-			"createHolidayPeriod": "╬'Tatil Dönemi Ekleme'╩╩",
-			"updateHolidayPeriod": "╬'Tatil Dönemi Güncelleme'╩╩",
-			"createPeriod": "╬'Dönem Ekle'╩╩",
-			"holidaysTitle": "╬'Tatil Günleri'╩╩",
-			"true": "╬'Evet'╩╩",
-			"false": "╬'Hayır'╩╩",
-			"viewHolidayPeriod": "╬'Tatil Dönemi Özellikleri'╩╩"
-		},
-		"en-US": {
-			"clear": "╬'Clear'╩╩",
-			"newPeriod": "╬'Add Period'╩╩",
-			"startDate": "╬'Start Date'╩╩",
-			"endDate": "╬'End Date'╩╩",
-			"period": "╬'Period'╩╩",
-			"country": "╬'Country'╩╩",
-			"date": "╬'Date'╩╩",
-			"name": "╬'Name'╩╩",
-			"halfDay": "╬'Half Day'╩╩",
-			"close": "╬'Close'╩╩",
-			"save": "╬'Save'╩╩",
-			"update": "╬'Update'╩╩",
-			"viewHoliday": "╬'Holiday'╩╩",
-			"newHoliday": "╬'New Holiday'╩╩",
-			"search": "╬'Search'╩╩",
-			"deleteMsg": "╬'The record will be deleted. Do you confirm? '╩╩",
-			"yes": "╬'Yes'╩╩",
-			"no": "╬'No'╩╩",
-			"holidayPeriods": "╬'Periods of Holiday'╩╩",
-			"holidayInquiry": "╬'Holiday Inquiry'╩╩",
-			"holidays": "╬'Holidays'╩╩",
-			"updateHoliday": "╬'Update Holiday'╩╩",
-			"createHoliday": "╬'Create Holiday'╩╩",
-			"createHolidayPeriod": "╬'Create Holiday Period'╩╩",
-			"updateHolidayPeriod": "╬'Update Period Holiday'╩╩",
-			"createPeriod": "╬'Create Period'╩╩",
-			"holidaysTitle": "╬'Holidays'╩╩",
-			"true": "╬'Yes'╩╩",
-			"false": "╬'No'╩╩",
-			"viewHolidayPeriod": "╬'Holiday Period'╩╩"
-		}
-	},
+	"clrids": {},
 	"description": {}
 };
 export default pjson
