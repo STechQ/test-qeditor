@@ -1,5 +1,6 @@
 import { IDictionary } from "../IDictionary";
 import { ScriptLang } from "../Scripting/scriptLang";
+import { StyleValue } from "./IStyle";
 export interface IQuickFlowModel {
     type: "flow_both";
     design: object;
@@ -126,6 +127,8 @@ export interface ICompJson {
     C: IDictionary<IChildJson>;
     D?: Record<string, Record<string, IDirectiveJson>>;
     O?: IOptJson;
+    SA?: Array<string>;
+    S?: StyleValue;
     _Editor: IEditorJson;
 }
 export interface ILayoutJson {

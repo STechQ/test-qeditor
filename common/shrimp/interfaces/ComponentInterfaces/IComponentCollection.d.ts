@@ -12,6 +12,7 @@ import { IEventCollection } from "./IEventCollection";
 import { IDoryJr } from "../RenderingInterfaces/IDoryJr";
 import { IHistoryItem } from "../RenderingInterfaces/IHistoryItem";
 import { IDirectiveCollection } from "./IDirectiveCollection";
+import { StyleValue } from "./IStyle";
 export declare type ScopedSlotCreatorFunc = (scopeObject?: IDictionary<any>) => Array<IComponentCollection>;
 export declare type CreatedFieldsHook = (created: ICreatedComponent) => void;
 export declare function CreateLightComponentCollection({ compType, compId, parentCompCollection, compDomClass, component }: {
@@ -57,6 +58,7 @@ export interface IComponentCollection extends ILightComponentCollection, IPerfab
     dynamicCompIdSuffix?: string;
     directiveFields: IDirectiveCollection;
     additionals?: Record<string, any>;
+    compStyleValues?: StyleValue;
     SetChildrenFields({ children, childrenCreators }: {
         children?: IDictionary<Array<IComponentCollection>>;
         childrenCreators?: IDictionaryNullable<ScopedSlotCreatorFunc>;
@@ -67,5 +69,6 @@ export interface IComponentCollection extends ILightComponentCollection, IPerfab
     }): void;
     WatchCreatedFields(cb: CreatedFieldsHook): void;
     SetInitialProps(props: IDictionary<any>): void;
+    SetComponentStyles(compStyles?: StyleValue): void;
 }
 //# sourceMappingURL=IComponentCollection.d.ts.map

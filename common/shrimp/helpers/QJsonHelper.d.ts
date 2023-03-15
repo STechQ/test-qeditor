@@ -25,7 +25,8 @@ export declare class QJsonHelper {
         compName: string;
         eID: string;
         parentCompJson?: ICompJson;
-    }) => boolean): void;
+        compiledJson?: ICompJson;
+    }) => boolean, compiledJson?: Array<ICompJson>): void;
     /**
      * @deprecated Please use QJsonHelper.FindParentArrayPath
      */

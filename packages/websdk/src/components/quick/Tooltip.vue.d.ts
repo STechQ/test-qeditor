@@ -11,6 +11,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     forcePositionRight: string | undefined;
     forcePositionLeft: string | undefined;
     forcePositionMarginTop: string | undefined;
+    uniqueID: string;
 }, unknown, unknown, {
     toolTipContent: any;
     customClass: any;
@@ -29,6 +30,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     attach: string;
     absolute: boolean;
     forcePosition: boolean;
+    _renderingProps: any;
 }>;
 export default _default;
 //# sourceMappingURL=Tooltip.vue.d.ts.map

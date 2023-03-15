@@ -1,11 +1,12 @@
+import Vue from "vue";
 import { QShell } from "../../../../common/qshell";
 import { ContextManager } from "../../../../common/shrimp/context";
+import { StyleJson } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IStyle";
 import { IContainerServicesWrapper } from "../../../../common/shrimp/interfaces/quick/IContainerServices";
 import { IWebSDKSettingsWrapper } from "../../../../common/shrimp/interfaces/quick/IWebSDK";
 import { IDomElement } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IRenderer } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IRendererConfig";
-import Vue from "vue";
 import { StoreManager } from "../implementation/StoreManager";
 import { WindowHistoryManager } from "./WindowHistoryManager";
 export declare class RendererManager {
@@ -32,5 +33,6 @@ export declare class RendererManager {
     clear(renderer: IRenderer): void;
     setEnvironment(env: any): void;
     setYamlLogType(logType: string): void;
+    setQuickStyle(styleJson?: StyleJson): void;
 }
 //# sourceMappingURL=RendererManager.d.ts.map

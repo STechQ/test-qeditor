@@ -21,6 +21,7 @@ import { IPageCompletedCb, IPageRenderStartedCb } from "./ILifeCycleCb";
 import { ISettingsQJsonContext } from "./IRenderer";
 import { IRendererOperatorCollection } from "./Operators/IRendererOperatorCollection";
 import { IStore } from "../quick/IStore";
+import { IAssetList } from "../ComponentInterfaces/IStyle";
 export declare type PartialDisplayHookCb = (elements: Array<IDomElement>, pageId?: string, pageName?: string, navigationDirection?: INavigationDemandType, override?: boolean, doryJr?: IDoryJr | undefined, additioanls?: any | undefined) => void;
 export declare type DisplayHookCb = (elements: IDomElement[], pageId?: string, pageName?: string, navigationDirection?: INavigationDemandType, additionals?: any, noHistory?: boolean) => void;
 export interface IGoHistoryOptions {
@@ -123,6 +124,7 @@ export interface IDory extends IContextItem {
     GetComponentCollectionByUID(compUID: string): IComponentCollection | undefined;
     GetSettingsQJsonContext(): ISettingsQJsonContext;
     GetShellConfiguration(): IShellConfiguration;
+    SetAssetValues(assetValues?: IAssetList): void;
 }
 export declare const DoryContextName = "Dory";
 //# sourceMappingURL=IDory.d.ts.map

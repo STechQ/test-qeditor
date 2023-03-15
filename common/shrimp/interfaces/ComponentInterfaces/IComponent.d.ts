@@ -68,6 +68,7 @@ export interface IComponent extends INativeComponent, IFrameNavigation {
     attrs$?: Record<string, any>;
     value?: any;
     qValue?: any;
+    style?: Record<string, string>;
     internalValue?: any;
     Go?: () => any;
     customChildAppender: ({ childName, createdComps }: {

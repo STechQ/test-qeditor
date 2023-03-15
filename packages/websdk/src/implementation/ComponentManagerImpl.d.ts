@@ -64,6 +64,8 @@ export declare class ComponentManagerImpl implements IComponentManager {
     setVisibility(compColl: IComponentCollection, compVisibility: boolean): void;
     getComponentValue(compColl: IComponentCollection): any;
     setComponentValue(compColl: IComponentCollection, value: string): void;
+    getComponentStyle(comp: IComponent): any;
+    setComponentStyle(compCollection: IComponentCollection, prop: string, value: string): void;
     onComponentDestroy({ parentComponent, childVDomElement, childKey }: {
         parentComponent: IComponent;
         childVDomElement: IVnode;

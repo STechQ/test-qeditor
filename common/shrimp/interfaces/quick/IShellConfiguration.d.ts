@@ -7,6 +7,7 @@ import { IComponentInstanceTracker } from "../ComponentInterfaces/IComponentInst
 import { ICreatedComponent } from "../ComponentInterfaces/ICreatedComponent";
 import { IDirectiveElement } from "../ComponentInterfaces/IDirectiveCollection";
 import { IQJSon } from "../ComponentInterfaces/IQJson";
+import { StyleValue } from "../ComponentInterfaces/IStyle";
 import { IVnode } from "../ComponentInterfaces/IVnode";
 import { IDictionary } from "../IDictionary";
 import { IHostResponseData } from "../IHostResponseData";
@@ -14,9 +15,9 @@ import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { INetwork } from "./IContainerServices";
 import { ICookieAccess } from "./ICookieAccess";
 import { IFormatConfiguration } from "./IFormatConfiguration";
+import { IFormattingDefinition } from "./IFormattingDefinition";
 import { IPlatform } from "./IPlatform";
 import { IProcessManager } from "./IProcessManager";
-import { IFormattingDefinition } from "./IFormattingDefinition";
 import { IShellGlobalMethods } from "./IShellGlobalMethods";
 import { IStorageAccess } from "./IStore";
 import { IUrlOptions } from "./IUrl";
@@ -83,6 +84,8 @@ export interface IShellConfiguration {
     setVisibility(compCollection: IComponentCollection, compVisibility: boolean): void;
     getComponentValue(compCollection: IComponentCollection): any;
     setComponentValue(compCollection: IComponentCollection, value: string): void;
+    getComponentStyle(comp: IComponent): any;
+    setComponentStyle(compCollection: IComponentCollection, prop: string, value: string): void;
     redirect?({ url, options }: {
         url: string;
         options?: IUrlOptions;
@@ -129,7 +132,7 @@ export interface IHistoryBasedShellConfiguration {
     createContainerView?: CreateContainerViewDelegate;
     updateContainerView?: UpdateContainerViewDelegate;
 }
-export declare type CreateComponentDelegate = ({ componentName, props, events, asChildType, asChildName, slots, scopedSlots, compClass, text, attrs, pageName, componentCollection, directives }: {
+export declare type CreateComponentDelegate = ({ componentName, props, events, asChildType, asChildName, slots, scopedSlots, compClass, text, attrs, pageName, componentCollection, directives, styles }: {
     componentName: string;
     props: IDictionary<any>;
     events: IDictionary<Function>;
@@ -143,6 +146,7 @@ export declare type CreateComponentDelegate = ({ componentName, props, events, a
     pageName?: string;
     componentCollection: ILightComponentCollection;
     directives?: Array<IDirectiveElement>;
+    styles?: StyleValue;
 }) => ICreatedComponent;
 export declare type ComponentHasPropDelegate = (({ componentName, propName }: {
     componentName: string;

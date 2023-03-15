@@ -53,6 +53,7 @@ export declare class RenderingManager implements IContextItem {
      * @param directives Directive collection of the component. Get all the directives from this collection
      */
     private GenerateDirectives;
+    private CalculateStyle;
     private getItemValue;
     private GenerateChildren;
     private isEditMode;

@@ -4,9 +4,10 @@ import { IComponentCollection, ScopedSlotCreatorFunc } from "../../../shrimp/int
 import { ICreatedComponent } from "../../../shrimp/interfaces/ComponentInterfaces/ICreatedComponent";
 import { IDirectiveElement } from "../../../shrimp/interfaces/ComponentInterfaces/IDirectiveCollection";
 import { IEventCollection } from "../../../shrimp/interfaces/ComponentInterfaces/IEventCollection";
+import { StyleValue } from "../../../shrimp/interfaces/ComponentInterfaces/IStyle";
 import { IDictionary } from "../../../shrimp/interfaces/IDictionary";
 export declare class ComponentCommunicator {
-    CreateComponent({ componentName, props, events, context, asChildType, asChildName, children, parentInst, childrenCreators, compCollection, compClass, text, attrs, compareCompValue, directives }: {
+    CreateComponent({ componentName, props, events, context, asChildType, asChildName, children, parentInst, childrenCreators, compCollection, compClass, text, attrs, compareCompValue, directives, styles }: {
         componentName: string;
         props: IDictionary<any>;
         events: IEventCollection;
@@ -22,6 +23,7 @@ export declare class ComponentCommunicator {
         attrs?: IDictionary<any>;
         compareCompValue: boolean;
         directives?: Array<IDirectiveElement>;
+        styles?: StyleValue;
     }): ICreatedComponent;
     private setDoryProps;
     private static compCreatePostActions;

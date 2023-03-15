@@ -1,14 +1,15 @@
+import { IContextItem } from "../../context";
+import { Hook } from "../../helpers/hook";
 import { IComponentCollection } from "../ComponentInterfaces/IComponentCollection";
 import { ILRID } from "../ComponentInterfaces/ILocalResource";
 import { IQJSon } from "../ComponentInterfaces/IQJson";
-import { Hook } from "../../helpers/hook";
+import { StyleJson } from "../ComponentInterfaces/IStyle";
 import { IDictionary } from "../IDictionary";
 import { INavigationDemand } from "../quick/INavigationDemand";
 import { ISiteSettings } from "../quick/ISiteSettings";
-import { PartialDisplayHookCb, DisplayHookCb, IDory } from "./IDory";
-import { IPageCompletedCb, IPageRenderStartedCb } from "./ILifeCycleCb";
-import { IContextItem } from "../../context";
+import { DisplayHookCb, IDory, PartialDisplayHookCb } from "./IDory";
 import { IDoryJr } from "./IDoryJr";
+import { IPageCompletedCb, IPageRenderStartedCb } from "./ILifeCycleCb";
 export interface IRendererChild {
     Render({ qjson, props, events, compParentInst, storeItems, pageId, pageName }: {
         qjson: IQJSon;
@@ -70,6 +71,8 @@ export interface ISettingsQJsonContext extends IContextItem {
     GetLoadingQjson(): IQJSon | undefined;
     SetLoadingQjson(qjson: IQJSon): void;
     SetGlobalLocalizationQjson(qJson: IQJSon): void;
+    GetQuickStyle(): StyleJson | undefined;
+    SetQuickStyle(styles?: StyleJson): void;
 }
 export interface IDoryRenderer extends IRenderer {
     readonly DoryInst: IDory;

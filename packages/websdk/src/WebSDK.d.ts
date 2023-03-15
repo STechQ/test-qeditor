@@ -1,19 +1,19 @@
+import Vue from "vue";
+import "../../../common/shrimp/helpers/urlHelper";
 import { IComponent } from "../../../common/shrimp/interfaces/ComponentInterfaces/IComponent";
 import { IQJSon } from "../../../common/shrimp/interfaces/ComponentInterfaces/IQJson";
+import { IDictionary } from "../../../common/shrimp/interfaces/IDictionary";
 import { IContainerServices, IContainerServicesWrapper } from "../../../common/shrimp/interfaces/quick/IContainerServices";
 import { IExternalQJsonRetriever } from "../../../common/shrimp/interfaces/quick/IExternalQJsonRetriever";
 import { IRegionalDefinition } from "../../../common/shrimp/interfaces/quick/IFormattingDefinition";
+import { IPlateauIAM } from "../../../common/shrimp/interfaces/quick/IPlateauIAM";
 import { CompGroupType, IWebSDK, IWebSDKSettings } from "../../../common/shrimp/interfaces/quick/IWebSDK";
 import { IWebSDKSetingsBus } from "../../../common/shrimp/interfaces/quick/IWebSDKSettingsBus";
 import { IDomElement } from "../../../common/shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IRenderer } from "../../../common/shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../../../common/shrimp/interfaces/RenderingInterfaces/IRendererConfig";
-import Vue from "vue";
 import { StoreManagerHookCb } from "./implementation/StoreManager";
 import { UXManagerImpl } from "./implementation/UXManagerImpl";
-import { IPlateauIAM } from "../../../common/shrimp/interfaces/quick/IPlateauIAM";
-import "../../../common/shrimp/helpers/urlHelper";
-import { IDictionary } from "../../../common/shrimp/interfaces/IDictionary";
 export declare class WebSDK implements IWebSDK {
     static servicesWrapper: IContainerServicesWrapper;
     config: IRendererConfig;
@@ -67,6 +67,7 @@ export declare class WebSDK implements IWebSDK {
     setServiceDefaultHeader(header?: string): void;
     setSelectedServiceUrl(url?: string): void;
     setProxySettingsYamlContent(content?: object): void;
+    setAsset(content?: object): void;
     setBackEndInfHeaders(backendInf: any): void;
     setRegionalDefinition(regionalSettings: Array<IRegionalDefinition> | undefined): void;
     setGlobalLR(regionalSettings: Array<IRegionalDefinition> | undefined): void;

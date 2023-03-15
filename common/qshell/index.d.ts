@@ -1,8 +1,6 @@
 import { IContextItem } from "../shrimp/context";
 import { IComponentInstanceTracker } from "../shrimp/interfaces/ComponentInterfaces/IComponentInstanceTracker";
-import { IExternalLocalizationFunc } from "../shrimp/interfaces/quick/IExternalLocalizationFunc";
 import { PlatformType } from "../shrimp/interfaces/quick/IPlatform";
-import { IRegionalDefinition } from "../shrimp/interfaces/quick/IFormattingDefinition";
 import { IUXManager } from "../shrimp/interfaces/quick/IUXManager";
 import { IRenderer } from "../shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../shrimp/interfaces/RenderingInterfaces/IRendererConfig";
@@ -46,17 +44,15 @@ declare class QShell implements IContextItem {
         platformType: PlatformType;
         platformManager: IPlatformManager;
     }, operatorCollection: IRendererOperatorCollection);
-    CreateRenderer({ componentManager, globalMethods, doryInstanceName, componentInstanceTracker, langExtensions, navigationManager, externalLocalizationFunc, storeManager, cookieManager, regionalConfig, processManager, cryptoManager, config }: {
+    CreateRenderer({ componentManager, globalMethods, doryInstanceName, componentInstanceTracker, langExtensions, navigationManager, storeManager, cookieManager, processManager, cryptoManager, config }: {
         componentManager: IComponentManager;
         globalMethods: IGlobalMethods;
         doryInstanceName?: string;
         componentInstanceTracker?: IComponentInstanceTracker;
         langExtensions?: ILanguageExtensions;
         navigationManager?: INavigationManager;
-        externalLocalizationFunc?: IExternalLocalizationFunc;
         storeManager?: IStoreManager;
         cookieManager?: ICookieManager;
-        regionalConfig?: IRegionalDefinition;
         processManager?: IProcessManager;
         cryptoManager?: ICryptographyManager;
         config?: IRendererConfig;

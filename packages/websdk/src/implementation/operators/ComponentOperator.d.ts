@@ -6,5 +6,6 @@ export declare class ComponentOperator implements IComponentOperator {
     getClassString(compColl: IComponentCollection): string;
     setTextAndMount(compColl: IComponentCollection, text: string): void;
     getTextString(compColl: IComponentCollection): string | undefined;
+    matchComponentStyles(compColl: IComponentCollection): void;
 }
 //# sourceMappingURL=ComponentOperator.d.ts.map

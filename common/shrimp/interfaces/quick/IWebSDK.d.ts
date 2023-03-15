@@ -1,4 +1,5 @@
 import { IComponent } from "../ComponentInterfaces/IComponent";
+import { IAssetList } from "../ComponentInterfaces/IStyle";
 import { IVersion } from "../ComponentInterfaces/IVersion";
 import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { IRenderer } from "../RenderingInterfaces/IRenderer";
@@ -30,6 +31,11 @@ export interface IWebSDKSettings {
     rootqjson?: string;
     containerServicesPath?: string;
     componentListPath?: string;
+    pipelineqjsonContent?: any;
+    alertqjsonContent?: any;
+    loadingqjsonContent?: any;
+    globalLocalizationqjsonContent?: any;
+    rootqjsonContent?: any;
     singleTab?: any;
     rootLangCode?: string;
     domainModuleList?: Record<string, string>;
@@ -40,7 +46,9 @@ export interface IWebSDKSettings {
     title?: string;
     favicon?: string;
     minEngineLogLevel?: string;
+    quickStyle?: string;
     versions?: IVersion;
+    assetValues?: IAssetList;
 }
 export interface IBackendInf {
     containerName?: any;

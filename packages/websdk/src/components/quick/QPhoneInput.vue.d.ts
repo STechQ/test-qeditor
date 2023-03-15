@@ -36,6 +36,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
         required: (value: any) => true | "Zorunlu alanı doldurunuz .";
         valid: (value: any) => true | "Lütfen geçerli bir telefon numarası giriniz .";
     };
+    uniqueID: string;
 }, {
     changePhone(): void;
     changeCountryCode(): void;
@@ -58,6 +59,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     outlined: any;
     label: any;
     locale: string;
+    _renderingProps: any;
 }>;
 export default _default;
 //# sourceMappingURL=QPhoneInput.vue.d.ts.map

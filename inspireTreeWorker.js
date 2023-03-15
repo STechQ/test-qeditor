@@ -134,21 +134,23 @@ var QJsonHelper = /** @class */ (function () {
      * @param callBack Function to be handled. Return false to STOP traversing.
      * @returns boolean
      */
-    QJsonHelper.ForEachComp = function (pageJson, callBack) {
-        var traverse = function (curJson, path, parentCompJson) {
+    QJsonHelper.ForEachComp = function (pageJson, callBack, compiledJson) {
+        var traverse = function (_a) {
+            var curJson = _a.curJson, path = _a.path, parentCompJson = _a.parentCompJson, compiledJson = _a.compiledJson;
             for (var i = 0; i < curJson.length; i++) {
                 var compJson = curJson[i];
+                var cJson = compiledJson === null || compiledJson === void 0 ? void 0 : compiledJson[i];
                 if (!compJson) {
                     continue;
                 }
                 path.push(i);
-                if (callBack(compJson, path.map(function (item) { return item; }), { compName: compJson.T, eID: compJson._Editor.eID, parentCompJson: parentCompJson }) === false) {
+                if (callBack(compJson, path.map(function (item) { return item; }), { compName: compJson.T, eID: compJson._Editor.eID, parentCompJson: parentCompJson, compiledJson: cJson }) === false) {
                     return false;
                 }
                 if (compJson.C) {
                     for (var childNamed in compJson.C) {
                         path.push(childNamed);
-                        if (traverse(compJson.C[childNamed].c, path, compJson) === false) {
+                        if (traverse({ curJson: compJson.C[childNamed].c, path: path, parentCompJson: compJson, compiledJson: cJson === null || cJson === void 0 ? void 0 : cJson.C[childNamed].c }) === false) {
                             return false;
                         }
                         path.pop();
@@ -157,7 +159,7 @@ var QJsonHelper = /** @class */ (function () {
                 path.pop();
             }
         };
-        traverse(pageJson, []);
+        traverse({ curJson: pageJson, path: [], compiledJson: compiledJson });
     };
     /**
      * @deprecated Please use QJsonHelper.FindParentArrayPath

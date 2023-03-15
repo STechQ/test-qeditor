@@ -6,6 +6,7 @@ export interface IQJsonOptions {
      * QJson language
      */
     QL?: ScriptLang;
+    V?: number;
 }
 export interface IQView {
     pJson?: Array<ICompJson>;

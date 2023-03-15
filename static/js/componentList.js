@@ -3713,7 +3713,8 @@ nextIcon = 'mdi-plus'}`
             type: String
         },
         showArrows: {
-            type: Boolean
+            type: Boolean,
+            editorDefaultValue: "true"
         },
         visible: {
             type: Boolean,

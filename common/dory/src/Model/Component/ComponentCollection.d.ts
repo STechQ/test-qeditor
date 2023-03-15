@@ -5,6 +5,7 @@ import { CreatedFieldsHook, IComponentCollection, ScopedSlotCreatorFunc } from "
 import { ICreatedComponent } from "../../../../shrimp/interfaces/ComponentInterfaces/ICreatedComponent";
 import { IDirectiveCollection } from "../../../../shrimp/interfaces/ComponentInterfaces/IDirectiveCollection";
 import { IEventCollection } from "../../../../shrimp/interfaces/ComponentInterfaces/IEventCollection";
+import { StyleValue } from "../../../../shrimp/interfaces/ComponentInterfaces/IStyle";
 import { IVnode } from "../../../../shrimp/interfaces/ComponentInterfaces/IVnode";
 import { IDictionary } from "../../../../shrimp/interfaces/IDictionary";
 import { IDictionaryNullable } from "../../../../shrimp/interfaces/IDictionaryNullable";
@@ -46,6 +47,7 @@ export declare class ComponentCollection implements IComponentCollection {
     dynamicCompIdSuffix?: string;
     private rootHistoryItem;
     directiveFields: IDirectiveCollection;
+    compStyleValues?: StyleValue;
     constructor({ compJson, context, asChildType, asChildName, asChildIndex, parentCompCollection, compareComponent, dynamicCompIdSuffix }: {
         compJson?: ICompJson;
         context: ContextManager;
@@ -76,5 +78,12 @@ export declare class ComponentCollection implements IComponentCollection {
     GetDoryJr(): IDoryJr | undefined;
     SetDoryJr(doryJr: IDoryJr): void;
     GetCompUID(): string;
+    SetComponentStyles(compStyles?: StyleValue): void;
+    /**
+     * Create style field on the component instance and proxify the newly created field
+     * @param compCollection Component collection
+     * @returns void
+     */
+    proxifyStyleField(compCollection: IComponentCollection): void;
 }
 //# sourceMappingURL=ComponentCollection.d.ts.map

@@ -23,6 +23,7 @@ import { ScriptLang } from "../../shrimp/interfaces/Scripting/scriptLang";
 import { ShellConfiguration } from "./Config/ShellConfiguration";
 import { SharedStoreContext } from "./Context/Store/SharedStoreContext";
 import { HistoryItem } from "./Model/History/HistoryItem";
+import { IAssetList } from "../../shrimp/interfaces/ComponentInterfaces/IStyle";
 export declare class Dory implements IDory {
     static ContextName: string;
     contextName: string;
@@ -53,6 +54,7 @@ export declare class Dory implements IDory {
     set isDark(v: boolean | undefined);
     get isRenderCompleted(): boolean;
     private set isRenderCompleted(value);
+    assetValues?: IAssetList;
     constructor(interDoryContext: ContextManager);
     GetLRType(): string;
     SetLRType(LRType?: string, LRTypeRTL?: boolean): Promise<void>;
@@ -159,5 +161,7 @@ export declare class Dory implements IDory {
     }): void;
     Trigger(eventName: string, parameters?: Record<string, any>): any;
     SetOperatorCollection(operatorCollection: IRendererOperatorCollection): void;
+    SetAssetValues(values?: IAssetList): void;
+    GetAssetValues(): IAssetList | undefined;
 }
 //# sourceMappingURL=Dory.d.ts.map

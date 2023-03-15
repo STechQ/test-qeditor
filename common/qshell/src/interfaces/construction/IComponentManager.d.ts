@@ -18,6 +18,8 @@ export interface IComponentManager extends IContextItem {
     setVisibility(compCollection: IComponentCollection, compVisibility: boolean): void;
     getComponentValue(compCollection: IComponentCollection): any;
     setComponentValue(compCollection: IComponentCollection, value: string): void;
+    getComponentStyle(comp: IComponent): any;
+    setComponentStyle(compCollection: IComponentCollection, prop: string, value: string): void;
     onComponentDestroy?: ({ parentComponent, childVDomElement, childKey, }: {
         parentComponent: IComponent;
         childVDomElement: IVnode;
