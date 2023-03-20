@@ -30,7 +30,7 @@ export interface IGlobalMethods extends IContextItem {
     }, parameters: IAlertParameters) => void;
     performance?: () => number;
     getDeepLinkParams: () => Record<string, string | undefined>;
-    dynamicCompHandler: ({ createdComps, compLocater, referenceComp, parentCollection, appendToChild, childName }: {
+    dynamicCompHandler: ({ createdComps, compLocater, referenceComp, parentCollection, appendToChild, childName, }: {
         createdComps: Array<IComponentCollection>;
         compLocater: ElementLocation;
         referenceComp?: IComponentCollection;
@@ -40,9 +40,10 @@ export interface IGlobalMethods extends IContextItem {
     }) => void;
     deleteComponent: (compCollection: IComponentCollection) => void;
     setPageTitle(value: string): void;
+    copyToClipboard(value: string): void;
     getPageTitle?: () => void;
     getFavicon?: () => void;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName, }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
@@ -50,7 +51,7 @@ export interface IGlobalMethods extends IContextItem {
     }) => void;
     setComponentClass?: (compCollection: IComponentCollection, classes: Array<string>) => void;
     setComponentsProperty?: (compCollection: IComponentCollection, propertyName: string, propertyValue: string) => void;
-    goNative?: ({ code, param }: {
+    goNative?: ({ code, param, }: {
         code: string;
         param?: Record<string, any>;
     }) => void;

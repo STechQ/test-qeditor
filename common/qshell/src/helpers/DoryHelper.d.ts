@@ -12,7 +12,7 @@ export declare class DoryHelper {
     private doryJr?;
     contextManager: ContextManager;
     shellManager: ShellManager;
-    constructor({ doryInstName, context, renderer, operatorCollection }: {
+    constructor({ doryInstName, context, renderer, operatorCollection, }: {
         doryInstName?: string;
         context: ContextManager;
         renderer?: Renderer;

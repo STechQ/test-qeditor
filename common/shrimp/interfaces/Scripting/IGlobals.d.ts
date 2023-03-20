@@ -63,7 +63,7 @@ export interface IGlobals_Quick {
         newTab?: boolean;
         store?: boolean;
     }) => any;
-    goNative?: ({ code, param }: {
+    goNative?: ({ code, param, }: {
         code: string;
         param?: Record<string, any>;
     }) => void;
@@ -88,7 +88,7 @@ export interface IGlobals_Quick {
     validateAll: (displayAlertBox: boolean, displayError?: boolean) => true | undefined;
     resetValidation: (compEID: string) => void;
     reset: (compEID: string) => void;
-    createComponent: ({ templateCompQID, newCompQID, dataSource, place, placeQID, childName }: {
+    createComponent: ({ templateCompQID, newCompQID, dataSource, place, placeQID, childName, }: {
         templateCompQID: string;
         newCompQID: string;
         dataSource?: any;
@@ -97,23 +97,24 @@ export interface IGlobals_Quick {
         childName?: string;
     }) => IComponent | undefined | null;
     findCreateComponentRelative: (sourceComp: IComponent, targetCompID: string) => IComponent | undefined;
-    createChildren: ({ parentCompQId, templateChildName, newChildName }: {
+    createChildren: ({ parentCompQId, templateChildName, newChildName, }: {
         parentCompQId: string;
         templateChildName: string;
         newChildName?: string;
     }) => void;
     deleteComponent: (componentInstance: IComponent) => void;
-    bind: ({ bindedObject, fields }: {
+    bind: ({ bindedObject, fields, }: {
         bindedObject: string | undefined;
         fields: Array<string> | object | undefined;
     }) => void;
     setLanguage: (LRType: string) => Promise<void> | undefined;
     getLanguage: () => string;
     setPageTitle?: (value: string) => void;
+    copyToClipboard?: (value: string) => void;
     getPageTitle?: () => void;
     getFavicon?: () => void;
     updateComponent: (Comp?: IComponent) => any;
-    exportToXlsx: ({ fileName, items, headers, sheetName }: {
+    exportToXlsx: ({ fileName, items, headers, sheetName, }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
@@ -219,7 +220,7 @@ export interface IGlobals_Url {
         url: string;
     }) => string;
     getDeepLinkParams?: () => Record<string, string | undefined>;
-    getUrl?: () => (string | undefined);
+    getUrl?: () => string | undefined;
 }
 export interface IGlobals_js {
     Object: ObjectConstructor;
@@ -229,13 +230,13 @@ export interface IGlobals_js {
     Number: NumberConstructor;
 }
 export interface IGlobals_sso {
-    start: ({ clientId, authorizeEndpoint, redirectUri, scope }: {
+    start: ({ clientId, authorizeEndpoint, redirectUri, scope, }: {
         clientId: string;
         authorizeEndpoint: string;
         redirectUri: string;
         scope: string;
     }) => void;
-    validate: ({ urlParams, tokenEndpoint, type, onSuccess, onFail }: {
+    validate: ({ urlParams, tokenEndpoint, type, onSuccess, onFail, }: {
         urlParams: Record<string, string>;
         tokenEndpoint: string;
         type: string;
@@ -254,7 +255,7 @@ export interface IGlobals_devex {
         key?: string;
         data?: Array<any>;
     }) => any;
-    createCustomStore: ({ loadUrl, key, load }: {
+    createCustomStore: ({ loadUrl, key, load, }: {
         loadUrl?: string;
         key?: string;
         load?: Promise<any>;

@@ -46,7 +46,7 @@ export interface IShellConfiguration {
         clear?: () => void;
     };
     processManager?: IProcessManager;
-    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName }: {
+    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName, }: {
         createdComps: Array<IComponentCollection>;
         referenceComp?: IComponentCollection;
         compLocater: ElementLocation;
@@ -65,7 +65,7 @@ export interface IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName, }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
@@ -109,6 +109,7 @@ export interface IShellConfiguration {
     getPageTitle?: () => void;
     getFavicon?: () => void;
     setPageTitle?: (value: string) => void;
+    copyToClipboard?: (value: string) => void;
     setFavicon?: (favicon: string) => void;
     getYamlLogType?: () => LogType;
     cryptoGenerateKeyPair?: () => Record<string, string>;
@@ -132,7 +133,7 @@ export interface IHistoryBasedShellConfiguration {
     createContainerView?: CreateContainerViewDelegate;
     updateContainerView?: UpdateContainerViewDelegate;
 }
-export declare type CreateComponentDelegate = ({ componentName, props, events, asChildType, asChildName, slots, scopedSlots, compClass, text, attrs, pageName, componentCollection, directives, styles }: {
+export declare type CreateComponentDelegate = ({ componentName, props, events, asChildType, asChildName, slots, scopedSlots, compClass, text, attrs, pageName, componentCollection, directives, styles, }: {
     componentName: string;
     props: IDictionary<any>;
     events: IDictionary<Function>;
@@ -148,18 +149,18 @@ export declare type CreateComponentDelegate = ({ componentName, props, events, a
     directives?: Array<IDirectiveElement>;
     styles?: StyleValue;
 }) => ICreatedComponent;
-export declare type ComponentHasPropDelegate = (({ componentName, propName }: {
+export declare type ComponentHasPropDelegate = ({ componentName, propName, }: {
     componentName: string;
     propName: string;
-}) => boolean);
+}) => boolean;
 export declare type ComponentDomLocator = (compInst: IComponent, childIndex: number) => IDomElement | null;
-export declare type RetrieveCjsonDelegate = ({ qjsonPath }: {
+export declare type RetrieveCjsonDelegate = ({ qjsonPath, }: {
     qjsonPath: string;
 }) => Promise<IQJSon | undefined>;
 export declare type CreateContainerViewDelegate = (compUID: string) => unknown;
-export declare type UpdateContainerViewDelegate = (({ givenObject, elements, pageShift }: {
+export declare type UpdateContainerViewDelegate = ({ givenObject, elements, pageShift, }: {
     givenObject: unknown;
     elements?: Array<unknown> | string;
     pageShift: boolean;
-}) => void);
+}) => void;
 //# sourceMappingURL=IShellConfiguration.d.ts.map

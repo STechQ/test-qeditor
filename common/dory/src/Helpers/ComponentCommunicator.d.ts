@@ -41,5 +41,6 @@ export declare class ComponentCommunicator {
     private arrangeSiteSettingsProps;
     private findLocalComponent;
     private createLocalComponent;
+    private doStyle;
 }
 //# sourceMappingURL=ComponentCommunicator.d.ts.map

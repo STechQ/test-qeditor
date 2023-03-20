@@ -16,7 +16,7 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     static renderer?: IRenderer;
     static onCloseIsActive: Boolean;
     static settingsWrapper: IWebSDKSettingsWrapper;
-    constructor({ contextName, parentInstance, config, errorContainerTarget, settingsWrapper }: {
+    constructor({ contextName, parentInstance, config, errorContainerTarget, settingsWrapper, }: {
         contextName: string;
         parentInstance: any;
         config?: IRendererConfig;
@@ -39,7 +39,7 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     private static createLabelComp;
     performance(): number;
     getDeepLinkParams(): Record<string, string | undefined>;
-    dynamicCompHandler({ createdComps, compLocater, parentCollection, childName }: {
+    dynamicCompHandler({ createdComps, compLocater, parentCollection, childName, }: {
         createdComps: Array<IComponentCollection>;
         compLocater: ElementLocation;
         parentCollection?: IComponentCollection;
@@ -55,8 +55,9 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     private static decideCompLocation;
     deleteComponent(compCollection: IComponentCollection): void;
     setPageTitle(value: string): void;
+    copyToClipboard(value: string): void;
     setFavicon(favicon: string): void;
-    exportToXlsxHandler({ fileName, items, headers, sheetName }: {
+    exportToXlsxHandler({ fileName, items, headers, sheetName, }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;

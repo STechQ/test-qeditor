@@ -43,7 +43,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
         clear: () => void;
     };
     coreComponentOverrider?(componentName: string): IComponentClassEngine | null;
-    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName }: {
+    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName, }: {
         createdComps?: Array<IComponentCollection>;
         referenceComp?: IComponentCollection;
         compLocater: ElementLocation;
@@ -61,7 +61,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName, }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
@@ -104,6 +104,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
     getPageTitle?: () => void;
     getFavicon?: () => void;
     setPageTitle: (value: string) => void;
+    copyToClipboard: (value: string) => void;
     setFavicon: (icon: string) => void;
     getYamlLogType?: () => LogType;
     cryptoGenerateKeyPair?: () => Record<string, string>;
