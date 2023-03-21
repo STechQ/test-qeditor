@@ -24,6 +24,7 @@ export declare class HistoryItem implements IHistoryItem {
     private pageScripting?;
     private renderingContext?;
     compareCompValue: boolean;
+    qjsonVersion: number | undefined;
     constructor({ qjson, context, storeItems, pageId, pageName, additionals }: {
         qjson: IQJSon;
         context: ContextManager;
