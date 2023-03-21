@@ -1,3 +1,5 @@
+import Vue from "vue";
+import { IComponentManager } from "../../../../common/qshell";
 import { ElementLocation } from "../../../../common/shrimp/interfaces/ComponentInterfaces/ElementLocation";
 import { CType } from "../../../../common/shrimp/interfaces/ComponentInterfaces/ICompJson";
 import { IComponent } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IComponent";
@@ -6,8 +8,6 @@ import { ICreatedComponent } from "../../../../common/shrimp/interfaces/Componen
 import { IDirectiveElement } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IDirectiveCollection";
 import { IVnode } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IVnode";
 import { IDictionary } from "../../../../common/shrimp/interfaces/IDictionary";
-import { IComponentManager } from "../../../../common/qshell";
-import Vue from "vue";
 export declare class ComponentManagerImpl implements IComponentManager {
     contextName: string;
     parentInstance: any;

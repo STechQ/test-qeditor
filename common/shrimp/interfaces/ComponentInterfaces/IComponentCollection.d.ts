@@ -37,6 +37,9 @@ export interface ILightComponentCollection {
     GetDoryJr(): IDoryJr | undefined;
     SetDoryJr(doryJr: IDoryJr): void;
 }
+export interface qjsonCollectionInfo {
+    ver?: number;
+}
 export interface IComponentCollection extends ILightComponentCollection, IPerfable {
     domElement?: IDomElement;
     vDomElement?: IVnode;
@@ -59,6 +62,7 @@ export interface IComponentCollection extends ILightComponentCollection, IPerfab
     directiveFields: IDirectiveCollection;
     additionals?: Record<string, any>;
     compStyleValues?: StyleValue;
+    qjsonInfo: qjsonCollectionInfo;
     SetChildrenFields({ children, childrenCreators }: {
         children?: IDictionary<Array<IComponentCollection>>;
         childrenCreators?: IDictionaryNullable<ScopedSlotCreatorFunc>;

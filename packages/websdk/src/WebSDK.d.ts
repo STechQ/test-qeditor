@@ -67,7 +67,6 @@ export declare class WebSDK implements IWebSDK {
     setServiceDefaultHeader(header?: string): void;
     setSelectedServiceUrl(url?: string): void;
     setProxySettingsYamlContent(content?: object): void;
-    setAsset(content?: object): void;
     setBackEndInfHeaders(backendInf: any): void;
     setRegionalDefinition(regionalSettings: Array<IRegionalDefinition> | undefined): void;
     setGlobalLR(regionalSettings: Array<IRegionalDefinition> | undefined): void;

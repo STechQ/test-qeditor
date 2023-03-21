@@ -1,5 +1,4 @@
 import { IComponent } from "../ComponentInterfaces/IComponent";
-import { IAssetList } from "../ComponentInterfaces/IStyle";
 import { IVersion } from "../ComponentInterfaces/IVersion";
 import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { IRenderer } from "../RenderingInterfaces/IRenderer";
@@ -48,7 +47,6 @@ export interface IWebSDKSettings {
     minEngineLogLevel?: string;
     quickStyle?: string;
     versions?: IVersion;
-    assetValues?: IAssetList;
 }
 export interface IBackendInf {
     containerName?: any;

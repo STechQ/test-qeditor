@@ -1,7 +1,7 @@
 import { ContextManager } from "../../../../shrimp/context";
 import { CTyped, ICompJson } from "../../../../shrimp/interfaces/ComponentInterfaces/ICompJson";
 import { IComponent } from "../../../../shrimp/interfaces/ComponentInterfaces/IComponent";
-import { CreatedFieldsHook, IComponentCollection, ScopedSlotCreatorFunc } from "../../../../shrimp/interfaces/ComponentInterfaces/IComponentCollection";
+import { CreatedFieldsHook, IComponentCollection, qjsonCollectionInfo, ScopedSlotCreatorFunc } from "../../../../shrimp/interfaces/ComponentInterfaces/IComponentCollection";
 import { ICreatedComponent } from "../../../../shrimp/interfaces/ComponentInterfaces/ICreatedComponent";
 import { IDirectiveCollection } from "../../../../shrimp/interfaces/ComponentInterfaces/IDirectiveCollection";
 import { IEventCollection } from "../../../../shrimp/interfaces/ComponentInterfaces/IEventCollection";
@@ -48,7 +48,8 @@ export declare class ComponentCollection implements IComponentCollection {
     private rootHistoryItem;
     directiveFields: IDirectiveCollection;
     compStyleValues?: StyleValue;
-    constructor({ compJson, context, asChildType, asChildName, asChildIndex, parentCompCollection, compareComponent, dynamicCompIdSuffix }: {
+    qjsonInfo: qjsonCollectionInfo;
+    constructor({ compJson, context, asChildType, asChildName, asChildIndex, parentCompCollection, compareComponent, dynamicCompIdSuffix, qjsonVersion }: {
         compJson?: ICompJson;
         context: ContextManager;
         asChildType?: CTyped;
@@ -57,6 +58,7 @@ export declare class ComponentCollection implements IComponentCollection {
         parentCompCollection?: IComponentCollection;
         compareComponent?: boolean;
         dynamicCompIdSuffix?: string;
+        qjsonVersion?: number;
     });
     get RootHistoryItem(): HistoryItem;
     SetChildrenFields({ children, childrenCreators }: {
