@@ -157,6 +157,7 @@ export interface IGlobals_Quick {
         YOffset?: Number;
         XOffset?: Number;
         intoView?: (component: IComponent) => void;
+        scrollIntoView?: (component: IComponent) => void;
         toTop?: () => void;
     };
     environment: {

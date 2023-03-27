@@ -71,7 +71,7 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     setComponentsProperty(componentCollection: IComponentCollection, propertyName: string, propertyValue: any): void;
     clearPageClose(): void;
     setPageClose(): void;
-    intoView(component: IComponent): void;
+    scrollIntoView(component: IComponent): void;
     YOffset(): number;
     XOffset(): number;
     toTop(): void;

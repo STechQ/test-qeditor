@@ -58,7 +58,7 @@ export interface IGlobalMethods extends IContextItem {
     setRenderer?: (renderer: IRenderer) => void;
     clearPageClose?: () => void;
     setPageClose?: () => void;
-    intoView?: (component: IComponent) => void;
+    scrollIntoView?: (component: IComponent) => void;
     YOffset?: () => Number;
     XOffset?: () => Number;
     toTop?: () => void;

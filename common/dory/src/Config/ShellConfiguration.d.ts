@@ -96,7 +96,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
     setDarkTheme?: (compCollection: IComponentCollection, isDark: boolean) => void;
     clearPageClose?: () => void;
     setPageClose?: () => void;
-    intoView?: (component: IComponent) => void;
+    scrollIntoView?: (component: IComponent) => void;
     YOffset?: () => Number;
     XOffset?: () => Number;
     toTop?: () => void;
