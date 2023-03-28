@@ -107,7 +107,7 @@
 
 .quickEditor ul {
   margin: 0;
-  padding: 6px 6px;
+  padding: 6px 0;
 }
 
 .quickEditor ul li {
@@ -350,7 +350,6 @@
 
 .quickEditor .quickButton {
   border-radius: 5px;
-  /* padding: 8px 12px; */
   width: 100%;
   height: 32px;
 }
@@ -1142,12 +1141,11 @@
 }
 
 .quickEditor .leftBlock .filters {
-  margin-top: 16px;
+  margin: 12px 0 12px 0;
 }
 
 .quickEditor .filters {
-  padding: 0px 15px;
-  margin-bottom: 12px;
+  padding: 0px 12px;
 }
 
 .quickEditor .quickButton.filter {
@@ -1167,7 +1165,7 @@
 
 .quickEditor .cardList,
 .quickEditor .tableList {
-  padding: 0 15px;
+  padding: 0 12px;
 }
 
 .quickEditor .leftBlock h4 {
@@ -1175,7 +1173,7 @@
 }
 
 .quickEditor .rightBlock h4 {
-  padding: 12px 0 0 6px;
+  padding: 12px 0 0 0;
 }
 
 .quickEditor .leftBlock h4,
@@ -1186,7 +1184,7 @@
 }
 
 .quickEditor .rightBlock h4#current-component-id {
-  padding: 12px;
+  padding: 12px 0;
   vertical-align: middle;
   display: flex;
 }
@@ -1461,7 +1459,6 @@
 }
 
 .quickEditor .section-menu-wrapper>ul.sections li.active {
-  /* box-shadow: 2px -1px 5px rgba(0, 0, 0, 0.3); */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -1472,22 +1469,8 @@
   font-weight: 600;
 }
 
-/* .quickEditor .rightBlock>header .whiteDivider {
-  display: block;
-  width: 100%;
-  background: #fff;
-  height: 10px;
-  bottom: 0;
-  border-top: 2px solid #c3ddee;
-  margin-top: -3px;
-} */
-
 .quickEditor .rightBlock section {
-  padding: 0 6px;
-}
-
-.quickEditor .rightBlock section .qButtonClass {
-  margin-left: 10px;
+  padding: 0 12px;
 }
 
 .quickEditor .rightBlock .itemsScroll ul li {
@@ -1497,11 +1480,6 @@
 
 .quickEditor .rightBlock section i:before {
   font-size: 18px;
-  /* padding: 0 4px; */
-}
-
-.quickEditor .rightBlock .props i {
-  vertical-align: middle;
 }
 
 .quickEditor .buttonsGroup {
@@ -1511,7 +1489,7 @@
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .quickEditor .buttonsGroupModal {
@@ -1566,10 +1544,6 @@
   padding: 0;
 }
 
-/* .quickEditor .rightBlock>header ul li {
-    margin-top: 6px !important;
-  } */
-
 .quickEditor .content {
   padding: 10px;
 }
@@ -1584,8 +1558,8 @@
 
 .quickEditor .rightBlock section .qButtonClass {
   width: 13% !important;
-  height: 13%;
   padding: 4px;
+  height: 28px;
 }
 
 .quickEditor .rightBlock section .scriptBtn {
@@ -1667,8 +1641,7 @@
 }
 
 .quickEditor .rightBlock .inline-switch .qButtonClass {
-  width: 30% !important;
-  padding: 2px;
+  width: 32px !important;
 }
 
 .quickEditor .rightBlock .prop-content .prop-switch-slider.round::before,
@@ -2128,11 +2101,6 @@ input[type="checkbox"] {
   width: inherit;
 }
 
-.quickEditor .rightBlock section.filters {
-  padding: 4px;
-  padding-left: 5px;
-}
-
 .quickEditor .rightBlock .rightarea {
   border-top: 1px solid #E0E0E0;
 }
@@ -2151,6 +2119,18 @@ input[type="checkbox"] {
 .quickEditor .quick-style-prop-font {
   font-size: 12px;
   color: #A1A1A1;
+}
+
+.quickEditor .rightBlock .filters {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  background-color: #fafafa;
+}
+
+.quickEditor .rightBlock select,
+.quickEditor .rightBlock input {
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 35em) {}

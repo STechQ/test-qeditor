@@ -38,7 +38,24 @@ export declare const COMPONENT_STYLE_TYPE: {
     "break-point-picker": string;
 };
 export interface IComponentDefinition {
-    componentStyleList: Array<IComponentInternalSI>;
+    componentStyleList: IComponentStyleInlineInterface;
+    propMigrateList?: Record<string, string>;
+    inheritedChildList?: Record<string, Record<string, string>>;
 }
 export declare type IAssetList = Record<string, Record<string, StyleValue>>;
+export declare enum FontWeights {
+    "Thin - 100" = 100,
+    "Extra Light - 200" = 200,
+    "Light - 300" = 300,
+    "Regular - 400" = 400,
+    "Medium - 500" = 500,
+    "SemiBold - 600" = 600,
+    "Bold - 700" = 700,
+    "Extra Bold - 800" = 800,
+    "Black - 900" = 900,
+    "Weight - 1000" = 1000
+}
+export declare enum FontStyles {
+    "Italic" = 0
+}
 //# sourceMappingURL=IStyle.d.ts.map

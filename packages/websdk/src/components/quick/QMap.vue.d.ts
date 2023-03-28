@@ -32,6 +32,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
     mapType: string;
     mapKey: string;
     markerIcon: string;
+    markerOnClick: boolean;
 }>;
 export default _default;
 //# sourceMappingURL=QMap.vue.d.ts.map
