@@ -163,5 +163,6 @@ export declare class Dory implements IDory {
     SetOperatorCollection(operatorCollection: IRendererOperatorCollection): void;
     SetAssetValues(values?: IAssetList): void;
     GetAssetValues(): IAssetList | undefined;
+    ResetStyleDict(): void;
 }
 //# sourceMappingURL=Dory.d.ts.map

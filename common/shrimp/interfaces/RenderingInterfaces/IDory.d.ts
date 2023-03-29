@@ -125,6 +125,7 @@ export interface IDory extends IContextItem {
     GetSettingsQJsonContext(): ISettingsQJsonContext;
     GetShellConfiguration(): IShellConfiguration;
     SetAssetValues(assetValues?: IAssetList): void;
+    ResetStyleDict(): void;
 }
 export declare const DoryContextName = "Dory";
 //# sourceMappingURL=IDory.d.ts.map

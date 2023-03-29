@@ -6,5 +6,6 @@ export interface IComponentOperator {
     setTextAndMount?: (compColl: IComponentCollection, text: string) => void;
     getTextString?: (compColl: IComponentCollection) => string | undefined;
     matchComponentStyles?: (compColl: IComponentCollection) => void;
+    resetStyleDict?: () => void;
 }
 //# sourceMappingURL=IComponentOperator.d.ts.map

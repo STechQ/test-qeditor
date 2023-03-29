@@ -2,10 +2,11 @@ import { IComponentCollection } from "../../../../common/shrimp/interfaces/Compo
 import { IStyleManager, StyleCB } from "../../../../common/shrimp/interfaces/quick/IStyleManager";
 export declare class StyleManager implements IStyleManager {
     private static styleTag;
-    static createStyleTag(): void;
     private static index;
     private static cssIndexDict;
     static compStyleDict: Record<string, StyleCB>;
+    static resetDict(): void;
+    static createStyleTag(): void;
     static matchComponentStyles: (compCollection: IComponentCollection) => void;
     static matchStyleValue: ({ selector, selectorValue, styleValue, breakPoint, compType }: {
         selector: string;
