@@ -1,4 +1,4 @@
-export declare type CompositorTypes = "decimal";
+export declare type CompositorTypes = "decimal" | "regex";
 export interface IQuickInputFormatOptions {
     alias: CompositorTypes;
     groupSeparator: string | undefined;
@@ -11,5 +11,6 @@ export interface IQuickInputFormatOptions {
     allowMinus: boolean | undefined;
     placeholder: string | undefined;
     preventPaste: boolean | undefined;
+    regex: string | undefined;
 }
 //# sourceMappingURL=externalInterfaces.d.ts.map

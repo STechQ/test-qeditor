@@ -235,6 +235,13 @@ var componentOptions = {
         errorMessages: {
             type: "Array<any> | string"
         },
+        format: {
+            type: String,
+            options: ["'regex'"]
+        },
+        formatValues: {
+            type: "Array<any>"
+        },
         flat: {
             type: Boolean
         },
@@ -3603,7 +3610,7 @@ nextIcon = 'mdi-plus'}`
         tabindex: {
             type: "number | string"
         },
-        autofocus:{
+        autofocus: {
             type: Boolean
         }
     },
@@ -4985,7 +4992,7 @@ nextIcon = 'mdi-plus'}`
             type: Boolean,
             editorDefaultValue: "false"
         },
-        fileDescription : {
+        fileDescription: {
             editorDefaultValue: "'File Description'",
             type: String
         },
