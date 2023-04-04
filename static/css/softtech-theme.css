@@ -665,11 +665,6 @@ body .v-application .v-tabs {
 
 /* V3.2 Changes */
 
-/* Tab başlıklarının ve butonların büyük harfli yerine verilen değer ile aynı gösterilmesi*/
-.v-tab, .v-btn {
-  text-transform: none !important;
-}
-
 /* Bileşen değer farklılıklarının hesaplanması ve bileşenlere yansıltılması*/
 .sftt-value-saved.v-text-field fieldset,
 .sftt-value-saved.v-text-field--outlined fieldset {
