@@ -19,12 +19,12 @@ export interface IStorageAccess {
     }): void;
     setLocalStorage?({ key, value }: {
         key: string;
-        value: string;
+        value: any;
     }): void;
     clearLocalStorage?(): void;
     getItemFromLocalStorage?({ key }: {
         key: string;
-    }): string | null;
+    }): any | null;
     removeItemFromLocalStorage?({ key }: {
         key: string;
     }): void;
