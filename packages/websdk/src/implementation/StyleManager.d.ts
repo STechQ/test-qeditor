@@ -7,6 +7,13 @@ export declare class StyleManager implements IStyleManager {
     static compStyleDict: Record<string, StyleCB>;
     static resetDict(): void;
     static createStyleTag(): void;
+    static decideCompStyleWithDict: ({ compCollection, currCompStyle, stylePropName, styleValue, breakPoint }: {
+        compCollection: IComponentCollection;
+        currCompStyle: StyleCB;
+        stylePropName: string;
+        styleValue: string;
+        breakPoint?: string | undefined;
+    }) => void;
     static matchComponentStyles: (compCollection: IComponentCollection) => void;
     static matchStyleValue: ({ selector, selectorValue, styleValue, breakPoint, compType }: {
         selector: string;
@@ -15,8 +22,15 @@ export declare class StyleManager implements IStyleManager {
         breakPoint?: string | undefined;
         compType: string;
     }) => void;
-    static addStyleRule: (selector: string, selectorValue: string, compType: string, breakPoint?: string | undefined) => void;
-    static deleteStyleRule: (selector: string, selectorValue: string, compType: string) => number;
+    static addStyleRule: ({ selector, selectorValue, styleValue, breakPoint, compType }: {
+        selector: string;
+        selectorValue: string;
+        styleValue: string;
+        breakPoint?: string | undefined;
+        compType: string;
+    }) => void;
+    static deleteStyleSelector: (compCollection: IComponentCollection, stylePropName: string, breakPoint?: string | undefined) => void;
+    private static deleteStyleRule;
     static fromCamelCase: (message: string) => string;
     static matchSizeMinValue(sizeString?: string): string;
     static matchSizeMaxValue(sizeString?: string): string;

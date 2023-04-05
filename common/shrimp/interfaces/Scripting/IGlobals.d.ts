@@ -178,6 +178,12 @@ export interface IGlobals_cookie {
     getAll: () => Record<string, string>;
     delete: (key: string) => void;
 }
+export interface IGlobals_LocalStorage {
+    set: (key: string, value: string) => void;
+    get: (key: string) => string | null;
+    clear: () => void;
+    delete: (key: string) => void;
+}
 export interface IGlobals_platform {
     isMobile: () => boolean;
     isWeb: () => boolean;
@@ -284,6 +290,7 @@ export interface IGlobalsBase {
     sso: IGlobals_sso;
     store: IGlobals_store;
     cookie: IGlobals_cookie;
+    localStorage: IGlobals_LocalStorage;
     Url: IGlobals_Url;
     findControl: () => void;
     this: IComponent | null | undefined;
