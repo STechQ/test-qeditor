@@ -179,8 +179,8 @@ export interface IGlobals_cookie {
     delete: (key: string) => void;
 }
 export interface IGlobals_LocalStorage {
-    set: (key: string, value: any) => void;
-    get: (key: string) => any | null;
+    set: (key: string, value: string) => void;
+    get: (key: string) => string | null;
     clear: () => void;
     delete: (key: string) => void;
 }

@@ -25,7 +25,7 @@ export declare class StoreManager implements IStoreManager {
     }): void;
     setLocalStorage?({ key, value }: {
         key: string;
-        value: any;
+        value: string;
     }): void;
     clearLocalStorage?(): void;
     getItemFromLocalStorage?({ key }: {
