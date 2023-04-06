@@ -2093,7 +2093,7 @@ nextIcon = 'mdi-plus'}`
         color: {
             type: String,
         },
-        disabledIconRotate: {
+        disableIconRotate: {
             type: Boolean,
         },
         expandIcon: {
