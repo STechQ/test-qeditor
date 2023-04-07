@@ -47,6 +47,7 @@ export interface IWebSDKSettings {
     minEngineLogLevel?: string;
     quickStyle?: string;
     versions?: IVersion;
+    useLocalProxyOnClient?: boolean;
 }
 export interface IBackendInf {
     containerName?: any;
