@@ -7,26 +7,10 @@ declare const localComponents: {
         loaded: boolean;
         module: undefined;
     };
-    VContainer: {
-        importFunc: () => Promise<void>;
-        loaded: boolean;
-        module: undefined;
-    };
-    VCol: {
-        importFunc: () => Promise<void>;
-        loaded: boolean;
-        module: undefined;
-    };
-    VRow: {
-        importFunc: () => Promise<void>;
-        loaded: boolean;
-        module: undefined;
-    };
-    QLabel: {
-        importFunc: () => Promise<void>;
-        loaded: boolean;
-        module: undefined;
-    };
+    VContainer: any;
+    VCol: any;
+    VRow: any;
+    QLabel: any;
     QDocumentViewer: {
         importFunc: () => Promise<void>;
         loaded: boolean;
