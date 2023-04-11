@@ -2,7 +2,7 @@ import { IWebSDKSettingsWrapper } from "../../../../common/shrimp/interfaces/qui
 import { IQJsonRetriever } from "../../../../common/qshell";
 import NetworkManagerImpl from "./NetworkManagerImpl";
 import { IExternalQJsonRetriever } from "../../../../common/shrimp/interfaces/quick/IExternalQJsonRetriever";
-import { INetworkResponse } from "../../../../common/shrimp/interfaces/quick/INetworkResponse";
+import { QJsonRetrievedType } from "../../../../common/qshell/src/interfaces/construction/IQJsonRetriever";
 export default class QJsonRetrieverImpl implements IQJsonRetriever {
     contextName: string;
     private network;
@@ -18,12 +18,8 @@ export default class QJsonRetrieverImpl implements IQJsonRetriever {
     private arrangeQJsonPath;
     SetExternalQJsonRetriever(externalQJsonRetriever: IExternalQJsonRetriever): void;
     private willExternalHandle;
-    retrieveQJsonAsync(qjsonPath: string, success: (qjson: string | {
-        qjson: string;
-    }) => void, fail: (reason: string) => void, options: {
+    retrieveQJsonAsync(qjsonPath: string, options: {
         disableLoading: boolean;
-    }): Promise<INetworkResponse<string | {
-        qjson: string;
-    }>>;
+    }): Promise<QJsonRetrievedType>;
 }
 //# sourceMappingURL=QJsonRetrieverImpl.d.ts.map

@@ -1,13 +1,11 @@
 import { IContextItem } from "../../../../shrimp/context";
-import { INetworkResponse } from "../../../../shrimp/interfaces/quick/INetworkResponse";
 export declare const QJsonRetrieverContextName: string;
+export declare type QJsonRetrievedType = string | {
+    qjson: string;
+};
 export interface IQJsonRetriever extends IContextItem {
-    retrieveQJsonAsync(qjsonPath: string, success: (qjson: string | {
-        qjson: string;
-    }) => void, fail: (reason: string) => void, options?: {
+    retrieveQJsonAsync(qjsonPath: string, options?: {
         disableLoading: boolean;
-    }): Promise<INetworkResponse<string | {
-        qjson: string;
-    }>>;
+    }): Promise<QJsonRetrievedType>;
 }
 //# sourceMappingURL=IQJsonRetriever.d.ts.map
