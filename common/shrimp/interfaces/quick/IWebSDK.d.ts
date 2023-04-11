@@ -87,6 +87,7 @@ export interface IWebSDK {
     setServiceDefaultHeader(header: string): void;
     setSelectedServiceUrl(url: string): void;
     setProxySettingsYamlContent(content: object): void;
+    setLocalProxyOnClient(content: boolean): void;
     LoadModuleCompLists(modulePaths: Record<string, string>): Promise<any>;
     setRegionalDefinition(regionalSettings: Array<IRegionalDefinition> | undefined): void;
     setBackEndInfHeaders(backendInf: any): void;
