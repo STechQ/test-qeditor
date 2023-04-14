@@ -687,7 +687,7 @@
 }
 
 .quickEditor .deleteOutline {
-  height: 30px !important;
+  margin-left: 10px;
 }
 
 .quickEditor .blueBtn {
@@ -1557,15 +1557,11 @@
 }
 
 .quickEditor .rightBlock section .qButtonClass {
-  width: 13% !important;
-  padding: 4px;
+  width: 28px !important;
   height: 28px;
-}
-
-.quickEditor .rightBlock section .scriptBtn {
-  width: 13% !important;
-  height: 13% !important;
-  padding: 4px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quickEditor .rightBlock section .script-type,
@@ -1623,6 +1619,8 @@
 
 .quickEditor .rightBlock ul.inline-switch li {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .quickEditor .rightBlock .inputWrapper button .icn-code::before {
@@ -1635,13 +1633,8 @@
 
 .quickEditor .rightBlock ul.inline-switch li .inputWrapper {
   padding: 0;
-  position: absolute;
-  right: 0;
-  /* border: none; */
-}
-
-.quickEditor .rightBlock .inline-switch .qButtonClass {
-  width: 32px !important;
+  display: flex;
+  align-items: center;
 }
 
 .quickEditor .rightBlock .prop-content .prop-switch-slider.round::before,
