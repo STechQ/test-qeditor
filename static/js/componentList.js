@@ -2728,7 +2728,8 @@ nextIcon = 'mdi-plus'}`
             type: Boolean
         },
         offsetY: {
-            type: Boolean
+            type: Boolean,
+            editorDefaultValue: "true"
         },
         nudgeLeft: {
             type: String
@@ -2809,7 +2810,8 @@ nextIcon = 'mdi-plus'}`
             type: Boolean
         },
         mobileBreakpoint: {
-            type: "number | string"
+            type: "number | string",
+            editorDefaultValue: "0"
         },
         permanent: {
             type: Boolean,
@@ -4400,7 +4402,7 @@ nextIcon = 'mdi-plus'}`
         },
         format: {
             type: String,
-            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
         },
         formatValues: {
             type: "Array<any>"
