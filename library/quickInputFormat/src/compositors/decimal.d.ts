@@ -10,6 +10,7 @@ export declare class Decimal implements ICompositor {
     compose(): void;
     private changeValue;
     private formatValue;
+    private compareNumbers;
     getUnmaskedValue(): string;
     private unMask;
     private validate;
