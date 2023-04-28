@@ -1515,8 +1515,8 @@ var componentOptions = {
         },
         class: {
             type: String,
-                editorDefaultValue: "'container container--fluid'",
-                options: ["'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
+                editorDefaultValue: "'container'",
+                options: ["'container--fluid'","'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
         },
         visible: {
             type: Boolean,
