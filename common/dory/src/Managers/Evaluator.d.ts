@@ -23,7 +23,7 @@ export declare class Evaluator implements IEvaluator {
         sourceMap?: string;
     }): any;
     private prepareEvaluationItems;
-    createGlobal({ messagingManager, context, dory, ownerComponent, lastHistory, historyManager, }: {
+    createGlobal({ messagingManager, context, dory, ownerComponent, lastHistory, historyManager }: {
         messagingManager?: MessagingManager;
         context: ContextManager;
         dory: Dory;

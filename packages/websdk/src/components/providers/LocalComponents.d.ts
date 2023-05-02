@@ -122,9 +122,11 @@ declare const localComponents: {
         loaded: boolean;
         module: undefined;
     };
+    GoldenLayout: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
 };
-declare const GoldenLayoutComponents: {
-    GoldenLayout: any;
-};
-export { localComponents, GoldenLayoutComponents };
+export { localComponents };
 //# sourceMappingURL=LocalComponents.d.ts.map
