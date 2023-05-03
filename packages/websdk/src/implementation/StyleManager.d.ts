@@ -7,6 +7,9 @@ export declare class StyleManager implements IStyleManager {
     static compStyleDict: Record<string, StyleCB>;
     static resetDict(): void;
     static createStyleTag(): void;
+    static exceptionalComponents: {
+        Tooltip: string;
+    };
     static decideCompStyleWithDict: ({ compCollection, currCompStyle, stylePropName, styleValue, breakPoint }: {
         compCollection: IComponentCollection;
         currCompStyle: StyleCB;
