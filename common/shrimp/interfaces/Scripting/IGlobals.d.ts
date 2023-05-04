@@ -164,6 +164,10 @@ export interface IGlobals_Quick {
         variable: unknown;
     };
     yamlLogType: any;
+    loading: {
+        show: () => void;
+        hide: () => void;
+    };
 }
 export interface IGlobals_store {
     set: (name: string, value: any) => void;
