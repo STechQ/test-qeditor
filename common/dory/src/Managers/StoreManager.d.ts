@@ -10,6 +10,9 @@ export declare class StoreManager {
     getAll(name: any): any;
     deleteAll(name: any): void;
     bulkSet(items: IDictionary<any>): void;
-    getTargetContextItems(name: string): any;
+    getTargetContextItems(name: string): {
+        contextItems: any;
+        targetFieldName: string;
+    };
 }
 //# sourceMappingURL=StoreManager.d.ts.map
