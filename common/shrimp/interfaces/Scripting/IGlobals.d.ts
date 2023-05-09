@@ -63,7 +63,7 @@ export interface IGlobals_Quick {
         newTab?: boolean;
         store?: boolean;
     }) => any;
-    goNative?: ({ code, param, }: {
+    goNative?: ({ code, param }: {
         code: string;
         param?: Record<string, any>;
     }) => void;
@@ -167,6 +167,10 @@ export interface IGlobals_Quick {
     loading: {
         show: () => void;
         hide: () => void;
+    };
+    render: {
+        block(): void;
+        resume(): void;
     };
 }
 export interface IGlobals_store {

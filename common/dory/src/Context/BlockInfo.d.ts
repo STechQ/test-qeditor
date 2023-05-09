@@ -5,6 +5,8 @@ export declare class BlockInfo implements IContextItem {
     blockRender: boolean | null;
     blockJsonIndex: number;
     blockPromises: Array<Promise<any>> | null;
+    private manualPromise;
+    private manualPromiseCounter;
     constructor({ blockRender, blockPromises }: {
         blockRender?: boolean | null;
         blockPromises?: Array<Promise<string>> | null;
@@ -14,5 +16,7 @@ export declare class BlockInfo implements IContextItem {
      * @param blockPromise Add new promise to handle them asynchronously
      */
     addBlockPromise(blockPromise: Promise<any>): void;
+    addManualPromise(): void;
+    resolveManualPromise(): void;
 }
 //# sourceMappingURL=BlockInfo.d.ts.map

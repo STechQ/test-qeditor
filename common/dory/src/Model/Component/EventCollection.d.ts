@@ -16,9 +16,10 @@ export declare class EventCollection implements IEventCollection {
     SetOwner({ ownerComponent }: {
         ownerComponent: IComponentCollection;
     }): void;
-    Trigger({ eventName, eventArguments }: {
+    Trigger({ eventName, eventArguments, immediate }: {
         eventName: string;
         eventArguments?: Array<any> | IDictionaryNullable<any>;
+        immediate?: boolean;
     }): any;
     private GenerateTriggerFunction;
     GetExternalEventBoundFunctions(): IDictionary<Function>;

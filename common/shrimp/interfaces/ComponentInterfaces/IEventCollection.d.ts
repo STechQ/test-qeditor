@@ -12,9 +12,10 @@ export interface IEventCollection {
     }): void;
     GetEventBoundFunctions(): IEventFunctions;
     GetExternalEventBoundFunctions(): IDictionary<Function>;
-    Trigger({ eventName, eventArguments }: {
+    Trigger({ eventName, eventArguments, immediate }: {
         eventName: string;
         eventArguments?: Array<any> | IDictionaryNullable<any>;
+        immediate?: boolean;
     }): any;
 }
 //# sourceMappingURL=IEventCollection.d.ts.map
