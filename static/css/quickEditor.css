@@ -2061,6 +2061,13 @@ input[type="checkbox"] {
   padding-left: 0;
 }
 
+.frameDiv-edit.rightWider {
+  left: -20px;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0;
+}
+
 .iframe {
   width: 100%;
   height: 100%;
