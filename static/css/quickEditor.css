@@ -1402,6 +1402,8 @@
   background: #fafafa;
   border-left: 1px solid #e0e0e0;
   height: calc(100vh - 40px);
+  position: relative;
+  z-index: 5;
 }
 
 .quickEditor .section-menu-wrapper {
