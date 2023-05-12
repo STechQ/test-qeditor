@@ -11,5 +11,6 @@ export declare class ExportManager {
     });
     private getItemValue;
     exportToXlsx(): void;
+    fitToColumn(items: Object): any;
 }
 //# sourceMappingURL=ExportManager.d.ts.map
