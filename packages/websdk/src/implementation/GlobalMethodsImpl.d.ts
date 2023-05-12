@@ -8,6 +8,7 @@ import { IWebSDKSettingsWrapper } from "../../../../common/shrimp/interfaces/qui
 import { IDomElement } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IRenderer } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../../../../common/shrimp/interfaces/RenderingInterfaces/IRendererConfig";
+import { ILocationPosition } from "../../../../common/shrimp/interfaces/quick/ILocationPosition";
 export declare class GlobalMethodsImpl implements IGlobalMethods {
     contextName: string;
     parentInstance: any;
@@ -56,6 +57,7 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     deleteComponent(compCollection: IComponentCollection): void;
     setPageTitle(value: string): void;
     copyToClipboard(value: string): void;
+    getCurrentPosition(): Promise<ILocationPosition>;
     setFavicon(favicon: string): void;
     exportToXlsxHandler({ fileName, items, headers, sheetName, }: {
         fileName: string;

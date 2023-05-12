@@ -7,7 +7,7 @@ export declare class PropDepTracker {
      * @param depGetter Get method of subscribed fields
      * @param depTriggerer Trigger method of subscribers
      */
-    createDepTracker(bindObject: any, field: string | number | symbol, depGetter: (context: PropCalcContext) => IContextDepTarget, depTriggerer: Function, propCalcContext: PropCalcContext): void;
+    createDepTracker(bindObject: any, field: string | number | symbol, depGetter: (context: PropCalcContext) => IContextDepTarget | undefined, depTriggerer: Function, propCalcContext: PropCalcContext): void;
     /**
      * Getter of one way binded object
      * @param depGetter Get method of subscribed fields

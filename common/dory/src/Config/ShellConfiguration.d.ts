@@ -16,6 +16,7 @@ import { IHistoryBasedShellConfiguration, IShellConfiguration } from "../../../s
 import { IShellGlobalMethods } from "../../../shrimp/interfaces/quick/IShellGlobalMethods";
 import { IStore } from "../../../shrimp/interfaces/quick/IStore";
 import { IUrlOptions } from "../../../shrimp/interfaces/quick/IUrl";
+import { ILocationPosition } from "../../../shrimp/interfaces/quick/ILocationPosition";
 export declare class ShellConfiguration implements IShellConfiguration {
     network: INetwork;
     lridHelper?: (label: string, dataSource?: object | null) => string;
@@ -30,6 +31,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
     storeAccess?: IStore;
     cookieAccess?: ICookieAccess;
     platform?: IPlatform;
+    getCurrentPosition?: () => Promise<ILocationPosition>;
     compPropsAutoLrid?: boolean;
     osGlobalObjects?: IDictionary<any>;
     shellGlobalMethods?: IShellGlobalMethods;

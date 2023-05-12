@@ -17,6 +17,7 @@ import { ICookieAccess } from "./ICookieAccess";
 import { IFormatConfiguration } from "./IFormatConfiguration";
 import { IFormattingDefinition } from "./IFormattingDefinition";
 import { IPlatform } from "./IPlatform";
+import { ILocationPosition } from "./ILocationPosition";
 import { IProcessManager } from "./IProcessManager";
 import { IShellGlobalMethods } from "./IShellGlobalMethods";
 import { IStorageAccess } from "./IStore";
@@ -34,6 +35,7 @@ export interface IShellConfiguration {
     storeAccess?: IStorageAccess;
     cookieAccess?: ICookieAccess;
     platform?: IPlatform;
+    getCurrentPosition?: () => Promise<ILocationPosition> | undefined;
     compPropsAutoLrid?: boolean;
     osGlobalObjects?: IDictionary<any>;
     shellGlobalMethods?: IShellGlobalMethods;

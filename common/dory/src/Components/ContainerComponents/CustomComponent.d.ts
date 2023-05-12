@@ -9,6 +9,7 @@ import { PartialDisplayHookCb } from "../../../../shrimp/interfaces/RenderingInt
 import { IDoryJr } from "../../../../shrimp/interfaces/RenderingInterfaces/IDoryJr";
 import { RenderingContext } from "../../Context/RenderingContext";
 import { Dory } from "../../Dory";
+import { IContextTargetInst } from "../../Managers/PropCalcContext";
 export default class CustomComponent extends TSComponentBase implements IDynamicPropComponent {
     protected qJsonPath: string;
     protected props: IDictionary<any>;
@@ -23,6 +24,11 @@ export default class CustomComponent extends TSComponentBase implements IDynamic
     protected displayCb: PartialDisplayHookCb | undefined;
     private compQJson?;
     private eventCompletionPromise?;
+    depTree: Record<string, {
+        instanceHolder: IContextTargetInst;
+        field: string;
+        depScriptValue: string | object | undefined;
+    }>;
     constructor({ props, events, parent, context }: {
         props: IDictionary<any>;
         events: IDictionary<Function>;
@@ -34,6 +40,7 @@ export default class CustomComponent extends TSComponentBase implements IDynamic
     get QJsonPath(): string;
     Render(tsWrapperInstance?: any, pageId?: string, pageName?: string): unknown;
     private fetchAndRender;
+    OutBoundProps(instance: CustomComponent | any): void;
     private innerRender;
     GetProps(propsCB: (props?: Array<IExternalProp>) => void): Promise<void>;
     GetEvents(eventsCB: (events?: Array<IExternalEvents>) => void): Promise<void>;

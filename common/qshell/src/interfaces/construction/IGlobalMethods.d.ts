@@ -7,6 +7,7 @@ import { IComponentCollection } from "../../../../shrimp/interfaces/ComponentInt
 import { IAlertParameters } from "../../../../shrimp/interfaces/quick/IShellGlobalMethods";
 import { IDomElement } from "../../../../shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IRenderer } from "../../../../shrimp/interfaces/RenderingInterfaces/IRenderer";
+import { ILocationPosition } from "../../../../shrimp/interfaces/quick/ILocationPosition";
 export declare const GlobalMethodsContextName: string;
 /**
  * QShell CreateRenderer (known types, used inside engine equivalent of GO like stuff)
@@ -41,6 +42,7 @@ export interface IGlobalMethods extends IContextItem {
     deleteComponent: (compCollection: IComponentCollection) => void;
     setPageTitle(value: string): void;
     copyToClipboard(value: string): void;
+    getCurrentPosition?: () => Promise<ILocationPosition> | undefined;
     getPageTitle?: () => void;
     getFavicon?: () => void;
     exportToXlsxHandler?: ({ fileName, items, headers, sheetName, }: {

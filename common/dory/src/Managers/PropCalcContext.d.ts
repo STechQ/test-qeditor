@@ -1,6 +1,5 @@
 import { ContextManager, IContextItem } from "../../../shrimp/context";
 import { IComponentCollection } from "../../../shrimp/interfaces/ComponentInterfaces/IComponentCollection";
-import { ScriptLang } from "../../../shrimp/interfaces/Scripting/scriptLang";
 export interface IContextTargetInst {
     targetInstance: object | ICompDepTarget;
 }
@@ -24,7 +23,7 @@ export declare class PropCalcContext implements IContextItem {
      * Return prop context value
      * @param self 'this' will be lost when triggering from Object defined get method
      */
-    propContextDepGetter(self: PropCalcContext): IContextDepTarget;
+    propContextDepGetter(self: PropCalcContext): IContextDepTarget | undefined;
     /**
      * Trigger the dependent target with new value
      * @param depTarget Dependency target
@@ -32,12 +31,7 @@ export declare class PropCalcContext implements IContextItem {
      * @param self 'this' will be lost when triggering from Object defined get method
      * @param lang Evaluator language option
      */
-    propContextDepTriggerer({ depTarget, dataItem, self, lang }: {
-        depTarget: IContextDepTarget;
-        dataItem: object;
-        self: PropCalcContext;
-        lang?: ScriptLang;
-    }): void;
+    private propContextDepTriggerer;
     /**
      * Set prop context value with field and scriptValue
      * @param instanceHolder Target object instance
@@ -49,6 +43,6 @@ export declare class PropCalcContext implements IContextItem {
      * Reset prop context
      */
     clearPropTarget(): void;
-    private isTargetCompInstance;
+    isTargetCompInstance(targetInstance: ICompDepTarget): targetInstance is ICompDepTarget;
 }
 //# sourceMappingURL=PropCalcContext.d.ts.map
