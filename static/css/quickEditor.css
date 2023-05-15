@@ -9,7 +9,7 @@
 .resizer-right {
   background-color: #EEEEEE;
   width: 12px;
-  z-index: 20;
+  z-index: 19;
   position: relative;
   right: 6px;
   top: 47%;
@@ -1402,8 +1402,8 @@
   background: #fafafa;
   border-left: 1px solid #e0e0e0;
   height: calc(100vh - 40px);
-  /* position: relative;
-  z-index: 5; */
+  position: relative;
+  z-index: 19;
 }
 
 .quickEditor .section-menu-wrapper {

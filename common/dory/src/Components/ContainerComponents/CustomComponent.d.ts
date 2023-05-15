@@ -40,7 +40,7 @@ export default class CustomComponent extends TSComponentBase implements IDynamic
     get QJsonPath(): string;
     Render(tsWrapperInstance?: any, pageId?: string, pageName?: string): unknown;
     private fetchAndRender;
-    OutBoundProps(instance: CustomComponent | any): void;
+    private OutBoundProps;
     private innerRender;
     GetProps(propsCB: (props?: Array<IExternalProp>) => void): Promise<void>;
     GetEvents(eventsCB: (events?: Array<IExternalEvents>) => void): Promise<void>;

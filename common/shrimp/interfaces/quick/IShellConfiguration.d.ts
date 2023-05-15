@@ -48,7 +48,7 @@ export interface IShellConfiguration {
         clear?: () => void;
     };
     processManager?: IProcessManager;
-    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName, }: {
+    dynamicCompHandler?: ({ createdComps, referenceComp, compLocater, parentCollection, append, childName }: {
         createdComps: Array<IComponentCollection>;
         referenceComp?: IComponentCollection;
         compLocater: ElementLocation;
@@ -67,7 +67,7 @@ export interface IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName, }: {
+    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
         fileName: string;
         items: Array<object>;
         headers: Array<object>;
@@ -92,7 +92,7 @@ export interface IShellConfiguration {
         url: string;
         options?: IUrlOptions;
     }): void;
-    onComponentDestroy?: ({ parentComponent, childVDomElement, childKey, }: {
+    onComponentDestroy?: ({ parentComponent, childVDomElement, childKey }: {
         parentComponent: IComponent;
         childVDomElement: IVnode;
         childKey: string;
@@ -151,7 +151,7 @@ export declare type CreateComponentDelegate = ({ componentName, props, events, a
     directives?: Array<IDirectiveElement>;
     styles?: StyleValue;
 }) => ICreatedComponent;
-export declare type ComponentHasPropDelegate = ({ componentName, propName, }: {
+export declare type ComponentHasPropDelegate = ({ componentName, propName }: {
     componentName: string;
     propName: string;
 }) => boolean;
