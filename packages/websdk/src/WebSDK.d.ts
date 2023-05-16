@@ -12,6 +12,7 @@ import { IWebSDKSetingsBus } from "../../../common/shrimp/interfaces/quick/IWebS
 import { IDomElement } from "../../../common/shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IRenderer } from "../../../common/shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../../../common/shrimp/interfaces/RenderingInterfaces/IRendererConfig";
+import QJsonRetrieverImpl from './implementation/QJsonRetrieverImpl';
 import { StoreManagerHookCb } from "./implementation/StoreManager";
 import { UXManagerImpl } from "./implementation/UXManagerImpl";
 export declare class WebSDK implements IWebSDK {
@@ -20,7 +21,7 @@ export declare class WebSDK implements IWebSDK {
     private qshell;
     private rendererManager;
     private windowHistoryManager;
-    private qJsonRetriever;
+    qJsonRetriever: QJsonRetrieverImpl;
     private network?;
     private settingsWrapper;
     private storeManager;
