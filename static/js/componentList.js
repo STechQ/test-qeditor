@@ -1289,6 +1289,10 @@ var componentOptions = {
         class: {
             type: String,
             options: ["'align-self-start'", "'align-self-center'", "'align-self-end'"]
+        },
+        noGutters: {
+            type: Boolean,
+            default: false,
         }
     },
     VCombobox: {
@@ -1523,6 +1527,10 @@ var componentOptions = {
             type: String,
             editorDefaultValue: "'container'",
             options: ["'container--fluid'", "'devx-datagrid-header-left'", "'devx-datagrid-header-right'", "'devx-datagrid-header-center'", "'devx-datagrid-header-text-compact'"]
+        },
+        noGutters: {
+            type: Boolean,
+            default: false,
         },
         visible: {
             type: Boolean,
@@ -3483,6 +3491,10 @@ nextIcon = 'mdi-plus'}`
         class: {
             type: String,
             options: ["'align-start'", "'align-center'", "'align-end'"]
+        },
+        noGutters: {
+            type: Boolean,
+            default: false,
         }
     },
     VSelect: {
