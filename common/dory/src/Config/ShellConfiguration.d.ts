@@ -17,6 +17,7 @@ import { IShellGlobalMethods } from "../../../shrimp/interfaces/quick/IShellGlob
 import { IStore } from "../../../shrimp/interfaces/quick/IStore";
 import { IUrlOptions } from "../../../shrimp/interfaces/quick/IUrl";
 import { ILocationPosition } from "../../../shrimp/interfaces/quick/ILocationPosition";
+import { IExcel } from "../../../shrimp/interfaces/quick/IExcel";
 export declare class ShellConfiguration implements IShellConfiguration {
     network: INetwork;
     lridHelper?: (label: string, dataSource?: object | null) => string;
@@ -63,12 +64,7 @@ export declare class ShellConfiguration implements IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
-        fileName: string;
-        items: Array<object>;
-        headers: Array<object>;
-        sheetName?: string;
-    }) => void;
+    exportToXlsxHandler?: (excelFile: IExcel) => void;
     setComponentClass?: (compCollection: IComponentCollection, classes: Array<string>) => void;
     setTheme?: (newTheme: string) => void;
     getThemeList?: () => Array<string> | undefined;

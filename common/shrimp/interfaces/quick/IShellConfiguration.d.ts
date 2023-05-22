@@ -22,6 +22,7 @@ import { IProcessManager } from "./IProcessManager";
 import { IShellGlobalMethods } from "./IShellGlobalMethods";
 import { IStorageAccess } from "./IStore";
 import { IUrlOptions } from "./IUrl";
+import { IExcel } from "./IExcel";
 export interface IShellConfiguration {
     network: INetwork;
     lridHelper?: (label: string, params: Object) => string;
@@ -67,12 +68,7 @@ export interface IShellConfiguration {
     getUrl?(options?: {
         noQueryString?: boolean;
     }): string | undefined;
-    exportToXlsxHandler?: ({ fileName, items, headers, sheetName }: {
-        fileName: string;
-        items: Array<object>;
-        headers: Array<object>;
-        sheetName?: string;
-    }) => void;
+    exportToXlsxHandler?: (excelFile: IExcel) => void;
     setComponentClass?: (componentInstance: IComponentCollection, classes: Array<string>) => void;
     setComponentsProperty?: (componentCollection: IComponentCollection, propertyName: string, propertyValue: any) => void;
     setTheme?: (newTheme: string) => void;
