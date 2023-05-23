@@ -1,3 +1,4 @@
+import { IPlateauUIObject } from "@stechquick/algae/lib/quick/IPlateauUI";
 import { IComponentCollection } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IComponentCollection";
 import { IContainerServicesWrapper } from "../../../../common/shrimp/interfaces/quick/IContainerServices";
 import { IUXManager } from "../../../../common/shrimp/interfaces/quick/IUXManager";
@@ -9,8 +10,8 @@ export declare class UXManagerImpl implements IUXManager {
     private uxHelper;
     constructor(settingsWrapper: IWebSDKSettingsWrapper, servicesWrapper: IContainerServicesWrapper);
     getThemeList(): string[] | undefined;
-    setTheme(themeName: string): void;
-    addTheme(themeName: string): void;
+    setTheme(themeName: string, style?: IPlateauUIObject): void;
+    addTheme(themeName: string, style?: IPlateauUIObject): void;
     removeTheme(themeName: string): void;
     setDarkTheme(compCollection: IComponentCollection, isDark: boolean): void;
 }
