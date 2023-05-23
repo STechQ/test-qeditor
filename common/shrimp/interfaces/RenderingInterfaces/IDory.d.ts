@@ -125,6 +125,7 @@ export interface IDory extends IContextItem {
     GetSettingsQJsonContext(): ISettingsQJsonContext;
     GetShellConfiguration(): IShellConfiguration;
     SetAssetValues(assetValues?: IAssetList): void;
+    GetAssetValues(): IAssetList | undefined;
     ResetStyleDict(): void;
     DeleteStyleSelector(compCollection: IComponentCollection, stylePropName: string, breakPoint?: string): void;
 }
