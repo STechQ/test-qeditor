@@ -170,6 +170,9 @@ export interface IGlobals_Quick {
         block(): void;
         resume(): void;
     };
+    authentication: {
+        getToken: () => Promise<string | undefined> | undefined;
+    };
 }
 export interface IGlobals_store {
     set: (name: string, value: any) => void;
