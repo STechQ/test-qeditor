@@ -1,4 +1,4 @@
 export interface IAuthenticationOperator {
-    getToken?: () => Promise<string | undefined>;
+    getIamToken?: () => Promise<string | undefined>;
 }
 //# sourceMappingURL=IAuthenticationOperator.d.ts.map

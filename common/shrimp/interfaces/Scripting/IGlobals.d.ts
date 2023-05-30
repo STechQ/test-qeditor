@@ -171,7 +171,7 @@ export interface IGlobals_Quick {
         resume(): void;
     };
     authentication: {
-        getToken: () => Promise<string | undefined> | undefined;
+        getIamToken: () => Promise<string | undefined> | undefined;
     };
 }
 export interface IGlobals_store {
