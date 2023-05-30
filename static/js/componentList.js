@@ -20,6 +20,47 @@ var componentOptions = {
             type: Number
         }
     },
+    QOtp: {
+        qValue: {
+            type: "Array<any>"
+        },
+        customClass: {
+            type: String
+        },
+        disabled: {
+            type: Boolean
+        },
+        length: {
+            editorDefaultValue: "4",
+            type: Number
+        },
+        type: {
+            type: String,
+            options: ["'number'", "'text'", "'password'"],
+            editorDefaultValue: "'text'"
+        },
+        preventPaste: {
+            type: Boolean,
+            editorDefaultValue: "true"
+        },
+        width: {
+            type: String,
+            editorDefaultValue: "'147px'"
+        },
+        height: {
+            type: String,
+            editorDefaultValue: "'56px'"
+        },
+        readonly: {
+            type: Boolean
+        },
+        error: {
+            type: Boolean
+        },
+        errorMessage: {
+            type: String
+        }
+    },
     VAlert: {
         qValue: {
             type: Boolean

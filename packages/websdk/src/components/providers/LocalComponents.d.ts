@@ -36,6 +36,11 @@ declare const localComponents: {
         loaded: boolean;
         module: undefined;
     };
+    QOtp: {
+        importFunc: () => Promise<void>;
+        loaded: boolean;
+        module: undefined;
+    };
     DataGrid: {
         importFunc: () => Promise<void>;
         loaded: boolean;

@@ -36,6 +36,7 @@ export declare const COMPONENT_STYLE_TYPE: {
     slider: string;
     border: string;
     "break-point-picker": string;
+    "layout-input": string;
 };
 export interface IComponentDefinition {
     componentStyleList: IComponentStyleInlineInterface;
