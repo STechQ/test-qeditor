@@ -4467,7 +4467,7 @@ nextIcon = 'mdi-plus'}`
         },
         format: {
             type: String,
-            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'turkishIban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
         },
         formatValues: {
             type: "Array<any>"
