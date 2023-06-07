@@ -83,6 +83,8 @@ declare const vuetifyLibrary: {
     VBadge: any;
     VDataIterator: any;
     VBanner: any;
+    VSpeedDial: any;
+    VVirtualScroll: any;
 };
 export { vuetifyLibrary };
 //# sourceMappingURL=VuetifyComponents.d.ts.map
