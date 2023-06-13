@@ -11,6 +11,7 @@ declare const vuetifyLibrary: {
     VBreadcrumbsDivider: any;
     VBtn: any;
     VBtnToggle: any;
+    VCalendar: any;
     VCard: any;
     VCarousel: any;
     VCarouselItem: any;

@@ -1,6 +1,5 @@
 // ! Fold All folds all regions Ctrl + (K + 0(zero))
 // ! Unfold All folds all regions Ctrl + (K + J)
-
 // -----------------------------------------
 //    PDS COMPONENTLIST.JS CODE VERSION: 3.1   
 // -----------------------------------------
@@ -870,6 +869,177 @@ var componentOptions = {
             type: Boolean,
             editorDefaultValue: "true"
         }
+    },
+    VCalendar: {
+        qValue: {
+            type: "any",
+        },
+        categories: {
+            type: "Array<any> | string"
+        },
+        categoryDays: {
+            type: "number | string"
+        },
+        categoryForInvalid: {
+            type: String
+        },
+        categoryHideDynamic: {
+            type: Boolean
+        },
+        categoryShowAll: {
+            type: Boolean
+        },
+        categoryText: {
+            type: "string | Function"
+        },
+        color: {
+            type: String
+        },
+        dark: {
+            type: Boolean
+        },
+        dayFormat: {
+            type: Function
+        },
+        end: {
+            type: "string | number | date "
+        },
+        eventCategory: {
+            type: "string | Function"
+        },
+        eventEnd: {
+            type: String,
+            editorDefaultValue:"'end'"
+        },
+        eventHeight:{
+            type : Number,
+            editorDefaultValue:20
+        },
+        eventMarginBottom:{
+            type : Number
+        },
+        eventMore:{
+            type: Boolean
+        },
+        eventMoreText:{
+            type:String
+        },
+        eventName:{
+            type: "string | Function",
+            editorDefaultValue:"'name'"
+
+        },
+        eventColor:{
+            type: "string | Function",
+            editorDefaultValue:"'primary'"
+
+        },
+        eventOverlapMode:{
+            type: "string | Function",
+            editorDefaultValue:"'stack'"
+        },
+        eventOverlapThreshold:{
+            type: "string | number "
+        },
+        eventRipple:{
+            type: "boolean | object"
+        },
+        eventStart:{
+            type: String,
+            editorDefaultValue:"'start'"
+        },
+        eventTextColor:{
+            type: "string | Function"
+        },
+        eventTimed:{
+            type: "string | Function",
+            editorDefaultValue:"'timed'"
+        },
+        events:{
+            type: "Array<any>",
+            editorDefaultValue: `[{'name'= 'Event 1', 'start'= '2023-06-01', 'timed'= false,'color'='primary' },{'name'= 'Event 2', 'start'= '2023-06-03T11:30:00', 'end'= '2023-06-03T15:30:00', 'timed'= true,'color'='secondary'  },{'name'= 'Event 3', 'start'= '2023-06-13', 'end'= '2023-06-17', 'timed'= true,'color'='error'  },{'name'= 'Event 4', 'start'= '2023-06-21', 'end'= '2023-06-21', 'timed'= true,'color'='primary'  },{'name'= 'Event 5', 'start'= '2023-06-21', 'end'= '2023-06-23', 'timed'= true,'color'='secondary'  },{'name'= 'Event 6', 'start'= '2023-06-25', 'end'= '2023-06-25', 'timed'= true,'color'='error'  },{'name'= 'Event 7', 'start'= '2023-06-25', 'end'= '2023-06-25', 'timed'= true,'color'='success'  },{'name'= 'Event 8', 'start'= '2023-06-25', 'end'= '2023-06-25', 'timed'= true,'color'='warning'  } ]`
+        },
+        firstInterval:{
+            type: "number | string "
+        },
+        firstTime:{
+           type: "number | string | object"
+        },
+        hideHeader:{
+            type: Boolean
+        },
+        intervalCount:{
+            type: "number | string "
+        },
+        intervalFormat:{
+            type: Function
+        },
+        intervalHeight:{
+            type: "number | string "
+        },
+        intervalMinutes:{
+            type: "number | string "
+        },
+        intervalStyle:{
+            type: Function
+        },
+        intervalWidth:{
+            type: "number | string "
+        },
+        light:{
+            type: Boolean
+        },
+        locale:{
+            type: String
+        },
+        localeFirstDayOfYear:{
+            type: "string | number "
+        },
+        maxDays:{
+            type: Number
+        },
+        minWeeks:{
+            type: "any"
+        },
+        monthFormat:{
+            type: Function
+        },
+        now:{
+            type : String
+        },
+        shortIntervals:{
+            type: Boolean
+        },
+        shortMonths:{
+            type: Boolean
+        },
+        shortWeekdays:{
+            type: Boolean
+        },
+        showIntervalLabel:{
+            type: Function
+        },
+        showMonthOnFirst:{
+            type: Boolean
+        },
+        showWeek:{
+            type: Boolean
+        },
+        start:{
+            type: "string | number | date "
+        },
+        type:{
+            type: String,
+            editorDefaultValue:"'month'"
+        },
+        weekdayFormat:{
+            type: Function
+        },
+        weekdays:{
+            type: "Array<any> | string",
+            editorDefaultValue:[0,1,2,3,4,5,6]
+        }
+
     },
     VCard: {
         activeClass: {
