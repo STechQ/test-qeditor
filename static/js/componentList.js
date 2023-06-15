@@ -931,7 +931,8 @@ var componentOptions = {
         },
         eventColor:{
             type: "string | Function",
-            editorDefaultValue:"'primary'"
+            editorDefaultValue:"'primary'",
+            options: ["'primary'", "'secondary'", "'accent'", "'success'", "'error'", "'info'", "'warning'"]
 
         },
         eventOverlapMode:{
