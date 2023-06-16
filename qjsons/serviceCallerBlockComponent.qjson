@@ -14,8 +14,9 @@ let pjson = {
 			},
 			"E": {
 				"successResponseMethod": {
-					"H": "//Define event name and event parameter on custom component messaging 'externalEvents' prop\r\n//Trigger parent page event (=send data to parent page), when service returned response successfully\r\n\r\nEM.trace('Custom Component on success')\r\nEM.trace(response)\r\n\r\nparent.events.onGetProductsServiceCallSuccess({serviceResponse=response})",
-					"C": true
+					"H": "//Define event name and event parameter on block component messaging 'externalEvents' prop\r\n//Trigger parent page event (=send data to parent page), when service returned response successfully\r\n\r\nEM.trace('Block Component on success')\r\nEM.trace(response)\r\n\r\nparent.events.onGetProductsServiceCallSuccess({serviceResponse=response})",
+					"C": true,
+					"HL": "QS"
 				},
 				"GetProductsWithServiceCall": {
 					"H": "//To trigger this event from parent component, check 'Exetrnal Visible' checkbox \r\n//requestData, requestURL, httpType, responseField values sends from parent page in this example\r\n\r\ngetProductsRequestObject={}\r\ngetProductsRequestObject.headers={}\r\n\r\ngetProductsRequestObject.headers['x-rly-corr']='1'\r\ngetProductsRequestObject.headers['x-rly-ins-unit']='1'\r\ngetProductsRequestObject.headers['x-rly-session']='1'\r\ngetProductsRequestObject.headers['x-rly-tenant']='1'\r\ngetProductsRequestObject.headers['x-rly-user-id']='1'\r\ngetProductsRequestObject.headers['Content-Type']='application/json'\r\n\r\ngetProductsRequestObject.blockRender=true\r\n\r\ngetProductsRequestObject.data={}\r\ngetProductsRequestObject.data=requestData\r\ngetProductsRequestObject.url=requestURL\r\ngetProductsRequestObject.http=httpType\r\n\r\ngetProductsRequestObject.responseField=responseField\r\ngetProductsRequestObject.onSuccess='successResponseMethod'\r\nRequest.async(getProductsRequestObject)",
@@ -40,7 +41,7 @@ let pjson = {
 					"T": "prop"
 				},
 				"text": {
-					"H": "'This custom component calls service request'",
+					"H": "'This block component calls service request'",
 					"T": "prop"
 				}
 			},
@@ -50,7 +51,8 @@ let pjson = {
 				"eID": "EdtrComp_2"
 			},
 			"O": {
-				"compDomClasses": "q-label "
+				"compDomClasses": "q-label ",
+				"cType": "slot"
 			}
 		}
 	],
@@ -69,8 +71,9 @@ let pjson = {
 			},
 			"E": {
 				"successResponseMethod": {
-					"H": "╬()╣.╣EM╩╠trace╩╩╠'Custom Component on success'╩╩╬()╣.╣EM╩╠trace╩╩╠response╩╩╬()╣.╣.╣parent╩╠events╩╩╠onGetProductsServiceCallSuccess╩╩╠{}╠=╣serviceResponse╩╠response╩╩╩╩╩",
-					"C": true
+					"H": "╬()╣.╣EM╩╠trace╩╩╠'Block Component on success'╩╩╬()╣.╣EM╩╠trace╩╩╠response╩╩╬()╣.╣.╣parent╩╠events╩╩╠onGetProductsServiceCallSuccess╩╩╠{}╠=╣serviceResponse╩╠response╩╩╩╩╩",
+					"C": true,
+					"HL": "QS"
 				},
 				"GetProductsWithServiceCall": {
 					"H": "╬=╣getProductsRequestObject╩╠{}╩╩╬=╣.╣getProductsRequestObject╩╠headers╩╩╠{}╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'x-rly-corr'╩╩╠'1'╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'x-rly-ins-unit'╩╩╠'1'╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'x-rly-session'╩╩╠'1'╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'x-rly-tenant'╩╩╠'1'╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'x-rly-user-id'╩╩╠'1'╩╩╬=╣[]╣.╣getProductsRequestObject╩╠headers╩╩╠'Content-Type'╩╩╠'application/json'╩╩╬=╣.╣getProductsRequestObject╩╠blockRender╩╩╠true╩╩╬=╣.╣getProductsRequestObject╩╠data╩╩╠{}╩╩╬=╣.╣getProductsRequestObject╩╠data╩╩╠requestData╩╩╬=╣.╣getProductsRequestObject╩╠url╩╩╠requestURL╩╩╬=╣.╣getProductsRequestObject╩╠http╩╩╠httpType╩╩╬=╣.╣getProductsRequestObject╩╠responseField╩╩╠responseField╩╩╬=╣.╣getProductsRequestObject╩╠onSuccess╩╩╠'successResponseMethod'╩╩╬()╣.╣Request╩╠async╩╩╠getProductsRequestObject╩╩╩",
@@ -84,7 +87,7 @@ let pjson = {
 			},
 			"O": {
 				"cType": "child",
-				"compDomClasses": ""
+				"compDomClasses": "newDropBorder"
 			}
 		},
 		{
@@ -95,7 +98,7 @@ let pjson = {
 					"T": "prop"
 				},
 				"text": {
-					"H": "╬'This custom component calls service request'╩╩",
+					"H": "╬'This block component calls service request'╩╩",
 					"T": "prop"
 				}
 			},
@@ -105,13 +108,14 @@ let pjson = {
 				"eID": "EdtrComp_2"
 			},
 			"O": {
-				"compDomClasses": "q-label ",
-				"cType": "child"
+				"compDomClasses": "q-label newDropBorder",
+				"cType": "slot"
 			}
 		}
 	],
 	"lrids": {},
 	"clrids": {},
-	"description": {}
+	"description": {},
+	"opt": {}
 };
 export default pjson

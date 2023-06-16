@@ -4,11 +4,11 @@ let pjson = {
 			"T": "CustomComponent",
 			"P": {
 				"ID": {
-					"H": "uploadCustomComp",
+					"H": "uploadBlockComp",
 					"T": "prop"
 				},
 				"QJsonPath": {
-					"H": "'settings/qjson/FileUploadCustomComponent.qjson'",
+					"H": "'settings/qjson/FileUploadBlockComponent.qjson'",
 					"T": "prop"
 				},
 				"uploadPlaceHolder": {
@@ -28,18 +28,19 @@ let pjson = {
 			},
 			"O": {
 				"dynProps": true,
-				"compDomClasses": ""
+				"compDomClasses": "",
+				"cType": "child"
 			}
 		},
 		{
 			"T": "CustomComponent",
 			"P": {
 				"ID": {
-					"H": "customComponentQID",
+					"H": "BlockComponentQID",
 					"T": "prop"
 				},
 				"QJsonPath": {
-					"H": "'settings/qjson/ServiceCallerCustomComponent.qjson'",
+					"H": "'settings/qjson/ServiceCallerBlockComponent.qjson'",
 					"T": "prop"
 				},
 				"prop1": {
@@ -77,7 +78,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "//This example sends request params from parent component if you dont need just call Custom Component 'GetProductsWithServiceCall' method and set servis request values in your custom component\r\n//customComponentQID.GetProductsWithServiceCall() \r\ncustomComponentQID.GetProductsWithServiceCall({requestData= {page=0, size=5 }, requestURL='https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters', httpType='post', responseField='getProducts'})"
+					"H": "//This example sends request params from parent component if you dont need just call Block Component 'GetProductsWithServiceCall' method and set servis request values in your block component\r\n//BlockComponentQID.GetProductsWithServiceCall() \r\nBlockComponentQID.GetProductsWithServiceCall({requestData= {page=0, size=5 }, requestURL='https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters', httpType='post', responseField='getProducts'})",
+					"P": "mouseEvent",
+					"HL": "QS"
 				}
 			},
 			"C": {
@@ -93,7 +96,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "'Call Service with Custom Component'",
+									"H": "'Call Service with Block Component'",
 									"T": "prop"
 								}
 							},
@@ -123,11 +126,11 @@ let pjson = {
 			"T": "CustomComponent",
 			"P": {
 				"ID": {
-					"H": "uploadCustomComp",
+					"H": "uploadBlockComp",
 					"T": "prop"
 				},
 				"QJsonPath": {
-					"H": "╬'settings/qjson/FileUploadCustomComponent.qjson'╩╩",
+					"H": "╬'settings/qjson/FileUploadBlockComponent.qjson'╩╩",
 					"T": "prop"
 				},
 				"uploadPlaceHolder": {
@@ -147,19 +150,19 @@ let pjson = {
 			},
 			"O": {
 				"dynProps": true,
-				"cType": "child",
-				"compDomClasses": ""
+				"compDomClasses": "",
+				"cType": "child"
 			}
 		},
 		{
 			"T": "CustomComponent",
 			"P": {
 				"ID": {
-					"H": "customComponentQID",
+					"H": "BlockComponentQID",
 					"T": "prop"
 				},
 				"QJsonPath": {
-					"H": "╬'settings/qjson/ServiceCallerCustomComponent.qjson'╩╩",
+					"H": "╬'settings/qjson/ServiceCallerBlockComponent.qjson'╩╩",
 					"T": "prop"
 				},
 				"prop1": {
@@ -197,7 +200,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "╬()╣.╣customComponentQID╩╠GetProductsWithServiceCall╩╩╠{}╠=╣requestData╩╠{}╠=╣page╩╠0╩╩╠=╣size╩╠5╩╩╩╩╠=╣requestURL╩╠'https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters'╩╩╠=╣httpType╩╠'post'╩╩╠=╣responseField╩╠'getProducts'╩╩╩╩╩"
+					"H": "╬()╣.╣BlockComponentQID╩╠GetProductsWithServiceCall╩╩╠{}╠=╣requestData╩╠{}╠=╣page╩╠0╩╩╠=╣size╩╠5╩╩╩╩╠=╣requestURL╩╠'https://petra-apigateway.apps.generic.kube.devisbank/prepaid-card-service/api/prepaidcard/product/findByParameters'╩╩╠=╣httpType╩╠'post'╩╩╠=╣responseField╩╠'getProducts'╩╩╩╩╩",
+					"P": "mouseEvent",
+					"HL": "QS"
 				}
 			},
 			"C": {
@@ -213,7 +218,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "╬'Call Service with Custom Component'╩╩",
+									"H": "╬'Call Service with Block Component'╩╩",
 									"T": "prop"
 								}
 							},
@@ -222,7 +227,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "child",
-								"compDomClasses": "q-label "
+								"compDomClasses": "q-label newDropBorder"
 							}
 						}
 					],
@@ -234,12 +239,13 @@ let pjson = {
 			},
 			"O": {
 				"cType": "slot",
-				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default"
+				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default newDropBorder"
 			}
 		}
 	],
 	"lrids": {},
 	"clrids": {},
-	"description": {}
+	"description": {},
+	"opt": {}
 };
 export default pjson
