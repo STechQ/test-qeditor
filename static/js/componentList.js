@@ -3797,6 +3797,9 @@ nextIcon = 'mdi-plus'}`
         loading: {
             type: Boolean
         },
+        menuProps: {
+            type: Object
+        },
         multiple: {
             type: Boolean
         },
