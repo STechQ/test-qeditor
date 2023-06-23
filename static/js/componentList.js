@@ -1457,7 +1457,8 @@ var componentOptions = {
             type: String
         },
         activeClass: {
-            type: String
+            type: String,
+            editorDefaultValue: "'primary'"
         },
         centerActive: {
             type: Boolean
