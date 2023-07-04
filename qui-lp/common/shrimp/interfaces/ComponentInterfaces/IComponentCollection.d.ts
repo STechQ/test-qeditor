@@ -63,6 +63,7 @@ export interface IComponentCollection extends ILightComponentCollection, IPerfab
     additionals?: Record<string, any>;
     compStyleValues?: StyleValue;
     qjsonInfo: qjsonCollectionInfo;
+    styledComponent?: string;
     SetChildrenFields({ children, childrenCreators }: {
         children?: IDictionary<Array<IComponentCollection>>;
         childrenCreators?: IDictionaryNullable<ScopedSlotCreatorFunc>;

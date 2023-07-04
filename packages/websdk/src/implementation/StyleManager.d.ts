@@ -25,15 +25,10 @@ export declare class StyleManager implements IStyleManager {
         breakPoint?: string | undefined;
         compType: string;
     }) => void;
-    static addStyleRule: ({ selector, selectorValue, styleValue, breakPoint, compType }: {
-        selector: string;
-        selectorValue: string;
-        styleValue: string;
-        breakPoint?: string | undefined;
-        compType: string;
-    }) => void;
     static deleteStyleSelector: (compCollection: IComponentCollection, stylePropName: string, breakPoint?: string | undefined) => void;
-    private static deleteStyleRule;
+    static deleteCompCollectionStyle: (compCollection: IComponentCollection) => void;
+    private static deleteSheet;
+    private static addSheet;
     static fromCamelCase: (message: string) => string;
     static matchSizeMinValue(sizeString?: string): string;
     static matchSizeMaxValue(sizeString?: string): string;
