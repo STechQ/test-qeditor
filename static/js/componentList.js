@@ -208,6 +208,9 @@ var componentOptions = {
         appendIcon: {
             type: String
         },
+        appendOuterIcon: {
+            type: String
+        },
         qValue: {
             type: "any"
         },
@@ -346,6 +349,9 @@ var componentOptions = {
             type: String
         },
         prependIcon: {
+            type: String
+        },
+        prependInnerIcon: {
             type: String
         },
         preventPaste: {
@@ -1906,7 +1912,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-            options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'"]
+            options: ["'v-table-denser'", "'v-table-hover-hidden'", "'v-table-border-b-hidden'", "'stickytable'","'stickytableleft'"]
         },
         calculateWidths: {
             type: Boolean

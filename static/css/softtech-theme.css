@@ -663,6 +663,20 @@ body .v-application .v-tabs {
   border-right: 1px solid rgb(152 29 29 / 19%);
 }
 
+/* Aciklama: Tablonun en solundaki Actions kolonunun yatay scroll olduğunda sticky kalması */
+.stickytableleft table>tbody>tr>td.fixed,
+.stickytableleft table>thead>tr>th.fixed {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  left: 0;
+  z-index: 1;
+  background: white;
+  border-left: 1px solid rgb(152 29 29 / 19%);
+  border-right: 1px solid rgb(152 29 29 / 19%);
+}
+
+
+
 /* V3.2 Changes */
 
 /* Bileşen değer farklılıklarının hesaplanması ve bileşenlere yansıltılması*/
