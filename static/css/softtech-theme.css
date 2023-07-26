@@ -397,31 +397,6 @@ body .v-application .error--text {
 }
 
 /* V3.0 Changes */
-
-/* Class Name: custom-scroll */
-/* Components: v-card */
-/* Apple style 7-pixel scroll bar */
-/* Google Chrome */
-.custom-scroll::-webkit-scrollbar {
-  height: 7px;
-  width: 7px;
-  background-color: transparent;
-}
-
-.custom-scroll {
-  overflow: auto;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #7f7f7f;
-}
-
-/*Firefox and other scanner*/
-.custom-scroll {
-  scrollbar-width: 7px;
-  scrollbar-color: #7f7f7f transparent;
-}
-
 /* Class Name: devx-ellipsis-qlabel */
 /* Components: QLabel */
 /* Aciklama: DevExpress table içerisinde başlıkları 3 nokta çıkarmak için  */

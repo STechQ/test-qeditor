@@ -1057,7 +1057,7 @@ var componentOptions = {
         },
         class: {
             type: String,
-            options: ["'custom-scroll'"]
+            options: ["'overflow-auto'"]
         },
         color: {
             type: String,
@@ -4790,6 +4790,13 @@ nextIcon = 'mdi-plus'}`
         errorMessages: {
             type: "Array<any> | string"
         },
+        format: {
+            type: String,
+            options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'turkishIban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
+        },
+        formatValues: {
+            type: "Array<any>"
+        },
         flat: {
             type: Boolean
         },
@@ -4825,6 +4832,9 @@ nextIcon = 'mdi-plus'}`
         },
         prependInnerIcon: {
             type: String
+        },
+        preventPaste: {
+            type: Boolean
         },
         regular: {
             type: Boolean
