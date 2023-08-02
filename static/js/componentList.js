@@ -1261,6 +1261,9 @@ var componentOptions = {
         replace: {
             type: Boolean
         },
+        src: {
+            type: String
+        },
         tabindex: {
             type: "number | string"
         },
