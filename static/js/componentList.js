@@ -634,6 +634,10 @@ var componentOptions = {
         },
         hideOverlay: {
             type: Boolean
+        },
+        persistent: {
+            type: Boolean,
+            editorDefaultValue: "false"
         }
     },
     VBreadcrumbs: {
@@ -4787,6 +4791,9 @@ nextIcon = 'mdi-plus'}`
             type: "Array<any>"
         },
         flat: {
+            type: Boolean
+        },
+        hideDetails: {
             type: Boolean
         },
         hint: {
