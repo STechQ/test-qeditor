@@ -1,18 +1,35 @@
-import { ISettingsIAM } from '@stechquick/algae/lib/quick/IPlateauUI';
+import { ISettingsIAM, ISettingsIAMV2 } from '@stechquick/algae/lib/quick/IPlateauUI';
 import { IPlateauIAM } from "../../../../common/shrimp/interfaces/quick/IPlateauIAM";
 export declare class PlateauIAM implements IPlateauIAM {
     settingsIAM: ISettingsIAM | undefined;
     private refreshTime;
     private updateTime;
     private initOptions;
-    private keycloak?;
+    private authOptions;
+    keycloak?: Keycloak.KeycloakInstance;
     private iamPlateau;
-    setOptions(iam: ISettingsIAM["iam"]): void;
+    setOptions({ iam, iamV2 }: {
+        iam: ISettingsIAM["iam"];
+        iamV2?: ISettingsIAMV2;
+    }): void;
+    private configureNewOAuthSettings;
+    private getLocale;
+    private replaceSubdomain;
+    private getRealm;
+    private getSubdomain;
     isAuthenticated(): true | undefined;
     init(callback: Function): Promise<void>;
+    private pathJoin;
+    private setQueryOrFragment;
     private constructIAMPlateau;
+    private getTokens;
+    private setTokens;
     refreshPromise(): Promise<boolean | undefined>;
+    private getKeyCloakOptions;
+    private getLoginOptions;
     logout(): void;
+    private getRedirectURL;
+    private getLogoutURLParams;
     getToken: () => string | undefined;
     getInfo: () => object | undefined;
     login(): Promise<void>;
