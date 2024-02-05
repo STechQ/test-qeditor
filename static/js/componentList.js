@@ -3451,6 +3451,9 @@ nextIcon = 'mdi-plus'}`
         errorMessages: {
             type: "Array<any> | string"
         },
+        hideDetails: {
+            type: Boolean
+        },
         hint: {
             type: String
         },
@@ -4357,6 +4360,9 @@ nextIcon = 'mdi-plus'}`
         },
         errorMessages: {
             type: "Array<any> | string"
+        },
+        hideDetails: {
+            type: String | Boolean
         },
         hint: {
             type: String
