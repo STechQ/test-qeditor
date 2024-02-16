@@ -176,9 +176,8 @@ var componentOptions = {
             type: Boolean,
         },
         fixed: {
-            type: Boolean,
-            editorDefaultValue: "true"
-            },
+            type: Boolean
+        },
         flat: {
             type: Boolean
         },
@@ -313,13 +312,11 @@ var componentOptions = {
 { text = 'test2', value = 2}]`
         },
         itemText: {
-            type: "string | Array<any> | Function",
-            editorDefaultValue: "'text'"
-            },
+            type: "string | Array<any> | Function"
+        },
         itemValue: {
-            type: "string | Array<any> | Function",
-            editorDefaultValue: "'value'"
-            },
+            type: "string | Array<any> | Function"
+        },
         label: {
             type: String
         },
