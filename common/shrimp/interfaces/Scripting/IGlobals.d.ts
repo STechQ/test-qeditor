@@ -15,7 +15,7 @@ import { IUrlOptions } from "../quick/IUrl";
 import { IExcel, IExcelList } from "../quick/IExcel";
 import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { INavigationOptions } from "../quick/INavigationManager";
-import { IPermanentStoreObject, Plateau_UI_PermanantStore_Name } from "../RenderingInterfaces/Operators/IPermanentStoreOperator";
+import { IPermanentStoreObject, Plateau_UI_PermanentStore_Name } from "../RenderingInterfaces/Operators/IPermanentStoreOperator";
 export interface IGlobals_Request {
     /**
      * Sends a network request.
@@ -944,6 +944,12 @@ export interface IGlobals_Quick {
         hide: () => void;
     };
     network: {
+        /**
+         * Determines the online/offline status of the network.
+         *
+         * @memberof network
+         * @returns {boolean} - The online/offline status of the network.
+        */
         isConnected: boolean;
     };
     render: {
@@ -1022,13 +1028,76 @@ export interface IGlobals_store {
     deleteAll: (name: any) => void;
 }
 export interface IGlobals_permanentStore {
+    /**
+     * Sets a key-value pair object to the Permanent Store.
+     * @param {IPermanentStoreObject} [object] - The key-value pair object which will be stored within the permanent store.
+     * @param {string} object.key - Key under which the data will be stored within the permanent store.
+     * @param {any} object.value - Actual data to be stored.
+     * @returns {void}
+     *
+     * @example
+     * quick.permanentStore.set({ key: 'employeeInfo', value: [{ name: 'Ahmet', age: 32 }, { name: 'Mehmet', age: 45 }] });
+    */
     set: <T>(object: IPermanentStoreObject<T>) => void;
+    /**
+     * Gets a key-value pair object from the Permanent Store.
+     * @param {string} key - Key under which the data will be retrieved from the permanent store.
+     * @returns {IPermanentStoreObject} - Returns the key-value pair object associated with the 'key' in the permanent stored object.
+     *
+     * @example
+     *  await quick.permanentStore.get("employeeInfo");
+    */
     get: <T>(key: string) => Promise<IPermanentStoreObject<T> | undefined>;
+    /**
+    * Deletes a key-value pair object associated with the 'key' in the permanent store .
+    * @param {string} key - Key under which the data will be deleted from the permanent store.
+    * @returns {void}
+    *
+    * @example
+    * quick.permanentStore.delete("employeeInfo");
+   */
     delete: (key: string) => Promise<void | undefined>;
+    /**
+    * Gets all key-value pair objects from the permanent store.
+    * @returns {IPermanentStoreObject[]}- Returns all the key-value pair object list associated in the permanent store.
+    *
+    * @example
+    * await quick.permanentStore.getAll();
+   */
     getAll: <T>() => Promise<IPermanentStoreObject<T>[] | undefined>;
+    /**
+     * Provide the permanent store name that application will use.
+     * @param {string}storeName - Create or change using permanent store name.
+     * @returns {void}
+     *
+     * @example
+     * quick.permanentStore.createOrChangeStore("myStore");
+    */
     createOrChangeStore: (storeName: string | undefined) => Promise<void>;
+    /**
+     * Deletes the Permanent Store.
+     * @param {string}storeName - Store name will be deleted.
+     * @returns {void}
+     *
+     * @example
+     * quick.permanentStore.deleteStore("myStore");
+    */
     deleteStore: (storeName: string | undefined) => Promise<void>;
-    readonly defaultStoreName: typeof Plateau_UI_PermanantStore_Name;
+    /**
+     * Gets default Permanent Store name. If you don't provide the Permanent Store name that your application uses, default using store name will be 'PermanentStore'
+     * @returns {string} - Default using store name is  'PermanentStore'
+     *
+     * @example
+     * quick.permanentStore.defaultStoreName;
+    */
+    readonly defaultStoreName: typeof Plateau_UI_PermanentStore_Name;
+    /**
+    * Gets the Permanent Store name which provided by createOrChangeStore() method and currently being used.
+    * @returns {string} - The name of the permanent store currently being used.
+    *
+    * @example
+    * quick.permanentStore.currentStoreName;
+   */
     readonly currentStoreName: string;
 }
 export interface IGlobals_cookie {
