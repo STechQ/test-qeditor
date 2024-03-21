@@ -1920,6 +1920,9 @@ var componentOptions = {
         customGroup: {
             type: Function
         },
+        customSort: {
+            type: Function
+        },
         dark: {
             type: Boolean
         },
@@ -2577,14 +2580,17 @@ nextIcon = 'mdi-plus'}`
         },
     },
     VForm: {
-        qValue: {
-            type: Boolean
-        },
+        action: {
+            type: String
+        },        
         class: {
             type: String
         },
         disabled: {
             type: Boolean
+        },
+        method: {
+            type: String
         },
         validate: {
             type: Function
@@ -2593,6 +2599,10 @@ nextIcon = 'mdi-plus'}`
             type: Boolean,
             editorDefaultValue: "true"
         },
+        qValue: {
+            type: Boolean
+        }   
+        
     },
     VIcon: {
         class: {
@@ -3793,10 +3803,12 @@ nextIcon = 'mdi-plus'}`
             options: ["'primary'", "'secondary'", "'accent'", "'success'", "'error'", "'info'", "'warning'"]
         },
         itemText: {
-            type: String
+            type: "string | Array<any> | Function",
+            editorDefaultValue: "'text'"
         },
         itemValue: {
-            type: String
+            type: "string | Array<any> | Function",
+            editorDefaultValue: "'value'"
         },
         label: {
             editorDefaultValue: "'My Select'"
@@ -4671,6 +4683,9 @@ nextIcon = 'mdi-plus'}`
         maxlength: {
             type: "number | string",
             propType: "attr"
+        },
+        name: {
+            type: String
         },
         tabindex: {
             type: "number | string"
