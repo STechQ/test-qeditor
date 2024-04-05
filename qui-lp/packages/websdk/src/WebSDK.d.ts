@@ -54,7 +54,6 @@ export declare class WebSDK implements IWebSDK {
         mountPoint: IDomElement;
         config?: IRendererConfig;
     }): IRenderer;
-    GetParentInst(renderer: IRenderer): Vue;
     GetDomContainer(renderer: IRenderer): IDomElement;
     GetParentInstance(renderer: IRenderer): Vue;
     Clear(renderer: IRenderer): void;

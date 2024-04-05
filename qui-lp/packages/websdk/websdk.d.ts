@@ -12,7 +12,6 @@ declare class PlateauUI {
     show(): void;
     hide(): void;
     close(): void;
-    destroy(): void;
     trigger({ eventName, parameters }: {
         eventName: string;
         parameters: Record<string, any>;

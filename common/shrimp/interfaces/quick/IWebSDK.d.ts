@@ -9,6 +9,7 @@ import { IRegionalDefinition } from "./IFormattingDefinition";
 import { IUXManager } from "./IUXManager";
 import { IWebSDKSetingsBus } from "./IWebSDKSettingsBus";
 import { IConfig } from "./IConfig";
+import { IAppSettings } from "@stechquick/algae/lib/quick/IPlateauUI";
 export interface IWebSDKSettingsWrapper {
     settings: IWebSDKSettings;
 }
@@ -58,6 +59,7 @@ export interface IWebSDKSettings {
     versions?: IVersion;
     useLocalProxyOnClient?: boolean;
     configValues?: IConfig[];
+    appSettings?: IAppSettings;
 }
 export interface IBackendInf {
     containerName?: any;
