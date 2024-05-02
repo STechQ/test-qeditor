@@ -4,7 +4,6 @@ export interface StyleItem {
     [key: string]: StyleValue | undefined;
     default?: StyleValue;
 }
-export declare type StyleJson = Record<string, StyleItem>;
 export interface IComponentStyleInlineInterface {
     [key: string]: Array<IComponentInternalSI>;
 }
@@ -24,6 +23,7 @@ export interface IComponentStyleKey {
     value?: string;
     key?: string;
     [key: string]: string | boolean | undefined;
+    disabled?: boolean;
 }
 export declare const COMPONENT_STYLE_TYPE: {
     "color-picker": string;
@@ -49,19 +49,4 @@ export interface IComponentDefinition {
     hideStyledCompField?: boolean;
 }
 export declare type IAssetList = Record<string, Record<string, StyleValue>>;
-export declare enum FontWeights {
-    "Thin - 100" = 100,
-    "Extra Light - 200" = 200,
-    "Light - 300" = 300,
-    "Regular - 400" = 400,
-    "Medium - 500" = 500,
-    "SemiBold - 600" = 600,
-    "Bold - 700" = 700,
-    "Extra Bold - 800" = 800,
-    "Black - 900" = 900,
-    "Weight - 1000" = 1000
-}
-export declare enum FontStyles {
-    "Italic" = 0
-}
 //# sourceMappingURL=IStyle.d.ts.map

@@ -1,15 +1,15 @@
 import { IExternalQJsonRetriever } from "@stechquick/algae/lib/quick/IExternalQJsonRetriever";
+import { IAppSettings } from "@stechquick/algae/lib/quick/IPlateauUI";
 import { IComponent } from "../ComponentInterfaces/IComponent";
 import { IVersion } from "../ComponentInterfaces/IVersion";
 import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { IRenderer } from "../RenderingInterfaces/IRenderer";
 import { IRendererConfig } from "../RenderingInterfaces/IRendererConfig";
+import { IConfig } from "./IConfig";
 import { IContainerServices } from "./IContainerServices";
 import { IRegionalDefinition } from "./IFormattingDefinition";
 import { IUXManager } from "./IUXManager";
 import { IWebSDKSetingsBus } from "./IWebSDKSettingsBus";
-import { IConfig } from "./IConfig";
-import { IAppSettings } from "@stechquick/algae/lib/quick/IPlateauUI";
 export interface IWebSDKSettingsWrapper {
     settings: IWebSDKSettings;
 }
@@ -30,6 +30,7 @@ export interface IWebSDKSettings {
     backendInf?: IBackendInf;
     regionalDefinition?: Array<IRegionalDefinition>;
     cssPath?: Array<string> | Record<string, Array<string>>;
+    fontPath?: Array<IFontSettings>;
     enableClientCache?: boolean;
     serviceWorkerPath?: string;
     pipelineqjson?: string;
@@ -55,11 +56,18 @@ export interface IWebSDKSettings {
     title?: string;
     favicon?: string;
     minEngineLogLevel?: string;
-    quickStyle?: string;
     versions?: IVersion;
     useLocalProxyOnClient?: boolean;
     configValues?: IConfig[];
     appSettings?: IAppSettings;
+    disablePagePool?: boolean;
+}
+export interface IFontSettings {
+    id: string;
+    fontName: string;
+    fontWeights: Array<string> | number;
+    path?: string;
+    combinedFont?: string;
 }
 export interface IBackendInf {
     containerName?: any;

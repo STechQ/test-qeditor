@@ -2590,7 +2590,8 @@ nextIcon = 'mdi-plus'}`
             type: Boolean
         },
         method: {
-            type: String
+            type: String,
+            options: ["'post'"]
         },
         validate: {
             type: Function
@@ -2888,6 +2889,11 @@ nextIcon = 'mdi-plus'}`
             type: String
         }
     },
+    VListItemActionText: {
+        class: {
+            type: String
+        }
+    },
     VListItemAvatar: {
         class: {
             type: String
@@ -2901,6 +2907,21 @@ nextIcon = 'mdi-plus'}`
             type: Boolean,
             editorDefaultValue: "true"
         },
+    },
+    VListItemIcon: {
+        class: {
+            type: String
+        }
+    },
+    VListItemTitle:{
+        class: {
+            type: String
+        }
+    },
+    VListItemSubtitle:{
+        class: {
+            type: String
+        }
     },
     VListItemGroup: {
         qValue: {
