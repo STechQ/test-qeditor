@@ -293,7 +293,8 @@ var componentOptions = {
             type: "number | string"
         },
         hideDetails: {
-            type: "string | boolean"
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hideNoData: {
             type: Boolean
@@ -614,6 +615,10 @@ var componentOptions = {
         }
     },
     VBottomSheet: {
+        attach: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
         qValue: {
             type: "any"
         },
@@ -1202,7 +1207,8 @@ var componentOptions = {
             type: Boolean
         },
         showArrows: {
-            type: Boolean
+            type: Boolean,
+            editorDefaultValue: "true"
         },
         showArrowsOnHover: {
             type: Boolean
@@ -1316,7 +1322,8 @@ var componentOptions = {
             type: "Array<any> | string"
         },
         hideDetails: {
-            type: String | Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         indeterminateIcon: {
             type: String
@@ -1613,7 +1620,8 @@ var componentOptions = {
             type: "number | string"
         },
         hideDetails: {
-            type: "string | boolean"
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hideNoData: {
             type: Boolean
@@ -2454,7 +2462,8 @@ nextIcon = 'mdi-plus'}`
             type: "number | string"
         },
         hideDetails: {
-            type: Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hideInput: {
             type: Boolean
@@ -3486,7 +3495,8 @@ nextIcon = 'mdi-plus'}`
             type: "Array<any> | string"
         },
         hideDetails: {
-            type: Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -3572,7 +3582,8 @@ nextIcon = 'mdi-plus'}`
             type: "number | string"
         },
         hideDetails: {
-            type: "boolean | string"
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -3808,7 +3819,8 @@ nextIcon = 'mdi-plus'}`
             type: "number | string"
         },
         hideDetails: {
-            type: String | Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -4398,7 +4410,8 @@ nextIcon = 'mdi-plus'}`
             type: "Array<any> | string"
         },
         hideDetails: {
-            type: String | Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -4689,7 +4702,8 @@ nextIcon = 'mdi-plus'}`
             type: "number | string"
         },
         hideDetails: {
-            type: String | Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -4839,7 +4853,8 @@ nextIcon = 'mdi-plus'}`
             type: Boolean
         },
         hideDetails: {
-            type: Boolean
+            type: "string | boolean",
+            editorDefaultValue: "false"
         },
         hint: {
             type: String
@@ -5294,6 +5309,10 @@ nextIcon = 'mdi-plus'}`
             type: String
         },
         displayOnScroll: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
+        showPrint: {
             type: Boolean,
             editorDefaultValue: "false"
         },
