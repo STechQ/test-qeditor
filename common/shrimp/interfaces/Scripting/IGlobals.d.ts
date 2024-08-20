@@ -1440,6 +1440,19 @@ export interface IGlobals_devex {
     createDataSource: ({ store }: {
         store?: any | Array<any>;
     }) => any;
+    exportDxDataGrid: ({ options, worksheetName, fileName }: {
+        options: {
+            dataGridInstance: any;
+            selectedRowsOnly?: boolean;
+            autoFilterEnabled?: boolean;
+            customizeCell?: ((options: {
+                gridCell?: any;
+                excelCell?: any;
+            }) => void);
+        };
+        worksheetName?: string;
+        fileName?: string;
+    }) => void;
 }
 export interface IGlobalsBase {
     Request: IGlobals_Request;
