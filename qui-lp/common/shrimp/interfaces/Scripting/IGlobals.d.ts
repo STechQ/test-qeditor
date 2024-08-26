@@ -1498,6 +1498,7 @@ export interface IGlobalsBase {
     setFormData(compCol: object): void;
     getArrangedNestedData(obj: object, pairChar: string): {};
     getFormData(componentQID?: string): {};
+    setDisable(component: IComponent, value: boolean): void;
     getArrangedFormData(formData: object, pairChar: string): {};
     Quick: IGlobals_Quick;
     containerServices?: IGlobals_ContainerServices;
@@ -1524,6 +1525,17 @@ export interface IGlobalsBase {
     encoding: IGlobals_Encoding;
     integrations: IScripts;
     webScripts: {};
+    workflowStore?: IWorkflowStore;
+}
+export interface IWorkflowStore {
+    context: {
+        dataInstance: any;
+        processInstance: any;
+    };
+    formContext: {
+        task: any;
+        form: any;
+    };
 }
 export interface IScripts {
     Dataroid: IDataroid;
