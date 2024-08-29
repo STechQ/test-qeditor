@@ -7,6 +7,7 @@ export interface ITask extends INamedObjectBase {
     taskId: string;
     taskDefinitionKey: string;
     taskName: string;
+    taskLabel: string;
     status: StatusType;
     statusDescription: string;
     taskGroupId: string;

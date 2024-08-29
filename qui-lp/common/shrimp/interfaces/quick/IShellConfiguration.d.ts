@@ -151,7 +151,7 @@ export declare type CreateComponentDelegate = ({ componentName, props, events, a
     styles?: StyleValue;
 }) => ICreatedComponent;
 export interface IQJsonCollectionResult {
-    qjson: IQJSon;
+    qjson?: IQJSon;
     changedPath?: string;
 }
 export declare type ComponentHasPropDelegate = (options: {

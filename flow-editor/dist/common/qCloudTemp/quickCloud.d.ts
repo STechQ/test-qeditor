@@ -102,6 +102,10 @@ export interface IModuleRelatedModelItem {
     modelID: ObjectID;
     version: string;
 }
+export interface IModuleOwnerOrgInfo {
+    dbName: string;
+    orgId: string;
+}
 export interface IModuleBackend extends ICloudObject {
     description?: string;
     modifyDate?: Date;
@@ -118,11 +122,7 @@ export interface IModuleBackend extends ICloudObject {
     currentVersion?: string;
     lastReleasedVersion?: string;
     applicationID?: string;
-    ownerOrg?: {
-        orgName: string;
-        dbName: string;
-        orgId: string;
-    };
+    ownerOrg?: IModuleOwnerOrgInfo;
 }
 export interface IModuleVersion extends ICloudObject {
     moduleID: ObjectID;
@@ -340,11 +340,7 @@ export interface ITreeviewItem {
     currentModelVersion?: string;
     lastReleasedModuleVersion?: string;
     modelID?: string;
-    ownerOrg?: {
-        orgName: string;
-        dbName: string;
-        orgId: string;
-    };
+    ownerOrg?: IModuleOwnerOrgInfo;
     overridden?: boolean;
     overriddenModel?: {
         ID: string;
