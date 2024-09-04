@@ -179,6 +179,7 @@ export interface IModelPackagingInfo extends IModelInfo {
     body: IModelBodyObject;
     moduleName?: string;
     historyId: string;
+    version: NonNullable<IModelInfo["version"]>;
 }
 export interface IDependentModel {
     modelId: string;
@@ -202,6 +203,8 @@ export type IModelForWorkflow = {
     updateDate?: number;
     organizationId: string;
     appId: string;
+    version: string | undefined;
+    live?: boolean;
 };
 export interface IModelCheckout {
     user: string;

@@ -65,6 +65,8 @@ export interface IViewModel {
     description?: string;
     businessKeyGenerationFunction?: IExecuteFlowByMapping;
     fileUploadFunction?: IExecuteFlowByMapping;
+    fileDownloadFunction?: IExecuteFlowByMapping;
+    fileDeleteFunction?: IExecuteFlowByMapping;
     resetHistory: () => IVMHistory;
 }
 export declare const IViewModel: unique symbol;

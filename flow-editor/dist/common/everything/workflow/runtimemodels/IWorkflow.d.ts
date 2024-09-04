@@ -42,6 +42,8 @@ export interface IWorkflowModel extends IFlowModelBase {
     store: IStoreModelForWorkflow;
     businessKeyGenerationFunction?: IExecuteFlowByMapping;
     fileUploadFunction?: IExecuteFlowByMapping;
+    fileDownloadFunction?: IExecuteFlowByMapping;
+    fileDeleteFunction?: IExecuteFlowByMapping;
 }
 export interface IWFStepTo extends IStepTo {
 }

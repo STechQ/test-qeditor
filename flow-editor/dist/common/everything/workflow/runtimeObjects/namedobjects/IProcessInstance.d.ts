@@ -10,6 +10,7 @@ import { IUser } from "./IUser";
 export interface IProcessInstance extends INamedObjectBase {
     processInstanceId: string;
     processId: string;
+    processVersion: string;
     processName: string;
     processLabel: string;
     processDescription: string;

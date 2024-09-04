@@ -5,6 +5,7 @@ export interface IFile extends INamedObjectBase {
     id: string;
     user?: IUser;
     label?: string;
+    fileName?: string;
     storageHandle?: string;
     fileType?: "file";
     created?: DateTime;

@@ -23,5 +23,7 @@ export interface IFlowCopyModel {
     priority?: number;
     businessKeyGenerationFunction?: IExecuteFlowByMapping;
     fileUploadFunction?: IExecuteFlowByMapping;
+    fileDownloadFunction?: IExecuteFlowByMapping;
+    fileDeleteFunction?: IExecuteFlowByMapping;
 }
 //# sourceMappingURL=IFlowDesignModel.d.ts.map

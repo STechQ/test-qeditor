@@ -1535,6 +1535,7 @@ export interface IWorkflowStore {
     formContext: {
         task: any;
         form: any;
+        swimlanes: Record<string, string>;
     };
 }
 export interface IScripts {
