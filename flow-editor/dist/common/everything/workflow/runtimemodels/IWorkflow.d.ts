@@ -23,7 +23,7 @@ export declare const NamedModels: {
 };
 export declare const StatusTypes_EN: Record<StatusType, string>;
 export declare const StatusTypes_TR: Record<StatusType, string>;
-export type StatusType = "" | "inProgress" | "waitForApproval" | "completed" | "new" | "returned" | "cancelled" | "waitForControl";
+export type StatusType = "" | "Pending-InProgress" | "Pending-Approval" | "Resolved-Completed" | "New" | "Returned" | "Returned-Originator" | "Returned-Recipient" | "Resolved-Cancelled";
 export type IWorkflowModelNamedModels = Record<keyof typeof NamedModels, string>;
 export interface IWorkflowModel extends IFlowModelBase {
     type: "workflow";

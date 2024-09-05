@@ -12,6 +12,7 @@ export interface ITask extends INamedObjectBase {
     statusDescription: string;
     taskGroupId: string;
     userId?: string;
+    userName?: string;
     unitId?: string;
     swimlane: string;
     taskStart: DateTime;

@@ -12,7 +12,8 @@
 }
 
 .multi-select-flow .input-div, .multi-select-flow .input-block {
-    height: 100%;
+    max-height: 200px;
+    overflow: auto;
     display: flex;
     align-items: center;
 }
