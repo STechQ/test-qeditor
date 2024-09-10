@@ -14,6 +14,9 @@ export interface IPlatformWorkflowAdaptor {
     context: () => IWorkflowContext | undefined;
     getIncomingRequest: () => {
         headers: Record<string, string>;
+        body: {
+            additionalInfo: Record<string, any>;
+        };
     };
     constantsWId: Record<string, any>;
 }

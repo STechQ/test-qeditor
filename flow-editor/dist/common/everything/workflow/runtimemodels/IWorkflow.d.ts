@@ -16,11 +16,7 @@ export declare const NamedModels: {
         name: string;
         type: "flow";
     };
-    preHumanTask: {
-        name: string;
-        type: "flow";
-    };
-    postHumanTask: {
+    userTaskActivity: {
         name: string;
         type: "flow";
     };
