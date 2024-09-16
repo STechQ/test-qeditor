@@ -5098,6 +5098,9 @@ nextIcon = 'mdi-plus'}`
             type: String,
             options: ["'primary'", "'secondary'", "'accent'", "'success'", "'error'", "'info'", "'warning'"]
         },
+        class: {
+            type: String
+        },
         dense: {
             type: Boolean
         },
