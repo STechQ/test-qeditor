@@ -25,6 +25,12 @@ export declare const NamedModels: {
         readonly type: "qjson";
     };
 };
+export declare const RequiredModels: {
+    readonly iPaasEndPoint: {
+        readonly name: "IPaaS_Endpoint";
+        readonly type: "constant";
+    };
+};
 export declare const StatusTypes_EN: Record<StatusType, string>;
 export declare const StatusTypes_TR: Record<StatusType, string>;
 export type StatusType = "" | "Pending-InProgress" | "Pending-Approval" | "Resolved-Completed" | "New" | "Returned" | "Returned-Originator" | "Returned-Recipient" | "Resolved-Cancelled";
