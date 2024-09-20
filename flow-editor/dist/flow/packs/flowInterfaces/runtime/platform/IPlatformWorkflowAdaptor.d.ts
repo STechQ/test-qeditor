@@ -19,6 +19,7 @@ export interface IPlatformWorkflowAdaptor {
         };
     };
     constantsWId: Record<string, any>;
+    userId: string | undefined;
 }
 export interface IPlatformWorkflowServerResponse {
     status: number;
