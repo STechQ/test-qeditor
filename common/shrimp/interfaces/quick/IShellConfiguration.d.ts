@@ -26,6 +26,7 @@ import { IExcel, IExcelList } from "./IExcel";
 import { INavigationOptions } from "./INavigationManager";
 import { IDecryptDataRequest, IDecryptDataResponse, IEncryptDataRequest, IEncryptDataResponse, IHashDataRequest, IHashDataResponse } from "../../helpers/cryptoHelper";
 import { IDoryJr } from "../RenderingInterfaces/IDoryJr";
+import { IRenderer } from "../RenderingInterfaces/IRenderer";
 export interface IShellConfiguration {
     network: INetwork;
     lridHelper?: (label: string, params: Object) => string;
@@ -125,6 +126,7 @@ export interface IShellConfiguration {
     }) => IDomElement;
     getNetworkConnection?: () => boolean;
     getLogBulkSize?: () => number | undefined;
+    renderer: IRenderer;
 }
 export interface IHistoryBasedShellConfiguration {
     isEditor: boolean;
