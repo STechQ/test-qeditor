@@ -7,7 +7,6 @@ import { IQJSon } from "../ComponentInterfaces/IQJson";
 import { IDictionary } from "../IDictionary";
 import { IConfig } from "../quick/IConfig";
 import { INavigationDemand } from "../quick/INavigationDemand";
-import { INavigationOptions } from "../quick/INavigationManager";
 import { ISiteSettings } from "../quick/ISiteSettings";
 import { DisplayHookCb, IDory, PartialDisplayHookCb } from "./IDory";
 import { IDoryJr } from "./IDoryJr";
@@ -29,19 +28,6 @@ export interface IRendererChild {
 export interface IDoryRendererChild extends IRendererChild {
     readonly DoryJrInst: IDoryJr;
 }
-export interface IRendererRenderParams {
-    pjsonPath?: string;
-    compParentInst?: any;
-    storeItems?: IDictionary<any>;
-    pageId?: string;
-    pageName?: string;
-    pjsonContent?: IQJSon;
-    theme?: {
-        name: string;
-        isLight: boolean;
-    };
-    options?: INavigationOptions;
-}
 export interface IRenderer {
     GetCurrentHistoryItem(): IHistoryItem | null | undefined;
     PageCompletedHook: Hook<IPageCompletedCb>;
@@ -49,7 +35,18 @@ export interface IRenderer {
     readonly BeforeRenderStartHook: Hook<() => void>;
     DisplayHook: Hook<DisplayHookCb>;
     settingsQJsons: ISettingsQJsonContext;
-    Render(renderParams: IRendererRenderParams): void;
+    Render({ pjsonPath, compParentInst, storeItems, pageId, pageName, pjsonContent, theme }: {
+        pjsonPath?: string;
+        compParentInst?: any;
+        storeItems?: IDictionary<any>;
+        pageId?: string;
+        pageName?: string;
+        pjsonContent?: any;
+        theme?: {
+            name: string;
+            isLight: boolean;
+        };
+    }): void;
     Back(): void;
     Forward(): void;
     Clear(): void;
@@ -69,7 +66,6 @@ export interface IRenderer {
     Trigger(eventName: string, parameters?: Record<string, any>): any;
     SetEditMode(state: boolean): void;
     Hibernate(): void;
-    resurrect(): void;
     SetConfigValues(configValues?: IConfig[]): void;
     SetThemeName(theme: {
         isLight: boolean;

@@ -2,14 +2,12 @@ import { IPlateauUIOptions } from "@stechquick/algae/lib/quick/IPlateauUI";
 import { IDomElement } from "../../common/shrimp/interfaces/RenderingInterfaces/IDomElement";
 import { IDoryRenderer } from "../../common/shrimp/interfaces/RenderingInterfaces/IRenderer";
 import { IPlateauIAM } from "../../common/shrimp/interfaces/quick/IPlateauIAM";
-import { IWebSDK } from "../../common/shrimp/interfaces/quick/IWebSDK";
 import { LivePreviewManager } from "./src/managers/LivePreviewManager";
 declare class PlateauUI {
     private container;
     private renderer;
     mountPoint: HTMLElement;
-    private sdkInstance;
-    constructor(container: WebsdkContainer, renderer: IDoryRenderer, mountPoint: IDomElement, sdkInstance: IWebSDK);
+    constructor(container: WebsdkContainer, renderer: IDoryRenderer, mountPoint: IDomElement);
     open(qjsonPath?: string, args?: Record<string, any>): void;
     show(): void;
     hide(): void;
@@ -39,7 +37,6 @@ declare class WebsdkContainer {
     createRenderer({ mountPoint }: {
         mountPoint: HTMLElement;
     }): Promise<PlateauUI>;
-    destroy(): void;
     private initLoadingComponent;
     open({ renderer, qjsonPath, args }: {
         renderer: IDoryRenderer;
@@ -60,6 +57,5 @@ declare function init(PlateauUIOptions?: IPlateauUIOptions, environmentInfo?: st
 declare function createRenderer({ mountPoint }: {
     mountPoint: IDomElement;
 }): Promise<PlateauUI>;
-declare function destroy(): void;
-export { createRenderer, init, destroy };
+export { createRenderer, init };
 //# sourceMappingURL=websdk.d.ts.map
