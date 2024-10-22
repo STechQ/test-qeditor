@@ -284,7 +284,7 @@ var componentOptions = {
             options: ["'regex'"]
         },
         formatValues: {
-            type: "Array<any>"
+            type: "object"
         },
         flat: {
             type: Boolean
@@ -1614,7 +1614,7 @@ var componentOptions = {
             type: String
         },
         formatValues: {
-            type: "Array<any>"
+            type: "object"
         },
         filter: {
             type: Function
@@ -4708,7 +4708,7 @@ nextIcon = 'mdi-plus'}`
             options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'turkishIban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
         },
         formatValues: {
-            type: "Array<any>"
+            type: "object"
         },
         height: {
             type: "number | string"
@@ -4859,7 +4859,7 @@ nextIcon = 'mdi-plus'}`
             options: ["'number'", "'regex'", "'creditcard'", "'phone'", "'turkishMobilePhone'", "'turkishPhoneWithCountryCode'", "'internationalPhone'", "'email'", "'multipleEmails'", "'ipaddress'", "'iban'", "'turkishIban'", "'onlyAlphabetic'", "'alphaNumeric'", "'bigdecimal'"]
         },
         formatValues: {
-            type: "Array<any>"
+            type: "object"
         },
         flat: {
             type: Boolean
