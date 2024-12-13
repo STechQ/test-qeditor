@@ -529,25 +529,26 @@ var componentOptions = {
         icon: {
             type: String
         },
-        "icon-color": {
-            type: String
+        iconColor: {
+            type: String,
+            options: ["'default'", "'primary'", "'secondary'", "'accent'", "'success'", "'error'", "'info'", "'warning'"]
         },
         light: {
             type: Boolean
         },
-        "max-height": {
+        maxHeight: {
             type: "number | string"
         },
-        "max-width": {
+        maxWidth: {
             type: "number | string"
         },
-        "min-height": {
+        minHeight: {
             type: "number | string"
         },
-        "min-width": {
+        minWidth: {
             type: "number | string"
         },
-        "mobile-breakpoint": {
+        mobileBreakpoint: {
             type: "number | string"
         },
         outlined: {
@@ -559,7 +560,7 @@ var componentOptions = {
         shaped: {
             type: Boolean
         },
-        "single-line": {
+        singleLine: {
             type: Boolean
         },
         sticky: {
@@ -4486,6 +4487,10 @@ nextIcon = 'mdi-plus'}`
         dark: {
             type: Boolean
         },
+        disabled: {
+            type: Boolean,
+            editorDefaultValue: "false"
+        },
         link: {
             type: Boolean
         },
@@ -5040,7 +5045,8 @@ nextIcon = 'mdi-plus'}`
             type: Boolean
         },
         class: {
-            type: String
+            type: String,
+            editorDefaultValue: "'primary'"
         },
         collapse: {
             type: Boolean

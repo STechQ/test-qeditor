@@ -9,7 +9,7 @@ import { IDownloadRequest, IRequest } from "../NetworkInterfaces/IRequest";
 import { ICookieValue } from "../quick/ICookieAccess";
 import { IEditorInstance } from "../quick/IEditorInstance";
 import { INetworkResponse } from "../quick/INetworkResponse";
-import { PlatformType } from "../quick/IPlatform";
+import { IClientInfo, PlatformType } from "../quick/IPlatform";
 import { IShell } from "../quick/IShell";
 import { IUrlOptions } from "../quick/IUrl";
 import { IExcel, IExcelList } from "../quick/IExcel";
@@ -849,6 +849,7 @@ export interface IGlobals_Quick {
             events?: any;
         } | undefined;
     }) => void;
+    closeAlert?: () => void;
     host: {
         trigger: (functionName: string, params: Record<string, any>) => Promise<IHostResponseData> | undefined;
     };
@@ -1280,6 +1281,7 @@ export interface IGlobals_platform {
      * const deviceId = quick.Quick.platform.getDeviceId();
    */
     getDeviceId: () => string | undefined;
+    getClientInfo: () => IClientInfo | undefined;
 }
 export interface IGlobals_Date {
     parse: (value: string | number, month: number | null) => Date;

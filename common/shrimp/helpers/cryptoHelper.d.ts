@@ -41,17 +41,6 @@ export interface IDecryptDataRequest {
     algorithm: EncryptionAlgorithm;
 }
 export declare class CryptoHelper {
-    private static guidCounter;
-    /**
-     *
-     * @param base number layout (number of distinct digits) (10'luk sayı düzeni, 16'lık sayı düzeni)
-     * @param length length of word. Max value: 16
-     */
-    static GetRandomWord(base: number, length: number): string;
-    /**
-     * Ex: be945482-jf10-40d1-a50d-rzxa2c41fdcu
-     */
-    static CreateGuid(): string;
     static hash(data: IHashDataRequest): Promise<IHashDataResponse>;
     static encrypt(data: IEncryptDataRequest): Promise<IEncryptDataResponse>;
     static decrypt(data: IDecryptDataRequest): Promise<IDecryptDataResponse>;
@@ -60,5 +49,7 @@ export declare class CryptoHelper {
     private static createFixedLengthArrayBufferFromString;
     static encodeABToBase64(buffer: ArrayBuffer): string;
     static decodeBase64ToAB(base64: string): ArrayBufferLike;
+    static stringToBase64(data: string): string;
+    static base64ToString(data: string): string;
 }
 //# sourceMappingURL=cryptoHelper.d.ts.map
