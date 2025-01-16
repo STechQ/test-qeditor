@@ -1534,6 +1534,17 @@ export interface IGlobalsBase {
     integrations: IScripts;
     webScripts: {};
     workflowStore?: IWorkflowStore;
+    workflow?: IGlobals_Workflow; /** !!! DON'T CHANGE */
+}
+export interface IGlobals_Workflow {
+    RunFunction: ({ flowId, input, dataInstance }: {
+        flowId: string;
+        input?: Record<string, any>;
+        dataInstance?: Record<string, any>;
+    }) => Promise<{
+        output: Record<string, any>;
+    }>;
+    Commit: () => void;
 }
 export interface IWorkflowStore {
     context: {
