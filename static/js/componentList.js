@@ -3520,7 +3520,7 @@ nextIcon = 'mdi-plus'}`
         persistentHint: {
             type: Boolean
         },
-        prependInnerIcon: {
+        prependIcon: {
             type: String
         },
         row: {
@@ -3690,6 +3690,9 @@ nextIcon = 'mdi-plus'}`
         qValue: {
             type: Number
         },
+        backgroundColor: {
+            type: String
+        },
         class: {
             type: String
         },
@@ -3698,6 +3701,9 @@ nextIcon = 'mdi-plus'}`
         },
         closeDelay: {
             type: "number | string"
+        },
+        color: {
+            type: String
         },
         dark: {
             type: Boolean
@@ -4077,7 +4083,7 @@ nextIcon = 'mdi-plus'}`
             type: "number | string",
             editorDefaultValue: "0"
         },
-        prependInnerIcon: {
+        prependIcon: {
             type: String
         },
         readonly: {
@@ -4443,7 +4449,7 @@ nextIcon = 'mdi-plus'}`
         persistentHint: {
             type: Boolean
         },
-        prependInnerIcon: {
+        prependIcon: {
             type: String
         },
         readonly: {

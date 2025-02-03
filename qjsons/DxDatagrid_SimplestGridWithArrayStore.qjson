@@ -10,7 +10,8 @@ let pjson = {
 			},
 			"E": {
 				"EndRender": {
-					"H": "a=[{ 'ID'= 1, 'Subject'= 'Prepare 2013 Financial', 'Status'= 5, 'Owner'= 1, 'AssignedEmployee'= 7, 'OrderIndex'= 0, 'Priority'= 3 }, { 'ID'= 2, 'Subject'= 'Prepare 2013 Marketing Plan', 'Status'= 5, 'Owner'= 1, 'AssignedEmployee'= 4, 'OrderIndex'= 1, 'Priority'= 4 }, { 'ID'= 3, 'Subject'= 'Update Personnel Files', 'Status'= 5, 'Owner'= 1, 'AssignedEmployee'= 2, 'OrderIndex'= 2, 'Priority'= 1 }]\r\nb=devex.createArrayStore({key='ID', data=a})\r\nstore.set('test', b)\r\nEdtrComp_23.dataSource={store=b, reshapeOnPush=true}\r\nQuick.updateComponent(EdtrComp_23)"
+					"H": "let store=[{ 'ID': 1, 'Subject': 'Prepare 2013 Financial', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 7, 'OrderIndex': 0, 'Priority': 3 }, { 'ID': 2, 'Subject': 'Prepare 2013 Marketing Plan', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 4, 'OrderIndex': 1, 'Priority': 4 }, { 'ID': 3, 'Subject': 'Update Personnel Files', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 2, 'OrderIndex': 2, 'Priority': 1 }]\r\nlet b=quick.devex.createArrayStore({key:'ID', data:store})\r\nquick.store.set('test', b)\r\ncomponents.EdtrComp_23.dataSource={store:b, reshapeOnPush:true}\r\nquick.Quick.updateComponent(components.EdtrComp_23)",
+					"HL": "TS"
 				}
 			},
 			"C": {},
@@ -104,7 +105,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "a=store.get('test')\r\nb={ 'ID'= 4, 'Subject'= 'Review Health Insurance Options Under the Affordable Care Act', 'Status'= 1, 'Owner'= 1, 'AssignedEmployee'= 2, 'OrderIndex'= 3, 'Priority'= 4 }\r\na.push([{type='insert', data=b}])\r\n//Quick.updateComponent(EdtrComp_23)"
+					"H": "let store=quick.store.get('test')\r\nlet newData ={ 'ID': 4, 'Subject': 'Review Health Insurance Options Under the Affordable Care Act', 'Status': 1, 'Owner': 1, 'AssignedEmployee': 2, 'OrderIndex': 3, 'Priority': 4 }\r\nstore.push([{type:'insert', data:newData}])\r\n",
+					"P": "mouseEvent:unknown | undefined",
+					"HL": "TS"
 				}
 			},
 			"C": {
@@ -120,7 +123,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "'Test Button'",
+									"H": "'Add Data'",
 									"T": "prop"
 								}
 							},
@@ -162,7 +165,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "EM.trace(EdtrComp_23.dataSource)"
+					"H": "quick.EM.trace(components.EdtrComp_23.dataSource)",
+					"P": "mouseEvent:unknown | undefined",
+					"HL": "TS"
 				}
 			},
 			"C": {
@@ -178,7 +183,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "'Test Button'",
+									"H": "'View on Console'",
 									"T": "prop"
 								}
 							},
@@ -214,7 +219,8 @@ let pjson = {
 			},
 			"E": {
 				"EndRender": {
-					"H": "╬=╣a╩╠[]╠{}╠=╣'ID'╩╠1╩╩╠=╣'Subject'╩╠'Prepare 2013 Financial'╩╩╠=╣'Status'╩╠5╩╩╠=╣'Owner'╩╠1╩╩╠=╣'AssignedEmployee'╩╠7╩╩╠=╣'OrderIndex'╩╠0╩╩╠=╣'Priority'╩╠3╩╩╩╠{}╠=╣'ID'╩╠2╩╩╠=╣'Subject'╩╠'Prepare 2013 Marketing Plan'╩╩╠=╣'Status'╩╠5╩╩╠=╣'Owner'╩╠1╩╩╠=╣'AssignedEmployee'╩╠4╩╩╠=╣'OrderIndex'╩╠1╩╩╠=╣'Priority'╩╠4╩╩╩╠{}╠=╣'ID'╩╠3╩╩╠=╣'Subject'╩╠'Update Personnel Files'╩╩╠=╣'Status'╩╠5╩╩╠=╣'Owner'╩╠1╩╩╠=╣'AssignedEmployee'╩╠2╩╩╠=╣'OrderIndex'╩╠2╩╩╠=╣'Priority'╩╠1╩╩╩╩╩╬=╣b╩╠()╣.╣devex╩╠createArrayStore╩╩╠{}╠=╣key╩╠'ID'╩╩╠=╣data╩╠a╩╩╩╩╩╬()╣.╣store╩╠set╩╩╠'test'╩╠b╩╩╬=╣.╣EdtrComp_23╩╠dataSource╩╩╠{}╠=╣store╩╠b╩╩╠=╣reshapeOnPush╩╠true╩╩╩╩╬()╣.╣Quick╩╠updateComponent╩╩╠EdtrComp_23╩╩╩"
+					"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nvar store = [{ 'ID': 1, 'Subject': 'Prepare 2013 Financial', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 7, 'OrderIndex': 0, 'Priority': 3 }, { 'ID': 2, 'Subject': 'Prepare 2013 Marketing Plan', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 4, 'OrderIndex': 1, 'Priority': 4 }, { 'ID': 3, 'Subject': 'Update Personnel Files', 'Status': 5, 'Owner': 1, 'AssignedEmployee': 2, 'OrderIndex': 2, 'Priority': 1 }];\r\nvar b = quick.devex.createArrayStore({ key: 'ID', data: store });\r\nquick.store.set('test', b);\r\ncomponents.EdtrComp_23.dataSource = { store: b, reshapeOnPush: true };\r\nquick.Quick.updateComponent(components.EdtrComp_23);\r\n",
+					"HL": "JS"
 				}
 			},
 			"C": {},
@@ -223,7 +229,7 @@ let pjson = {
 			},
 			"O": {
 				"cType": "child",
-				"compDomClasses": ""
+				"compDomClasses": "newDropBorder"
 			}
 		},
 		{
@@ -287,7 +293,7 @@ let pjson = {
 			},
 			"O": {
 				"cType": "scopedSlot",
-				"compDomClasses": "dx-widget dx-visibility-change-handler"
+				"compDomClasses": "dx-widget dx-visibility-change-handler newDropBorder"
 			}
 		},
 		{
@@ -308,7 +314,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "╬=╣a╩╠()╣.╣store╩╠get╩╩╠'test'╩╩╩╬=╣b╩╠{}╠=╣'ID'╩╠4╩╩╠=╣'Subject'╩╠'Review Health Insurance Options Under the Affordable Care Act'╩╩╠=╣'Status'╩╠1╩╩╠=╣'Owner'╩╠1╩╩╠=╣'AssignedEmployee'╩╠2╩╩╠=╣'OrderIndex'╩╠3╩╩╠=╣'Priority'╩╠4╩╩╩╩╬()╣.╣a╩╠push╩╩╠[]╠{}╠=╣type╩╠'insert'╩╩╠=╣data╩╠b╩╩╩╩╩╩"
+					"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nvar store = quick.store.get('test');\r\nvar newData = { 'ID': 4, 'Subject': 'Review Health Insurance Options Under the Affordable Care Act', 'Status': 1, 'Owner': 1, 'AssignedEmployee': 2, 'OrderIndex': 3, 'Priority': 4 };\r\nstore.push([{ type: 'insert', data: newData }]);\r\n",
+					"P": "mouseEvent:unknown | undefined",
+					"HL": "JS"
 				}
 			},
 			"C": {
@@ -324,7 +332,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "╬'Test Button'╩╩",
+									"H": "╬'Add Data'╩╩",
 									"T": "prop"
 								}
 							},
@@ -333,7 +341,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "child",
-								"compDomClasses": "q-label "
+								"compDomClasses": "q-label newDropBorder"
 							}
 						}
 					],
@@ -345,7 +353,7 @@ let pjson = {
 			},
 			"O": {
 				"cType": "slot",
-				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary"
+				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary newDropBorder"
 			}
 		},
 		{
@@ -366,7 +374,9 @@ let pjson = {
 			},
 			"E": {
 				"click": {
-					"H": "╬()╣.╣EM╩╠trace╩╩╠.╣EdtrComp_23╩╠dataSource╩╩╩╩"
+					"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\nquick.EM.trace(components.EdtrComp_23.dataSource);\r\n",
+					"P": "mouseEvent:unknown | undefined",
+					"HL": "JS"
 				}
 			},
 			"C": {
@@ -382,7 +392,7 @@ let pjson = {
 									"T": "prop"
 								},
 								"text": {
-									"H": "╬'Test Button'╩╩",
+									"H": "╬'View on Console'╩╩",
 									"T": "prop"
 								}
 							},
@@ -391,7 +401,7 @@ let pjson = {
 							},
 							"O": {
 								"cType": "child",
-								"compDomClasses": "q-label "
+								"compDomClasses": "q-label newDropBorder"
 							}
 						}
 					],
@@ -403,12 +413,13 @@ let pjson = {
 			},
 			"O": {
 				"cType": "slot",
-				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary"
+				"compDomClasses": "v-btn v-btn--contained theme--light v-size--default primary newDropBorder"
 			}
 		}
 	],
 	"lrids": {},
 	"clrids": {},
-	"description": {}
+	"description": {},
+	"opt": {}
 };
 export default pjson
