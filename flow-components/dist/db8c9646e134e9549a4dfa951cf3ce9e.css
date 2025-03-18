@@ -64,4 +64,14 @@
 .select-flow .options ul li:hover {
     background-color: #E2E2E2;
 }
+.select-flow .search-input {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: -webkit-fill-available;
+    margin-bottom: 5px;
+}
+.select-flow .search-input:focus-visible {
+   outline: unset;
+}
+
 
