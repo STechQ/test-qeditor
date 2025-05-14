@@ -12,7 +12,7 @@ import { INetworkResponse } from "../quick/INetworkResponse";
 import { IClientInfo, PlatformType } from "../quick/IPlatform";
 import { IShell } from "../quick/IShell";
 import { IUrlOptions } from "../quick/IUrl";
-import { IExcel, IExcelList } from "../quick/IExcel";
+import { IExcel, IExcelJsonData, IExcelList, IExcelToJsonData } from "../quick/IExcel";
 import { IDomElement } from "../RenderingInterfaces/IDomElement";
 import { INavigationOptions, MobileAnimation } from "../quick/INavigationManager";
 import { IPermanentStoreObject, Plateau_UI_PermanentStore_Name } from "../RenderingInterfaces/Operators/IPermanentStoreOperator";
@@ -643,6 +643,20 @@ export interface IGlobals_Quick {
     */
     copyToClipboard?: (value: string) => void;
     /**
+     * Recalculates the positions of the input components drop-down menus.
+     *
+     * @example
+     * const quick.Quick.initializePositioning(sourcePicker, wrapperClass);
+     */
+    initializePositioning?: (sourcePicker: string, wrapperClass: string) => void;
+    /**
+     * Cleans up the effects of initializePositioning.
+     *
+     * @example
+     * const quick.Quick.cleanupPositioning(sourcePicker);
+     */
+    cleanupPositioning?: (sourcePicker: string) => void;
+    /**
      * Retrieves the title of the current page.
      *
      * @returns - Returns the title of the current page.
@@ -691,6 +705,7 @@ export interface IGlobals_Quick {
      * });
    */
     exportToXlsx: (excelFile: IExcel | IExcelList) => void;
+    xlsxToJson: (excelToJsonData: IExcelToJsonData) => IExcelJsonData[] | undefined;
     /**
      * Takes the raw date value and converts it to a date format with month, day, year, hour and minute.
      * @param date - The raw date value to be formatted.

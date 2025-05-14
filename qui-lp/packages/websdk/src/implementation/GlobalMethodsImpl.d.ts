@@ -3,7 +3,7 @@ import { ElementLocation } from "../../../../common/shrimp/interfaces/ComponentI
 import { AlertType, ErrorSource, IActionButton } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IAlert";
 import { IComponent } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IComponent";
 import { IComponentCollection } from "../../../../common/shrimp/interfaces/ComponentInterfaces/IComponentCollection";
-import { IExcel, IExcelList } from "../../../../common/shrimp/interfaces/quick/IExcel";
+import { IExcel, IExcelList, IExcelToJsonData } from "../../../../common/shrimp/interfaces/quick/IExcel";
 import { ILocationPosition } from "../../../../common/shrimp/interfaces/quick/ILocationPosition";
 import { IAlertParameters } from "../../../../common/shrimp/interfaces/quick/IShellGlobalMethods";
 import { IWebSDKSettingsWrapper } from "../../../../common/shrimp/interfaces/quick/IWebSDK";
@@ -64,9 +64,12 @@ export declare class GlobalMethodsImpl implements IGlobalMethods {
     deleteComponent(compCollection: IComponentCollection | IDomElement): void;
     setPageTitle(value: string): void;
     copyToClipboard(value: string): void;
+    initializePositioning(sourcePicker: string, wrapperClass: string): void;
+    cleanupPositioning(sourcePicker: string): void;
     getCurrentPosition(): Promise<ILocationPosition>;
     setFavicon(favicon: string): void;
     exportToXlsxHandler(excelFile: IExcel | IExcelList): void;
+    xlsxToJson(excelToJsonData: IExcelToJsonData): import("../../../../common/shrimp/interfaces/quick/IExcel").IExcelJsonData[];
     downloadHandler(responseFile: {
         data: string;
         name: string;
